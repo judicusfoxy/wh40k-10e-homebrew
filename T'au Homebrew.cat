@@ -1,0 +1,389 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue library="false" id="7d1c-f8b7-6e0e-03bd" name="Xenos - T&apos;au Homebrew" gameSystemId="sys-352e-adc2-7639-d6a9" gameSystemRevision="75" revision="1" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <entryLinks>
+    <entryLink import="true" name="Commander Brightsword" hidden="false" id="e7a4-0a86-d4fe-a541" targetId="4d4f-95f6-7675-6dc3" type="selectionEntry"/>
+    <entryLink import="true" name="Crisis Sunforge Battlesuits w/ Fusion Blades" hidden="false" id="b1f2-afe0-eef1-89e0" targetId="e88f-bc7a-c3f5-8e47" type="selectionEntry"/>
+    <entryLink import="true" name="Fusion blade" hidden="false" id="469f-b5db-ebc2-2f59" targetId="a384-146f-1171-f49f" type="selectionEntry"/>
+  </entryLinks>
+  <catalogueLinks>
+    <catalogueLink type="catalogue" name="Xenos - T&apos;au Empire" id="2c54-d38b-5516-b2d5" targetId="d81a-61dd-6d27-a3ce" importRootEntries="true"/>
+  </catalogueLinks>
+  <sharedSelectionEntries>
+    <selectionEntry type="model" import="true" name="Commander Brightsword" hidden="false" id="4d4f-95f6-7675-6dc3">
+      <entryLinks>
+        <entryLink import="true" name="Warlord" hidden="false" id="c0a1-a949-355f-453a" type="selectionEntry" targetId="179c-d88a-d49b-48b9" sortIndex="2"/>
+      </entryLinks>
+      <infoLinks>
+        <infoLink name="Deep Strike" id="77c5-7879-892f-b42d" hidden="false" type="rule" targetId="7cb5-dd6b-dd87-ad3b"/>
+        <infoLink name="Invulnerable Save (4+)" id="86f5-c8d7-107b-bc6b" hidden="false" type="profile" targetId="5b77-29f8-7b77-75e3"/>
+        <infoLink name="For The Greater Good" id="7465-3077-0715-5349" hidden="false" type="rule" targetId="eeb6-c42-48f7-cc21"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink name="Epic Hero" hidden="false" id="6221-3376-6bb1-101b" targetId="4f3a-f0f7-6647-348d" primary="true"/>
+        <categoryLink name="Vehicle" hidden="false" id="5631-96d7-4de7-42c3" targetId="dbd4-63-af05-998" primary="false"/>
+        <categoryLink name="Walker" hidden="false" id="3778-b486-c9a9-98c4" targetId="6dda-e157-334d-e93a" primary="false"/>
+        <categoryLink name="Fly" hidden="false" id="11f8-3fa1-8efc-fe3c" targetId="c619-2086-bbcf-69c9" primary="false"/>
+        <categoryLink name="Character" hidden="false" id="9dc2-601a-62e4-9e3a" targetId="9cfd-1c32-585f-7d5c" primary="false"/>
+        <categoryLink name="Battlesuit" hidden="false" id="e081-d1a2-356d-4d92" targetId="7288-48b3-c4df-66c6" primary="false"/>
+        <categoryLink name="Faction: T&apos;au Empire" hidden="false" id="08ae-edb2-f080-963d" targetId="3d58-2655-391e-ecc" primary="false"/>
+        <categoryLink name="Fusion Blades" hidden="false" id="4eae-a938-61ae-92ce" targetId="752c-ef0d-71e3-8cea" primary="false"/>
+      </categoryLinks>
+      <infoGroups>
+        <infoGroup name="Leader" id="2f1a-edee-4619-8aef" hidden="false">
+          <infoLinks>
+            <infoLink name="Leader" id="faee-e35b-3db4-c381" hidden="false" type="rule" targetId="b4dd-3e1f-41cb-218f"/>
+          </infoLinks>
+          <profiles>
+            <profile name="Leader" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="1dcb-1f17-15e6-6f4d">
+              <characteristics>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This model can be attached to the following units:
+- CRISIS SUNFORGE BATTLESUITS
+- CRISIS SUNFORGE BATTLESUITS w/ Fusion Blades
+- CRISIS FIREKNIFE BATTLESUITS
+- CRISIS STARSCYTHE BATTLESUITS</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </infoGroup>
+      </infoGroups>
+      <profiles>
+        <profile name="Commander Brightsword" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="9ad4-7a92-d665-f729">
+          <characteristics>
+            <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">10&quot;</characteristic>
+            <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">5</characteristic>
+            <characteristic name="SV" typeId="450-a17e-9d5e-29da">3+</characteristic>
+            <characteristic name="W" typeId="750a-a2ec-90d3-21fe">7</characteristic>
+            <characteristic name="LD" typeId="58d2-b879-49c7-43bc">6+</characteristic>
+            <characteristic name="OC" typeId="bef7-942a-1a23-59f8">2</characteristic>
+          </characteristics>
+          <attributes>
+            <attribute typeId="ee2c-fa85-08b6-ad86" name="New Attribute Type"/>
+          </attributes>
+        </profile>
+        <profile name="Short Range Destruction" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="e410-9a4e-83bc-55c9">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">You can target this model&apos;s unit with the Tank Shock Stratagem for 0CP, and can do so even if you have already targeted a different unit with that Stratagem this phase.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Fusion Blades" hidden="false" id="96b6-5c24-b87f-1161">
+          <profiles>
+            <profile name="Fusion Blades (Ranged)" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="c961-3fd6-43ad-8975">
+              <characteristics>
+                <characteristic name="Range" typeId="9896-9419-16a1-92fc">6&quot;</characteristic>
+                <characteristic name="A" typeId="3bb-c35f-f54-fb08">2</characteristic>
+                <characteristic name="BS" typeId="94d-8a98-cf90-183e">4+</characteristic>
+                <characteristic name="S" typeId="2229-f494-25db-c5d3">9</characteristic>
+                <characteristic name="AP" typeId="9ead-8a10-520-de15">-4</characteristic>
+                <characteristic name="D" typeId="a354-c1c8-a745-f9e3">D6</characteristic>
+                <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Melta 2</characteristic>
+              </characteristics>
+            </profile>
+            <profile name="Fusion Blades (Melee)" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons" hidden="false" id="9aba-27a3-30ad-1ac9">
+              <characteristics>
+                <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
+                <characteristic name="A" typeId="2337-daa1-6682-b110">2</characteristic>
+                <characteristic name="WS" typeId="95d1-95f-45b4-11d6">3+</characteristic>
+                <characteristic name="S" typeId="ab33-d393-96ce-ccba">9</characteristic>
+                <characteristic name="AP" typeId="41a0-1301-112a-e2f2">-4</characteristic>
+                <characteristic name="D" typeId="3254-9fe6-d824-513e">D6+2</characteristic>
+                <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">-</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="285b-2072-5070-19a8"/>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="86b8-3342-3aa1-207b"/>
+          </constraints>
+        </selectionEntry>
+      </selectionEntries>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="d44b-356d-4369-f0b7"/>
+      </constraints>
+      <costs>
+        <cost name="pts" typeId="51b2-306e-1021-d207" value="90"/>
+        <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
+        <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="0"/>
+        <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
+        <cost name="Crusade: Weapon Modifications" typeId="716d-91b7-d55a-1022" value="0"/>
+        <cost name="Blackstone Fragments" typeId="ac6b-ced3-9b5e-9a6e" value="0"/>
+        <cost name="Diplomatic Power" typeId="4d7c-04b6-8a79-837f" value="0"/>
+        <cost name="Military Power" typeId="1cbe-d9c9-86a8-2d41" value="0"/>
+      </costs>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Crusade" id="9adf-d87b-c21e-a8c8" hidden="false" sortIndex="1">
+          <entryLinks>
+            <entryLink import="true" name="Mighty Champions" hidden="false" id="3a14-75f3-4c25-c807" type="selectionEntryGroup" targetId="f842-6e90-bc5a-80f1"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Crisis Sunforge Battlesuits w/ Fusion Blades" hidden="false" id="e88f-bc7a-c3f5-8e47">
+      <categoryLinks>
+        <categoryLink name="Vehicle" hidden="false" id="3d8a-22ba-83ac-7272" targetId="dbd4-63-af05-998" primary="true"/>
+        <categoryLink name="Walker" hidden="false" id="69b8-f285-d97-96a8" targetId="6dda-e157-334d-e93a" primary="false"/>
+        <categoryLink name="Fly" hidden="false" id="25ae-e171-41b0-1243" targetId="c619-2086-bbcf-69c9" primary="false"/>
+        <categoryLink name="Battlesuit" hidden="false" id="ed02-7f6a-d72a-2af8" targetId="7288-48b3-c4df-66c6" primary="false"/>
+        <categoryLink name="Crisis" hidden="false" id="8fab-c07f-bfc6-2fb4" targetId="5409-827f-b23f-5ac" primary="false"/>
+        <categoryLink name="Faction: T&apos;au Empire" hidden="false" id="2d94-6def-9a80-4497" targetId="3d58-2655-391e-ecc" primary="false"/>
+        <categoryLink name="Sunforge" hidden="false" id="ba40-7585-9328-5e46" targetId="205d-dcad-4d0-ccae" primary="false"/>
+        <categoryLink name="Fusion Blades" hidden="false" id="5ca0-ed12-6bbf-e36b" targetId="752c-ef0d-71e3-8cea" primary="false"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="Ramjets" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="883e-96af-3014-6550">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">In your charge phase, if you target the enemy unit that this unit shot all of its ranged weapons into, add 2&quot; to the charge roll</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Invulnerable Save (4+)" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="a892-303e-34b8-116a">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This unit has a 4+ Invulnerable Save</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Suicide Drones" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="8a49-8673-b0d7-6887">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">At the start of the fights phase, if this unit contains one or more Suicide Drone tokens, you can remove one. If you do, choose one enemy unit within engagement range of this unit, and roll a D6, adding 1 to the result if the enemy is a **^^Monster^^** or **^^Vehicle^^**. On a 2-5, the target takes D3 mortal wounds. On a 6+, the target takes 3 mortal wounds.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <selectionEntries>
+        <selectionEntry type="model" import="true" name="Crisis Sunforge Shas’ui" hidden="false" id="1370-a13b-2ed7-f383" collective="false" defaultAmount="1,1" sortIndex="3">
+          <constraints>
+            <constraint type="min" value="2" field="selections" scope="parent" shared="true" id="7ff6-d833-83fd-50d4"/>
+            <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="e3c3-952f-ac3c-63e8"/>
+          </constraints>
+          <profiles>
+            <profile name="Crisis Sunforge Shas’ui" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="bf85-bf2c-4b20-5bbc">
+              <characteristics>
+                <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">10&quot;</characteristic>
+                <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">5</characteristic>
+                <characteristic name="SV" typeId="450-a17e-9d5e-29da">3+</characteristic>
+                <characteristic name="W" typeId="750a-a2ec-90d3-21fe">4</characteristic>
+                <characteristic name="LD" typeId="58d2-b879-49c7-43bc">7+</characteristic>
+                <characteristic name="OC" typeId="bef7-942a-1a23-59f8">2</characteristic>
+              </characteristics>
+              <attributes>
+                <attribute typeId="ee2c-fa85-08b6-ad86" name="New Attribute Type"/>
+              </attributes>
+            </profile>
+          </profiles>
+          <selectionEntryGroups>
+            <selectionEntryGroup name="Wargear" id="8274-3320-1e2a-8685" hidden="false">
+              <entryLinks>
+                <entryLink import="true" name="Drones (0-2)" hidden="false" id="866-7d9d-cec9-ec88" type="selectionEntryGroup" targetId="8af8-6f80-96ef-6cdf" collective="false">
+                  <entryLinks>
+                    <entryLink import="true" name="Suicide Drone" hidden="false" id="7745-cac6-633a-6b32" type="selectionEntry" targetId="c760-8a61-27c6-b39a" sortIndex="0"/>
+                  </entryLinks>
+                </entryLink>
+                <entryLink import="true" name="Fusion blade" hidden="false" id="b6cd-d885-135d-d768" type="selectionEntry" targetId="a384-146f-1171-f49f"/>
+              </entryLinks>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+        </selectionEntry>
+      </selectionEntries>
+      <infoLinks>
+        <infoLink name="Deep Strike" id="b35d-9dd8-9d52-94d4" hidden="false" type="rule" targetId="7cb5-dd6b-dd87-ad3b"/>
+        <infoLink name="For The Greater Good" id="6cb2-d56c-5681-963c" hidden="false" type="rule" targetId="eeb6-c42-48f7-cc21"/>
+      </infoLinks>
+      <constraints>
+        <constraint type="max" value="3" field="selections" scope="roster" shared="true" id="8f5d-412f-d058-6c5b"/>
+        <constraint type="max" value="3" field="75bb-ded1-c86d-bdf0" scope="self" shared="true" id="f5c3-045f-7e32-f8ce" includeChildSelections="false"/>
+        <constraint type="max" value="0" field="716d-91b7-d55a-1022" scope="self" shared="true" id="bddc-c7b1-f434-d62d" includeChildSelections="true"/>
+        <constraint type="min" value="0" field="716d-91b7-d55a-1022" scope="self" shared="true" id="92b5-eb10-24fd-4338" includeChildSelections="true"/>
+      </constraints>
+      <costs>
+        <cost name="pts" typeId="51b2-306e-1021-d207" value="180"/>
+        <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
+        <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="0"/>
+        <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
+        <cost name="Crusade: Weapon Modifications" typeId="716d-91b7-d55a-1022" value="0"/>
+        <cost name="Blackstone Fragments" typeId="ac6b-ced3-9b5e-9a6e" value="0"/>
+        <cost name="Diplomatic Power" typeId="4d7c-04b6-8a79-837f" value="0"/>
+        <cost name="Military Power" typeId="1cbe-d9c9-86a8-2d41" value="0"/>
+      </costs>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Crisis Sunforge Shas’vre" id="3ebf-0d47-1177-33ff" hidden="false" sortIndex="2">
+          <selectionEntries>
+            <selectionEntry type="model" import="true" name="Crisis Sunforge Shas’vre" hidden="false" id="c366-4de0-f97-bbe" collective="false">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="ea63-62fe-a74a-5618"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="45ab-49d9-3428-6a38"/>
+              </constraints>
+              <profiles>
+                <profile name="Crisis Sunforge Shas’vre" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="ac8a-d52a-edc4-b45a">
+                  <characteristics>
+                    <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">10&quot;</characteristic>
+                    <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">5</characteristic>
+                    <characteristic name="SV" typeId="450-a17e-9d5e-29da">3+</characteristic>
+                    <characteristic name="W" typeId="750a-a2ec-90d3-21fe">4</characteristic>
+                    <characteristic name="LD" typeId="58d2-b879-49c7-43bc">7+</characteristic>
+                    <characteristic name="OC" typeId="bef7-942a-1a23-59f8">2</characteristic>
+                  </characteristics>
+                  <attributes>
+                    <attribute typeId="ee2c-fa85-08b6-ad86" name="New Attribute Type"/>
+                  </attributes>
+                </profile>
+              </profiles>
+              <selectionEntryGroups>
+                <selectionEntryGroup name="Wargear" id="0851-ae81-0e05-a3ff" hidden="false" collective="false" sortIndex="2">
+                  <entryLinks>
+                    <entryLink import="true" name="Fusion blade" hidden="false" id="6ec9-ed7a-9a16-96cb" type="selectionEntry" targetId="a384-146f-1171-f49f" sortIndex="1">
+                      <entryLinks>
+                        <entryLink import="true" name="Weapon Modifications" hidden="false" id="6397-44fb-6980-f7a7" type="selectionEntryGroup" targetId="f9da-852a-d7f0-92e9"/>
+                      </entryLinks>
+                      <constraints>
+                        <constraint type="min" value="2" field="selections" scope="parent" shared="true" id="7a56-5272-e469-9644" includeChildSelections="false"/>
+                        <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="30fc-3d6c-5332-4fe9" includeChildSelections="false"/>
+                      </constraints>
+                    </entryLink>
+                    <entryLink import="true" name="Drones (0-2)" hidden="false" id="73fc-7f2f-5562-a421" type="selectionEntryGroup" targetId="de95-b481-fb09-1bce" sortIndex="3">
+                      <selectionEntries>
+                        <selectionEntry type="upgrade" import="true" name="Suicide Drone" hidden="false" id="c760-8a61-27c6-b39a">
+                          <comment>Upgradeable variant</comment>
+                          <constraints>
+                            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2368-d77a-9e9d-80de"/>
+                          </constraints>
+                          <modifiers>
+                            <modifier type="set" value="1" field="2368-d77a-9e9d-80de">
+                              <conditionGroups>
+                                <conditionGroup type="or">
+                                  <conditions>
+                                    <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="cd97-19b6-3957-4c78" shared="true"/>
+                                    <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="205d-dcad-4d0-ccae" shared="true"/>
+                                    <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="d372-6d2c-2df2-8e91" shared="true"/>
+                                  </conditions>
+                                </conditionGroup>
+                              </conditionGroups>
+                            </modifier>
+                            <modifier type="set" value="true" field="hidden">
+                              <conditionGroups>
+                                <conditionGroup type="and">
+                                  <conditions>
+                                    <condition type="notInstanceOf" value="1" field="selections" scope="ancestor" childId="e88f-bc7a-c3f5-8e47" shared="true"/>
+                                  </conditions>
+                                </conditionGroup>
+                              </conditionGroups>
+                            </modifier>
+                          </modifiers>
+                        </selectionEntry>
+                      </selectionEntries>
+                    </entryLink>
+                  </entryLinks>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+              <entryLinks>
+                <entryLink import="true" name="Totemic Presence upgrade" hidden="false" id="c4a4-8c12-ec24-0bfd" type="selectionEntry" targetId="6220-fe17-7c2a-8268" sortIndex="1"/>
+              </entryLinks>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink import="true" name="Crusade" hidden="false" id="f5ac-d229-f105-4ff7" type="selectionEntryGroup" targetId="bc88-2f42-15bd-1714" sortIndex="1"/>
+      </entryLinks>
+      <modifierGroups>
+        <modifierGroup type="and">
+          <comment>Crusade modifiers</comment>
+          <modifiers>
+            <modifier type="set" value="6" field="f5c3-045f-7e32-f8ce">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="self" childId="1511-18fe-f51e-7b9d" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="increment" value="2" field="bddc-c7b1-f434-d62d">
+              <repeats>
+                <repeat value="1" repeats="1" field="selections" scope="self" childId="d1a5-4297-168b-11cd" shared="true" roundUp="false" includeChildSelections="true"/>
+              </repeats>
+            </modifier>
+            <modifier type="increment" value="2" field="92b5-eb10-24fd-4338">
+              <repeats>
+                <repeat value="1" repeats="1" field="selections" scope="self" childId="d1a5-4297-168b-11cd" shared="true" roundUp="false" includeChildSelections="true"/>
+              </repeats>
+            </modifier>
+            <modifier type="append" value="(Battle-ready)" field="name">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition type="atMost" value="5" field="selections" scope="self" childId="2dbf-4d49-5d74-85c9" shared="true" includeChildSelections="true"/>
+                    <condition type="atLeast" value="1" field="forces" scope="roster" childId="cac3-71d1-ea4b-795d" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="append" value="(Blooded)" field="name">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition type="greaterThan" value="5" field="selections" scope="self" childId="2dbf-4d49-5d74-85c9" shared="true" includeChildSelections="true"/>
+                    <condition type="atMost" value="15" field="selections" scope="self" childId="2dbf-4d49-5d74-85c9" shared="true" includeChildSelections="true"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="append" value="(Battle-hardened)" field="name">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition type="greaterThan" value="15" field="selections" scope="self" childId="2dbf-4d49-5d74-85c9" shared="true" includeChildSelections="true"/>
+                    <condition type="atMost" value="30" field="selections" scope="self" childId="2dbf-4d49-5d74-85c9" shared="true" includeChildSelections="true"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="append" value="(Heroic)" field="name">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition type="greaterThan" value="30" field="selections" scope="self" childId="2dbf-4d49-5d74-85c9" shared="true" includeChildSelections="true"/>
+                    <condition type="atMost" value="50" field="selections" scope="self" childId="2dbf-4d49-5d74-85c9" shared="true" includeChildSelections="true"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="append" value="(Legendary)" field="name">
+              <conditions>
+                <condition type="greaterThan" value="50" field="selections" scope="self" childId="2dbf-4d49-5d74-85c9" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </modifierGroup>
+      </modifierGroups>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Fusion blade" hidden="false" id="a384-146f-1171-f49f">
+      <profiles>
+        <profile name="Fusion blade (Ranged)" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="fec0-d86e-fd85-42a1">
+          <characteristics>
+            <characteristic name="Range" typeId="9896-9419-16a1-92fc">6&quot;</characteristic>
+            <characteristic name="A" typeId="3bb-c35f-f54-fb08">1</characteristic>
+            <characteristic name="BS" typeId="94d-8a98-cf90-183e">4+</characteristic>
+            <characteristic name="S" typeId="2229-f494-25db-c5d3">9</characteristic>
+            <characteristic name="AP" typeId="9ead-8a10-520-de15">-4</characteristic>
+            <characteristic name="D" typeId="a354-c1c8-a745-f9e3">D6</characteristic>
+            <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Melta 2</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Fusion blade (Melee)" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons" hidden="false" id="745b-7ce5-69ad-ab9f">
+          <characteristics>
+            <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
+            <characteristic name="A" typeId="2337-daa1-6682-b110">1</characteristic>
+            <characteristic name="WS" typeId="95d1-95f-45b4-11d6">3+</characteristic>
+            <characteristic name="S" typeId="ab33-d393-96ce-ccba">9</characteristic>
+            <characteristic name="AP" typeId="41a0-1301-112a-e2f2">-4</characteristic>
+            <characteristic name="D" typeId="3254-9fe6-d824-513e">D6+2</characteristic>
+            <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">-</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Melta" id="f529-eb0c-13dc-658d" hidden="false" type="rule" targetId="7cdb-fb99-44a9-8849"/>
+      </infoLinks>
+      <comment>BS3+</comment>
+      <categoryLinks>
+        <categoryLink name="Ranged Weapon" hidden="false" id="57de-b6e4-9cf2-b949" targetId="eeda-8544-a2f3-3fab" primary="false"/>
+        <categoryLink name="Damage Dx Weapon" hidden="false" id="10a3-974e-04da-9def" targetId="4986-bf86-beb4-13ac" primary="false"/>
+        <categoryLink name="Fusion Blaster Weapon" hidden="false" id="d03a-b1c8-a0f1-f653" targetId="c366-a7c4-45e2-5b6e" primary="false"/>
+      </categoryLinks>
+    </selectionEntry>
+  </sharedSelectionEntries>
+</catalogue>
