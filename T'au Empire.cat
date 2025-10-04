@@ -19110,7 +19110,6 @@ Localised Stealth Projectors (Aura): While a friendly KROOT or VESPID STINGWINGS
     <categoryEntry name="Plasma Rifle Weapon" id="630e-f998-7bab-7116" hidden="true"/>
     <categoryEntry name="Airbursting Fragmentation Projector Weapon" id="784e-8685-51f5-cac4" hidden="true"/>
     <categoryEntry name="Tau Flamer Weapon" id="41b7-324d-21d3-af5e" hidden="true"/>
-    <categoryEntry name="Fusion Blades" id="752c-ef0d-71e3-8cea" hidden="false"/>
   </categoryEntries>
   <sharedProfiles>
     <profile name="Invulnerable Save (5+)" hidden="false" id="27f4-7449-a636-ae8c" typeName="Abilities" typeId="9cc3-6d83-4dd3-9b64">

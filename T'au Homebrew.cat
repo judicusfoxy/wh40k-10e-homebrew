@@ -27,6 +27,7 @@
         <categoryLink name="Battlesuit" hidden="false" id="e081-d1a2-356d-4d92" targetId="7288-48b3-c4df-66c6" primary="false"/>
         <categoryLink name="Faction: T&apos;au Empire" hidden="false" id="08ae-edb2-f080-963d" targetId="3d58-2655-391e-ecc" primary="false"/>
         <categoryLink name="Fusion Blades" hidden="false" id="4eae-a938-61ae-92ce" targetId="752c-ef0d-71e3-8cea" primary="false"/>
+        <categoryLink targetId="2461-b146-da3e-c9be" id="4042-727e-ecfb-9843" primary="false" name="Commander Brightsword"/>
       </categoryLinks>
       <infoGroups>
         <infoGroup name="Leader" id="2f1a-edee-4619-8aef" hidden="false">
@@ -386,4 +387,8 @@
       </categoryLinks>
     </selectionEntry>
   </sharedSelectionEntries>
+  <categoryEntries>
+    <categoryEntry name="Commander Brightsword" id="2461-b146-da3e-c9be" hidden="false"/>
+    <categoryEntry name="Fusion Blades" id="752c-ef0d-71e3-8cea" hidden="false"/>
+  </categoryEntries>
 </catalogue>
