@@ -1507,7 +1507,7 @@ Ahhh! Delicious!(Aura): While a friendly SUPER EARTH ARMED FORCES infantry unit 
       <selectionEntryGroups>
         <selectionEntryGroup name="Helldivers" id="8d87-f5e2-670e-3afd" hidden="false">
           <selectionEntries>
-            <selectionEntry type="model" import="true" name="Helldiver Leader" hidden="false" id="cd1d-e974-dd18-2498" sortIndex="1">
+            <selectionEntry type="model" import="true" name="Freedom Flamer Leader" hidden="false" id="cd1d-e974-dd18-2498" sortIndex="1">
               <entryLinks>
                 <entryLink import="true" name="Torcher" hidden="false" id="c70f-c460-2cd8-f996" type="selectionEntry" targetId="67f7-31ca-b55a-f36a" sortIndex="1">
                   <constraints>
@@ -1551,7 +1551,7 @@ Ahhh! Delicious!(Aura): While a friendly SUPER EARTH ARMED FORCES infantry unit 
                 </selectionEntryGroup>
               </selectionEntryGroups>
             </selectionEntry>
-            <selectionEntry type="model" import="true" name="Helldiver" hidden="false" id="ac07-1250-18d3-209b" sortIndex="2">
+            <selectionEntry type="model" import="true" name="Freedom Flamer" hidden="false" id="ac07-1250-18d3-209b" sortIndex="2">
               <constraints>
                 <constraint type="min" value="2" field="selections" scope="parent" shared="true" id="b36e-6193-8696-9109" includeChildSelections="false"/>
                 <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="2875-4d60-79ee-51cf" includeChildSelections="false"/>
@@ -1589,7 +1589,7 @@ Ahhh! Delicious!(Aura): While a friendly SUPER EARTH ARMED FORCES infantry unit 
                 </profile>
               </profiles>
             </selectionEntry>
-            <selectionEntry type="model" import="true" name="Helldiver w/ Support Weapon" hidden="false" id="c75c-b9e2-b22f-5eca" sortIndex="3">
+            <selectionEntry type="model" import="true" name="Freedom Flamer w/ Support Weapon" hidden="false" id="c75c-b9e2-b22f-5eca" sortIndex="3">
               <constraints>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8442-b980-4352-4bbb" includeChildSelections="false"/>
               </constraints>
@@ -2527,7 +2527,7 @@ Ahhh! Delicious!(Aura): While a friendly SUPER EARTH ARMED FORCES infantry unit 
       <selectionEntryGroups>
         <selectionEntryGroup name="Helldivers" id="adda-e1b4-8d04-1e2b" hidden="false">
           <selectionEntries>
-            <selectionEntry type="model" import="true" name="Helldiver Leader" hidden="false" id="fb9c-241d-f730-f8aa" sortIndex="1">
+            <selectionEntry type="model" import="true" name="Viper Commando Leader" hidden="false" id="fb9c-241d-f730-f8aa" sortIndex="1">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="c529-5e61-4452-de18" includeChildSelections="false"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9cab-50da-83e4-86bf" includeChildSelections="false"/>
@@ -2571,7 +2571,7 @@ Ahhh! Delicious!(Aura): While a friendly SUPER EARTH ARMED FORCES infantry unit 
                 </profile>
               </profiles>
             </selectionEntry>
-            <selectionEntry type="model" import="true" name="Helldiver" hidden="false" id="f499-8d92-2005-55bc" sortIndex="2">
+            <selectionEntry type="model" import="true" name="Viper Commando" hidden="false" id="f499-8d92-2005-55bc" sortIndex="2">
               <entryLinks>
                 <entryLink import="true" name="Liberator Carbine" hidden="false" id="e055-415f-7887-5e1c" type="selectionEntry" targetId="f1b8-3841-5441-767d" sortIndex="1">
                   <constraints>
@@ -2609,7 +2609,7 @@ Ahhh! Delicious!(Aura): While a friendly SUPER EARTH ARMED FORCES infantry unit 
                 </profile>
               </profiles>
             </selectionEntry>
-            <selectionEntry type="model" import="true" name="Helldiver w/ Support Weapon" hidden="false" id="e4c0-5509-2e58-d1b6" sortIndex="3">
+            <selectionEntry type="model" import="true" name="Viper Commando w/ Support Weapon" hidden="false" id="e4c0-5509-2e58-d1b6" sortIndex="3">
               <entryLinks>
                 <entryLink import="true" name="Liberator Carbine" hidden="false" id="03a2-8d5d-1118-eb54" type="selectionEntry" targetId="f1b8-3841-5441-767d" sortIndex="1">
                   <constraints>
@@ -2747,7 +2747,7 @@ Ahhh! Delicious!(Aura): While a friendly SUPER EARTH ARMED FORCES infantry unit 
       <selectionEntryGroups>
         <selectionEntryGroup name="Helldivers" id="5f5c-76a4-b762-cf8c" hidden="false">
           <selectionEntries>
-            <selectionEntry type="model" import="true" name="Helldiver Leader" hidden="false" id="de28-d2c5-f203-b589" sortIndex="1">
+            <selectionEntry type="model" import="true" name="Urban Legend Leader" hidden="false" id="de28-d2c5-f203-b589" sortIndex="1">
               <profiles>
                 <profile name="Helldiver Leader" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="36c8-5244-8281-2d2e">
                   <characteristics>
@@ -2800,7 +2800,7 @@ Ahhh! Delicious!(Aura): While a friendly SUPER EARTH ARMED FORCES infantry unit 
                 </selectionEntryGroup>
               </selectionEntryGroups>
             </selectionEntry>
-            <selectionEntry type="model" import="true" name="Helldiver" hidden="false" id="613f-82de-634d-d950" sortIndex="2">
+            <selectionEntry type="model" import="true" name="Urban Legend" hidden="false" id="613f-82de-634d-d950" sortIndex="2">
               <profiles>
                 <profile name="Helldiver" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="3cda-01e9-b481-9db0">
                   <characteristics>
@@ -3347,7 +3347,7 @@ Ahhh! Delicious!(Aura): While a friendly SUPER EARTH ARMED FORCES infantry unit 
       <selectionEntryGroups>
         <selectionEntryGroup name="Helldivers" id="b883-c6f6-a7a6-3287" hidden="false">
           <selectionEntries>
-            <selectionEntry type="model" import="true" name="Helldiver Leader" hidden="false" id="4f3e-fe69-1595-87f7" sortIndex="1">
+            <selectionEntry type="model" import="true" name="Trailblazer Leader" hidden="false" id="4f3e-fe69-1595-87f7" sortIndex="1">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="b4dd-6b1c-3186-56b4" includeChildSelections="false"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9f6c-8ca4-8793-d317" includeChildSelections="false"/>
@@ -3391,7 +3391,7 @@ Ahhh! Delicious!(Aura): While a friendly SUPER EARTH ARMED FORCES infantry unit 
                 </profile>
               </profiles>
             </selectionEntry>
-            <selectionEntry type="model" import="true" name="Helldiver" hidden="false" id="5dd5-01fb-662f-6615" sortIndex="2">
+            <selectionEntry type="model" import="true" name="Trailblazer" hidden="false" id="5dd5-01fb-662f-6615" sortIndex="2">
               <entryLinks>
                 <entryLink import="true" name="Peacemaker" hidden="false" id="e13b-f1f2-2ea3-3a13" type="selectionEntry" targetId="dbe9-47d6-9b86-0a5e" sortIndex="2">
                   <constraints>
@@ -3479,7 +3479,7 @@ Ahhh! Delicious!(Aura): While a friendly SUPER EARTH ARMED FORCES infantry unit 
       <selectionEntryGroups>
         <selectionEntryGroup name="Helldivers" id="62eb-c6e8-202a-85b3" hidden="false">
           <selectionEntries>
-            <selectionEntry type="model" import="true" name="Helldiver Leader" hidden="false" id="e44a-91ae-1072-ade2" sortIndex="1">
+            <selectionEntry type="model" import="true" name="Trench Engineer Leader" hidden="false" id="e44a-91ae-1072-ade2" sortIndex="1">
               <entryLinks>
                 <entryLink import="true" name="Close Combat Weapon" hidden="false" id="8e2a-d5fd-e629-4285" type="selectionEntry" targetId="Divermelee">
                   <constraints>
@@ -3528,7 +3528,7 @@ Ahhh! Delicious!(Aura): While a friendly SUPER EARTH ARMED FORCES infantry unit 
                 </profile>
               </profiles>
             </selectionEntry>
-            <selectionEntry type="model" import="true" name="Helldiver" hidden="false" id="0b3b-4f5a-b20e-b060" sortIndex="2">
+            <selectionEntry type="model" import="true" name="Trench Engineer" hidden="false" id="0b3b-4f5a-b20e-b060" sortIndex="2">
               <entryLinks>
                 <entryLink import="true" name="Peacemaker" hidden="false" id="a92d-6f4a-0d5c-098d" type="selectionEntry" targetId="dbe9-47d6-9b86-0a5e" sortIndex="2">
                   <constraints>
@@ -3571,7 +3571,7 @@ Ahhh! Delicious!(Aura): While a friendly SUPER EARTH ARMED FORCES infantry unit 
                 </profile>
               </profiles>
             </selectionEntry>
-            <selectionEntry type="model" import="true" name="Helldiver w/ Support Weapon" hidden="false" id="ad65-cf8f-4000-89a8" sortIndex="3">
+            <selectionEntry type="model" import="true" name="Trench Engineer w/ Support Weapon" hidden="false" id="ad65-cf8f-4000-89a8" sortIndex="3">
               <entryLinks>
                 <entryLink import="true" name="Peacemaker" hidden="false" id="9ea1-faa6-b92c-c2ae" type="selectionEntry" targetId="dbe9-47d6-9b86-0a5e" sortIndex="2">
                   <constraints>
