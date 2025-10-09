@@ -1099,7 +1099,7 @@ Ahhh! Delicious!(Aura): While a friendly SUPER EARTH ARMED FORCES infantry unit 
         </profile>
       </profiles>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Emancipator Exosuit" hidden="false" id="f75c-0817-0009-2801">
+    <selectionEntry type="model" import="true" name="Emancipator Exosuit" hidden="false" id="f75c-0817-0009-2801">
       <constraints>
         <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="38fb-cae5-35eb-3e51" includeChildSelections="false"/>
       </constraints>
@@ -2057,7 +2057,7 @@ Ahhh! Delicious!(Aura): While a friendly SUPER EARTH ARMED FORCES infantry unit 
     <selectionEntry type="model" import="true" name="GATER " hidden="false" id="c100-f4d3-48a1-39fd">
       <categoryLinks>
         <categoryLink targetId="dbd4-63-af05-998" id="5011-2c18-87ac-1fd8" primary="true" name="Vehicle"/>
-        <categoryLink targetId="89d6-10b4-dc60-cbda" id="e0e4-9977-b2d9-ecc8" primary="false" name="E-710 Tanker"/>
+        <categoryLink targetId="89d6-10b4-dc60-cbda" id="e0e4-9977-b2d9-ecc8" primary="false" name="GATER"/>
         <categoryLink targetId="6414-4e3c-7ca9-02d3" id="ce5d-a832-8acc-65c4" primary="false" name="Faction: Super Earth Armed Forces"/>
         <categoryLink targetId="6df-937-16bc-8c1a" id="023f-d15d-afaa-ee72" primary="false" name="Smoke"/>
         <categoryLink targetId="75e8-57c4-40e3-1817" id="6ca1-400f-3e1f-b594" primary="false" name="Transport"/>
@@ -2397,7 +2397,7 @@ Ahhh! Delicious!(Aura): While a friendly SUPER EARTH ARMED FORCES infantry unit 
         </profile>
         <profile name="Mortar Emplacement" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="924d-5c74-44b1-2caf">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">In your Shooting phase, after this model has shot, if one or more of those attacks made with an Indirect Fire weapon scored a hit against an enemy unit, that unit must take a Battle-shock test </characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">In your Shooting phase, after this model has shot, if one or more of those attacks made with an Indirect Fire weapon scored a hit against an enemy unit, that unit must take a Battle-shock test</characteristic>
           </characteristics>
         </profile>
         <profile name="Stun Mortar" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="6a89-6b3c-404e-449b">
@@ -2550,7 +2550,7 @@ Ahhh! Delicious!(Aura): While a friendly SUPER EARTH ARMED FORCES infantry unit 
                 <selectionEntryGroup name="Pistol" id="8c9a-dafb-c3c9-8953" hidden="false" sortIndex="2">
                   <entryLinks>
                     <entryLink import="true" name="Peacemaker" hidden="false" id="a62a-b832-225f-6e43" type="selectionEntry" targetId="dbe9-47d6-9b86-0a5e" sortIndex="1"/>
-                    <entryLink import="true" name="Bushwacker" hidden="false" id="d547-39e8-b7a5-5a0d" type="selectionEntry" targetId="6464-f2cc-0e3e-dd84"/>
+                    <entryLink import="true" name="Bushwhacker" hidden="false" id="d547-39e8-b7a5-5a0d" type="selectionEntry" targetId="6464-f2cc-0e3e-dd84"/>
                   </entryLinks>
                   <constraints>
                     <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="8cd0-17a6-9227-5f03" includeChildSelections="false"/>
@@ -3692,7 +3692,7 @@ Ahhh! Delicious!(Aura): While a friendly SUPER EARTH ARMED FORCES infantry unit 
         <infoLink name="Lethal Hits" id="3c86-839a-4bd2-93ca" hidden="false" type="rule" targetId="d1d1-611e-5191-1095"/>
       </infoLinks>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Veteran Trailblazer" hidden="false" id="2d76-8c2d-3338-52f2">
+    <selectionEntry type="model" import="true" name="Veteran Trailblazer" hidden="false" id="2d76-8c2d-3338-52f2">
       <categoryLinks>
         <categoryLink targetId="9cfd-1c32-585f-7d5c" id="d831-7945-46c9-2fdb" primary="false" name="Character"/>
         <categoryLink targetId="cf47-a0d7-7207-29dc" id="6115-50f2-f57f-a75a" primary="false" name="Infantry"/>
@@ -3829,7 +3829,7 @@ Ahhh! Delicious!(Aura): While a friendly SUPER EARTH ARMED FORCES infantry unit 
         <cost name="Blackstone Fragments" typeId="ac6b-ced3-9b5e-9a6e" value="0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Fire Safety Officer Judicus" hidden="false" id="f817-54c5-bc5c-1169">
+    <selectionEntry type="model" import="true" name="Fire Safety Officer Judicus" hidden="false" id="f817-54c5-bc5c-1169">
       <infoLinks>
         <infoLink name="Hellpod Drop" id="b1b3-237a-4ff8-c351" hidden="false" type="rule" targetId="hellpodrule"/>
         <infoLink name="Feel No Pain" id="3653-9215-0636-6ffb" hidden="false" type="rule" targetId="9bf4-280f-bbe2-6fbb">
@@ -3909,6 +3909,14 @@ Ahhh! Delicious!(Aura): While a friendly SUPER EARTH ARMED FORCES infantry unit 
           </characteristics>
         </profile>
       </profiles>
+      <costs>
+        <cost name="pts" typeId="51b2-306e-1021-d207" value="150"/>
+        <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
+        <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="0"/>
+        <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
+        <cost name="Crusade: Weapon Modifications" typeId="716d-91b7-d55a-1022" value="0"/>
+        <cost name="Blackstone Fragments" typeId="ac6b-ced3-9b5e-9a6e" value="0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Ultimatum" hidden="false" id="6642-ce67-a7dc-9031">
       <profiles>
@@ -3947,7 +3955,7 @@ Ahhh! Delicious!(Aura): While a friendly SUPER EARTH ARMED FORCES infantry unit 
     <entryLink import="true" name="Masters of Ceremony" hidden="false" id="7b77-8617-b92a-8793" targetId="3d54-e6c2-d067-116a" type="selectionEntry"/>
     <entryLink import="true" name="Freedom Flamers" hidden="false" id="18af-b8fa-dff2-70ed" targetId="9e69-97eb-b30a-6205" type="selectionEntry"/>
     <entryLink import="true" name="Helldiver Heavy Weapons Squad" hidden="false" id="8cb1-fdda-f719-b0e6" targetId="8422-1f4c-bede-5782" type="selectionEntry"/>
-    <entryLink import="true" name="E-710 Tanker" hidden="false" id="fba2-234a-6d86-db9e" targetId="c100-f4d3-48a1-39fd" type="selectionEntry"/>
+    <entryLink import="true" name="GATER " hidden="false" id="fba2-234a-6d86-db9e" targetId="c100-f4d3-48a1-39fd" type="selectionEntry"/>
     <entryLink import="true" name="Anti-Infantry Turret" hidden="false" id="6df5-814e-cb72-390c" targetId="961d-02a0-2afe-99bb" type="selectionEntry"/>
     <entryLink import="true" name="Anti-Tank Turret" hidden="false" id="7774-5e3a-8773-aea8" targetId="9692-3dc7-4560-af21" type="selectionEntry"/>
     <entryLink import="true" name="Mortar Turret" hidden="false" id="f3f4-5413-25f2-d187" targetId="1336-031d-4405-c9e0" type="selectionEntry"/>
@@ -4003,7 +4011,7 @@ Ahhh! Delicious!(Aura): While a friendly SUPER EARTH ARMED FORCES infantry unit 
   <sharedProfiles>
     <profile name="Hellpod" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="6b70-a9f3-10a5-75eb">
       <characteristics>
-        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This model must start the battle in Reserves and can be set up in the Reinforcements step of your first, second or third Movement phase, regardless of any mission rules. </characteristic>
+        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This model must start the battle in Reserves and can be set up in the Reinforcements step of your first, second or third Movement phase, regardless of any mission rules.</characteristic>
       </characteristics>
     </profile>
     <profile name="Democracy Protects" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="2dbb-c211-998d-3ecf">
@@ -4019,8 +4027,7 @@ Ahhh! Delicious!(Aura): While a friendly SUPER EARTH ARMED FORCES infantry unit 
           <profiles>
             <profile name="Helldiver Booster" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="4747-cff5-112b-fe3d">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">At the start of the game, pick FOUR of the following abilities to be active for your entire army for the rest of the game.
-</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">At the start of the game, pick FOUR of the following abilities to be active for your entire army for the rest of the game.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -4055,8 +4062,7 @@ Ahhh! Delicious!(Aura): While a friendly SUPER EARTH ARMED FORCES infantry unit 
                   <profiles>
                     <profile name="Sample Scanner" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="7da5-166d-d267-3023">
                       <characteristics>
-                        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">■ Sample Scanner: Plus 1 OC to friendly Helldiver infantry units
-</characteristic>
+                        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">■ Sample Scanner: Plus 1 OC to friendly Helldiver infantry units</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -4068,8 +4074,7 @@ Ahhh! Delicious!(Aura): While a friendly SUPER EARTH ARMED FORCES infantry unit 
                   <profiles>
                     <profile name="Firebomb Hellpod" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="c329-3a9c-893e-3094">
                       <characteristics>
-                        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">■ Whenever making a Hellpod Drop, if you drop within engagement range of enemy units, once you have rolled for the Mortal wounds, double the number of mortal wounds for the enemy to take.
-</characteristic>
+                        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">■ Whenever making a Hellpod Drop, if you drop within engagement range of enemy units, once you have rolled for the Mortal wounds, double the number of mortal wounds for the enemy to take.</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
