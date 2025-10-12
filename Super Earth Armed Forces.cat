@@ -4166,7 +4166,12 @@ Ahhh! Delicious!(Aura): While a friendly SUPER EARTH ARMED FORCES infantry unit 
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d3c1-91ab-1873-b8f1" includeChildSelections="false"/>
                   </constraints>
                 </entryLink>
-                <entryLink import="true" name="Talon" hidden="false" id="1a91-126b-d68d-e0c6" type="selectionEntry" targetId="6d2c-df96-cacb-9fd4"/>
+                <entryLink import="true" name="Talon" hidden="false" id="1a91-126b-d68d-e0c6" type="selectionEntry" targetId="6d2c-df96-cacb-9fd4">
+                  <constraints>
+                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="36da-b08b-1bd4-579f" includeChildSelections="false"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ca2c-60a1-2b94-1c1a" includeChildSelections="false"/>
+                  </constraints>
+                </entryLink>
               </entryLinks>
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="5456-79c3-2903-d2a7" includeChildSelections="false"/>
@@ -4193,7 +4198,12 @@ Ahhh! Delicious!(Aura): While a friendly SUPER EARTH ARMED FORCES infantry unit 
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="bc58-1360-9108-f645" includeChildSelections="false"/>
                   </constraints>
                 </entryLink>
-                <entryLink import="true" name="Talon" hidden="false" id="add8-ba85-92d0-8fae" type="selectionEntry" targetId="6d2c-df96-cacb-9fd4"/>
+                <entryLink import="true" name="Talon" hidden="false" id="add8-ba85-92d0-8fae" type="selectionEntry" targetId="6d2c-df96-cacb-9fd4">
+                  <constraints>
+                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="b366-9c3f-8c58-cd31" includeChildSelections="false"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f364-3bd4-8ea1-2fb9" includeChildSelections="false"/>
+                  </constraints>
+                </entryLink>
                 <entryLink import="true" name="Deadeye" hidden="false" id="e21e-4623-1ef8-636c" type="selectionEntry" targetId="7bd6-6f94-a378-2392">
                   <constraints>
                     <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="b3ed-6b96-a16e-dcbc" includeChildSelections="false"/>
@@ -4244,6 +4254,14 @@ Ahhh! Delicious!(Aura): While a friendly SUPER EARTH ARMED FORCES infantry unit 
         <categoryLink targetId="faea-e0b5-2c9b-dc20" id="8520-5323-9768-de3d" primary="false" name="Helldiver"/>
         <categoryLink targetId="67d5-fb21-d09f-2120" id="0eee-242f-886c-81fe" primary="false" name="Lawmakers"/>
       </categoryLinks>
+      <costs>
+        <cost name="pts" typeId="51b2-306e-1021-d207" value="80"/>
+        <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
+        <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="0"/>
+        <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
+        <cost name="Crusade: Weapon Modifications" typeId="716d-91b7-d55a-1022" value="0"/>
+        <cost name="Blackstone Fragments" typeId="ac6b-ced3-9b5e-9a6e" value="0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Deadeye" hidden="false" id="7bd6-6f94-a378-2392">
       <profiles>
@@ -4533,6 +4551,7 @@ Ahhh! Delicious!(Aura): While a friendly SUPER EARTH ARMED FORCES infantry unit 
     <entryLink import="true" name="Veteran Trailblazer" hidden="false" id="88a1-1c36-9eef-1714" targetId="2d76-8c2d-3338-52f2" type="selectionEntry"/>
     <entryLink import="true" name="Anarchy Officer Rex" hidden="false" id="bc48-b870-2f91-f32f" targetId="1e60-780f-09b9-3664" type="selectionEntry"/>
     <entryLink import="true" name="Democratic Detonators" hidden="false" id="5202-f308-29f2-0c7b" targetId="147a-c7e7-68de-ed97" type="selectionEntry"/>
+    <entryLink import="true" name="Lawmakers" hidden="false" id="0f85-5321-9d99-305e" targetId="1df0-a017-f3b8-2d8f" type="selectionEntry"/>
   </entryLinks>
   <categoryEntries>
     <categoryEntry name="SEAF Trooper Squad" id="7a43-be9b-62f0-a941" hidden="false"/>
