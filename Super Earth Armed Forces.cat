@@ -786,7 +786,7 @@ Ahhh! Delicious!(Aura): While a friendly SUPER EARTH ARMED FORCES infantry unit 
         </profile>
         <profile name="Transport" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="6c7e-2218-4cde-fdee">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This model has a transport capacity of 4 SUPER EARTH ARMED FORCES INFANTRY models. It can only transport HELLDIVER models.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This model has a transport capacity of 4 SUPER EARTH ARMED FORCES INFANTRY models. It cannot transport Helldiver Heavy Weapons teams.</characteristic>
           </characteristics>
         </profile>
         <profile name="Expendable Transport" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="7026-e945-416b-bd74">
@@ -2929,7 +2929,7 @@ Ahhh! Delicious!(Aura): While a friendly SUPER EARTH ARMED FORCES infantry unit 
             <characteristic name="Cost" typeId="6ee8-6586-ad74-a9e3">2 CP</characteristic>
             <characteristic name="When" typeId="a97e-fab7-83fa-947a">Your Shooting Phase</characteristic>
             <characteristic name="Target" typeId="a6aa-44e7-8df1-2c7f">One SUPER EARTH ARMED FORCES unit from your army that has not been selected to shoot this phase.</characteristic>
-            <characteristic name="Effect" typeId="462a-6c6e-060d-1a03">Choose one enemy Monster or Vehicle unit within 6&quot; of this unit, then roll 1 D6.  If the result of that roll is a 2-5, the enemy unit takes D6 Mortal Wounds.  If the result is a 6, that enemy unit takes 6 Mortal wounds.</characteristic>
+            <characteristic name="Effect" typeId="462a-6c6e-060d-1a03">Choose one enemy Monster or Vehicle unit within 6&quot; of this unit, then roll 1 D6.  If the result of that roll is a 2-5, the enemy unit takes D6 Mortal Wounds.  If the result is a 6, that enemy unit takes 6 Mortal wounds.  If you used this stratagem this round, you cannot use the Orbital 380mm HE Barrage or the Eagle Cluster Bomb stratagems until the next round.</characteristic>
           </characteristics>
         </profile>
         <profile name="Minefield" typeId="6758-c767-04d8-790e" typeName="Stratagem" hidden="false" id="e28f-aa82-244d-f1f3">
@@ -2945,7 +2945,7 @@ Ahhh! Delicious!(Aura): While a friendly SUPER EARTH ARMED FORCES infantry unit 
             <characteristic name="Cost" typeId="6ee8-6586-ad74-a9e3">1 CP</characteristic>
             <characteristic name="When" typeId="a97e-fab7-83fa-947a">Your Shooting Phase</characteristic>
             <characteristic name="Target" typeId="a6aa-44e7-8df1-2c7f">One SUPER EARTH ARMED FORCES unit from your army that has not been selected to shoot this phase.</characteristic>
-            <characteristic name="Effect" typeId="462a-6c6e-060d-1a03">Place a marker on the battlefield that is more than 6&quot; away from your unit, but less than 9&quot; away.  At the start of the next turn, for each unit within 6&quot; of the center of that marker, roll one D6 for every model in those units.  for every 4+, that unit suffers a mortal wound.</characteristic>
+            <characteristic name="Effect" typeId="462a-6c6e-060d-1a03">Place a marker on the battlefield that is more than 6&quot; away from your unit, but less than 9&quot; away.  At the start of the next turn, for each unit within 6&quot; of the center of that marker, roll one D6 for every model in those units.  for every 4+, that unit suffers a mortal wound.  If you used this stratagem this round, you cannot use the Orbital 380mm HE Barrage or the Orbital Precision Strike stratagems until the next round.</characteristic>
           </characteristics>
         </profile>
         <profile name="Shield Generator Relay" typeId="6758-c767-04d8-790e" typeName="Stratagem" hidden="false" id="4f4d-1f72-7c9c-5b74">
@@ -2953,7 +2953,7 @@ Ahhh! Delicious!(Aura): While a friendly SUPER EARTH ARMED FORCES infantry unit 
             <characteristic name="Cost" typeId="6ee8-6586-ad74-a9e3">1 CP</characteristic>
             <characteristic name="When" typeId="a97e-fab7-83fa-947a">Your opponent&apos;s Shooting Phase, just after an enemy unit has selected its targets.</characteristic>
             <characteristic name="Target" typeId="a6aa-44e7-8df1-2c7f">One SUPER EARTH ARMED FORCES unit that was selected as the target of one of those attacks.</characteristic>
-            <characteristic name="Effect" typeId="462a-6c6e-060d-1a03">Until the end of the phase, that SUPER EARTH ARMED FORCES unit gains a 4+ Invulnerable save.</characteristic>
+            <characteristic name="Effect" typeId="462a-6c6e-060d-1a03">Until the end of the phase, that SUPER EARTH ARMED FORCES unit gains a 5+ Invulnerable save.</characteristic>
           </characteristics>
         </profile>
         <profile name="Orbital 380mm HE Barrage" typeId="6758-c767-04d8-790e" typeName="Stratagem" hidden="false" id="bf4b-0ef2-c160-03b1">
@@ -2961,7 +2961,7 @@ Ahhh! Delicious!(Aura): While a friendly SUPER EARTH ARMED FORCES infantry unit 
             <characteristic name="Cost" typeId="6ee8-6586-ad74-a9e3">2 CP</characteristic>
             <characteristic name="When" typeId="a97e-fab7-83fa-947a">Your Shooting Phase</characteristic>
             <characteristic name="Target" typeId="a6aa-44e7-8df1-2c7f">One SUPER EARTH ARMED FORCES unit from your army that has not been selected to shoot this phase.</characteristic>
-            <characteristic name="Effect" typeId="462a-6c6e-060d-1a03">Place a marker further than 6&quot; away, but closer than 12&quot; away from that unit.  At the end of your opponents next Movement Phase, Roll one D6 for every unit within 12&quot; of that marker, adding 1 to the roll for every five models in that unit.  On a 4+, that enemy unit must roll a D6 for each model in their unit, and for every roll of 1-3, that unit suffers 2 mortal wounds.  You may not use this stratagem more than 1 battle round in a row.</characteristic>
+            <characteristic name="Effect" typeId="462a-6c6e-060d-1a03">Place a marker further than 6&quot; away, but closer than 12&quot; away from that unit.  At the end of your opponents next Movement Phase, Roll one D6 for every unit within 12&quot; of that marker, adding 1 to the roll for every five models in that unit.  On a 4+, that enemy unit must roll a D6 for each model in their unit, and for every roll of 1-3, that unit suffers 2 mortal wounds.  You may not use this stratagem more than 1 battle round in a row.  If you used this stratagem this round, you cannot use the Eagle Cluster Bomb or the Orbital Precision Strike stratagems until the next round.</characteristic>
           </characteristics>
         </profile>
         <profile name="My Life for Super Earth!" typeId="6758-c767-04d8-790e" typeName="Stratagem" hidden="false" id="7968-299e-cb13-41f8">
@@ -4587,7 +4587,7 @@ Ahhh! Delicious!(Aura): While a friendly SUPER EARTH ARMED FORCES infantry unit 
   </categoryEntries>
   <sharedRules>
     <rule name="Hellpod Drop" id="hellpodrule" hidden="false">
-      <description>Units with the HELLDIVER keyword or the HELLPOD keyword are eligible to make a HELLPOD DROP when being setup during the reinforcements step of your movement phase.  When doing so, a unit can be setup anywhere on the battlefield that is within 6&quot; of a friendly infantry unit that has the HELLDIVER keyword.  When doing this, unit can be set up within engagement range of enemy units.  However, if you do so, your unit must roll a number of D6 equal to the number of models being set up on the battlefield.  For every roll of 1 or 2, that unit suffers 1 mortal wound.  After the units are set up on the battlefield, choose one enemy unit that they are in engagement range of.  That enemy unit also suffers the number of mortal wounds that your unit suffered.</description>
+      <description>Units with the HELLDIVER keyword or the HELLPOD keyword are eligible to make a HELLPOD DROP when being setup during the reinforcements step of your movement phase.  When doing so, a unit can be setup anywhere on the battlefield that is within 6&quot; of a friendly infantry unit that has the HELLDIVER keyword, but until the end of the turn, it is not eligible to declare a charge.  When doing this, unit can be set up within engagement range of enemy units.  However, if you do so, your unit must roll a number of D6 equal to the number of models being set up on the battlefield.  For every roll of 1 or 2, that unit suffers 1 mortal wound.  After the units are set up on the battlefield, choose one enemy unit that they are in engagement range of.  That enemy unit also suffers the number of mortal wounds that your unit suffered.</description>
     </rule>
     <rule name="Four Shots" id="3997-6053-daa1-3f1f" hidden="false">
       <description>The bearer can only shoot with this weapon four times per battle.</description>
