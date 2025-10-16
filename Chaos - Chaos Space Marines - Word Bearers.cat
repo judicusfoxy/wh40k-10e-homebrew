@@ -41,8 +41,7 @@
 ■ CHOSEN
 ■ Legionaries
 ■ Cultist Mob
-■ Accursed Cultists
-</characteristic>
+■ Accursed Cultists</characteristic>
           </characteristics>
         </profile>
         <profile name="Harbinger of Chaos" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="77fb-f846-1591-afa2">
@@ -410,6 +409,18 @@ Golden Visage: Each time an attack is made against this unit, subtract 1 from th
                   </constraints>
                 </selectionEntryGroup>
               </selectionEntryGroups>
+              <profiles>
+                <profile name="Iconoclast" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="eb67-fd75-62e0-bde4">
+                  <characteristics>
+                    <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">12&quot;</characteristic>
+                    <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">4</characteristic>
+                    <characteristic name="SV" typeId="450-a17e-9d5e-29da">3+</characteristic>
+                    <characteristic name="W" typeId="750a-a2ec-90d3-21fe">2</characteristic>
+                    <characteristic name="LD" typeId="58d2-b879-49c7-43bc">6+</characteristic>
+                    <characteristic name="OC" typeId="bef7-942a-1a23-59f8">1</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
             </selectionEntry>
             <selectionEntry type="model" import="true" name="Incendiary" hidden="false" id="b8bc-2450-d2ef-5feb">
               <selectionEntries>
@@ -464,6 +475,18 @@ Golden Visage: Each time an attack is made against this unit, subtract 1 from th
                 <constraint type="min" value="4" field="selections" scope="parent" shared="true" id="18dd-f8a5-1c06-a79b" includeChildSelections="false"/>
                 <constraint type="max" value="9" field="selections" scope="parent" shared="true" id="08c6-6343-17bd-9fc7" includeChildSelections="false"/>
               </constraints>
+              <profiles>
+                <profile name="Incendiary" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="3647-da68-bf5d-e979">
+                  <characteristics>
+                    <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">12&quot;</characteristic>
+                    <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">4</characteristic>
+                    <characteristic name="SV" typeId="450-a17e-9d5e-29da">3+</characteristic>
+                    <characteristic name="W" typeId="750a-a2ec-90d3-21fe">2</characteristic>
+                    <characteristic name="LD" typeId="58d2-b879-49c7-43bc">6+</characteristic>
+                    <characteristic name="OC" typeId="bef7-942a-1a23-59f8">1</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
             </selectionEntry>
           </selectionEntries>
           <constraints>
