@@ -162,7 +162,7 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
       <modifiers>
-        <modifier type="set" value="265" field="51b2-306e-1021-d207">
+        <modifier type="set" value="300" field="51b2-306e-1021-d207">
           <conditions>
             <condition type="atLeast" value="6" field="selections" scope="320b-cc1d-d2c7-b624" childId="d84a-5f1a-4f0e-3b82" shared="true"/>
           </conditions>
@@ -193,7 +193,7 @@
       <profiles>
         <profile name="Leave Nothing Behind" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="9c5b-f22a-eb90-b9ae">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">When targeting the closest eligible target during the Shooting, you can reroll the wound roll.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">When targeting the closest eligible target during the Shooting, you can reroll a wound roll of 1.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -206,28 +206,27 @@
         <profile name="➤ Plasma Burner - Standard" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="ff14-9edc-5965-6c2c">
           <characteristics>
             <characteristic name="Range" typeId="9896-9419-16a1-92fc">12&quot;</characteristic>
-            <characteristic name="A" typeId="3bb-c35f-f54-fb08">D6</characteristic>
+            <characteristic name="A" typeId="3bb-c35f-f54-fb08">D3</characteristic>
             <characteristic name="BS" typeId="94d-8a98-cf90-183e">N/A</characteristic>
             <characteristic name="S" typeId="2229-f494-25db-c5d3">7</characteristic>
             <characteristic name="AP" typeId="9ead-8a10-520-de15">-2</characteristic>
             <characteristic name="D" typeId="a354-c1c8-a745-f9e3">2</characteristic>
-            <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Torrent, Ignores Cover, Assault</characteristic>
+            <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Torrent, Ignores Cover</characteristic>
           </characteristics>
         </profile>
         <profile name="➤ Plasma Burner - Supercharge" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="637f-e272-eea8-362d">
           <characteristics>
             <characteristic name="Range" typeId="9896-9419-16a1-92fc">12&quot;</characteristic>
-            <characteristic name="A" typeId="3bb-c35f-f54-fb08">D6</characteristic>
+            <characteristic name="A" typeId="3bb-c35f-f54-fb08">D3</characteristic>
             <characteristic name="BS" typeId="94d-8a98-cf90-183e">N/A</characteristic>
             <characteristic name="S" typeId="2229-f494-25db-c5d3">8</characteristic>
             <characteristic name="AP" typeId="9ead-8a10-520-de15">-3</characteristic>
             <characteristic name="D" typeId="a354-c1c8-a745-f9e3">3</characteristic>
-            <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Torrent, Ignores Cover, Assault, Hazardous</characteristic>
+            <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Torrent, Ignores Cover, Hazardous</characteristic>
           </characteristics>
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink name="Assault" id="46b1-cd5e-4cc4-7625" hidden="false" type="rule" targetId="fc8a-8c24-bae9-cc1c"/>
         <infoLink name="Torrent" id="1b6a-82cb-68e1-6d30" hidden="false" type="rule" targetId="5edf-d619-23e0-9b56"/>
         <infoLink name="Ignores Cover" id="9295-b687-fe46-857d" hidden="false" type="rule" targetId="4640-43e7-30b-215a"/>
         <infoLink name="Hazardous" id="0680-dafe-5b9d-52a0" hidden="false" type="rule" targetId="8367-374c-f87-c627"/>
@@ -238,22 +237,22 @@
         <profile name="➤ Ancient Plasma Incinerator - Standard" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="e983-1015-b325-729d">
           <characteristics>
             <characteristic name="Range" typeId="9896-9419-16a1-92fc">12&quot;</characteristic>
-            <characteristic name="A" typeId="3bb-c35f-f54-fb08">D6</characteristic>
+            <characteristic name="A" typeId="3bb-c35f-f54-fb08">D3</characteristic>
             <characteristic name="BS" typeId="94d-8a98-cf90-183e">N/A</characteristic>
             <characteristic name="S" typeId="2229-f494-25db-c5d3">7</characteristic>
             <characteristic name="AP" typeId="9ead-8a10-520-de15">-2</characteristic>
-            <characteristic name="D" typeId="a354-c1c8-a745-f9e3">3</characteristic>
+            <characteristic name="D" typeId="a354-c1c8-a745-f9e3">2</characteristic>
             <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Torrent, Ignores Cover</characteristic>
           </characteristics>
         </profile>
         <profile name="➤ Ancient Plasma Incinerator - Supercharge" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="7b0b-b9e6-6298-428d">
           <characteristics>
             <characteristic name="Range" typeId="9896-9419-16a1-92fc">12&quot;</characteristic>
-            <characteristic name="A" typeId="3bb-c35f-f54-fb08">D6</characteristic>
+            <characteristic name="A" typeId="3bb-c35f-f54-fb08">D3</characteristic>
             <characteristic name="BS" typeId="94d-8a98-cf90-183e">N/A</characteristic>
             <characteristic name="S" typeId="2229-f494-25db-c5d3">8</characteristic>
             <characteristic name="AP" typeId="9ead-8a10-520-de15">-3</characteristic>
-            <characteristic name="D" typeId="a354-c1c8-a745-f9e3">4</characteristic>
+            <characteristic name="D" typeId="a354-c1c8-a745-f9e3">3</characteristic>
             <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Torrent, Ignores Cover, Hazardous</characteristic>
           </characteristics>
         </profile>
@@ -262,7 +261,6 @@
         <infoLink name="Torrent" id="ff69-9179-740e-26f0" hidden="false" type="rule" targetId="5edf-d619-23e0-9b56"/>
         <infoLink name="Ignores Cover" id="075d-e882-0a4b-1711" hidden="false" type="rule" targetId="4640-43e7-30b-215a"/>
         <infoLink name="Hazardous" id="cf75-2462-62dd-a55d" hidden="false" type="rule" targetId="8367-374c-f87-c627"/>
-        <infoLink name="Assault" id="0c3c-307e-97ad-8ad1" hidden="false" type="rule" targetId="fc8a-8c24-bae9-cc1c"/>
       </infoLinks>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Interemptor Missile Launcher" hidden="false" id="3d63-5026-3e57-2f23">
@@ -509,6 +507,11 @@
         <profile name="Teleport Homer" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="eb1c-e97d-df15-f2dc">
           <characteristics>
             <characteristic name="Description" hidden="false" id="f19c-9d50-bac7-ed69" typeId="9b8f-694b-e5e-b573">At the start of the battle, you can set up one Teleport Homer token for this unit anywhere on the battlefield that is not in your opponent’s deployment zone. If you do, once per battle, you can target this unit with the Rapid Ingress Stratagem for 0CP, but when resolving that Stratagem, you must set this unit up within 3&quot; horizontally of that token and not within 9&quot; horizontally of any enemy models. That token is then removed.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Orders of the Hekatonystika" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="ae6c-25c4-d6bd-53ce">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">At the beginning of the battle, choose one ability from the Orders of the Hekatonystika list.  Until the end of the battle, that ability is active for this unit.</characteristic>
           </characteristics>
         </profile>
       </profiles>
