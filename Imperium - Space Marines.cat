@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" id="e0af-67df-9d63-8fb7" name="Imperium - Adeptus Astartes - Space Marines" revision="166" battleScribeVersion="2.03" library="false" gameSystemId="sys-352e-adc2-7639-d6a9" gameSystemRevision="1" type="catalogue" authorName="Acebaur">
+<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" id="e0af-67df-9d63-8fb7" name="Imperium - Adeptus Astartes - Space Marines" revision="167" battleScribeVersion="2.03" library="false" gameSystemId="sys-352e-adc2-7639-d6a9" gameSystemRevision="1" type="catalogue" authorName="Acebaur">
   <categoryEntries>
     <categoryEntry id="5179-8ede-45e3-49a2" name="Tacticus" hidden="false"/>
     <categoryEntry id="930d-2875-125b-a65e" name="Bladeguard Veteran Squad" hidden="false"/>
@@ -36585,9 +36585,14 @@ In your Command phase, select one Adeptus Astartes unit from your army; until th
           </profiles>
           <modifiers>
             <modifier type="set" value="true" field="hidden">
-              <conditions>
-                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="470a-6daa-9014-12df" shared="true"/>
-              </conditions>
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="470a-6daa-9014-12df" shared="true"/>
+                    <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="09d7-71de-57e6-bf3e" shared="true"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
             </modifier>
           </modifiers>
         </selectionEntry>
@@ -36709,9 +36714,14 @@ For the purposes of determining which models can embark within a TRANSPORT model
         <selectionEntry type="upgrade" import="true" name="Inner Circle Task Force" hidden="false" id="a141-49c8-fd84-4c6d">
           <modifiers>
             <modifier type="set" value="true" field="hidden">
-              <conditions>
-                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="470a-6daa-9014-12df" shared="true"/>
-              </conditions>
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="470a-6daa-9014-12df" shared="true"/>
+                    <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="09d7-71de-57e6-bf3e" shared="true"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
             </modifier>
           </modifiers>
           <profiles>
@@ -36742,9 +36752,14 @@ to the Wound roll.’</characteristic>
         <selectionEntry type="upgrade" import="true" name="Company of Hunters" hidden="false" id="41e6-d47c-5e68-e066">
           <modifiers>
             <modifier type="set" value="true" field="hidden">
-              <conditions>
-                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="470a-6daa-9014-12df" shared="true"/>
-              </conditions>
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="470a-6daa-9014-12df" shared="true"/>
+                    <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="09d7-71de-57e6-bf3e" shared="true"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
             </modifier>
           </modifiers>
           <profiles>
@@ -36802,9 +36817,14 @@ Once you have made your selections, remove those units from the battlefield and 
         <selectionEntry type="upgrade" import="true" name="Lion&apos;s Blade Task Force" hidden="false" id="bef5-925f-b143-d219">
           <modifiers>
             <modifier type="set" value="true" field="hidden">
-              <conditions>
-                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="470a-6daa-9014-12df" shared="true"/>
-              </conditions>
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="470a-6daa-9014-12df" shared="true"/>
+                    <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="09d7-71de-57e6-bf3e" shared="true"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
             </modifier>
           </modifiers>
           <profiles>
@@ -36929,9 +36949,14 @@ Their Appointed Hour: You can re‑roll Advance and Charge rolls made for this
         <selectionEntry type="upgrade" import="true" name="Wrath of the Rock" hidden="false" id="9d23-833a-17cb-2d7d">
           <modifiers>
             <modifier type="set" value="true" field="hidden">
-              <conditions>
-                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="470a-6daa-9014-12df" shared="true"/>
-              </conditions>
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="470a-6daa-9014-12df" shared="true"/>
+                    <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="09d7-71de-57e6-bf3e" shared="true"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
             </modifier>
           </modifiers>
           <profiles>
