@@ -718,6 +718,7 @@
       </selectionEntryGroups>
       <infoLinks>
         <infoLink name="Leader" id="95cf-cbc5-ab30-fc12" hidden="false" type="rule" targetId="b4dd-3e1f-41cb-218f"/>
+        <infoLink name="Oath of Moment" id="a25b-6891-f736-4367" hidden="false" type="rule" targetId="3b76-4053-ece9-6e7d"/>
       </infoLinks>
       <costs>
         <cost name="pts" typeId="51b2-306e-1021-d207" value="90"/>
@@ -887,6 +888,9 @@
         <entryLink import="true" name="Warlord" hidden="false" id="5f38-eaaa-7fd5-db64" type="selectionEntry" targetId="caa-f869-3cbd-b48e"/>
         <entryLink import="true" name="Enhancements" hidden="false" id="5cf2-9cc4-7927-6703" type="selectionEntryGroup" targetId="9e5d-de4c-c5d1-1d3e"/>
       </entryLinks>
+      <infoLinks>
+        <infoLink name="Oath of Moment" id="0ccd-0e08-6ee2-7c05" hidden="false" type="rule" targetId="3b76-4053-ece9-6e7d"/>
+      </infoLinks>
     </selectionEntry>
   </sharedSelectionEntries>
   <entryLinks>
