@@ -885,6 +885,7 @@
       </costs>
       <entryLinks>
         <entryLink import="true" name="Warlord" hidden="false" id="5f38-eaaa-7fd5-db64" type="selectionEntry" targetId="caa-f869-3cbd-b48e"/>
+        <entryLink import="true" name="Enhancements" hidden="false" id="5cf2-9cc4-7927-6703" type="selectionEntryGroup" targetId="9e5d-de4c-c5d1-1d3e"/>
       </entryLinks>
     </selectionEntry>
   </sharedSelectionEntries>
