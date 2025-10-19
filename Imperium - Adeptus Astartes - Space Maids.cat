@@ -212,7 +212,267 @@ Mother&apos;s Reassurance (Aura): While a friendly ^^**Adeptus Astartes^^** unit
           </profiles>
           <constraints>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f81e-bc03-3e73-59fa" includeChildSelections="false"/>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="9bf0-7972-c5ec-d4f7" includeChildSelections="false"/>
           </constraints>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="lessThan" value="1" field="selections" scope="roster" childId="7519-9258-8059-e6f1" shared="true" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Scrubbers" hidden="false" id="f75c-f692-d77e-ffa0">
+          <profiles>
+            <profile name="Armor of Contempt" typeId="30ff-37ca-2012-7d18" typeName="Stratagem" hidden="false" id="0fea-bcf5-adb7-dbc5">
+              <characteristics>
+                <characteristic name="Cost" typeId="c27c-0e5a-de9d-b3e0">1 CP</characteristic>
+                <characteristic name="When" typeId="2776-e6cb-a43f-26ad">Your opponent&apos;s shooting phase, just after an enemy unit has selected its targets</characteristic>
+                <characteristic name="Target" typeId="3a96-ef72-6d83-9255">One ^^**Adeptus Astartes^^** unit from your army that was selected as the target of one or more of the attacking unit&apos;s attacks.</characteristic>
+                <characteristic name="Effect" typeId="b790-342c-6ab0-5354">Until the attacking unit has finished making its attacks, each time an attack targets your unit, worsen the Armor Penetration characteristics of that attack by 1.</characteristic>
+              </characteristics>
+            </profile>
+            <profile name="Tidal Dash" typeId="30ff-37ca-2012-7d18" typeName="Stratagem" hidden="false" id="b701-c382-5baa-af95">
+              <characteristics>
+                <characteristic name="Cost" typeId="c27c-0e5a-de9d-b3e0">1 CP</characteristic>
+                <characteristic name="When" typeId="2776-e6cb-a43f-26ad">Your Movement Phase</characteristic>
+                <characteristic name="Target" typeId="3a96-ef72-6d83-9255">One ^^**Adeptus Astartes Infantry^^** unit from your army that has not been selected to move this phase.</characteristic>
+                <characteristic name="Effect" typeId="b790-342c-6ab0-5354">This unit may shoot in a turn in which it advanced</characteristic>
+              </characteristics>
+            </profile>
+            <profile name="Splash! Splash!" typeId="30ff-37ca-2012-7d18" typeName="Stratagem" hidden="false" id="ae5f-eb69-4afc-8d14">
+              <characteristics>
+                <characteristic name="Cost" typeId="c27c-0e5a-de9d-b3e0">1 CP</characteristic>
+                <characteristic name="When" typeId="2776-e6cb-a43f-26ad">Your Charge Phase, just after an ^^**Adeptus Asartes^^** unit from your army declares a charge</characteristic>
+                <characteristic name="Target" typeId="3a96-ef72-6d83-9255">That ^^**Adeptus Astartes^^** unit</characteristic>
+                <characteristic name="Effect" typeId="b790-342c-6ab0-5354">Each target of that charge must take a Battle-shock test.</characteristic>
+              </characteristics>
+            </profile>
+            <profile name="Sea Storm" typeId="30ff-37ca-2012-7d18" typeName="Stratagem" hidden="false" id="a1c7-584e-5af1-6873">
+              <characteristics>
+                <characteristic name="Cost" typeId="c27c-0e5a-de9d-b3e0">1 CP</characteristic>
+                <characteristic name="When" typeId="2776-e6cb-a43f-26ad">Your Shooting Phase</characteristic>
+                <characteristic name="Target" typeId="3a96-ef72-6d83-9255">One ^^**Adeptus Astartes Tacticus^^** unit from your army that is below half strength</characteristic>
+                <characteristic name="Effect" typeId="b790-342c-6ab0-5354">Until the end of the phase, each time a model in that unit makes a ranged attack, you can reroll the wound roll.</characteristic>
+              </characteristics>
+            </profile>
+            <profile name="Cleansing Wash" typeId="30ff-37ca-2012-7d18" typeName="Stratagem" hidden="false" id="4105-9467-f934-88f4">
+              <characteristics>
+                <characteristic name="Cost" typeId="c27c-0e5a-de9d-b3e0">2 CP</characteristic>
+                <characteristic name="When" typeId="2776-e6cb-a43f-26ad">Your Command Phase</characteristic>
+                <characteristic name="Target" typeId="3a96-ef72-6d83-9255">One ^^**Adeptus Astartes Vehicle^^** unit from your army that is below its starting strength</characteristic>
+                <characteristic name="Effect" typeId="b790-342c-6ab0-5354">That model regains D3 lost wounds.</characteristic>
+              </characteristics>
+            </profile>
+            <profile name="Typhoon&apos;s Fury" typeId="30ff-37ca-2012-7d18" typeName="Stratagem" hidden="false" id="d8a1-beee-5db7-f6b8">
+              <characteristics>
+                <characteristic name="Cost" typeId="c27c-0e5a-de9d-b3e0">1 CP</characteristic>
+                <characteristic name="When" typeId="2776-e6cb-a43f-26ad">Your Shooting Phase</characteristic>
+                <characteristic name="Target" typeId="3a96-ef72-6d83-9255">One ^^**Adeptus Astartes Infantry^^** unit from your army that is below half strength</characteristic>
+                <characteristic name="Effect" typeId="b790-342c-6ab0-5354">Until the end of the phase, each time a model in your unit makes a ranged attack, an unmodified hit roll of 5+ scores a Critical Hit.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="lessThan" value="1" field="selections" scope="roster" childId="578c-ed6e-59dc-0669" shared="true" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8d63-31e6-791e-d713" includeChildSelections="false"/>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="1eaa-3989-f3e1-cf27" includeChildSelections="false"/>
+          </constraints>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="White Claws" hidden="false" id="ea70-c893-228c-f4a3">
+          <profiles>
+            <profile name="Budding Light" typeId="30ff-37ca-2012-7d18" typeName="Stratagem" hidden="false" id="dc13-8d0e-1322-ca20">
+              <characteristics>
+                <characteristic name="Cost" typeId="c27c-0e5a-de9d-b3e0">1 CP</characteristic>
+                <characteristic name="When" typeId="2776-e6cb-a43f-26ad">Your Opponent&apos;s Fights Phase</characteristic>
+                <characteristic name="Target" typeId="3a96-ef72-6d83-9255">One ^^**Adeptus Astartes^^** unit from your army that has not been selected to pampered yet</characteristic>
+                <characteristic name="Effect" typeId="b790-342c-6ab0-5354">Until the end of the Fights Phase, that unit is also considered to be pampered.</characteristic>
+              </characteristics>
+            </profile>
+            <profile name="11 Barrels of Hell!" typeId="30ff-37ca-2012-7d18" typeName="Stratagem" hidden="false" id="e7fd-8437-be02-5c3c">
+              <characteristics>
+                <characteristic name="Cost" typeId="c27c-0e5a-de9d-b3e0">1 CP</characteristic>
+                <characteristic name="When" typeId="2776-e6cb-a43f-26ad">Your Shooting Phase</characteristic>
+                <characteristic name="Target" typeId="3a96-ef72-6d83-9255">One ^^**Adeptus Astartes Infantry^^** unit from your army that has not been selected to shoot this phase.</characteristic>
+                <characteristic name="Effect" typeId="b790-342c-6ab0-5354">Until the end of the phase, ranged weapons equipped by models in that unit have the Sustained Hits 1 keyword.  If that unit is pampered, they also score critical hits on an unmodified hit roll of 5+</characteristic>
+              </characteristics>
+            </profile>
+            <profile name="Nursing Brew" typeId="30ff-37ca-2012-7d18" typeName="Stratagem" hidden="false" id="ecde-0aa5-c06c-5e7a">
+              <characteristics>
+                <characteristic name="Cost" typeId="c27c-0e5a-de9d-b3e0">2 CP</characteristic>
+                <characteristic name="When" typeId="2776-e6cb-a43f-26ad">Your Fights Phase</characteristic>
+                <characteristic name="Target" typeId="3a96-ef72-6d83-9255">One ^^**Adeptus Astartes Infantry^^** unit from your army.</characteristic>
+                <characteristic name="Effect" typeId="b790-342c-6ab0-5354">Until the end of the phase, improve the Armor Penetration Characteristic of melee weapons equipped by models in that squad by 1.</characteristic>
+              </characteristics>
+            </profile>
+            <profile name="Mother&apos;s Stash" typeId="30ff-37ca-2012-7d18" typeName="Stratagem" hidden="false" id="2d70-8f56-5d22-b2f3">
+              <characteristics>
+                <characteristic name="Cost" typeId="c27c-0e5a-de9d-b3e0">2 CP</characteristic>
+                <characteristic name="When" typeId="2776-e6cb-a43f-26ad">Your Command Phase</characteristic>
+                <characteristic name="Target" typeId="3a96-ef72-6d83-9255">One ^^**Adeptus Astartes Character^^** unit from your army that has not been selected to be pampered yet</characteristic>
+                <characteristic name="Effect" typeId="b790-342c-6ab0-5354">For the purpose of the army rule, treat that unit as if it were Nekona.  You cannot use this stratagem more than once per battle.</characteristic>
+              </characteristics>
+            </profile>
+            <profile name="Whiskey Gambit" typeId="30ff-37ca-2012-7d18" typeName="Stratagem" hidden="false" id="294b-25a2-cb2e-0ee2">
+              <characteristics>
+                <characteristic name="Cost" typeId="c27c-0e5a-de9d-b3e0">1 CP</characteristic>
+                <characteristic name="When" typeId="2776-e6cb-a43f-26ad">Your Opponents Shooting Phase or the Fights Phase, just after an enemy unit has finished selecting its targets.</characteristic>
+                <characteristic name="Target" typeId="3a96-ef72-6d83-9255">One ^^**Adeptus Astartes^^** unit from your army that has not been selected to be pampered yet</characteristic>
+                <characteristic name="Effect" typeId="b790-342c-6ab0-5354">Until the end of the phase, models in that unit have the Feel No Pain 6+ ability against mortal wounds.</characteristic>
+              </characteristics>
+            </profile>
+            <profile name="Armor of Contempt" typeId="30ff-37ca-2012-7d18" typeName="Stratagem" hidden="false" id="058a-42d7-6128-f3c5">
+              <characteristics>
+                <characteristic name="Cost" typeId="c27c-0e5a-de9d-b3e0">1 CP</characteristic>
+                <characteristic name="When" typeId="2776-e6cb-a43f-26ad">Your opponent&apos;s shooting phase, just after an enemy unit has selected its targets</characteristic>
+                <characteristic name="Target" typeId="3a96-ef72-6d83-9255">One ^^**Adeptus Astartes^^** unit from your army that was selected as the target of one or more of the attacking unit&apos;s attacks.</characteristic>
+                <characteristic name="Effect" typeId="b790-342c-6ab0-5354">Until the attacking unit has finished making its attacks, each time an attack targets your unit, worsen the Armor Penetration characteristics of that attack by 1.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f679-6fee-fd2b-ed7d" includeChildSelections="false"/>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="8013-8f23-d2e0-59d7" includeChildSelections="false"/>
+          </constraints>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="lessThan" value="1" field="selections" scope="roster" childId="373f-c204-b140-0838" shared="true" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Tea Servers" hidden="false" id="d506-3dcb-c8cd-ad52">
+          <profiles>
+            <profile name="Matcha Massacre" typeId="30ff-37ca-2012-7d18" typeName="Stratagem" hidden="false" id="6885-b5ca-8155-88b5">
+              <characteristics>
+                <characteristic name="Cost" typeId="c27c-0e5a-de9d-b3e0">1 CP</characteristic>
+                <characteristic name="When" typeId="2776-e6cb-a43f-26ad">Your Shooting Phase or the Fights Phase</characteristic>
+                <characteristic name="Target" typeId="3a96-ef72-6d83-9255">One ^^**Adeptus Astartes Battleline^^** unit from your army that has not been selected to shoot or fight this phase.</characteristic>
+                <characteristic name="Effect" typeId="b790-342c-6ab0-5354">Until the end of the phase, improve the Armor Penetration characteristic of weapons equipped by models in your unit by 1.</characteristic>
+              </characteristics>
+            </profile>
+            <profile name="Jasmine Jitters" typeId="30ff-37ca-2012-7d18" typeName="Stratagem" hidden="false" id="fcda-cd4f-45cd-ac54">
+              <characteristics>
+                <characteristic name="Cost" typeId="c27c-0e5a-de9d-b3e0">1 CP</characteristic>
+                <characteristic name="When" typeId="2776-e6cb-a43f-26ad">Your Shooting Phase or Fights Phase</characteristic>
+                <characteristic name="Target" typeId="3a96-ef72-6d83-9255">One ^^**Adeptus Astartes^^** unit from your army that has not been selected to shoot or fight this phase.</characteristic>
+                <characteristic name="Effect" typeId="b790-342c-6ab0-5354">After this unit has finished making its attacks, select one enemy unit hit by one or more of those attacks.  That enemy unit must take a battle-shock test</characteristic>
+              </characteristics>
+            </profile>
+            <profile name="Darjeeling Dash" typeId="30ff-37ca-2012-7d18" typeName="Stratagem" hidden="false" id="baf6-b293-1dac-b7b8">
+              <characteristics>
+                <characteristic name="Cost" typeId="c27c-0e5a-de9d-b3e0">1 CP</characteristic>
+                <characteristic name="When" typeId="2776-e6cb-a43f-26ad">The start of your Movement Phase</characteristic>
+                <characteristic name="Target" typeId="3a96-ef72-6d83-9255">One ^^**Adeptus Astartes^^** unit from your army.</characteristic>
+                <characteristic name="Effect" typeId="b790-342c-6ab0-5354">Until the end of the phase, each time your unit makes a normal move, add 3&quot; to the move characteristic of models in that unit.  </characteristic>
+              </characteristics>
+            </profile>
+            <profile name="Hibiscian Cuisine" typeId="30ff-37ca-2012-7d18" typeName="Stratagem" hidden="false" id="55f1-4e07-6197-7de5">
+              <characteristics>
+                <characteristic name="Cost" typeId="c27c-0e5a-de9d-b3e0">2 CP</characteristic>
+                <characteristic name="When" typeId="2776-e6cb-a43f-26ad">Your Command Phase</characteristic>
+                <characteristic name="Target" typeId="3a96-ef72-6d83-9255">One ^^**Adeptus Astartes Terminator^^** unit from your army that is below its starting strength</characteristic>
+                <characteristic name="Effect" typeId="b790-342c-6ab0-5354">One model in that unit regains D3 lost wounds.  If there are no models in that unit with lost wounds, you may return one model with D3 wounds remaining.</characteristic>
+              </characteristics>
+            </profile>
+            <profile name="Oolong Overdo" typeId="30ff-37ca-2012-7d18" typeName="Stratagem" hidden="false" id="34c0-1c2f-9fa9-87e6">
+              <characteristics>
+                <characteristic name="Cost" typeId="c27c-0e5a-de9d-b3e0">1 CP</characteristic>
+                <characteristic name="When" typeId="2776-e6cb-a43f-26ad">Your opponents Shooting Phase or the Fights Phase, just after an enemy unit has selected its targets</characteristic>
+                <characteristic name="Target" typeId="3a96-ef72-6d83-9255">One ^^**Adeptus Astartes^^** unit from your army that was selected as the target of one or more of that enemy units attacks</characteristic>
+                <characteristic name="Effect" typeId="b790-342c-6ab0-5354">Until the end of the phase, that unit can reroll saving throw rolls of 1.</characteristic>
+              </characteristics>
+            </profile>
+            <profile name="Invaders must Chai" typeId="30ff-37ca-2012-7d18" typeName="Stratagem" hidden="false" id="d5ea-ce4c-199f-e097">
+              <characteristics>
+                <characteristic name="Cost" typeId="c27c-0e5a-de9d-b3e0">1 CP</characteristic>
+                <characteristic name="When" typeId="2776-e6cb-a43f-26ad">the start of your Movement Phase.</characteristic>
+                <characteristic name="Target" typeId="3a96-ef72-6d83-9255">One ^^**Adeptus Astartes Terminator^^** unit from your army.</characteristic>
+                <characteristic name="Effect" typeId="b790-342c-6ab0-5354">Until the end of the phase, add 2&quot; to the movement characteristic of models in that unit.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e92f-47c0-af25-e6de" includeChildSelections="false"/>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="4fb5-c45a-1a82-fbc2" includeChildSelections="false"/>
+          </constraints>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="lessThan" value="1" field="selections" scope="roster" childId="078f-e1be-200e-1387" shared="true" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Oven Mitts" hidden="false" id="fdc5-c7ce-5080-be01">
+          <profiles>
+            <profile name="Empiric Destruction" typeId="30ff-37ca-2012-7d18" typeName="Stratagem" hidden="false" id="84d9-1606-fd98-7c98">
+              <characteristics>
+                <characteristic name="Cost" typeId="c27c-0e5a-de9d-b3e0">2 CP</characteristic>
+                <characteristic name="When" typeId="2776-e6cb-a43f-26ad">Your opponents Fights Phase, just after ^^**Adeptus Astartes^^** unit from your army lost one or more models as the result of an attack.</characteristic>
+                <characteristic name="Target" typeId="3a96-ef72-6d83-9255">That ^^**Adeptus Astartes^^** unit</characteristic>
+                <characteristic name="Effect" typeId="b790-342c-6ab0-5354">For each model destroyed, roll a D6.  On a 4+, the enemy unit whose attacks caused the models to be destroyed suffers 1 mortal wound.</characteristic>
+              </characteristics>
+            </profile>
+            <profile name="Flames of Nekona" typeId="30ff-37ca-2012-7d18" typeName="Stratagem" hidden="false" id="9bdd-ffdb-cab5-ca7b">
+              <characteristics>
+                <characteristic name="Cost" typeId="c27c-0e5a-de9d-b3e0">1 CP</characteristic>
+                <characteristic name="When" typeId="2776-e6cb-a43f-26ad">The start of your Command Phase</characteristic>
+                <characteristic name="Target" typeId="3a96-ef72-6d83-9255">One ^^**Adeptus Astartes Infantry^^** unit from your army within range of an objective marker you control. </characteristic>
+                <characteristic name="Effect" typeId="b790-342c-6ab0-5354">That objective marker is said to be scorched, and remains under your control even if no models from your army are within range of it, until your opponent controls it at the start or end of any turn.  While an objective marker is scorched, each time an enemy unit ends a Normal, Fall Back, Advance, or Charge move within range of that objective, roll one D6.  On a 2+, that enemy unit suffers D3 mortal wounds.</characteristic>
+              </characteristics>
+            </profile>
+            <profile name="Melting Point" typeId="30ff-37ca-2012-7d18" typeName="Stratagem" hidden="false" id="028e-170a-8f52-7b0f">
+              <characteristics>
+                <characteristic name="Cost" typeId="c27c-0e5a-de9d-b3e0">2 CP</characteristic>
+                <characteristic name="When" typeId="2776-e6cb-a43f-26ad">Fights Phase, just after an enemy unit has finished selecting its targets.</characteristic>
+                <characteristic name="Target" typeId="3a96-ef72-6d83-9255">One ^^**Adeptus Astartes^^** unit from your army that was just selected as a target of one or more of those attacks.  </characteristic>
+                <characteristic name="Effect" typeId="b790-342c-6ab0-5354">Until the end of the phase, each time an attack is allocated to a model in your unit, subtract 1 from the damage characteristic of that attack.  </characteristic>
+              </characteristics>
+            </profile>
+            <profile name="Hellfire! Hellfire!" typeId="30ff-37ca-2012-7d18" typeName="Stratagem" hidden="false" id="2863-b24b-8ea4-a90f">
+              <characteristics>
+                <characteristic name="Cost" typeId="c27c-0e5a-de9d-b3e0">1 CP</characteristic>
+                <characteristic name="When" typeId="2776-e6cb-a43f-26ad">Your Shooting Phase</characteristic>
+                <characteristic name="Target" typeId="3a96-ef72-6d83-9255">One ^^**Adeptus Astartes^^** unit from your army that has not been selected to shoot this phase.  </characteristic>
+                <characteristic name="Effect" typeId="b790-342c-6ab0-5354">Until the end of the phase, ranged weapons equipped by that unit have the Ignores Cover keyword.</characteristic>
+              </characteristics>
+            </profile>
+            <profile name="Through the Fire and Flames" typeId="30ff-37ca-2012-7d18" typeName="Stratagem" hidden="false" id="a4f1-bb65-6dc9-fcd2">
+              <characteristics>
+                <characteristic name="Cost" typeId="c27c-0e5a-de9d-b3e0">1 CP</characteristic>
+                <characteristic name="When" typeId="2776-e6cb-a43f-26ad">Your Shooting Phase</characteristic>
+                <characteristic name="Target" typeId="3a96-ef72-6d83-9255">One ^^**Adeptus Astartes^^** unit from your army that has not been selected to shoot this phase.</characteristic>
+                <characteristic name="Effect" typeId="b790-342c-6ab0-5354">Until the end of the phase, you can reroll a wound roll of 1.  If your unit is within your Flame of War, you can reroll the wound roll.</characteristic>
+              </characteristics>
+            </profile>
+            <profile name="Carry On!" typeId="30ff-37ca-2012-7d18" typeName="Stratagem" hidden="false" id="d475-e7de-4eab-9862">
+              <characteristics>
+                <characteristic name="Cost" typeId="c27c-0e5a-de9d-b3e0">1 CP</characteristic>
+                <characteristic name="When" typeId="2776-e6cb-a43f-26ad">Your Movement Phase</characteristic>
+                <characteristic name="Target" typeId="3a96-ef72-6d83-9255">One ^^**Adeptus Astartes^^** unit from your army.</characteristic>
+                <characteristic name="Effect" typeId="b790-342c-6ab0-5354">Until the end of the turn, that unit is eligible to Shoot and declare a Charge in a turn in which it Advanced or Fell Back.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e5bd-3ea7-755b-8d1d" includeChildSelections="false"/>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="51ea-590a-a545-9d86" includeChildSelections="false"/>
+          </constraints>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="lessThan" value="1" field="selections" scope="roster" childId="81a2-4318-c840-317b" shared="true" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
         </selectionEntry>
       </selectionEntries>
     </selectionEntry>
