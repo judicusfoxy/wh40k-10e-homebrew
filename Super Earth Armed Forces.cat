@@ -701,12 +701,8 @@ Ahhh! Delicious!(Aura): While a friendly SUPER EARTH ARMED FORCES infantry unit 
       <infoLinks>
         <infoLink name="Hellpod Drop" id="be43-f797-b1bc-68b2" hidden="false" type="rule" targetId="hellpodrule"/>
         <infoLink name="Deep Strike" id="58b1-9ce4-a979-a2a8" hidden="false" type="rule" targetId="7cb5-dd6b-dd87-ad3b"/>
-        <infoLink name="Feel No Pain" id="f570-f170-825e-5b16" hidden="false" type="rule" targetId="9bf4-280f-bbe2-6fbb">
-          <modifiers>
-            <modifier type="append" value="5+" field="name"/>
-          </modifiers>
-        </infoLink>
         <infoLink name="Helldiver Squads" id="dd86-b08d-794e-8456" hidden="false" type="rule" targetId="caee-367a-10c7-302c"/>
+        <infoLink name="Stims" id="b6d8-b756-bdb4-ecc5" hidden="false" type="rule" targetId="c5d0-0ca6-8562-45a6"/>
       </infoLinks>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Peacemaker" hidden="false" id="dbe9-47d6-9b86-0a5e">
@@ -1418,12 +1414,8 @@ Ahhh! Delicious!(Aura): While a friendly SUPER EARTH ARMED FORCES infantry unit 
       <infoLinks>
         <infoLink name="Deep Strike" id="34fc-6ca5-a93f-0d2a" hidden="false" type="rule" targetId="7cb5-dd6b-dd87-ad3b"/>
         <infoLink name="Hellpod Drop" id="23d3-eb90-27df-b829" hidden="false" type="rule" targetId="hellpodrule"/>
-        <infoLink name="Feel No Pain" id="ae1e-85b9-cb0e-2d93" hidden="false" type="rule" targetId="9bf4-280f-bbe2-6fbb">
-          <modifiers>
-            <modifier type="append" value="5+" field="name"/>
-          </modifiers>
-        </infoLink>
         <infoLink name="Helldiver Squads" id="45f4-a55f-19d2-dca1" hidden="false" type="rule" targetId="caee-367a-10c7-302c"/>
+        <infoLink name="Stims" id="792c-d363-26e0-ea83" hidden="false" type="rule" targetId="c5d0-0ca6-8562-45a6"/>
       </infoLinks>
       <profiles>
         <profile name="Leader" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="6e3b-56a7-3801-7f24">
@@ -1494,13 +1486,9 @@ Ahhh! Delicious!(Aura): While a friendly SUPER EARTH ARMED FORCES infantry unit 
     <selectionEntry type="unit" import="true" name="Freedom Flamers" hidden="false" id="9e69-97eb-b30a-6205">
       <infoLinks>
         <infoLink name="Hellpod Drop" id="a53e-db1e-170a-4cc7" hidden="false" type="rule" targetId="hellpodrule"/>
-        <infoLink name="Feel No Pain" id="d8d1-9e51-50cb-fe9d" hidden="false" type="rule" targetId="9bf4-280f-bbe2-6fbb">
-          <modifiers>
-            <modifier type="append" value="5+" field="name"/>
-          </modifiers>
-        </infoLink>
         <infoLink name="Deep Strike" id="df76-a19f-24fb-fcee" hidden="false" type="rule" targetId="7cb5-dd6b-dd87-ad3b"/>
         <infoLink name="Helldiver Squads" id="e442-f899-96fb-7e88" hidden="false" type="rule" targetId="caee-367a-10c7-302c"/>
+        <infoLink name="Stims" id="5b26-b2c6-2ec4-23e0" hidden="false" type="rule" targetId="c5d0-0ca6-8562-45a6"/>
       </infoLinks>
       <constraints>
         <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="bfc3-1be4-0d54-7d99"/>
@@ -1840,12 +1828,8 @@ Ahhh! Delicious!(Aura): While a friendly SUPER EARTH ARMED FORCES infantry unit 
       </categoryLinks>
       <infoLinks>
         <infoLink name="Deep Strike" id="6ac7-da64-6819-b855" hidden="false" type="rule" targetId="7cb5-dd6b-dd87-ad3b"/>
-        <infoLink name="Feel No Pain" id="9cc1-4d9d-cc70-93b8" hidden="false" type="rule" targetId="9bf4-280f-bbe2-6fbb">
-          <modifiers>
-            <modifier type="append" value="5+" field="name"/>
-          </modifiers>
-        </infoLink>
         <infoLink name="Hellpod Drop" id="b13a-89ca-5e12-7d4b" hidden="false" type="rule" targetId="hellpodrule"/>
+        <infoLink name="Stims" id="31bc-2464-2e8d-7d5c" hidden="false" type="rule" targetId="c5d0-0ca6-8562-45a6"/>
       </infoLinks>
       <selectionEntryGroups>
         <selectionEntryGroup name="Helldiver Heavy Weapons Teams" id="2cc9-1159-a0c8-9f94" hidden="false">
@@ -2526,14 +2510,10 @@ Ahhh! Delicious!(Aura): While a friendly SUPER EARTH ARMED FORCES infantry unit 
       </profiles>
       <infoLinks>
         <infoLink name="Hellpod Drop" id="cb22-9a9e-0f88-32c1" hidden="false" type="rule" targetId="hellpodrule"/>
-        <infoLink name="Feel No Pain" id="e7e1-a28b-233c-f395" hidden="false" type="rule" targetId="9bf4-280f-bbe2-6fbb">
-          <modifiers>
-            <modifier type="append" value="5+" field="name"/>
-          </modifiers>
-        </infoLink>
         <infoLink name="Deep Strike" id="7f9f-25f4-c876-8395" hidden="false" type="rule" targetId="7cb5-dd6b-dd87-ad3b"/>
         <infoLink name="Infiltrators" id="f8d5-9cff-8523-84e2" hidden="false" type="rule" targetId="c05d-f4c3-f091-4938"/>
         <infoLink name="Helldiver Squads" id="cc37-b601-8d80-ffe2" hidden="false" type="rule" targetId="caee-367a-10c7-302c"/>
+        <infoLink name="Stims" id="1613-c123-51b1-552e" hidden="false" type="rule" targetId="c5d0-0ca6-8562-45a6"/>
       </infoLinks>
       <constraints>
         <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="3de5-c8c6-a040-74da"/>
@@ -2751,13 +2731,9 @@ Ahhh! Delicious!(Aura): While a friendly SUPER EARTH ARMED FORCES infantry unit 
       </categoryLinks>
       <infoLinks>
         <infoLink name="Hellpod Drop" id="faec-c4c8-846d-6b71" hidden="false" type="rule" targetId="hellpodrule"/>
-        <infoLink name="Feel No Pain" id="caf6-71ec-320e-cdd5" hidden="false" type="rule" targetId="9bf4-280f-bbe2-6fbb">
-          <modifiers>
-            <modifier type="append" value="5+" field="name"/>
-          </modifiers>
-        </infoLink>
         <infoLink name="Deep Strike" id="1b12-8f81-b55d-c6e0" hidden="false" type="rule" targetId="7cb5-dd6b-dd87-ad3b"/>
         <infoLink name="Helldiver Squads" id="eee3-5adc-f110-3a48" hidden="false" type="rule" targetId="caee-367a-10c7-302c"/>
+        <infoLink name="Stims" id="c146-cabb-d974-d7f6" hidden="false" type="rule" targetId="c5d0-0ca6-8562-45a6"/>
       </infoLinks>
       <selectionEntryGroups>
         <selectionEntryGroup name="Helldivers" id="5f5c-76a4-b762-cf8c" hidden="false">
@@ -3091,12 +3067,8 @@ Ahhh! Delicious!(Aura): While a friendly SUPER EARTH ARMED FORCES infantry unit 
       </constraints>
       <infoLinks>
         <infoLink name="Hellpod Drop" id="a706-8c1c-a94e-6490" hidden="false" type="rule" targetId="hellpodrule"/>
-        <infoLink name="Feel No Pain" id="f32d-fad9-69a2-8fef" hidden="false" type="rule" targetId="9bf4-280f-bbe2-6fbb">
-          <modifiers>
-            <modifier type="append" value="5+" field="name"/>
-          </modifiers>
-        </infoLink>
         <infoLink name="Deep Strike" id="acf6-bee5-06ba-3905" hidden="false" type="rule" targetId="7cb5-dd6b-dd87-ad3b"/>
+        <infoLink name="Stims" id="7773-5380-76a4-c686" hidden="false" type="rule" targetId="c5d0-0ca6-8562-45a6"/>
       </infoLinks>
       <profiles>
         <profile name="Leader" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="2a65-39f2-4551-7ca6">
@@ -3199,13 +3171,9 @@ Ahhh! Delicious!(Aura): While a friendly SUPER EARTH ARMED FORCES infantry unit 
     <selectionEntry type="model" import="true" name="Champion of the People" hidden="false" id="610b-50f3-50bd-ab0b">
       <infoLinks>
         <infoLink name="Hellpod Drop" id="c3d0-a245-9b57-c6a0" hidden="false" type="rule" targetId="hellpodrule"/>
-        <infoLink name="Feel No Pain" id="61c9-aa56-7f16-614c" hidden="false" type="rule" targetId="9bf4-280f-bbe2-6fbb">
-          <modifiers>
-            <modifier type="append" value="5+" field="name"/>
-          </modifiers>
-        </infoLink>
         <infoLink name="Deep Strike" id="e3b9-9b1f-9a05-a6b8" hidden="false" type="rule" targetId="7cb5-dd6b-dd87-ad3b"/>
         <infoLink name="Democracy Protects" id="9f6d-e270-6ba1-553b" hidden="false" type="profile" targetId="2dbb-c211-998d-3ecf"/>
+        <infoLink name="Stims" id="a47e-3cb3-5d95-d20b" hidden="false" type="rule" targetId="c5d0-0ca6-8562-45a6"/>
       </infoLinks>
       <constraints>
         <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="bcd0-fb1e-52a4-2aad"/>
@@ -3338,17 +3306,13 @@ Ahhh! Delicious!(Aura): While a friendly SUPER EARTH ARMED FORCES infantry unit 
       <infoLinks>
         <infoLink name="Infiltrators" id="c19c-297f-30ac-a6bb" hidden="false" type="rule" targetId="c05d-f4c3-f091-4938"/>
         <infoLink name="Hellpod Drop" id="5df5-c1ca-dcc5-0e10" hidden="false" type="rule" targetId="hellpodrule"/>
-        <infoLink name="Feel No Pain" id="a48b-40ef-0454-e47d" hidden="false" type="rule" targetId="9bf4-280f-bbe2-6fbb">
-          <modifiers>
-            <modifier type="append" value="5+" field="name"/>
-          </modifiers>
-        </infoLink>
         <infoLink name="Scouts" id="0665-4bcf-c738-1c69" hidden="false" type="rule" targetId="ada6-bac1-ffe0-d6f7">
           <modifiers>
             <modifier type="append" value="7&quot;" field="name"/>
           </modifiers>
         </infoLink>
         <infoLink name="Helldiver Squads" id="ea47-d5d6-4a39-4c02" hidden="false" type="rule" targetId="caee-367a-10c7-302c"/>
+        <infoLink name="Stims" id="2c10-dfd3-a5fd-ebe5" hidden="false" type="rule" targetId="c5d0-0ca6-8562-45a6"/>
       </infoLinks>
       <profiles>
         <profile name="Clandestine Operators" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="79e3-0f89-1867-2642">
@@ -3647,13 +3611,9 @@ Ahhh! Delicious!(Aura): While a friendly SUPER EARTH ARMED FORCES infantry unit 
       </selectionEntryGroups>
       <infoLinks>
         <infoLink name="Deep Strike" id="2323-0f28-1908-ee21" hidden="false" type="rule" targetId="7cb5-dd6b-dd87-ad3b"/>
-        <infoLink name="Feel No Pain" id="03b4-538c-c241-4179" hidden="false" type="rule" targetId="9bf4-280f-bbe2-6fbb">
-          <modifiers>
-            <modifier type="append" value="5+" field="name"/>
-          </modifiers>
-        </infoLink>
         <infoLink name="Hellpod Drop" id="bd90-162a-c74a-a46c" hidden="false" type="rule" targetId="hellpodrule"/>
         <infoLink name="Helldiver Squads" id="7271-26ba-8e46-7419" hidden="false" type="rule" targetId="caee-367a-10c7-302c"/>
+        <infoLink name="Stims" id="f821-514b-7063-01c3" hidden="false" type="rule" targetId="c5d0-0ca6-8562-45a6"/>
       </infoLinks>
       <profiles>
         <profile name="Trench Engineers" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="6804-5405-23de-fad2">
@@ -3739,15 +3699,11 @@ Ahhh! Delicious!(Aura): While a friendly SUPER EARTH ARMED FORCES infantry unit 
       </profiles>
       <infoLinks>
         <infoLink name="Hellpod Drop" id="e493-0a0b-459c-9d52" hidden="false" type="rule" targetId="hellpodrule"/>
-        <infoLink name="Feel No Pain" id="4fe9-f90e-9d80-51b1" hidden="false" type="rule" targetId="9bf4-280f-bbe2-6fbb">
-          <modifiers>
-            <modifier type="append" value="5+" field="name"/>
-          </modifiers>
-        </infoLink>
         <infoLink name="Deep Strike" id="54d7-bf3c-4212-4fb4" hidden="false" type="rule" targetId="7cb5-dd6b-dd87-ad3b"/>
         <infoLink name="Lone Operative" id="f335-3132-3ec4-c738" hidden="false" type="rule" targetId="a8a0-8fe7-898-e0f3"/>
         <infoLink name="Stealth" id="2409-fe3d-84de-3219" hidden="false" type="rule" targetId="bec5-4288-34a6-ccfa"/>
         <infoLink name="Infiltrators" id="8a1e-70fc-9550-d16c" hidden="false" type="rule" targetId="c05d-f4c3-f091-4938"/>
+        <infoLink name="Stims" id="f6e7-989d-f4c1-b424" hidden="false" type="rule" targetId="c5d0-0ca6-8562-45a6"/>
       </infoLinks>
       <constraints>
         <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0817-8f0c-50b9-29fb"/>
@@ -3850,12 +3806,8 @@ Ahhh! Delicious!(Aura): While a friendly SUPER EARTH ARMED FORCES infantry unit 
     <selectionEntry type="model" import="true" name="Fire Safety Officer Judicus" hidden="false" id="f817-54c5-bc5c-1169">
       <infoLinks>
         <infoLink name="Hellpod Drop" id="b1b3-237a-4ff8-c351" hidden="false" type="rule" targetId="hellpodrule"/>
-        <infoLink name="Feel No Pain" id="3653-9215-0636-6ffb" hidden="false" type="rule" targetId="9bf4-280f-bbe2-6fbb">
-          <modifiers>
-            <modifier type="append" value="5+" field="name"/>
-          </modifiers>
-        </infoLink>
         <infoLink name="Deep Strike" id="88cb-07e4-5de4-4413" hidden="false" type="rule" targetId="7cb5-dd6b-dd87-ad3b"/>
+        <infoLink name="Stims" id="d556-463d-e858-44af" hidden="false" type="rule" targetId="c5d0-0ca6-8562-45a6"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink targetId="9cfd-1c32-585f-7d5c" id="7725-1b07-eeaf-fbd6" primary="false" name="Character"/>
@@ -3973,13 +3925,9 @@ Ahhh! Delicious!(Aura): While a friendly SUPER EARTH ARMED FORCES infantry unit 
     <selectionEntry type="model" import="true" name="Anarchy Officer Rex" hidden="false" id="1e60-780f-09b9-3664">
       <infoLinks>
         <infoLink name="Hellpod Drop" id="3069-981a-64d1-555c" hidden="false" type="rule" targetId="hellpodrule"/>
-        <infoLink name="Feel No Pain" id="4166-3ae7-ee09-de97" hidden="false" type="rule" targetId="9bf4-280f-bbe2-6fbb">
-          <modifiers>
-            <modifier type="append" value="5+" field="name"/>
-          </modifiers>
-        </infoLink>
         <infoLink name="Deep Strike" id="ef60-dd08-7387-e771" hidden="false" type="rule" targetId="7cb5-dd6b-dd87-ad3b"/>
         <infoLink name="Democracy Protects" id="7374-78b9-b58f-ed30" hidden="false" type="profile" targetId="2dbb-c211-998d-3ecf"/>
+        <infoLink name="Stims" id="6825-c082-09bc-2d09" hidden="false" type="rule" targetId="c5d0-0ca6-8562-45a6"/>
       </infoLinks>
       <profiles>
         <profile name="Invulnerable Save" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="9fe7-2cb8-5080-5ff9">
@@ -4142,12 +4090,8 @@ Ahhh! Delicious!(Aura): While a friendly SUPER EARTH ARMED FORCES infantry unit 
       <infoLinks>
         <infoLink name="Hellpod Drop" id="ab15-e418-0dea-f94d" hidden="false" type="rule" targetId="hellpodrule"/>
         <infoLink name="Helldiver Squads" id="87ed-5aa5-56f6-7f0b" hidden="false" type="rule" targetId="caee-367a-10c7-302c"/>
-        <infoLink name="Feel No Pain" id="ee98-a1ac-d120-48d9" hidden="false" type="rule" targetId="9bf4-280f-bbe2-6fbb">
-          <modifiers>
-            <modifier type="append" value="5+" field="name"/>
-          </modifiers>
-        </infoLink>
         <infoLink name="Deep Strike" id="5cd7-6140-5e55-76bd" hidden="false" type="rule" targetId="7cb5-dd6b-dd87-ad3b"/>
+        <infoLink name="Stims" id="76aa-33c0-a595-d9f3" hidden="false" type="rule" targetId="c5d0-0ca6-8562-45a6"/>
       </infoLinks>
       <selectionEntryGroups>
         <selectionEntryGroup name="Helldivers" id="1199-5574-e81f-ca10" hidden="false">
@@ -4286,12 +4230,8 @@ Ahhh! Delicious!(Aura): While a friendly SUPER EARTH ARMED FORCES infantry unit 
       <infoLinks>
         <infoLink name="Hellpod Drop" id="474c-0720-e95e-dc58" hidden="false" type="rule" targetId="hellpodrule"/>
         <infoLink name="Helldiver Squads" id="0858-8e2a-4124-6b75" hidden="false" type="rule" targetId="caee-367a-10c7-302c"/>
-        <infoLink name="Feel No Pain" id="c7f0-a5e7-e30a-8abf" hidden="false" type="rule" targetId="9bf4-280f-bbe2-6fbb">
-          <modifiers>
-            <modifier type="append" value="5+" field="name"/>
-          </modifiers>
-        </infoLink>
         <infoLink name="Deep Strike" id="8011-2dfe-5e5d-60c8" hidden="false" type="rule" targetId="7cb5-dd6b-dd87-ad3b"/>
+        <infoLink name="Stims" id="259d-88fa-177c-85d0" hidden="false" type="rule" targetId="c5d0-0ca6-8562-45a6"/>
       </infoLinks>
       <constraints>
         <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="1d70-1120-d9ea-f7b3"/>
@@ -4594,6 +4534,9 @@ Ahhh! Delicious!(Aura): While a friendly SUPER EARTH ARMED FORCES infantry unit 
     </rule>
     <rule name="Helldiver Squads" id="caee-367a-10c7-302c" hidden="false">
       <description>For the purposes of Blast weapons, infantry squads with the Helldiver keyword count as having +1 models.</description>
+    </rule>
+    <rule name="Stims" id="c5d0-0ca6-8562-45a6" hidden="false">
+      <description>Once per battle, in any phase, just after a mortal wound is allocated to a Super Earth Armed Forces model in this unit, this unit can activate its stims. When it does, until the end of the phase, models in this unit have the Feel No Pain 5+ ability.</description>
     </rule>
   </sharedRules>
   <sharedProfiles>
