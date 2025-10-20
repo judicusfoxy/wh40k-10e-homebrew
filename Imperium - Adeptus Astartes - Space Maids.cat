@@ -497,7 +497,7 @@ Mother&apos;s Reassurance (Aura): While a friendly ^^**Adeptus Astartes^^** unit
         <categoryLink targetId="f923-9f2d-a3a2-14fc" id="26d7-5285-c64b-13eb" primary="false" name="Faction: Space Maids"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry type="upgrade" import="true" name="Nyara" hidden="false" id="dbf8-aabc-f2aa-b85b">
+        <selectionEntry type="model" import="true" name="Nyara" hidden="false" id="dbf8-aabc-f2aa-b85b">
           <constraints>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e45b-debd-b2f7-046c" includeChildSelections="false"/>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="73d3-e638-8449-53be" includeChildSelections="false"/>
@@ -571,7 +571,7 @@ Mother&apos;s Reassurance (Aura): While a friendly ^^**Adeptus Astartes^^** unit
             </selectionEntryGroup>
           </selectionEntryGroups>
         </selectionEntry>
-        <selectionEntry type="upgrade" import="true" name="Nyora" hidden="false" id="b845-c3a4-65ee-ee76">
+        <selectionEntry type="model" import="true" name="Nyora" hidden="false" id="b845-c3a4-65ee-ee76">
           <constraints>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="b7ea-fb70-69a8-1bbb" includeChildSelections="false"/>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a268-b0cd-d172-1624" includeChildSelections="false"/>
