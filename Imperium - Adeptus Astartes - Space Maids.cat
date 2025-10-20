@@ -397,7 +397,7 @@ Mother&apos;s Reassurance (Aura): While a friendly ^^**Adeptus Astartes^^** unit
                 <characteristic name="Cost" typeId="c27c-0e5a-de9d-b3e0">1 CP</characteristic>
                 <characteristic name="When" typeId="2776-e6cb-a43f-26ad">Your opponents Shooting Phase or the Fights Phase, just after an enemy unit has selected its targets</characteristic>
                 <characteristic name="Target" typeId="3a96-ef72-6d83-9255">One ^^**Adeptus Astartes^^** unit from your army that was selected as the target of one or more of that enemy units attacks</characteristic>
-                <characteristic name="Effect" typeId="b790-342c-6ab0-5354">Until the end of the phase, that unit can reroll saving throw rolls of 1.</characteristic>
+                <characteristic name="Effect" typeId="b790-342c-6ab0-5354">Until the end of the phase, that unit can reroll invulnerable saving throw rolls of 1.</characteristic>
               </characteristics>
             </profile>
             <profile name="Invaders must Chai" typeId="30ff-37ca-2012-7d18" typeName="Stratagem" hidden="false" id="d5ea-ce4c-199f-e097">
