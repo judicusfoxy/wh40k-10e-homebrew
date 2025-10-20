@@ -704,35 +704,43 @@ Mother&apos;s Reassurance (Aura): While a friendly ^^**Adeptus Astartes^^** unit
         </profile>
       </profiles>
       <selectionEntryGroups>
-        <selectionEntryGroup name="Whiskercleave and Power Paw" id="ea1d-1b59-9359-b19b" hidden="false">
-          <profiles>
-            <profile name="➤ Whiskercleave and Power Paw - Sweep" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons" hidden="false" id="ca08-6500-6c60-e2a5">
-              <characteristics>
-                <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
-                <characteristic name="A" typeId="2337-daa1-6682-b110">10</characteristic>
-                <characteristic name="WS" typeId="95d1-95f-45b4-11d6">2+</characteristic>
-                <characteristic name="S" typeId="ab33-d393-96ce-ccba">5</characteristic>
-                <characteristic name="AP" typeId="41a0-1301-112a-e2f2">-2</characteristic>
-                <characteristic name="D" typeId="3254-9fe6-d824-513e">1</characteristic>
-                <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">Sustained Hits 1</characteristic>
-              </characteristics>
-            </profile>
-            <profile name="➤ Whiskercleave and Power Paw - Strike" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons" hidden="false" id="2068-7ddb-1235-6a03">
-              <characteristics>
-                <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
-                <characteristic name="A" typeId="2337-daa1-6682-b110">5</characteristic>
-                <characteristic name="WS" typeId="95d1-95f-45b4-11d6">2+</characteristic>
-                <characteristic name="S" typeId="ab33-d393-96ce-ccba">8</characteristic>
-                <characteristic name="AP" typeId="41a0-1301-112a-e2f2">-3</characteristic>
-                <characteristic name="D" typeId="3254-9fe6-d824-513e">3</characteristic>
-                <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">Anti-Vehicle 4+, Anti-Monster 4+</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <infoLinks>
-            <infoLink name="Anti-" id="cd26-43d0-1d72-17ea" hidden="false" type="rule" targetId="4111-82e3-9444-e942"/>
-            <infoLink name="Sustained Hits" id="d5f8-4f3d-e2a2-7165" hidden="false" type="rule" targetId="1897-c22c-9597-12b1"/>
-          </infoLinks>
+        <selectionEntryGroup name="Wargear" id="ea1d-1b59-9359-b19b" hidden="false">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Whiskercleave and Power Paw" hidden="false" id="1eb1-c1de-281d-2660">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="081b-aedf-87a8-1ee6" includeChildSelections="false"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="424c-cdc1-b389-8735" includeChildSelections="false"/>
+              </constraints>
+              <infoLinks>
+                <infoLink name="Sustained Hits" id="d5f8-4f3d-e2a2-7165" hidden="false" type="rule" targetId="1897-c22c-9597-12b1"/>
+                <infoLink name="Anti-" id="cd26-43d0-1d72-17ea" hidden="false" type="rule" targetId="4111-82e3-9444-e942"/>
+              </infoLinks>
+              <profiles>
+                <profile name="➤ Whiskercleave and Power Paw - Sweep" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons" hidden="false" id="ca08-6500-6c60-e2a5">
+                  <characteristics>
+                    <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
+                    <characteristic name="A" typeId="2337-daa1-6682-b110">10</characteristic>
+                    <characteristic name="WS" typeId="95d1-95f-45b4-11d6">2+</characteristic>
+                    <characteristic name="S" typeId="ab33-d393-96ce-ccba">5</characteristic>
+                    <characteristic name="AP" typeId="41a0-1301-112a-e2f2">-2</characteristic>
+                    <characteristic name="D" typeId="3254-9fe6-d824-513e">1</characteristic>
+                    <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">Sustained Hits 1</characteristic>
+                  </characteristics>
+                </profile>
+                <profile name="➤ Whiskercleave and Power Paw - Strike" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons" hidden="false" id="2068-7ddb-1235-6a03">
+                  <characteristics>
+                    <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
+                    <characteristic name="A" typeId="2337-daa1-6682-b110">5</characteristic>
+                    <characteristic name="WS" typeId="95d1-95f-45b4-11d6">2+</characteristic>
+                    <characteristic name="S" typeId="ab33-d393-96ce-ccba">8</characteristic>
+                    <characteristic name="AP" typeId="41a0-1301-112a-e2f2">-3</characteristic>
+                    <characteristic name="D" typeId="3254-9fe6-d824-513e">3</characteristic>
+                    <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">Anti-Vehicle 4+, Anti-Monster 4+</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+          </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <infoLinks>
