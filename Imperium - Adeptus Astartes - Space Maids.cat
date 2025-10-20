@@ -176,14 +176,14 @@ Mother&apos;s Reassurance (Aura): While a friendly ^^**Adeptus Astartes^^** unit
                 <characteristic name="Cost" typeId="c27c-0e5a-de9d-b3e0">1 CP</characteristic>
                 <characteristic name="When" typeId="2776-e6cb-a43f-26ad">Your Movement Phase</characteristic>
                 <characteristic name="Target" typeId="3a96-ef72-6d83-9255">One ^^**Adeptus Astartes^^** unit from your army</characteristic>
-                <characteristic name="Effect" typeId="b790-342c-6ab0-5354">Your unit can move through enemy models as if they were not there.  The unit selected for this stratagem must end their movement more than 3&quot; away from all enemy models.  </characteristic>
+                <characteristic name="Effect" typeId="b790-342c-6ab0-5354">Your unit can move through enemy models as if they were not there.  The unit selected for this stratagem must end their movement more than 3&quot; away from all enemy models.</characteristic>
               </characteristics>
             </profile>
             <profile name="Mint Conditioning" typeId="30ff-37ca-2012-7d18" typeName="Stratagem" hidden="false" id="b193-d2b8-4eec-ba95">
               <characteristics>
                 <characteristic name="Cost" typeId="c27c-0e5a-de9d-b3e0">1 CP</characteristic>
                 <characteristic name="When" typeId="2776-e6cb-a43f-26ad">Your Shooting Phase</characteristic>
-                <characteristic name="Target" typeId="3a96-ef72-6d83-9255">One ^^**Adeptus Astartes Character^^** unit from your army that hasn&apos;t been selected to shoot this phase.  </characteristic>
+                <characteristic name="Target" typeId="3a96-ef72-6d83-9255">One ^^**Adeptus Astartes Character^^** unit from your army that hasn&apos;t been selected to shoot this phase.</characteristic>
                 <characteristic name="Effect" typeId="b790-342c-6ab0-5354">Until the end of the phase, ranged weapons equipped by models in your unit have the ^^**Precision^^** Keyword.</characteristic>
               </characteristics>
             </profile>
@@ -381,7 +381,7 @@ Mother&apos;s Reassurance (Aura): While a friendly ^^**Adeptus Astartes^^** unit
                 <characteristic name="Cost" typeId="c27c-0e5a-de9d-b3e0">1 CP</characteristic>
                 <characteristic name="When" typeId="2776-e6cb-a43f-26ad">The start of your Movement Phase</characteristic>
                 <characteristic name="Target" typeId="3a96-ef72-6d83-9255">One ^^**Adeptus Astartes^^** unit from your army.</characteristic>
-                <characteristic name="Effect" typeId="b790-342c-6ab0-5354">Until the end of the phase, each time your unit makes a normal move, add 3&quot; to the move characteristic of models in that unit.  </characteristic>
+                <characteristic name="Effect" typeId="b790-342c-6ab0-5354">Until the end of the phase, each time your unit makes a normal move, add 3&quot; to the move characteristic of models in that unit.</characteristic>
               </characteristics>
             </profile>
             <profile name="Hibiscian Cuisine" typeId="30ff-37ca-2012-7d18" typeName="Stratagem" hidden="false" id="55f1-4e07-6197-7de5">
@@ -435,7 +435,7 @@ Mother&apos;s Reassurance (Aura): While a friendly ^^**Adeptus Astartes^^** unit
               <characteristics>
                 <characteristic name="Cost" typeId="c27c-0e5a-de9d-b3e0">1 CP</characteristic>
                 <characteristic name="When" typeId="2776-e6cb-a43f-26ad">The start of your Command Phase</characteristic>
-                <characteristic name="Target" typeId="3a96-ef72-6d83-9255">One ^^**Adeptus Astartes Infantry^^** unit from your army within range of an objective marker you control. </characteristic>
+                <characteristic name="Target" typeId="3a96-ef72-6d83-9255">One ^^**Adeptus Astartes Infantry^^** unit from your army within range of an objective marker you control.</characteristic>
                 <characteristic name="Effect" typeId="b790-342c-6ab0-5354">That objective marker is said to be scorched, and remains under your control even if no models from your army are within range of it, until your opponent controls it at the start or end of any turn.  While an objective marker is scorched, each time an enemy unit ends a Normal, Fall Back, Advance, or Charge move within range of that objective, roll one D6.  On a 2+, that enemy unit suffers D3 mortal wounds.</characteristic>
               </characteristics>
             </profile>
@@ -443,15 +443,15 @@ Mother&apos;s Reassurance (Aura): While a friendly ^^**Adeptus Astartes^^** unit
               <characteristics>
                 <characteristic name="Cost" typeId="c27c-0e5a-de9d-b3e0">2 CP</characteristic>
                 <characteristic name="When" typeId="2776-e6cb-a43f-26ad">Fights Phase, just after an enemy unit has finished selecting its targets.</characteristic>
-                <characteristic name="Target" typeId="3a96-ef72-6d83-9255">One ^^**Adeptus Astartes^^** unit from your army that was just selected as a target of one or more of those attacks.  </characteristic>
-                <characteristic name="Effect" typeId="b790-342c-6ab0-5354">Until the end of the phase, each time an attack is allocated to a model in your unit, subtract 1 from the damage characteristic of that attack.  </characteristic>
+                <characteristic name="Target" typeId="3a96-ef72-6d83-9255">One ^^**Adeptus Astartes^^** unit from your army that was just selected as a target of one or more of those attacks.</characteristic>
+                <characteristic name="Effect" typeId="b790-342c-6ab0-5354">Until the end of the phase, each time an attack is allocated to a model in your unit, subtract 1 from the damage characteristic of that attack.</characteristic>
               </characteristics>
             </profile>
             <profile name="Hellfire! Hellfire!" typeId="30ff-37ca-2012-7d18" typeName="Stratagem" hidden="false" id="2863-b24b-8ea4-a90f">
               <characteristics>
                 <characteristic name="Cost" typeId="c27c-0e5a-de9d-b3e0">1 CP</characteristic>
                 <characteristic name="When" typeId="2776-e6cb-a43f-26ad">Your Shooting Phase</characteristic>
-                <characteristic name="Target" typeId="3a96-ef72-6d83-9255">One ^^**Adeptus Astartes^^** unit from your army that has not been selected to shoot this phase.  </characteristic>
+                <characteristic name="Target" typeId="3a96-ef72-6d83-9255">One ^^**Adeptus Astartes^^** unit from your army that has not been selected to shoot this phase.</characteristic>
                 <characteristic name="Effect" typeId="b790-342c-6ab0-5354">Until the end of the phase, ranged weapons equipped by that unit have the Ignores Cover keyword.</characteristic>
               </characteristics>
             </profile>
@@ -763,6 +763,476 @@ Mother&apos;s Reassurance (Aura): While a friendly ^^**Adeptus Astartes^^** unit
         <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5303-cab7-3d34-ed68" includeChildSelections="false"/>
       </constraints>
     </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Terminator Squad" hidden="false" id="143c-7439-7a7f-7e13">
+      <constraints>
+        <constraint type="max" value="3" field="selections" scope="roster" shared="true" id="2a65-7c02-c131-e177"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink name="Infantry" hidden="false" id="0c7c-56c3-4906-c3af" targetId="cf47-a0d7-7207-29dc" primary="true"/>
+        <categoryLink name="Imperium" hidden="false" id="2641-139d-1d1f-706b" targetId="aff3-d6a3-2a95-9dc" primary="false"/>
+        <categoryLink name="Terminator" hidden="false" id="f02e-6316-fe7b-ce20" targetId="740a-892c-8958-defa" primary="false"/>
+        <categoryLink name="Terminator Squad" hidden="false" id="4a55-44b1-5606-826a" targetId="6179-3533-ba6-9593" primary="false"/>
+        <categoryLink name="Faction: Adeptus Astartes" hidden="false" id="c151-f32f-2839-c0c0" targetId="6e7-40c-58d9-e402" primary="false"/>
+      </categoryLinks>
+      <infoLinks>
+        <infoLink name="Deep Strike" id="a6ef-5225-d51e-2ae8" hidden="false" type="rule" targetId="7cb5-dd6b-dd87-ad3b"/>
+        <infoLink name="Invulnerable Save" id="a10d-5200-6813-1ee5" hidden="false" type="profile" targetId="db19-dee7-9530-ef0e"/>
+        <infoLink name="Courses of War" id="f044-6176-2c79-c2bd" hidden="false" type="rule" targetId="8def-0789-e018-fda5"/>
+      </infoLinks>
+      <profiles>
+        <profile name="Teleport Homer" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="fb47-a31e-31b3-4fd4">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">At the start of the battle, you can set up one Teleport Homer token for this unit anywhere on the battlefield that is not in your opponent’s deployment zone. If you do, once per battle, you can target this unit with the Rapid Ingress Stratagem for 0CP, but when resolving that Stratagem, you must set this unit up within 3&quot; horizontally of that token and not within 9&quot; horizontally of any enemy models. That token is then removed.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Fury of the First" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="254b-a32f-cc52-807e">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Each time a model in this unit makes a ranged attack that targets the closest enemy unit, you can re-roll the Hit roll. Each time this unit declares a charge that targets the closest enemy unit, you can re-roll the Charge roll.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name="pts" typeId="51b2-306e-1021-d207" value="170"/>
+        <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
+        <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="0"/>
+        <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
+        <cost name="Crusade: Weapon Modifications" typeId="716d-91b7-d55a-1022" value="0"/>
+      </costs>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Terminators" id="0863-8f89-5d78-8675" hidden="false" defaultSelectionEntryId="2-e9c0-140-a1ef" sortIndex="2">
+          <selectionEntries>
+            <selectionEntry type="model" import="true" name="Terminator Sergeant" hidden="false" id="334f-bdd2-26b4-770e">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="cc65-056c-996b-57fa"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0b30-bac1-967a-2aae"/>
+              </constraints>
+              <entryLinks>
+                <entryLink import="true" name="Storm Bolter" hidden="false" id="cd48-8498-3d15-03e9" type="selectionEntry" targetId="eb61-5cd0-5242-74cc">
+                  <constraints>
+                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="eb4f-1251-a432-6dba"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6e5e-4838-e6ab-cf05"/>
+                  </constraints>
+                  <entryLinks>
+                    <entryLink import="true" name="Weapon Modifications" hidden="false" id="de17-c6ac-79aa-9a84" type="selectionEntryGroup" targetId="f9da-852a-d7f0-92e9"/>
+                  </entryLinks>
+                </entryLink>
+                <entryLink import="true" name="Terminator Honours upgrade" hidden="false" id="1e05-536e-d469-32c2" type="selectionEntry" targetId="e7f9-66f5-9b9e-c587"/>
+              </entryLinks>
+              <selectionEntryGroups>
+                <selectionEntryGroup name="Weapon Option" id="c04a-504f-0038-7e97" hidden="false" defaultSelectionEntryId="7227-b99b-6f6e-d8ee">
+                  <constraints>
+                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="eca6-d86c-57da-57c3"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="73f5-d4e2-642b-ec1a"/>
+                  </constraints>
+                  <entryLinks>
+                    <entryLink import="true" name="Power Weapon" hidden="false" id="2adb-514b-88f3-f5d9" type="selectionEntry" targetId="50dd-3e76-d993-4d1a">
+                      <entryLinks>
+                        <entryLink import="true" name="Weapon Modifications" hidden="false" id="d4a3-20a9-e0e9-84ab" type="selectionEntryGroup" targetId="f9da-852a-d7f0-92e9"/>
+                      </entryLinks>
+                    </entryLink>
+                    <entryLink import="true" name="Chainfist" hidden="false" id="9c72-9540-e221-3f8d" type="selectionEntry" targetId="5a2-c6a5-9b4b-605f">
+                      <entryLinks>
+                        <entryLink import="true" name="Weapon Modifications" hidden="false" id="9acc-5e95-77d5-9184" type="selectionEntryGroup" targetId="f9da-852a-d7f0-92e9"/>
+                      </entryLinks>
+                    </entryLink>
+                    <entryLink import="true" name="Power Fist" hidden="false" id="726d-6b50-1370-0c71" type="selectionEntry" targetId="f8d8-7e77-4b71-faac">
+                      <entryLinks>
+                        <entryLink import="true" name="Weapon Modifications" hidden="false" id="8c35-b605-4997-9644" type="selectionEntryGroup" targetId="f9da-852a-d7f0-92e9"/>
+                      </entryLinks>
+                    </entryLink>
+                  </entryLinks>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+              <profiles>
+                <profile name="Terminator Sergeant" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="9fb2-a0b6-4ebb-1aa8">
+                  <characteristics>
+                    <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">5&quot;</characteristic>
+                    <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">5</characteristic>
+                    <characteristic name="SV" typeId="450-a17e-9d5e-29da">2+</characteristic>
+                    <characteristic name="W" typeId="750a-a2ec-90d3-21fe">3</characteristic>
+                    <characteristic name="LD" typeId="58d2-b879-49c7-43bc">6+</characteristic>
+                    <characteristic name="OC" typeId="bef7-942a-1a23-59f8">1</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+            <selectionEntry type="model" import="true" name="Terminator w/ Power Fist" hidden="false" id="d16f-4e9c-56e6-5d06">
+              <entryLinks>
+                <entryLink import="true" name="Power Fist" hidden="false" id="63fa-dbbd-b9e2-9daf" type="selectionEntry" targetId="f8d8-7e77-4b71-faac">
+                  <constraints>
+                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="ce3f-f4da-3247-cf8d"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="492d-73c2-4a97-9c35"/>
+                  </constraints>
+                </entryLink>
+                <entryLink import="true" name="Storm Bolter" hidden="false" id="9e14-5c2e-2036-80f0" type="selectionEntry" targetId="eb61-5cd0-5242-74cc">
+                  <constraints>
+                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="5710-beaf-d1b7-c1ed"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="cbee-6f07-aece-9733"/>
+                  </constraints>
+                </entryLink>
+              </entryLinks>
+              <constraints>
+                <constraint type="max" value="9" field="selections" scope="parent" shared="true" id="7d3a-4825-a622-831c"/>
+              </constraints>
+              <profiles>
+                <profile name="Terminator Squad" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="15cb-7cb4-cb9f-f90a">
+                  <characteristics>
+                    <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">5&quot;</characteristic>
+                    <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">5</characteristic>
+                    <characteristic name="SV" typeId="450-a17e-9d5e-29da">2+</characteristic>
+                    <characteristic name="W" typeId="750a-a2ec-90d3-21fe">3</characteristic>
+                    <characteristic name="LD" typeId="58d2-b879-49c7-43bc">6+</characteristic>
+                    <characteristic name="OC" typeId="bef7-942a-1a23-59f8">1</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+            <selectionEntry type="model" import="true" name="Terminator w/ Chain Fist" hidden="false" id="4bfc-ee76-6529-964b">
+              <entryLinks>
+                <entryLink import="true" name="Storm Bolter" hidden="false" id="24cf-ca9b-c6f2-9873" type="selectionEntry" targetId="eb61-5cd0-5242-74cc">
+                  <constraints>
+                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="c751-aaf8-0584-3110"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="dd9d-332d-29f6-2f12"/>
+                  </constraints>
+                </entryLink>
+                <entryLink import="true" name="Chainfist" hidden="false" id="23c9-264d-ea94-764d" type="selectionEntry" targetId="cb6c-970e-444a-3ec3">
+                  <constraints>
+                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="324c-4439-d0b3-d99f"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9e15-1ef0-496e-aa01"/>
+                  </constraints>
+                </entryLink>
+              </entryLinks>
+              <constraints>
+                <constraint type="max" value="9" field="selections" scope="parent" shared="true" id="d7a2-ea6f-62d7-f5e5"/>
+              </constraints>
+              <profiles>
+                <profile name="Terminator Squad" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="c9a8-7398-009c-5284">
+                  <characteristics>
+                    <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">5&quot;</characteristic>
+                    <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">5</characteristic>
+                    <characteristic name="SV" typeId="450-a17e-9d5e-29da">2+</characteristic>
+                    <characteristic name="W" typeId="750a-a2ec-90d3-21fe">3</characteristic>
+                    <characteristic name="LD" typeId="58d2-b879-49c7-43bc">6+</characteristic>
+                    <characteristic name="OC" typeId="bef7-942a-1a23-59f8">1</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+            <selectionEntry type="model" import="true" name="Terminator w/ Heavy Weapon" hidden="false" id="f826-7156-0033-d365">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3456-23bf-4922-fc8d"/>
+              </constraints>
+              <modifiers>
+                <modifier type="set" value="2" field="3456-23bf-4922-fc8d">
+                  <conditions>
+                    <condition type="equalTo" value="10" field="selections" scope="143c-7439-7a7f-7e13" childId="0863-8f89-5d78-8675" shared="true" id="b3ad-9e88-e2eb-4d24"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <selectionEntryGroups>
+                <selectionEntryGroup name="Ranged Weapon Option" id="8303-2b3e-85f2-8a57" hidden="false">
+                  <selectionEntries>
+                    <selectionEntry type="upgrade" import="true" name="Cyclone Missile Launcher &amp; Storm Bolter" hidden="false" id="c42f-ed20-041c-1f7f">
+                      <entryLinks>
+                        <entryLink import="true" name="Storm Bolter" hidden="false" id="189e-e450-aa8a-1b61" type="selectionEntry" targetId="eb61-5cd0-5242-74cc">
+                          <constraints>
+                            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="10d9-a4e4-24d2-8cd7"/>
+                            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f192-9241-95ac-c49e"/>
+                          </constraints>
+                        </entryLink>
+                        <entryLink import="true" name="Cyclone missile launcher" hidden="false" id="5dcb-b158-4b09-080c" type="selectionEntry" targetId="da0b-ae86-a275-13f1">
+                          <constraints>
+                            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="01c3-51a4-5239-f670"/>
+                            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5bf2-c548-3c05-eeec"/>
+                          </constraints>
+                        </entryLink>
+                      </entryLinks>
+                    </selectionEntry>
+                  </selectionEntries>
+                  <constraints>
+                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="b83b-e76b-d593-123c"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5f85-ec0d-105f-46e3"/>
+                  </constraints>
+                  <entryLinks>
+                    <entryLink import="true" name="Heavy Flamer" hidden="false" id="16c4-8e11-c28b-f985" type="selectionEntry" targetId="b3e6-f7a7-8357-2055"/>
+                    <entryLink import="true" name="Assault Cannon" hidden="false" id="c37f-bb0f-5ac2-cd72" type="selectionEntry" targetId="2de6-ff2-dc37-b20d"/>
+                  </entryLinks>
+                </selectionEntryGroup>
+                <selectionEntryGroup name="Melee Weapon Option" id="1707-3fdb-96a2-b020" hidden="false" defaultSelectionEntryId="e5be-2982-e40f-d95c">
+                  <entryLinks>
+                    <entryLink import="true" name="Chainfist" hidden="false" id="fa4f-72c0-914a-528a" type="selectionEntry" targetId="5a2-c6a5-9b4b-605f"/>
+                    <entryLink import="true" name="Power Fist" hidden="false" id="424f-2935-71e4-a74e" type="selectionEntry" targetId="f8d8-7e77-4b71-faac"/>
+                  </entryLinks>
+                  <constraints>
+                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="ac91-c84d-69e3-be86"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1820-e906-cb80-019c"/>
+                  </constraints>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+              <profiles>
+                <profile name="Terminator Squad" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="5bd3-7c08-d63b-00fc">
+                  <characteristics>
+                    <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">5&quot;</characteristic>
+                    <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">5</characteristic>
+                    <characteristic name="SV" typeId="450-a17e-9d5e-29da">2+</characteristic>
+                    <characteristic name="W" typeId="750a-a2ec-90d3-21fe">3</characteristic>
+                    <characteristic name="LD" typeId="58d2-b879-49c7-43bc">6+</characteristic>
+                    <characteristic name="OC" typeId="bef7-942a-1a23-59f8">1</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+          </selectionEntries>
+          <constraints>
+            <constraint type="min" value="5" field="selections" scope="parent" shared="true" id="36a4-4fc2-e76a-2560"/>
+            <constraint type="max" value="10" field="selections" scope="parent" shared="true" id="6199-7c17-25d2-d4f2"/>
+          </constraints>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <modifiers>
+        <modifier type="set" value="340" field="51b2-306e-1021-d207">
+          <conditions>
+            <condition type="atLeast" value="6" field="selections" scope="143c-7439-7a7f-7e13" childId="0863-8f89-5d78-8675" shared="true" id="a737-c45e-b704-57fe" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Sternguard Veteran Squad" hidden="false" id="c407-6430-51b1-b46d">
+      <constraints>
+        <constraint type="max" value="3" field="selections" scope="roster" shared="true" id="04c4-ee68-b439-ad50"/>
+      </constraints>
+      <costs>
+        <cost name="pts" typeId="51b2-306e-1021-d207" value="100"/>
+        <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
+        <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="0"/>
+        <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
+        <cost name="Crusade: Weapon Modifications" typeId="716d-91b7-d55a-1022" value="0"/>
+      </costs>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Sternguard Veterans" id="c44d-1051-38e6-f87b" hidden="false" defaultSelectionEntryId="5700-4122-349a-e5da" sortIndex="2">
+          <selectionEntries>
+            <selectionEntry type="model" import="true" name="Sternguard Veteran w/ Bolt Rifle" hidden="false" id="40fb-57ff-a4cf-4581">
+              <constraints>
+                <constraint type="max" value="9" field="selections" scope="parent" shared="true" id="5d10-c1f7-56de-0296"/>
+              </constraints>
+              <profiles>
+                <profile name="Sternguard Veteran Squad" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="cae7-c75b-837b-f1af">
+                  <characteristics>
+                    <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">6&quot;</characteristic>
+                    <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">4</characteristic>
+                    <characteristic name="SV" typeId="450-a17e-9d5e-29da">3+</characteristic>
+                    <characteristic name="W" typeId="750a-a2ec-90d3-21fe">2</characteristic>
+                    <characteristic name="LD" typeId="58d2-b879-49c7-43bc">6+</characteristic>
+                    <characteristic name="OC" typeId="bef7-942a-1a23-59f8">1</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <entryLinks>
+                <entryLink import="true" name="Sternguard Bolt Pistol" hidden="false" id="17bb-95d2-478c-6f46" type="selectionEntry" targetId="4f36-2df5-903a-5541"/>
+                <entryLink import="true" name="Sternguard Bolt Rifle" hidden="false" id="b06a-eb1e-c36d-8a9a" type="selectionEntry" targetId="874a-4375-dbc3-b412">
+                  <constraints>
+                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="d315-1f97-0234-49ee"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d96a-c71a-3968-eba9"/>
+                  </constraints>
+                </entryLink>
+                <entryLink import="true" name="Close combat weapon" hidden="false" id="53f9-bace-a123-89f3" type="selectionEntry" targetId="db5b-fe94-e50c-4f4b">
+                  <constraints>
+                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="31d7-dec7-9b26-2c88"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="77fa-fadf-7105-21c7"/>
+                  </constraints>
+                </entryLink>
+              </entryLinks>
+            </selectionEntry>
+            <selectionEntry type="model" import="true" name="Sternguard Veteran Sergeant" hidden="false" id="ad53-6c5c-59ad-a204">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="0894-c0f3-e655-d01f"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ac82-b2c5-d42d-8739"/>
+              </constraints>
+              <entryLinks>
+                <entryLink import="true" name="Sternguard Bolt Pistol" hidden="false" id="034d-e8ea-7b87-d2f9" type="selectionEntry" targetId="4f36-2df5-903a-5541">
+                  <entryLinks>
+                    <entryLink import="true" name="Weapon Modifications" hidden="false" id="5754-f8e8-9132-dcc6" type="selectionEntryGroup" targetId="f9da-852a-d7f0-92e9"/>
+                  </entryLinks>
+                </entryLink>
+                <entryLink import="true" name="Terminator Honours upgrade" hidden="false" id="f196-df6e-97aa-c081" type="selectionEntry" targetId="e7f9-66f5-9b9e-c587"/>
+                <entryLink import="true" name="Close combat weapon" hidden="false" id="08dd-c250-b662-aa42" type="selectionEntry" targetId="db5b-fe94-e50c-4f4b">
+                  <constraints>
+                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="d540-4b15-c198-4864"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4f96-6286-b694-c3a2"/>
+                  </constraints>
+                </entryLink>
+              </entryLinks>
+              <selectionEntryGroups>
+                <selectionEntryGroup name="Weapon Option" id="4332-905c-68be-bde3" hidden="false" defaultSelectionEntryId="39c3-1657-46c8-5d87">
+                  <constraints>
+                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="2ce7-1d28-af79-d30b"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c685-ac2a-7e2e-4671"/>
+                  </constraints>
+                  <entryLinks>
+                    <entryLink import="true" name="Combi-weapon" hidden="false" id="cb2d-2314-64f8-3d64" type="selectionEntry" targetId="2c13-8cdd-f66b-bcae">
+                      <entryLinks>
+                        <entryLink import="true" name="Weapon Modifications" hidden="false" id="fbb4-5c61-d9ce-5a15" type="selectionEntryGroup" targetId="f9da-852a-d7f0-92e9"/>
+                      </entryLinks>
+                    </entryLink>
+                    <entryLink import="true" name="Sternguard Bolt Rifle" hidden="false" id="6b11-076c-de51-42b0" type="selectionEntry" targetId="874a-4375-dbc3-b412">
+                      <entryLinks>
+                        <entryLink import="true" name="Weapon Modifications" hidden="false" id="fb58-aa30-b398-a61f" type="selectionEntryGroup" targetId="f9da-852a-d7f0-92e9"/>
+                      </entryLinks>
+                    </entryLink>
+                  </entryLinks>
+                </selectionEntryGroup>
+                <selectionEntryGroup name="Melee Option" id="5511-6dd2-bf5e-0d9b" hidden="false">
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b40e-45ce-1e55-1771"/>
+                  </constraints>
+                  <modifiers>
+                    <modifier type="set" value="0" field="b40e-45ce-1e55-1771">
+                      <conditions>
+                        <condition type="atLeast" value="1" field="selections" scope="ad53-6c5c-59ad-a204" childId="2c13-8cdd-f66b-bcae" shared="true" id="66e8-ac00-0d5f-4534" includeChildSelections="true" includeChildForces="true"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                  <entryLinks>
+                    <entryLink import="true" name="Power Weapon" hidden="false" id="6b4b-6f33-170a-97c4" type="selectionEntry" targetId="e1b5-a74f-b2ec-c7ed">
+                      <entryLinks>
+                        <entryLink import="true" name="Weapon Modifications" hidden="false" id="f17d-d422-142f-6e54" type="selectionEntryGroup" targetId="f9da-852a-d7f0-92e9"/>
+                      </entryLinks>
+                    </entryLink>
+                    <entryLink import="true" name="Power Fist" hidden="false" id="2899-f726-521a-294e" type="selectionEntry" targetId="eafc-b80a-2dee-6c84">
+                      <entryLinks>
+                        <entryLink import="true" name="Weapon Modifications" hidden="false" id="ce03-9607-5376-c11f" type="selectionEntryGroup" targetId="f9da-852a-d7f0-92e9"/>
+                      </entryLinks>
+                    </entryLink>
+                    <entryLink import="true" name="Astartes Chainsword" hidden="false" id="7744-bdc0-df64-d67e" type="selectionEntry" targetId="f241-f2ab-c2bd-cf0e">
+                      <entryLinks>
+                        <entryLink import="true" name="Weapon Modifications" hidden="false" id="7f4c-f9a2-f780-f1b4" type="selectionEntryGroup" targetId="f9da-852a-d7f0-92e9"/>
+                      </entryLinks>
+                    </entryLink>
+                  </entryLinks>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+              <profiles>
+                <profile name="Sternguard Veteran Sergeant" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="de75-92d0-c34b-4088">
+                  <characteristics>
+                    <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">6&quot;</characteristic>
+                    <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">4</characteristic>
+                    <characteristic name="SV" typeId="450-a17e-9d5e-29da">3+</characteristic>
+                    <characteristic name="W" typeId="750a-a2ec-90d3-21fe">2</characteristic>
+                    <characteristic name="LD" typeId="58d2-b879-49c7-43bc">6+</characteristic>
+                    <characteristic name="OC" typeId="bef7-942a-1a23-59f8">1</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+            <selectionEntry type="model" import="true" name="Sternguard Veteran w/ Special Weapon" hidden="false" id="b7a5-7021-529f-5d7a">
+              <entryLinks>
+                <entryLink import="true" name="Sternguard Bolt Pistol" hidden="false" id="e9d3-baa8-27f6-7ea3" type="selectionEntry" targetId="4f36-2df5-903a-5541"/>
+                <entryLink import="true" name="Close combat weapon" hidden="false" id="0012-7ef2-e16c-8df4" type="selectionEntry" targetId="db5b-fe94-e50c-4f4b">
+                  <constraints>
+                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="2ef1-3842-3ca8-02d2"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3f4a-a0fd-20ed-7db5"/>
+                  </constraints>
+                </entryLink>
+              </entryLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="345b-d2cc-3a88-cd4a"/>
+              </constraints>
+              <modifiers>
+                <modifier type="increment" value="1" field="345b-d2cc-3a88-cd4a">
+                  <conditions>
+                    <condition type="equalTo" value="10" field="selections" scope="c407-6430-51b1-b46d" childId="c44d-1051-38e6-f87b" shared="true" id="3a45-724b-81c7-7b90"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <selectionEntryGroups>
+                <selectionEntryGroup name="Weapon Option" id="0db8-e497-a06d-911d" hidden="false">
+                  <constraints>
+                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="74ce-9ab1-7c20-6e8e"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7d50-8690-aa1a-def8"/>
+                  </constraints>
+                  <entryLinks>
+                    <entryLink import="true" name="Sternguard Heavy Bolter" hidden="false" id="d0f3-910a-2d2b-f541" type="selectionEntry" targetId="a418-befd-3e1b-87be"/>
+                    <entryLink import="true" name="Pyrecannon" hidden="false" id="6766-0f84-1e93-cbba" type="selectionEntry" targetId="a5e9-6435-6e86-d339"/>
+                  </entryLinks>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+              <profiles>
+                <profile name="Sternguard Veteran Squad" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="56c8-f54e-e4a9-4125">
+                  <characteristics>
+                    <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">6&quot;</characteristic>
+                    <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">4</characteristic>
+                    <characteristic name="SV" typeId="450-a17e-9d5e-29da">3+</characteristic>
+                    <characteristic name="W" typeId="750a-a2ec-90d3-21fe">2</characteristic>
+                    <characteristic name="LD" typeId="58d2-b879-49c7-43bc">6+</characteristic>
+                    <characteristic name="OC" typeId="bef7-942a-1a23-59f8">1</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+            <selectionEntry type="model" import="true" name="Sternguard Veteran w/ Combi-weapon" hidden="false" id="71a7-2f58-bf4f-701e">
+              <constraints>
+                <constraint type="max" value="9" field="selections" scope="parent" shared="true" id="0e85-4747-778b-2bf2"/>
+              </constraints>
+              <entryLinks>
+                <entryLink import="true" name="Sternguard Bolt Pistol" hidden="false" id="3e95-9aa9-09a1-d5b8" type="selectionEntry" targetId="4f36-2df5-903a-5541"/>
+                <entryLink import="true" name="Combi-weapon" hidden="false" id="9ac2-c5e0-2227-162c" type="selectionEntry" targetId="2c13-8cdd-f66b-bcae">
+                  <constraints>
+                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="aba3-616b-fc14-e64c"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d7f8-1c01-bef3-bcd8"/>
+                  </constraints>
+                </entryLink>
+                <entryLink import="true" name="Close combat weapon" hidden="false" id="2a66-d4b5-11be-755c" type="selectionEntry" targetId="db5b-fe94-e50c-4f4b">
+                  <constraints>
+                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="d448-9b60-dfe9-c1a6"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b6bd-bed4-a110-a73d"/>
+                  </constraints>
+                </entryLink>
+              </entryLinks>
+              <profiles>
+                <profile name="Sternguard Veteran Squad" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="b426-5f99-9e12-510c">
+                  <characteristics>
+                    <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">6&quot;</characteristic>
+                    <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">4</characteristic>
+                    <characteristic name="SV" typeId="450-a17e-9d5e-29da">3+</characteristic>
+                    <characteristic name="W" typeId="750a-a2ec-90d3-21fe">2</characteristic>
+                    <characteristic name="LD" typeId="58d2-b879-49c7-43bc">6+</characteristic>
+                    <characteristic name="OC" typeId="bef7-942a-1a23-59f8">1</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+          </selectionEntries>
+          <constraints>
+            <constraint type="max" value="10" field="selections" scope="parent" shared="true" id="d109-3eab-a183-96b6"/>
+            <constraint type="min" value="5" field="selections" scope="parent" shared="true" id="ddef-36ea-1ade-c3c4"/>
+          </constraints>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <modifiers>
+        <modifier type="set" value="200" field="51b2-306e-1021-d207">
+          <conditions>
+            <condition type="atLeast" value="6" field="selections" scope="c407-6430-51b1-b46d" childId="c44d-1051-38e6-f87b" shared="true" id="fb13-37e2-22fd-0072" includeChildSelections="false"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <categoryLinks>
+        <categoryLink name="Infantry" hidden="false" id="17a6-7eb1-37f2-044d" targetId="cf47-a0d7-7207-29dc" primary="true"/>
+        <categoryLink name="Grenades" hidden="false" id="4737-ce56-d82f-e1ed" targetId="5a61-81ac-eb7c-a87e" primary="false"/>
+        <categoryLink name="Imperium" hidden="false" id="ed13-625e-f3f7-f790" targetId="aff3-d6a3-2a95-9dc" primary="false"/>
+        <categoryLink name="Tacticus" hidden="false" id="4979-9472-5f81-48a3" targetId="5179-8ede-45e3-49a2" primary="false"/>
+        <categoryLink name="Sternguard Veteran Squad" hidden="false" id="b91e-ffba-ff64-9c92" targetId="e05e-b4e4-6db0-5d42" primary="false"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="Sternguard Focus" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="d8a2-f489-394c-c896">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">In the Shooting Phase, after this unit has finished making attacks, choose one enemy unit hit by one or more attacks from this unit.  That unit is said to be Purrsued.  Until the end of the phase, whenever a friendly Adeptus Astartes unit makes an attack that targets an enemy unit that is Purrsued, add 1 to the hit roll.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Courses of War" id="aa5a-efcd-4397-361f" hidden="false" type="rule" targetId="8def-0789-e018-fda5"/>
+      </infoLinks>
+    </selectionEntry>
   </sharedSelectionEntries>
   <profileTypes>
     <profileType name="Stratagem" id="30ff-37ca-2012-7d18" hidden="false">
@@ -779,5 +1249,6 @@ Mother&apos;s Reassurance (Aura): While a friendly ^^**Adeptus Astartes^^** unit
     <entryLink import="true" name="Nekona" hidden="false" id="9a3f-fc53-c246-ab5e" targetId="076b-86cb-f128-83c5" type="selectionEntry"/>
     <entryLink import="true" name="Twin Paws" hidden="false" id="e3ec-6950-7588-c9b8" targetId="9350-433e-3382-23df" type="selectionEntry"/>
     <entryLink import="true" name="Nyanna Felidae" hidden="false" id="f5b5-0ef2-169c-f3ba" targetId="bfc5-66bf-7665-cd6f" type="selectionEntry"/>
+    <entryLink import="true" name="Terminator Squad" hidden="false" id="7cb9-12fd-cf40-853f" targetId="143c-7439-7a7f-7e13" type="selectionEntry"/>
   </entryLinks>
 </catalogue>

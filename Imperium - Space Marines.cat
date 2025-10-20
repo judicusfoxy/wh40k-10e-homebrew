@@ -8558,6 +8558,11 @@ Strategic Reserves.</characteristic>
             <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="36d3-36bc-68dd-40ac" shared="true"/>
           </conditions>
         </modifier>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="3a8b-55b8-7019-c9de" shared="true"/>
+          </conditions>
+        </modifier>
       </modifiers>
       <categoryLinks>
         <categoryLink targetId="cf47-a0d7-7207-29dc" id="4463-1fae-cc23-d51d" primary="true" name="Infantry"/>
@@ -40910,7 +40915,7 @@ the [STEALTH] ability.</characteristic>
                 <profile name="Scouring Beam" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="466e-c104-aa73-1e95">
                   <characteristics>
                     <characteristic name="Description" typeId="9b8f-694b-e5e-b573">ADEPTUS ASTARTES model only. The bearer’s ranged
-weapons have the [DEVASTATING WOUNDS] ability. </characteristic>
+weapons have the [DEVASTATING WOUNDS] ability.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -41194,7 +41199,7 @@ ability.</characteristic>
               <profiles>
                 <profile name="Cooler Retreat" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="48bf-bc39-da80-c963">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">ADEPTUS ASTARTES model only. This model&apos;s unit is eligible to shoot in a turn in which it Fell Back. </characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">ADEPTUS ASTARTES model only. This model&apos;s unit is eligible to shoot in a turn in which it Fell Back.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
