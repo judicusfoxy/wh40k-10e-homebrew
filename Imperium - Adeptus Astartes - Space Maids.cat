@@ -1250,5 +1250,6 @@ Mother&apos;s Reassurance (Aura): While a friendly ^^**Adeptus Astartes^^** unit
     <entryLink import="true" name="Twin Paws" hidden="false" id="e3ec-6950-7588-c9b8" targetId="9350-433e-3382-23df" type="selectionEntry"/>
     <entryLink import="true" name="Nyanna Felidae" hidden="false" id="f5b5-0ef2-169c-f3ba" targetId="bfc5-66bf-7665-cd6f" type="selectionEntry"/>
     <entryLink import="true" name="Terminator Squad" hidden="false" id="7cb9-12fd-cf40-853f" targetId="143c-7439-7a7f-7e13" type="selectionEntry"/>
+    <entryLink import="true" name="Sternguard Veteran Squad" hidden="false" id="73b0-0f69-106e-a517" targetId="c407-6430-51b1-b46d" type="selectionEntry"/>
   </entryLinks>
 </catalogue>
