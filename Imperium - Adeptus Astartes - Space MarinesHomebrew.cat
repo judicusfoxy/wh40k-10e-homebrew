@@ -5,6 +5,8 @@
   </catalogueLinks>
   <categoryEntries>
     <categoryEntry name="Breacher Squad" id="c4a2-cd3f-0278-ae2e" hidden="false"/>
+    <categoryEntry name="Casan Sabius" id="cd68-b411-fe8a-54a4" hidden="false"/>
+    <categoryEntry name="Sirae Karagon" id="fc62-047d-e9a8-1c3a" hidden="false"/>
   </categoryEntries>
   <sharedSelectionEntries>
     <selectionEntry type="unit" import="true" name="Breacher Squad" hidden="false" id="f605-2890-e152-050d">
@@ -312,8 +314,226 @@
         </modifier>
       </modifiers>
     </selectionEntry>
+    <selectionEntry type="model" import="true" name="Casan Sabius" hidden="false" id="caf6-2b16-260b-e9b8">
+      <categoryLinks>
+        <categoryLink targetId="9cfd-1c32-585f-7d5c" id="ce18-3dd6-12f4-f090" primary="false" name="Character"/>
+        <categoryLink targetId="4f3a-f0f7-6647-348d" id="96b6-f4b0-f425-b260" primary="true" name="Epic Hero"/>
+        <categoryLink targetId="cf47-a0d7-7207-29dc" id="0de1-78da-e271-8f98" primary="false" name="Infantry"/>
+        <categoryLink targetId="5a61-81ac-eb7c-a87e" id="d4f9-3edc-c58e-a684" primary="false" name="Grenades"/>
+        <categoryLink targetId="aff3-d6a3-2a95-9dc" id="ae99-d544-7a9b-2906" primary="false" name="Imperium"/>
+        <categoryLink targetId="6e7-40c-58d9-e402" id="bd7b-963b-97fe-d5fe" primary="false" name="Faction: Adeptus Astartes"/>
+        <categoryLink targetId="5179-8ede-45e3-49a2" id="f255-7597-5245-ac2c" primary="false" name="Tacticus"/>
+        <categoryLink targetId="5bd8-882d-302b-48f3" id="00f3-d6fc-2580-de94" primary="false" name="Chapter Master"/>
+        <categoryLink targetId="cd68-b411-fe8a-54a4" id="777f-dfef-27b9-4982" primary="false" name="Casan Sabius"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="Casan Sabius" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="3642-4d81-bf9c-18a3">
+          <characteristics>
+            <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">6&quot;</characteristic>
+            <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">4</characteristic>
+            <characteristic name="SV" typeId="450-a17e-9d5e-29da">2+</characteristic>
+            <characteristic name="W" typeId="750a-a2ec-90d3-21fe">6</characteristic>
+            <characteristic name="LD" typeId="58d2-b879-49c7-43bc">6+</characteristic>
+            <characteristic name="OC" typeId="bef7-942a-1a23-59f8">1</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Invulnerable Save" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="bb92-2117-71ff-a358">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">4+</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Master Tactician" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="2430-b069-337c-7761">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">At the start of your Command phase, if this unit’s Marneus Calgar model is your WARLORD and is on the battlefield, you gain 1CP.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Purity of Aspect, Action and Intent" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="bb56-6297-7df9-c3bc">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Whenever this model is leading a unit, add 1 to the attacks and strength Characteristic of melee weapons equipped by models in that unit.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Lord Regent of the Red Scorpions" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="bf6c-4924-9c13-1cc8">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Whenever an attack is allocated to this model&apos;s unit, if the strength characteristic of that attack is greater than the toughness characteristic of models in this unit, add 1 to saving throw rolls made by models in this unit.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Leader" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="19d6-8100-9a16-51f4" page="9">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This model can be attached to the following units:
+■ Assault Intercessor Squad
+■ Bladeguard Veteran Squad
+■ Hellblaster Squad
+■ Infernus Squad
+■ Intercessor Squad
+■ Sternguard Veteran Squad
+■ Tactical Squad</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Wargear" id="e62f-baf4-d376-1d5b" hidden="false">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="The Blade of the Scorpion" hidden="false" id="86fe-6f23-24e7-6591">
+              <profiles>
+                <profile name="The Blade of the Scorpion" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons" hidden="false" id="85cd-7343-4fd5-75b5">
+                  <characteristics>
+                    <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
+                    <characteristic name="A" typeId="2337-daa1-6682-b110">6</characteristic>
+                    <characteristic name="WS" typeId="95d1-95f-45b4-11d6">2+</characteristic>
+                    <characteristic name="S" typeId="ab33-d393-96ce-ccba">5</characteristic>
+                    <characteristic name="AP" typeId="41a0-1301-112a-e2f2">-3</characteristic>
+                    <characteristic name="D" typeId="3254-9fe6-d824-513e">2</characteristic>
+                    <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">Anti-Vehicle 4+, Anti-Monster 4+</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="cc25-b9f1-10c4-0ea3" includeChildSelections="false"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b1eb-7d35-eeac-d4b9" includeChildSelections="false"/>
+              </constraints>
+              <infoLinks>
+                <infoLink name="Anti-" id="8aaa-1ee5-af63-e43b" hidden="false" type="rule" targetId="4111-82e3-9444-e942"/>
+              </infoLinks>
+            </selectionEntry>
+          </selectionEntries>
+          <entryLinks>
+            <entryLink import="true" name="Bolt Pistol" hidden="false" id="478b-a980-841f-ac62" type="selectionEntry" targetId="b273-b85e-4018-a0cd">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="7c83-4c09-cab6-2106" includeChildSelections="false"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="bed5-edbb-4582-6f28" includeChildSelections="false"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <infoLinks>
+        <infoLink name="Leader" id="3266-847b-ebf9-33b3" hidden="false" type="rule" targetId="b4dd-3e1f-41cb-218f"/>
+        <infoLink name="Oath of Moment" id="6479-db53-d754-a371" hidden="false" type="rule" targetId="3b76-4053-ece9-6e7d"/>
+      </infoLinks>
+      <entryLinks>
+        <entryLink import="true" name="Warlord" hidden="false" id="3da8-012d-999c-22e1" type="selectionEntry" targetId="caa-f869-3cbd-b48e"/>
+      </entryLinks>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b8cf-d0b0-dbf9-0a31" includeChildSelections="false"/>
+      </constraints>
+      <costs>
+        <cost name="pts" typeId="51b2-306e-1021-d207" value="100"/>
+        <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
+        <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="0"/>
+        <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
+        <cost name="Crusade: Weapon Modifications" typeId="716d-91b7-d55a-1022" value="0"/>
+        <cost name="Blackstone Fragments" typeId="ac6b-ced3-9b5e-9a6e" value="0"/>
+        <cost name="Honour Points" typeId="8135-9a2f-6627-09e2" value="0"/>
+        <cost name="Relic Fragments" typeId="0ece-6541-4662-ece2" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Sirae Karagon" hidden="false" id="93a5-1772-b91a-0f51">
+      <categoryLinks>
+        <categoryLink targetId="9cfd-1c32-585f-7d5c" id="f6fc-f8a0-5d00-d892" primary="false" name="Character"/>
+        <categoryLink targetId="4f3a-f0f7-6647-348d" id="060e-8707-f5d6-5af8" primary="true" name="Epic Hero"/>
+        <categoryLink targetId="cf47-a0d7-7207-29dc" id="a7a1-a269-b531-1a72" primary="false" name="Infantry"/>
+        <categoryLink targetId="5a61-81ac-eb7c-a87e" id="5833-e339-1ee8-bb14" primary="false" name="Grenades"/>
+        <categoryLink targetId="aff3-d6a3-2a95-9dc" id="636f-3156-cf24-f050" primary="false" name="Imperium"/>
+        <categoryLink targetId="6e7-40c-58d9-e402" id="07dd-4fcf-da41-4e44" primary="false" name="Faction: Adeptus Astartes"/>
+        <categoryLink targetId="5179-8ede-45e3-49a2" id="0722-36d3-396a-f244" primary="false" name="Tacticus"/>
+        <categoryLink targetId="9bb1-7b6c-326a-da2c" id="29de-6475-4a36-2a28" primary="false" name="Ancient"/>
+        <categoryLink targetId="fc62-047d-e9a8-1c3a" id="2f61-0c45-6c9f-8842" primary="false" name="Sirae Karagon"/>
+      </categoryLinks>
+      <infoLinks>
+        <infoLink name="Oath of Moment" id="cebe-0703-8b27-1592" hidden="false" type="rule" targetId="3b76-4053-ece9-6e7d"/>
+        <infoLink name="Leader" id="e760-a2b7-e605-636c" hidden="false" type="rule" targetId="b4dd-3e1f-41cb-218f"/>
+      </infoLinks>
+      <profiles>
+        <profile name="Sirae Karagon" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="204a-d618-42b2-519f">
+          <characteristics>
+            <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">6&quot;</characteristic>
+            <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">4</characteristic>
+            <characteristic name="SV" typeId="450-a17e-9d5e-29da">2+</characteristic>
+            <characteristic name="W" typeId="750a-a2ec-90d3-21fe">6</characteristic>
+            <characteristic name="LD" typeId="58d2-b879-49c7-43bc">6+</characteristic>
+            <characteristic name="OC" typeId="bef7-942a-1a23-59f8">1</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Invulnerable Save" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="f130-b9e8-6997-7abb">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">4+</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Leader" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="bbf4-be2c-a845-6e28" page="9">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This model can be attached to the following units:
+■ Assault Intercessor Squad
+■ Bladeguard Veteran Squad
+■ Hellblaster Squad
+■ Infernus Squad
+■ Intercessor Squad
+■ Sternguard Veteran Squad
+■ Tactical Squad
+
+
+You can attach this model to one of the above units even if one Casan Sabius model has already been attached to it. If you do, and that Bodyguard unit is destroyed, the Leader units attached to it become separate units, with their original Starting Strengths.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Ancient-Invigilus" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="86de-bd83-fb0e-7506">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Once per battle round, one unit from your army with this ability can use it when its unit is targeted with a Stratagem. If it does, reduce the CP cost of that use of that Stratagem by 1CP.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <entryLinks>
+        <entryLink import="true" name="Warlord" hidden="false" id="181d-263b-9514-2453" type="selectionEntry" targetId="caa-f869-3cbd-b48e"/>
+      </entryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Wargear" id="e9c7-1392-d388-cea5" hidden="false">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Vexilla Imperialis" hidden="false" id="5332-f285-16f1-31f5">
+              <profiles>
+                <profile name="Vexilla Imperialis" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="2a97-37b5-a551-49ee">
+                  <characteristics>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">While this model is leading a unit, add 1 to the Objective Control characteristic of models in that unit.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="a791-e1f8-cfc2-230b" includeChildSelections="false"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="16df-2a68-725f-3504" includeChildSelections="false"/>
+              </constraints>
+            </selectionEntry>
+          </selectionEntries>
+          <entryLinks>
+            <entryLink import="true" name="Master-crafted Power Weapon" hidden="false" id="bf02-602b-fb42-e490" type="selectionEntry" targetId="ebda-08ed-994a-b579">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="3bc2-3956-80b5-b7c4" includeChildSelections="false"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6526-6c72-7920-69f3" includeChildSelections="false"/>
+              </constraints>
+            </entryLink>
+            <entryLink import="true" name="Bolt Pistol" hidden="false" id="e968-28c3-c781-bb1b" type="selectionEntry" targetId="b273-b85e-4018-a0cd">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="352d-cfbb-de20-e103" includeChildSelections="false"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6345-5f6e-cbda-fbe8" includeChildSelections="false"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4d6e-9a8a-6ce2-d8b7" includeChildSelections="false"/>
+      </constraints>
+      <costs>
+        <cost name="pts" typeId="51b2-306e-1021-d207" value="70"/>
+        <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
+        <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="0"/>
+        <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
+        <cost name="Crusade: Weapon Modifications" typeId="716d-91b7-d55a-1022" value="0"/>
+        <cost name="Blackstone Fragments" typeId="ac6b-ced3-9b5e-9a6e" value="0"/>
+        <cost name="Honour Points" typeId="8135-9a2f-6627-09e2" value="0"/>
+        <cost name="Relic Fragments" typeId="0ece-6541-4662-ece2" value="0"/>
+      </costs>
+    </selectionEntry>
   </sharedSelectionEntries>
   <entryLinks>
     <entryLink import="true" name="Breacher Squad" hidden="false" id="e6a9-fb6f-7788-c41e" targetId="f605-2890-e152-050d" type="selectionEntry"/>
+    <entryLink import="true" name="Casan Sabius" hidden="false" id="40ff-366b-1174-bcd6" targetId="caf6-2b16-260b-e9b8" type="selectionEntry"/>
+    <entryLink import="true" name="Sirae Karagon" hidden="false" id="95a2-0e30-bfad-757c" targetId="93a5-1772-b91a-0f51" type="selectionEntry"/>
   </entryLinks>
 </catalogue>
