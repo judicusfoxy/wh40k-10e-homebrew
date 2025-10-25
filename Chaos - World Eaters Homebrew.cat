@@ -7,9 +7,6 @@
     <selectionEntry type="model" import="true" name="Slaughterbrute" hidden="false" id="39e5-9e75-016a-01ef" collective="false">
       <constraints>
         <constraint type="max" value="3" field="selections" scope="force" shared="true" id="acbe-5b8f-2825-559d" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
-        <constraint type="max" value="3" field="75bb-ded1-c86d-bdf0" scope="self" shared="true" id="0c00-5bfb-7db2-c5f0" includeChildSelections="false"/>
-        <constraint type="max" value="0" field="716d-91b7-d55a-1022" scope="self" shared="true" id="6bd6-0fcd-9428-d217" includeChildSelections="true"/>
-        <constraint type="min" value="0" field="716d-91b7-d55a-1022" scope="self" shared="true" id="2759-d808-c42b-0e70" includeChildSelections="true"/>
       </constraints>
       <profiles>
         <profile name="Slaughterbrute" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="8025-b3d2-b5b0-46d3">
@@ -30,28 +27,6 @@
         <profile name="Warpborne Slaughterer" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="532b-e05b-641b-2425">
           <characteristics>
             <characteristic name="Description" typeId="9b8f-694b-e5e-b573">In your movement phase, when this unit is set up on the battlefield using the deepstrike ability, it can perform a warpborne stalk.  If it does, this unit can be set up anywhere on the battlefield that is more than 6&quot; away from horizontally from all enemy units, but until the end of the turn, it is not eligible to declare a charge.</characteristic>
-          </characteristics>
-        </profile>
-        <profile name="Crunching Maw" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons" hidden="false" id="aba1-9a90-ec73-9d73">
-          <characteristics>
-            <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
-            <characteristic name="A" typeId="2337-daa1-6682-b110">2</characteristic>
-            <characteristic name="WS" typeId="95d1-95f-45b4-11d6">3+</characteristic>
-            <characteristic name="S" typeId="ab33-d393-96ce-ccba">12</characteristic>
-            <characteristic name="AP" typeId="41a0-1301-112a-e2f2">-3</characteristic>
-            <characteristic name="D" typeId="3254-9fe6-d824-513e">4</characteristic>
-            <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">Extra Attacks, Devastating Wounds</characteristic>
-          </characteristics>
-        </profile>
-        <profile name="Slaughterbrute Claws" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons" hidden="false" id="27eb-21ba-10c2-3aa9">
-          <characteristics>
-            <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
-            <characteristic name="A" typeId="2337-daa1-6682-b110">6</characteristic>
-            <characteristic name="WS" typeId="95d1-95f-45b4-11d6">3+</characteristic>
-            <characteristic name="S" typeId="ab33-d393-96ce-ccba">10</characteristic>
-            <characteristic name="AP" typeId="41a0-1301-112a-e2f2">-2</characteristic>
-            <characteristic name="D" typeId="3254-9fe6-d824-513e">3</characteristic>
-            <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">Twin-Linked</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -84,76 +59,57 @@
         <cost name="Crusade: Weapon Modifications" typeId="716d-91b7-d55a-1022" value="0"/>
         <cost name="Blackstone Fragments" typeId="ac6b-ced3-9b5e-9a6e" value="0"/>
       </costs>
-      <entryLinks>
-        <entryLink import="true" name="Crusade" hidden="false" id="e1cd-cb85-1cde-798a" type="selectionEntryGroup" targetId="8bbb-e890-a169-863e" sortIndex="1"/>
-      </entryLinks>
-      <modifierGroups>
-        <modifierGroup type="and">
-          <modifiers>
-            <modifier type="set" value="6" field="0c00-5bfb-7db2-c5f0">
-              <conditions>
-                <condition type="atLeast" value="1" field="selections" scope="self" childId="1511-18fe-f51e-7b9d" shared="true" includeChildSelections="true"/>
-              </conditions>
-            </modifier>
-            <modifier type="increment" value="2" field="6bd6-0fcd-9428-d217">
-              <repeats>
-                <repeat value="1" repeats="1" field="selections" scope="self" childId="d1a5-4297-168b-11cd" shared="true" roundUp="false" includeChildSelections="true"/>
-              </repeats>
-            </modifier>
-            <modifier type="increment" value="2" field="2759-d808-c42b-0e70">
-              <repeats>
-                <repeat value="1" repeats="1" field="selections" scope="self" childId="d1a5-4297-168b-11cd" shared="true" roundUp="false" includeChildSelections="true"/>
-              </repeats>
-            </modifier>
-            <modifier type="append" value="(Battle-ready)" field="name">
-              <conditionGroups>
-                <conditionGroup type="and">
-                  <conditions>
-                    <condition type="atMost" value="5" field="selections" scope="self" childId="2dbf-4d49-5d74-85c9" shared="true" includeChildSelections="true"/>
-                    <condition type="atLeast" value="1" field="forces" scope="roster" childId="cac3-71d1-ea4b-795d" shared="true" includeChildSelections="true" includeChildForces="true"/>
-                  </conditions>
-                </conditionGroup>
-              </conditionGroups>
-            </modifier>
-            <modifier type="append" value="(Blooded)" field="name">
-              <conditionGroups>
-                <conditionGroup type="and">
-                  <conditions>
-                    <condition type="greaterThan" value="5" field="selections" scope="self" childId="2dbf-4d49-5d74-85c9" shared="true" includeChildSelections="true"/>
-                    <condition type="atMost" value="15" field="selections" scope="self" childId="2dbf-4d49-5d74-85c9" shared="true" includeChildSelections="true"/>
-                  </conditions>
-                </conditionGroup>
-              </conditionGroups>
-            </modifier>
-            <modifier type="append" value="(Battle-hardened)" field="name">
-              <conditionGroups>
-                <conditionGroup type="and">
-                  <conditions>
-                    <condition type="greaterThan" value="15" field="selections" scope="self" childId="2dbf-4d49-5d74-85c9" shared="true" includeChildSelections="true"/>
-                    <condition type="atMost" value="30" field="selections" scope="self" childId="2dbf-4d49-5d74-85c9" shared="true" includeChildSelections="true"/>
-                  </conditions>
-                </conditionGroup>
-              </conditionGroups>
-            </modifier>
-            <modifier type="append" value="(Heroic)" field="name">
-              <conditionGroups>
-                <conditionGroup type="and">
-                  <conditions>
-                    <condition type="greaterThan" value="30" field="selections" scope="self" childId="2dbf-4d49-5d74-85c9" shared="true" includeChildSelections="true"/>
-                    <condition type="atMost" value="50" field="selections" scope="self" childId="2dbf-4d49-5d74-85c9" shared="true" includeChildSelections="true"/>
-                  </conditions>
-                </conditionGroup>
-              </conditionGroups>
-            </modifier>
-            <modifier type="append" value="(Legendary)" field="name">
-              <conditions>
-                <condition type="greaterThan" value="50" field="selections" scope="self" childId="2dbf-4d49-5d74-85c9" shared="true" includeChildSelections="true"/>
-              </conditions>
-            </modifier>
-          </modifiers>
-          <comment>Crusade modifiers</comment>
-        </modifierGroup>
-      </modifierGroups>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Wargear" id="19f8-f20a-92de-07bd" hidden="false">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Crunching Maw" hidden="false" id="c412-f5bc-c1f9-1ad6">
+              <profiles>
+                <profile name="Crunching Maw" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons" hidden="false" id="aba1-9a90-ec73-9d73">
+                  <characteristics>
+                    <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
+                    <characteristic name="A" typeId="2337-daa1-6682-b110">2</characteristic>
+                    <characteristic name="WS" typeId="95d1-95f-45b4-11d6">3+</characteristic>
+                    <characteristic name="S" typeId="ab33-d393-96ce-ccba">12</characteristic>
+                    <characteristic name="AP" typeId="41a0-1301-112a-e2f2">-3</characteristic>
+                    <characteristic name="D" typeId="3254-9fe6-d824-513e">4</characteristic>
+                    <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">Extra Attacks, Devastating Wounds</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e2d3-cfe6-45ab-57e2" includeChildSelections="false"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d29d-ead9-678a-0e93" includeChildSelections="false"/>
+              </constraints>
+              <infoLinks>
+                <infoLink name="Devastating Wounds" id="1240-6d86-16d9-e368" hidden="false" type="rule" targetId="be1e-ac8e-1e2c-3528"/>
+                <infoLink name="Extra Attacks" id="f556-3a8a-20b2-4503" hidden="false" type="rule" targetId="115b-79dc-f723-d761"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Slaugherbrute Claws" hidden="false" id="9218-bfaf-5f88-e4f4">
+              <profiles>
+                <profile name="Slaughterbrute Claws" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons" hidden="false" id="27eb-21ba-10c2-3aa9">
+                  <characteristics>
+                    <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
+                    <characteristic name="A" typeId="2337-daa1-6682-b110">6</characteristic>
+                    <characteristic name="WS" typeId="95d1-95f-45b4-11d6">3+</characteristic>
+                    <characteristic name="S" typeId="ab33-d393-96ce-ccba">10</characteristic>
+                    <characteristic name="AP" typeId="41a0-1301-112a-e2f2">-2</characteristic>
+                    <characteristic name="D" typeId="3254-9fe6-d824-513e">3</characteristic>
+                    <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">Twin-Linked</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="d401-8aee-e06e-dfac" includeChildSelections="false"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e0a6-a453-cee8-b278" includeChildSelections="false"/>
+              </constraints>
+              <infoLinks>
+                <infoLink name="Twin-linked" id="b075-ea70-5443-3590" hidden="false" type="rule" targetId="cf93-ad4d-2f08-a79d"/>
+              </infoLinks>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Red Butchers" hidden="false" id="4aff-3ec2-5e00-8018" collective="false">
       <modifiers>
