@@ -269,60 +269,30 @@
         <modifier type="set" value="500" field="fbba-7f7e-16a1-370a" id="4fa7-457c-8229-7e77">
           <conditionGroups>
             <conditionGroup type="and">
-              <conditionGroups>
-                <conditionGroup type="and">
-                  <conditions>
-                    <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="c8da-e875-58f7-f6d6" shared="true"/>
-                    <condition type="greaterThan" value="0" field="selections" scope="force" childId="d62d-db22-4893-4bc0" shared="true" includeChildSelections="true"/>
-                  </conditions>
-                </conditionGroup>
-                <conditionGroup type="and">
-                  <conditions>
-                    <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="44e2-6c1d-372f-c75d" shared="true"/>
-                    <condition type="greaterThan" value="0" field="selections" scope="force" childId="d62d-db22-4893-4bc0" shared="true" includeChildSelections="true"/>
-                  </conditions>
-                </conditionGroup>
-              </conditionGroups>
+              <conditions>
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="c8da-e875-58f7-f6d6" shared="true"/>
+                <condition type="greaterThan" value="0" field="selections" scope="force" childId="d62d-db22-4893-4bc0" shared="true" includeChildSelections="true"/>
+              </conditions>
             </conditionGroup>
           </conditionGroups>
         </modifier>
         <modifier type="set" value="1000" field="fbba-7f7e-16a1-370a" id="94e5-8ddd-5373-00cf">
           <conditionGroups>
             <conditionGroup type="and">
-              <conditionGroups>
-                <conditionGroup type="and">
-                  <conditions>
-                    <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="c8da-e875-58f7-f6d6" shared="true"/>
-                    <condition type="greaterThan" value="0" field="selections" scope="force" childId="baf8-997f-e323-a090" shared="true" includeChildSelections="true"/>
-                  </conditions>
-                </conditionGroup>
-                <conditionGroup type="and">
-                  <conditions>
-                    <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="44e2-6c1d-372f-c75d" shared="true"/>
-                    <condition type="greaterThan" value="0" field="selections" scope="force" childId="baf8-997f-e323-a090" shared="true" includeChildSelections="true"/>
-                  </conditions>
-                </conditionGroup>
-              </conditionGroups>
+              <conditions>
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="c8da-e875-58f7-f6d6" shared="true"/>
+                <condition type="greaterThan" value="0" field="selections" scope="force" childId="baf8-997f-e323-a090" shared="true" includeChildSelections="true"/>
+              </conditions>
             </conditionGroup>
           </conditionGroups>
         </modifier>
         <modifier type="set" value="1500" field="fbba-7f7e-16a1-370a" id="a7d0-0334-fd3e-416b">
           <conditionGroups>
             <conditionGroup type="and">
-              <conditionGroups>
-                <conditionGroup type="and">
-                  <conditions>
-                    <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="c8da-e875-58f7-f6d6" shared="true"/>
-                    <condition type="greaterThan" value="0" field="selections" scope="force" childId="4204-82d0-908c-a62a" shared="true" includeChildSelections="true"/>
-                  </conditions>
-                </conditionGroup>
-                <conditionGroup type="and">
-                  <conditions>
-                    <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="44e2-6c1d-372f-c75d" shared="true"/>
-                    <condition type="greaterThan" value="0" field="selections" scope="force" childId="4204-82d0-908c-a62a" shared="true" includeChildSelections="true"/>
-                  </conditions>
-                </conditionGroup>
-              </conditionGroups>
+              <conditions>
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="c8da-e875-58f7-f6d6" shared="true"/>
+                <condition type="greaterThan" value="0" field="selections" scope="force" childId="4204-82d0-908c-a62a" shared="true" includeChildSelections="true"/>
+              </conditions>
             </conditionGroup>
           </conditionGroups>
         </modifier>
@@ -535,7 +505,26 @@
     <categoryEntry name="Damage Dx+0 Modifier" id="982b-de77-dd2d-d9bd" hidden="true">
       <comment>Flags a weapon that has had a +0 added to a D3/D6 Damage characteristic - used for logic calculations</comment>
     </categoryEntry>
-    <categoryEntry name="Faction: Space Maids" id="f923-9f2d-a3a2-14fc" hidden="false"/>
+    <categoryEntry id="59a9-b5cc-7c11-aaad" name="Tech-Priest" hidden="false"/>
+    <categoryEntry name="Ministorum Priest" hidden="false" id="cc88-9467-86ac-4ca2">
+      <constraints>
+        <constraint type="max" value="3" field="selections" scope="roster" shared="true" id="9ad1-8aef-0d46-3b1b" includeChildSelections="true"/>
+      </constraints>
+    </categoryEntry>
+    <categoryEntry name="Sanctifiers" id="9d4f-4beb-107d-3175" hidden="false">
+      <constraints>
+        <constraint type="max" value="3" field="selections" scope="roster" shared="true" id="3b97-07bb-1241-9cc6" includeChildSelections="true"/>
+      </constraints>
+    </categoryEntry>
+    <categoryEntry name="Pilot" id="5b15-724e-2eeb-8cb7" hidden="false">
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="upgrade" shared="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </categoryEntry>
   </categoryEntries>
   <forceEntries>
     <forceEntry id="bb9d-299a-ed60-2d8a" name="Army Roster" hidden="false">
@@ -661,6 +650,7 @@
         <categoryLink name="Dedicated Transport" hidden="false" id="8ef9-4038-9434-2ed0" targetId="ba07-411c-2832-1f79" primary="false"/>
         <categoryLink name="Fortification" hidden="false" id="9521-ccd2-1cb5-eef5" targetId="19d7-9c74-2140-5851" primary="false"/>
         <categoryLink name="Unit" hidden="false" id="4657-058c-657b-3d14" targetId="1160-70ae-a862-b1a8" primary="false"/>
+        <categoryLink name="Pilot" hidden="false" id="3577-efe1-f844-d1e0" targetId="5b15-724e-2eeb-8cb7"/>
         <categoryLink name="Allied Units" hidden="false" id="8d77-c7df-e1a3-0680" targetId="887b-ab87-92a2-20f5"/>
       </categoryLinks>
       <modifiers>

@@ -2754,7 +2754,6 @@
         <infoLink name="Invulnerable Save" hidden="false" type="profile" id="7ab-9876-7c1a-f60a" targetId="db19-dee7-9530-ef0e"/>
         <infoLink name="Oath of Moment" hidden="false" type="rule" id="e8ac-7683-4980-c4d9" targetId="3b76-4053-ece9-6e7d"/>
         <infoLink name="Templar Vows" id="76b6-97bd-0a9d-134a" hidden="false" type="rule" targetId="f26c-4b28-aaea-40cf"/>
-        <infoLink name="Courses of War" id="75cc-f9a2-ce8a-1a17" hidden="false" type="rule" targetId="8def-0789-e018-fda5"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="8825-3d6-ae9e-6a0b" name="Character" hidden="false" targetId="9cfd-1c32-585f-7d5c" primary="true"/>
@@ -3200,7 +3199,6 @@
         <infoLink name="Invulnerable Save" hidden="false" type="profile" id="eefa-5fdf-5f8f-706f" targetId="db19-dee7-9530-ef0e"/>
         <infoLink name="Oath of Moment" hidden="false" type="rule" id="dcc7-19fc-185d-54c9" targetId="3b76-4053-ece9-6e7d"/>
         <infoLink name="Templar Vows" id="5c35-189f-263f-78d0" hidden="false" type="rule" targetId="f26c-4b28-aaea-40cf"/>
-        <infoLink name="Courses of War" id="f908-8b36-a0c4-00a1" hidden="false" type="rule" targetId="8def-0789-e018-fda5"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink targetId="9cfd-1c32-585f-7d5c" id="6529-9892-96a5-1685" primary="true" name="Character"/>
@@ -3402,7 +3400,6 @@
         <infoLink name="Invulnerable Save" hidden="false" type="profile" id="38a8-eafc-5a43-d3e8" targetId="db19-dee7-9530-ef0e"/>
         <infoLink name="Oath of Moment" hidden="false" type="rule" id="e5fc-4add-24cc-fc23" targetId="3b76-4053-ece9-6e7d"/>
         <infoLink name="Templar Vows" id="e9be-ed8e-b392-2c3c" hidden="false" type="rule" targetId="f26c-4b28-aaea-40cf"/>
-        <infoLink name="Courses of War" id="9405-b126-1d0c-c544" hidden="false" type="rule" targetId="8def-0789-e018-fda5"/>
       </infoLinks>
       <selectionEntryGroups>
         <selectionEntryGroup name="Wargear" id="2abd-e1c7-2da7-3aeb" hidden="false" sortIndex="4">
@@ -3754,7 +3751,6 @@
         <infoLink id="df51-3385-640a-3767" name="Leader" hidden="false" targetId="b4dd-3e1f-41cb-218f" type="rule"/>
         <infoLink name="Oath of Moment" hidden="false" type="rule" id="b627-2d2f-1341-cac7" targetId="3b76-4053-ece9-6e7d"/>
         <infoLink name="Templar Vows" id="6d89-6588-975f-1ea2" hidden="false" type="rule" targetId="f26c-4b28-aaea-40cf"/>
-        <infoLink name="Courses of War" id="9238-d370-eb19-9371" hidden="false" type="rule" targetId="8def-0789-e018-fda5"/>
       </infoLinks>
       <selectionEntryGroups>
         <selectionEntryGroup name="Wargear" hidden="false" id="2182-e922-8da2-747f" defaultSelectionEntryId="6dc1-2c0b-7af4-f50d" sortIndex="4">
@@ -4316,7 +4312,6 @@
       <infoLinks>
         <infoLink name="Oath of Moment" hidden="false" type="rule" id="302c-3b21-8448-92f9" targetId="3b76-4053-ece9-6e7d"/>
         <infoLink name="Templar Vows" id="80ea-c214-fb5d-3c44" hidden="false" type="rule" targetId="f26c-4b28-aaea-40cf"/>
-        <infoLink name="Courses of War" id="1395-f9ef-1b28-9924" hidden="false" type="rule" targetId="8def-0789-e018-fda5"/>
       </infoLinks>
       <entryLinks>
         <entryLink import="true" name="Crusade" hidden="false" id="4617-ea4d-ebde-cc86" type="selectionEntryGroup" targetId="9a99-f13c-a667-e698" sortIndex="1"/>
@@ -4711,7 +4706,6 @@
       <infoLinks>
         <infoLink name="Oath of Moment" hidden="false" type="rule" id="494d-f50c-1c28-bf5b" targetId="3b76-4053-ece9-6e7d"/>
         <infoLink name="Templar Vows" id="3cae-e6e1-8b17-0767" hidden="false" type="rule" targetId="f26c-4b28-aaea-40cf"/>
-        <infoLink name="Courses of War" id="6092-61a0-4f58-789b" hidden="false" type="rule" targetId="8def-0789-e018-fda5"/>
       </infoLinks>
       <entryLinks>
         <entryLink import="true" name="Crusade" hidden="false" id="4264-ad99-1984-cb16" type="selectionEntryGroup" targetId="9a99-f13c-a667-e698" sortIndex="1"/>
@@ -4959,7 +4953,6 @@
       <infoLinks>
         <infoLink name="Oath of Moment" hidden="false" type="rule" id="b66f-c2d-bb43-26ac" targetId="3b76-4053-ece9-6e7d"/>
         <infoLink name="Templar Vows" id="bf7e-0d2d-7714-88ae" hidden="false" type="rule" targetId="f26c-4b28-aaea-40cf"/>
-        <infoLink name="Courses of War" id="be29-f82b-1c16-3ba5" hidden="false" type="rule" targetId="8def-0789-e018-fda5"/>
       </infoLinks>
       <entryLinks>
         <entryLink import="true" name="Crusade" hidden="false" id="9924-6566-64c0-6767" type="selectionEntryGroup" targetId="9a99-f13c-a667-e698" sortIndex="1"/>
@@ -5266,7 +5259,6 @@ this unit, add 1 to any armour saving throw made against that attack.</character
       <infoLinks>
         <infoLink name="Oath of Moment" hidden="false" type="rule" id="d75b-2949-d37b-b2d6" targetId="3b76-4053-ece9-6e7d"/>
         <infoLink name="Templar Vows" id="6e89-7a89-a452-b5ad" hidden="false" type="rule" targetId="f26c-4b28-aaea-40cf"/>
-        <infoLink name="Courses of War" id="efcc-5bf2-7374-7c55" hidden="false" type="rule" targetId="8def-0789-e018-fda5"/>
       </infoLinks>
       <entryLinks>
         <entryLink import="true" name="Crusade" hidden="false" id="b709-520c-9d62-8562" type="selectionEntryGroup" targetId="9a99-f13c-a667-e698" sortIndex="1"/>
@@ -5549,7 +5541,6 @@ this unit, add 1 to any armour saving throw made against that attack.</character
         <infoLink name="Oath of Moment" hidden="false" type="rule" id="1770-832a-dfda-5c8" targetId="3b76-4053-ece9-6e7d"/>
         <infoLink name="Oath of Moment" hidden="false" type="rule" id="8e07-cbde-82f5-7c42" targetId="3b76-4053-ece9-6e7d"/>
         <infoLink name="Templar Vows" id="e41e-c3c2-d1b4-6549" hidden="false" type="rule" targetId="f26c-4b28-aaea-40cf"/>
-        <infoLink name="Courses of War" id="ee95-0ba5-7e0b-cd55" hidden="false" type="rule" targetId="8def-0789-e018-fda5"/>
       </infoLinks>
       <costs>
         <cost name="pts" typeId="51b2-306e-1021-d207" value="100"/>
@@ -5822,7 +5813,6 @@ this unit, add 1 to any armour saving throw made against that attack.</character
         </infoLink>
         <infoLink name="Oath of Moment" hidden="false" type="rule" id="efaf-693c-db8d-ae37" targetId="3b76-4053-ece9-6e7d"/>
         <infoLink name="Templar Vows" id="f4fd-330f-85f2-7bf6" hidden="false" type="rule" targetId="f26c-4b28-aaea-40cf"/>
-        <infoLink name="Courses of War" id="d973-f8c8-2af1-18a5" hidden="false" type="rule" targetId="8def-0789-e018-fda5"/>
       </infoLinks>
       <costs>
         <cost name="pts" typeId="51b2-306e-1021-d207" value="80"/>
@@ -6233,7 +6223,6 @@ this unit, add 1 to any armour saving throw made against that attack.</character
       <infoLinks>
         <infoLink name="Oath of Moment" hidden="false" type="rule" id="4e4c-6205-d42a-8ee7" targetId="3b76-4053-ece9-6e7d"/>
         <infoLink name="Templar Vows" id="e02b-1cb0-6827-a011" hidden="false" type="rule" targetId="f26c-4b28-aaea-40cf"/>
-        <infoLink name="Courses of War" id="611a-78c9-d91b-4398" hidden="false" type="rule" targetId="8def-0789-e018-fda5"/>
       </infoLinks>
       <modifiers>
         <modifier type="set" value="true" field="hidden">
@@ -7172,7 +7161,6 @@ Strategic Reserves.</characteristic>
         <infoLink name="Infiltrators" hidden="false" type="rule" id="51ae-7fe-c009-c184" targetId="c05d-f4c3-f091-4938"/>
         <infoLink name="Oath of Moment" hidden="false" type="rule" id="95c7-9729-7ff8-8e66" targetId="3b76-4053-ece9-6e7d"/>
         <infoLink name="Templar Vows" id="1930-3005-70c9-e9a2" hidden="false" type="rule" targetId="f26c-4b28-aaea-40cf"/>
-        <infoLink name="Courses of War" id="5cb4-9567-796e-f6e1" hidden="false" type="rule" targetId="8def-0789-e018-fda5"/>
       </infoLinks>
       <modifiers>
         <modifier type="set" value="140" field="51b2-306e-1021-d207">
@@ -7458,7 +7446,6 @@ Strategic Reserves.</characteristic>
         <infoLink name="Stealth" hidden="false" type="rule" id="9924-69cd-6d71-4042" targetId="bec5-4288-34a6-ccfa"/>
         <infoLink name="Oath of Moment" hidden="false" type="rule" id="67d2-a9e9-8030-b9c" targetId="3b76-4053-ece9-6e7d"/>
         <infoLink name="Templar Vows" id="71e5-172f-aa17-2b59" hidden="false" type="rule" targetId="f26c-4b28-aaea-40cf"/>
-        <infoLink name="Courses of War" id="ef6a-0d9f-e6b4-4ce8" hidden="false" type="rule" targetId="8def-0789-e018-fda5"/>
       </infoLinks>
       <constraints>
         <constraint type="max" value="3" field="selections" scope="roster" shared="true" id="f1cd-9f82-73cf-acc3"/>
@@ -7714,7 +7701,6 @@ Strategic Reserves.</characteristic>
         <infoLink name="Invulnerable Save" hidden="false" type="profile" id="4292-af46-83c7-dfe0" targetId="db19-dee7-9530-ef0e"/>
         <infoLink name="Oath of Moment" hidden="false" type="rule" id="372-1c4b-e69f-3a4d" targetId="3b76-4053-ece9-6e7d"/>
         <infoLink name="Templar Vows" id="a29b-fbfd-bde6-1595" hidden="false" type="rule" targetId="f26c-4b28-aaea-40cf"/>
-        <infoLink name="Courses of War" id="4be7-93f6-7ea8-ce4b" hidden="false" type="rule" targetId="8def-0789-e018-fda5"/>
       </infoLinks>
       <entryLinks>
         <entryLink import="true" name="Crusade" hidden="false" id="5fff-c93a-1c9f-4f30" type="selectionEntryGroup" targetId="9a99-f13c-a667-e698" sortIndex="1"/>
@@ -7982,7 +7968,6 @@ Strategic Reserves.</characteristic>
         <infoLink name="Oath of Moment" hidden="false" type="rule" id="1b66-81fc-29a2-4dd5" targetId="3b76-4053-ece9-6e7d"/>
         <infoLink name="Deep Strike" hidden="false" type="rule" id="9747-439b-dcbf-4732" targetId="7cb5-dd6b-dd87-ad3b"/>
         <infoLink name="Templar Vows" id="418f-922d-d48d-392c" hidden="false" type="rule" targetId="f26c-4b28-aaea-40cf"/>
-        <infoLink name="Courses of War" id="3025-c6de-e467-4ff1" hidden="false" type="rule" targetId="8def-0789-e018-fda5"/>
       </infoLinks>
       <entryLinks>
         <entryLink import="true" name="Crusade" hidden="false" id="3467-e7ff-0ae3-fa27" type="selectionEntryGroup" targetId="9a99-f13c-a667-e698" sortIndex="1"/>
@@ -8255,7 +8240,6 @@ Strategic Reserves.</characteristic>
       <infoLinks>
         <infoLink name="Oath of Moment" hidden="false" type="rule" id="f37-ca71-61f2-b6d0" targetId="3b76-4053-ece9-6e7d"/>
         <infoLink name="Templar Vows" id="665f-bf98-daf4-d099" hidden="false" type="rule" targetId="f26c-4b28-aaea-40cf"/>
-        <infoLink name="Courses of War" id="80d1-5ba3-d473-feb2" hidden="false" type="rule" targetId="8def-0789-e018-fda5"/>
       </infoLinks>
       <entryLinks>
         <entryLink import="true" name="Crusade" hidden="false" id="62ec-85e8-a72d-a523" type="selectionEntryGroup" targetId="9a99-f13c-a667-e698" sortIndex="1"/>
@@ -8558,11 +8542,6 @@ Strategic Reserves.</characteristic>
             <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="36d3-36bc-68dd-40ac" shared="true"/>
           </conditions>
         </modifier>
-        <modifier type="set" value="true" field="hidden">
-          <conditions>
-            <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="3a8b-55b8-7019-c9de" shared="true"/>
-          </conditions>
-        </modifier>
       </modifiers>
       <categoryLinks>
         <categoryLink targetId="cf47-a0d7-7207-29dc" id="4463-1fae-cc23-d51d" primary="true" name="Infantry"/>
@@ -8580,7 +8559,6 @@ Strategic Reserves.</characteristic>
       </profiles>
       <infoLinks>
         <infoLink name="Oath of Moment" hidden="false" type="rule" id="74c7-f74d-8db1-e800" targetId="3b76-4053-ece9-6e7d"/>
-        <infoLink name="Courses of War" id="4985-04c7-ea0c-1b10" hidden="false" type="rule" targetId="8def-0789-e018-fda5"/>
       </infoLinks>
       <entryLinks>
         <entryLink import="true" name="Crusade" hidden="false" id="5161-c5be-6b94-a2b8" type="selectionEntryGroup" targetId="9a99-f13c-a667-e698" sortIndex="1"/>
@@ -8876,7 +8854,6 @@ Strategic Reserves.</characteristic>
         </infoLink>
         <infoLink name="Oath of Moment" hidden="false" type="rule" id="73ba-b18e-531e-94ca" targetId="3b76-4053-ece9-6e7d"/>
         <infoLink name="Templar Vows" id="3d5a-a756-bb75-7790" hidden="false" type="rule" targetId="f26c-4b28-aaea-40cf"/>
-        <infoLink name="Courses of War" id="c80f-db9a-50ce-6e53" hidden="false" type="rule" targetId="8def-0789-e018-fda5"/>
       </infoLinks>
       <selectionEntries>
         <selectionEntry type="upgrade" import="true" name="Grapnel Launchers" hidden="false" id="2600-cf53-46cb-3a4" sortIndex="2">
@@ -9251,7 +9228,6 @@ by 1.</characteristic>
       <infoLinks>
         <infoLink name="Oath of Moment" hidden="false" type="rule" id="39a2-c61b-ed41-a396" targetId="3b76-4053-ece9-6e7d"/>
         <infoLink name="Templar Vows" id="f1d0-a83f-026f-a26f" hidden="false" type="rule" targetId="f26c-4b28-aaea-40cf"/>
-        <infoLink name="Courses of War" id="b340-602f-bfbe-92d3" hidden="false" type="rule" targetId="8def-0789-e018-fda5"/>
       </infoLinks>
       <modifierGroups>
         <modifierGroup type="and">
@@ -9535,7 +9511,6 @@ by 1.</characteristic>
         <infoLink name="Invulnerable Save" hidden="false" type="profile" id="6d4b-4a16-2f81-3952" targetId="db19-dee7-9530-ef0e"/>
         <infoLink name="Oath of Moment" hidden="false" type="rule" id="39c6-5553-2871-6ef" targetId="3b76-4053-ece9-6e7d"/>
         <infoLink name="Templar Vows" id="4bef-f1b5-c6a9-964f" hidden="false" type="rule" targetId="f26c-4b28-aaea-40cf"/>
-        <infoLink name="Courses of War" id="d294-2fd3-a5e8-a692" hidden="false" type="rule" targetId="8def-0789-e018-fda5"/>
       </infoLinks>
       <entryLinks>
         <entryLink import="true" name="Crusade" hidden="false" id="380c-1ae8-28e6-12f3" type="selectionEntryGroup" targetId="9a99-f13c-a667-e698" sortIndex="1"/>
@@ -9626,7 +9601,6 @@ by 1.</characteristic>
         <infoLink name="Deep Strike" hidden="false" type="rule" id="2014-9419-e969-ecb8" targetId="7cb5-dd6b-dd87-ad3b"/>
         <infoLink name="Invulnerable Save" hidden="false" type="profile" id="62d4-56fb-9e8e-361a" targetId="db19-dee7-9530-ef0e"/>
         <infoLink name="Oath of Moment" hidden="false" type="rule" id="1349-3ab5-4889-4d10" targetId="3b76-4053-ece9-6e7d"/>
-        <infoLink name="Courses of War" id="f43c-7ccf-fbf6-28fe" hidden="false" type="rule" targetId="8def-0789-e018-fda5"/>
       </infoLinks>
       <profiles>
         <profile name="Teleport Homer" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="2378-55a7-34ce-284d">
@@ -9859,11 +9833,6 @@ by 1.</characteristic>
             <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="36d3-36bc-68dd-40ac" shared="true"/>
           </conditions>
         </modifier>
-        <modifier type="set" value="true" field="hidden">
-          <conditions>
-            <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="3a8b-55b8-7019-c9de" shared="true"/>
-          </conditions>
-        </modifier>
       </modifiers>
       <entryLinks>
         <entryLink import="true" name="Crusade" hidden="false" id="c375-4dde-6a0f-e1ab" type="selectionEntryGroup" targetId="9a99-f13c-a667-e698" sortIndex="1"/>
@@ -9981,7 +9950,6 @@ by 1.</characteristic>
         <infoLink name="Invulnerable Save" hidden="false" type="profile" id="5ea-b34a-666c-38e1" targetId="db19-dee7-9530-ef0e"/>
         <infoLink name="Oath of Moment" hidden="false" type="rule" id="349b-26bf-ced1-d1ff" targetId="3b76-4053-ece9-6e7d"/>
         <infoLink name="Templar Vows" id="46c8-c0ee-6afb-056f" hidden="false" type="rule" targetId="f26c-4b28-aaea-40cf"/>
-        <infoLink name="Courses of War" id="b82d-f449-855e-6893" hidden="false" type="rule" targetId="8def-0789-e018-fda5"/>
       </infoLinks>
       <costs>
         <cost name="pts" typeId="51b2-306e-1021-d207" value="200"/>
@@ -10645,7 +10613,6 @@ by 1.</characteristic>
       <infoLinks>
         <infoLink name="Oath of Moment" hidden="false" type="rule" id="f172-d1b6-cdf6-aa28" targetId="3b76-4053-ece9-6e7d"/>
         <infoLink name="Templar Vows" id="9550-0466-b9d1-1c43" hidden="false" type="rule" targetId="f26c-4b28-aaea-40cf"/>
-        <infoLink name="Courses of War" id="711f-8ae0-2869-ea7d" hidden="false" type="rule" targetId="8def-0789-e018-fda5"/>
       </infoLinks>
       <entryLinks>
         <entryLink import="true" name="Crusade" hidden="false" id="7090-e176-64fd-3a1e" type="selectionEntryGroup" targetId="9a99-f13c-a667-e698" sortIndex="1"/>
@@ -10937,7 +10904,6 @@ by 1.</characteristic>
       <infoLinks>
         <infoLink name="Oath of Moment" hidden="false" type="rule" id="ec88-70b1-c4ad-d49a" targetId="3b76-4053-ece9-6e7d"/>
         <infoLink name="Templar Vows" id="6e04-8f39-26e0-fb2f" hidden="false" type="rule" targetId="f26c-4b28-aaea-40cf"/>
-        <infoLink name="Courses of War" id="02f3-e1c1-e428-b49c" hidden="false" type="rule" targetId="8def-0789-e018-fda5"/>
       </infoLinks>
       <entryLinks>
         <entryLink import="true" name="Crusade" hidden="false" id="14bf-be8a-2f28-2de4" type="selectionEntryGroup" targetId="9a99-f13c-a667-e698" sortIndex="1"/>
@@ -11159,7 +11125,6 @@ by 1.</characteristic>
         <infoLink name="Damaged: 1-4 Wounds Remaining" hidden="false" type="profile" id="aa87-ceda-f59a-891a" targetId="ee64-aaaf-75df-8da9"/>
         <infoLink name="Oath of Moment" hidden="false" type="rule" id="150b-6671-1711-a565" targetId="3b76-4053-ece9-6e7d"/>
         <infoLink name="Templar Vows" id="651e-29ac-168f-a084" hidden="false" type="rule" targetId="f26c-4b28-aaea-40cf"/>
-        <infoLink name="Courses of War" id="9d69-a4af-7d4a-a605" hidden="false" type="rule" targetId="8def-0789-e018-fda5"/>
       </infoLinks>
       <entryLinks>
         <entryLink import="true" name="Crusade" hidden="false" id="bb20-17fc-e300-7fa0" type="selectionEntryGroup" targetId="9a99-f13c-a667-e698" sortIndex="1"/>
@@ -11379,7 +11344,6 @@ by 1.</characteristic>
         </infoLink>
         <infoLink name="Oath of Moment" hidden="false" type="rule" id="b0ae-e1c3-d875-3efd" targetId="3b76-4053-ece9-6e7d"/>
         <infoLink name="Templar Vows" id="3dad-e0d3-8e83-8ab7" hidden="false" type="rule" targetId="f26c-4b28-aaea-40cf"/>
-        <infoLink name="Courses of War" id="5e7c-867f-f181-fc7a" hidden="false" type="rule" targetId="8def-0789-e018-fda5"/>
       </infoLinks>
       <selectionEntryGroups>
         <selectionEntryGroup name="Wargear" id="3876-30d8-59ae-c20e" hidden="false" sortIndex="2">
@@ -11733,7 +11697,6 @@ by 1.</characteristic>
         </infoLink>
         <infoLink name="Oath of Moment" hidden="false" type="rule" id="f1f3-9c5a-1c0f-f964" targetId="3b76-4053-ece9-6e7d"/>
         <infoLink name="Templar Vows" id="7e84-e11a-284a-1798" hidden="false" type="rule" targetId="f26c-4b28-aaea-40cf"/>
-        <infoLink name="Courses of War" id="7adc-e4da-2fb8-42e9" hidden="false" type="rule" targetId="8def-0789-e018-fda5"/>
       </infoLinks>
       <entryLinks>
         <entryLink import="true" name="Crusade" hidden="false" id="c585-67a6-dfaa-d108" type="selectionEntryGroup" targetId="9a99-f13c-a667-e698" sortIndex="1"/>
@@ -12053,7 +12016,6 @@ by 1.</characteristic>
         <infoLink name="Damaged: 1-4 Wounds Remaining" hidden="false" type="profile" id="c106-2d9d-db39-b42b" targetId="ee64-aaaf-75df-8da9"/>
         <infoLink name="Oath of Moment" hidden="false" type="rule" id="4e7b-49a5-5eed-dacc" targetId="3b76-4053-ece9-6e7d"/>
         <infoLink name="Templar Vows" id="67af-ed5b-bbdb-06c6" hidden="false" type="rule" targetId="f26c-4b28-aaea-40cf"/>
-        <infoLink name="Courses of War" id="8a4e-026d-a180-714e" hidden="false" type="rule" targetId="8def-0789-e018-fda5"/>
       </infoLinks>
       <profiles>
         <profile name="Duty Eternal" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="3f75-88b1-db9c-63cd">
@@ -12420,7 +12382,6 @@ by 1.</characteristic>
         </infoLink>
         <infoLink name="Oath of Moment" hidden="false" type="rule" id="c726-923b-68c0-7456" targetId="3b76-4053-ece9-6e7d"/>
         <infoLink name="Templar Vows" id="ea5c-3499-db05-9a4a" hidden="false" type="rule" targetId="f26c-4b28-aaea-40cf"/>
-        <infoLink name="Courses of War" id="381c-0bab-d62e-0e59" hidden="false" type="rule" targetId="8def-0789-e018-fda5"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink targetId="dbd4-63-af05-998" id="be9b-aea5-348-cf7b" primary="true" name="Vehicle"/>
@@ -12626,7 +12587,6 @@ by 1.</characteristic>
         <infoLink name="Damaged: 1-4 Wounds Remaining" hidden="false" type="profile" id="c597-f117-dcff-91c6" targetId="ee64-aaaf-75df-8da9"/>
         <infoLink name="Oath of Moment" hidden="false" type="rule" id="eb6f-5591-4a7e-fd5f" targetId="3b76-4053-ece9-6e7d"/>
         <infoLink name="Templar Vows" id="5b3b-9d18-9f41-813b" hidden="false" type="rule" targetId="f26c-4b28-aaea-40cf"/>
-        <infoLink name="Courses of War" id="348f-7078-4b43-3166" hidden="false" type="rule" targetId="8def-0789-e018-fda5"/>
       </infoLinks>
       <constraints>
         <constraint type="max" value="3" field="selections" scope="roster" shared="true" id="cec5-2793-a763-e647"/>
@@ -13230,7 +13190,6 @@ by 1.</characteristic>
       <infoLinks>
         <infoLink name="Oath of Moment" hidden="false" type="rule" id="eb4c-6ab9-8c06-8051" targetId="3b76-4053-ece9-6e7d"/>
         <infoLink name="Templar Vows" id="37dd-d860-9db9-500a" hidden="false" type="rule" targetId="f26c-4b28-aaea-40cf"/>
-        <infoLink name="Courses of War" id="32ba-97cb-ab15-f878" hidden="false" type="rule" targetId="8def-0789-e018-fda5"/>
       </infoLinks>
       <entryLinks>
         <entryLink import="true" name="Crusade" hidden="false" id="7f52-bbd5-b84a-6228" type="selectionEntryGroup" targetId="9a99-f13c-a667-e698" sortIndex="1"/>
@@ -13639,7 +13598,6 @@ by 1.</characteristic>
         <infoLink name="Deep Strike" hidden="false" type="rule" id="8b4a-fe5d-7858-f8f8" targetId="7cb5-dd6b-dd87-ad3b"/>
         <infoLink name="Oath of Moment" hidden="false" type="rule" id="ed30-a79a-4bb5-e51a" targetId="3b76-4053-ece9-6e7d"/>
         <infoLink name="Templar Vows" id="ca47-583c-9e38-ba33" hidden="false" type="rule" targetId="f26c-4b28-aaea-40cf"/>
-        <infoLink name="Courses of War" id="7b2b-428b-f1d7-a179" hidden="false" type="rule" targetId="8def-0789-e018-fda5"/>
       </infoLinks>
       <entryLinks>
         <entryLink import="true" name="Crusade" hidden="false" id="3cea-367e-c3bd-3fdf" type="selectionEntryGroup" targetId="9a99-f13c-a667-e698" sortIndex="1"/>
@@ -13810,7 +13768,6 @@ by 1.</characteristic>
       <infoLinks>
         <infoLink name="Oath of Moment" hidden="false" type="rule" id="5648-7494-2d09-6629" targetId="3b76-4053-ece9-6e7d"/>
         <infoLink name="Templar Vows" id="6222-922f-ce94-d68f" hidden="false" type="rule" targetId="f26c-4b28-aaea-40cf"/>
-        <infoLink name="Courses of War" id="4ed6-2d66-1a7b-b0ef" hidden="false" type="rule" targetId="8def-0789-e018-fda5"/>
       </infoLinks>
       <modifiers>
         <modifier type="add" value="e9c7-1590-1bda-bf7f" field="category">
@@ -14066,7 +14023,6 @@ by 1.</characteristic>
       <infoLinks>
         <infoLink name="Oath of Moment" hidden="false" type="rule" id="5b6f-f96b-b610-ec84" targetId="3b76-4053-ece9-6e7d"/>
         <infoLink name="Templar Vows" id="ed79-b41b-1af8-b93a" hidden="false" type="rule" targetId="f26c-4b28-aaea-40cf"/>
-        <infoLink name="Courses of War" id="5a69-3ba7-19e5-1da2" hidden="false" type="rule" targetId="8def-0789-e018-fda5"/>
       </infoLinks>
       <constraints>
         <constraint type="max" value="3" field="selections" scope="roster" shared="true" id="c378-0802-7a7d-6dde"/>
@@ -14245,7 +14201,6 @@ by 1.</characteristic>
       </categoryLinks>
       <infoLinks>
         <infoLink name="Oath of Moment" hidden="false" type="rule" id="3159-d217-c62e-2496" targetId="3b76-4053-ece9-6e7d"/>
-        <infoLink name="Courses of War" id="2d53-dacc-0a40-1ecd" hidden="false" type="rule" targetId="8def-0789-e018-fda5"/>
       </infoLinks>
       <modifiers>
         <modifier type="set" value="true" field="hidden">
@@ -14692,7 +14647,6 @@ by 1.</characteristic>
       <infoLinks>
         <infoLink name="Oath of Moment" hidden="false" type="rule" id="eee2-8d14-26a3-47c9" targetId="3b76-4053-ece9-6e7d"/>
         <infoLink name="Templar Vows" id="d4ea-19da-34fd-5625" hidden="false" type="rule" targetId="f26c-4b28-aaea-40cf"/>
-        <infoLink name="Courses of War" id="11c5-d473-63c1-c93a" hidden="false" type="rule" targetId="8def-0789-e018-fda5"/>
       </infoLinks>
       <entryLinks>
         <entryLink import="true" name="Crusade" hidden="false" id="c5ac-73db-a5e9-5516" type="selectionEntryGroup" targetId="9a99-f13c-a667-e698" sortIndex="1"/>
@@ -14789,7 +14743,6 @@ by 1.</characteristic>
         </infoLink>
         <infoLink name="Oath of Moment" hidden="false" type="rule" id="5d5e-6244-b2c-8100" targetId="3b76-4053-ece9-6e7d"/>
         <infoLink name="Templar Vows" id="3684-e928-6449-d965" hidden="false" type="rule" targetId="f26c-4b28-aaea-40cf"/>
-        <infoLink name="Courses of War" id="3394-ed0a-fa56-ef66" hidden="false" type="rule" targetId="8def-0789-e018-fda5"/>
       </infoLinks>
       <costs>
         <cost name="pts" typeId="51b2-306e-1021-d207" value="75"/>
@@ -15118,7 +15071,6 @@ by 1.</characteristic>
         <infoLink name="Deep Strike" hidden="false" type="rule" id="6018-6d3e-99e4-778f" targetId="7cb5-dd6b-dd87-ad3b"/>
         <infoLink name="Oath of Moment" hidden="false" type="rule" id="ccd2-3665-6c88-52af" targetId="3b76-4053-ece9-6e7d"/>
         <infoLink name="Templar Vows" id="0944-5d24-aed8-9d46" hidden="false" type="rule" targetId="f26c-4b28-aaea-40cf"/>
-        <infoLink name="Courses of War" id="1893-37e1-b119-cd03" hidden="false" type="rule" targetId="8def-0789-e018-fda5"/>
       </infoLinks>
       <profiles>
         <profile name="Suppression Fire" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="221-7d8c-a074-f7a8">
@@ -15545,7 +15497,6 @@ by 1.</characteristic>
         <infoLink name="Deep Strike" hidden="false" type="rule" id="52fa-a07-76c3-2d65" targetId="7cb5-dd6b-dd87-ad3b"/>
         <infoLink name="Oath of Moment" hidden="false" type="rule" id="3c29-b17a-6d0-b5e1" targetId="3b76-4053-ece9-6e7d"/>
         <infoLink name="Templar Vows" id="0b65-aeb0-bc74-8267" hidden="false" type="rule" targetId="f26c-4b28-aaea-40cf"/>
-        <infoLink name="Courses of War" id="bd9c-5db6-7057-0bb2" hidden="false" type="rule" targetId="8def-0789-e018-fda5"/>
       </infoLinks>
       <profiles>
         <profile name="Meteoric Descent" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="93be-2ff0-7890-946b">
@@ -15679,7 +15630,6 @@ by 1.</characteristic>
         </infoLink>
         <infoLink name="Oath of Moment" hidden="false" type="rule" id="c9dd-a36-6957-527c" targetId="3b76-4053-ece9-6e7d"/>
         <infoLink name="Templar Vows" id="d632-2463-6ed8-3e31" hidden="false" type="rule" targetId="f26c-4b28-aaea-40cf"/>
-        <infoLink name="Courses of War" id="4f25-4240-2982-738f" hidden="false" type="rule" targetId="8def-0789-e018-fda5"/>
       </infoLinks>
       <entryLinks>
         <entryLink import="true" name="Crusade" hidden="false" id="1b9f-8e95-f8fc-ac13" type="selectionEntryGroup" targetId="9a99-f13c-a667-e698" sortIndex="1"/>
@@ -15848,7 +15798,6 @@ by 1.</characteristic>
         <infoLink name="Deep Strike" hidden="false" type="rule" id="e5a5-890e-6661-fddf" targetId="7cb5-dd6b-dd87-ad3b"/>
         <infoLink name="Oath of Moment" hidden="false" type="rule" id="e096-170-ab33-c901" targetId="3b76-4053-ece9-6e7d"/>
         <infoLink name="Templar Vows" id="f139-8e91-0483-dadb" hidden="false" type="rule" targetId="f26c-4b28-aaea-40cf"/>
-        <infoLink name="Courses of War" id="c819-7a68-d17c-7465" hidden="false" type="rule" targetId="8def-0789-e018-fda5"/>
       </infoLinks>
       <entryLinks>
         <entryLink import="true" name="Crusade" hidden="false" id="b1b2-7a2e-8277-81cd" type="selectionEntryGroup" targetId="9a99-f13c-a667-e698" sortIndex="1"/>
@@ -16047,7 +15996,6 @@ by 1.</characteristic>
         </infoLink>
         <infoLink name="Oath of Moment" hidden="false" type="rule" id="dedd-9c21-238b-b27b" targetId="3b76-4053-ece9-6e7d"/>
         <infoLink name="Templar Vows" id="3a32-44a3-a3a0-e7ad" hidden="false" type="rule" targetId="f26c-4b28-aaea-40cf"/>
-        <infoLink name="Courses of War" id="9d7e-c25f-10c1-d949" hidden="false" type="rule" targetId="8def-0789-e018-fda5"/>
       </infoLinks>
       <entryLinks>
         <entryLink import="true" name="Crusade" hidden="false" id="9ec9-ae10-2ec9-4bf8" type="selectionEntryGroup" targetId="9a99-f13c-a667-e698" sortIndex="1"/>
@@ -16290,7 +16238,6 @@ by 1.</characteristic>
         <infoLink name="Oath of Moment" hidden="false" type="rule" id="36be-20fb-942d-bb66" targetId="3b76-4053-ece9-6e7d"/>
         <infoLink name="Oath of Moment" hidden="false" type="rule" id="7d3c-856b-14c9-38e4" targetId="3b76-4053-ece9-6e7d"/>
         <infoLink name="Templar Vows" id="b7b9-8577-9f0d-dafe" hidden="false" type="rule" targetId="f26c-4b28-aaea-40cf"/>
-        <infoLink name="Courses of War" id="872b-ccc0-5df2-487a" hidden="false" type="rule" targetId="8def-0789-e018-fda5"/>
       </infoLinks>
       <selectionEntryGroups>
         <selectionEntryGroup name="Wargear" id="1866-e739-3631-1a01" hidden="false" sortIndex="2">
@@ -16462,7 +16409,6 @@ by 1.</characteristic>
         <infoLink name="Deep Strike" hidden="false" type="rule" id="db7b-4be7-82a5-c6e7" targetId="7cb5-dd6b-dd87-ad3b"/>
         <infoLink name="Oath of Moment" hidden="false" type="rule" id="21b0-41e-83f3-6a21" targetId="3b76-4053-ece9-6e7d"/>
         <infoLink name="Templar Vows" id="63f2-7d5d-7a67-5d8a" hidden="false" type="rule" targetId="f26c-4b28-aaea-40cf"/>
-        <infoLink name="Courses of War" id="a1ec-f761-5536-1d6b" hidden="false" type="rule" targetId="8def-0789-e018-fda5"/>
       </infoLinks>
       <selectionEntryGroups>
         <selectionEntryGroup name="Wargear" id="613c-1f99-6abf-31b0" hidden="false" sortIndex="2">
@@ -16643,7 +16589,6 @@ by 1.</characteristic>
         <infoLink name="Deep Strike" hidden="false" type="rule" id="2373-305-1e08-2d9e" targetId="7cb5-dd6b-dd87-ad3b"/>
         <infoLink name="Oath of Moment" hidden="false" type="rule" id="74d4-9127-8b00-4c02" targetId="3b76-4053-ece9-6e7d"/>
         <infoLink name="Templar Vows" id="2dbb-f23f-2067-6868" hidden="false" type="rule" targetId="f26c-4b28-aaea-40cf"/>
-        <infoLink name="Courses of War" id="6b91-10be-f9f9-84ef" hidden="false" type="rule" targetId="8def-0789-e018-fda5"/>
       </infoLinks>
       <selectionEntryGroups>
         <selectionEntryGroup name="Wargear" id="9c99-19e9-a284-881a" hidden="false" sortIndex="2">
@@ -16980,7 +16925,6 @@ by 1.</characteristic>
       <infoLinks>
         <infoLink name="Oath of Moment" hidden="false" type="rule" id="d589-833c-9a86-5681" targetId="3b76-4053-ece9-6e7d"/>
         <infoLink name="Templar Vows" id="5e91-5b7a-7205-528f" hidden="false" type="rule" targetId="f26c-4b28-aaea-40cf"/>
-        <infoLink name="Courses of War" id="1a2c-c405-7828-584c" hidden="false" type="rule" targetId="8def-0789-e018-fda5"/>
       </infoLinks>
       <entryLinks>
         <entryLink import="true" name="Crusade" hidden="false" id="78f7-3c62-235e-e140" type="selectionEntryGroup" targetId="9a99-f13c-a667-e698" sortIndex="1"/>
@@ -17075,7 +17019,6 @@ Normal move. If it does so, until the end of the turn, this unit is not eligible
         <infoLink name="Stealth" hidden="false" type="rule" id="e4e6-2668-c4a0-b7cb" targetId="bec5-4288-34a6-ccfa"/>
         <infoLink name="Oath of Moment" hidden="false" type="rule" id="54b2-b5b6-2772-6642" targetId="3b76-4053-ece9-6e7d"/>
         <infoLink name="Templar Vows" id="129d-812b-338d-602f" hidden="false" type="rule" targetId="f26c-4b28-aaea-40cf"/>
-        <infoLink name="Courses of War" id="2dd6-105c-3ef8-2beb" hidden="false" type="rule" targetId="8def-0789-e018-fda5"/>
       </infoLinks>
       <selectionEntryGroups>
         <selectionEntryGroup name="Eliminators" hidden="false" id="ed8f-8d76-209a-db6c" sortIndex="2">
@@ -17505,7 +17448,6 @@ Normal move. If it does so, until the end of the turn, this unit is not eligible
       <infoLinks>
         <infoLink name="Oath of Moment" hidden="false" type="rule" id="74d6-c0de-a85f-4256" targetId="3b76-4053-ece9-6e7d"/>
         <infoLink name="Templar Vows" id="dad3-87ce-058a-3df7" hidden="false" type="rule" targetId="f26c-4b28-aaea-40cf"/>
-        <infoLink name="Courses of War" id="1430-7a56-fd1c-6c31" hidden="false" type="rule" targetId="8def-0789-e018-fda5"/>
       </infoLinks>
       <entryLinks>
         <entryLink import="true" name="Crusade" hidden="false" id="a902-d3d0-7e3d-f070" type="selectionEntryGroup" targetId="9a99-f13c-a667-e698" sortIndex="1"/>
@@ -17844,7 +17786,6 @@ Normal move. If it does so, until the end of the turn, this unit is not eligible
       <infoLinks>
         <infoLink name="Oath of Moment" hidden="false" type="rule" id="9b8c-37eb-2a47-7f8c" targetId="3b76-4053-ece9-6e7d"/>
         <infoLink name="Templar Vows" id="1485-c61c-4823-881a" hidden="false" type="rule" targetId="f26c-4b28-aaea-40cf"/>
-        <infoLink name="Courses of War" id="2bfd-cc47-e965-b082" hidden="false" type="rule" targetId="8def-0789-e018-fda5"/>
       </infoLinks>
       <entryLinks>
         <entryLink import="true" name="Crusade" hidden="false" id="ebd9-dd65-c00d-ae67" type="selectionEntryGroup" targetId="9a99-f13c-a667-e698" sortIndex="1"/>
@@ -18051,6 +17992,10 @@ Normal move. If it does so, until the end of the turn, this unit is not eligible
                   <entryLinks>
                     <entryLink import="true" name="Weapon Modifications" hidden="false" id="ef1e-7930-515b-5d8b" type="selectionEntryGroup" targetId="f9da-852a-d7f0-92e9"/>
                   </entryLinks>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ed6a-5842-73b6-9a77" includeChildSelections="false"/>
+                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="5dce-c881-77dc-cc31" includeChildSelections="false"/>
+                  </constraints>
                 </entryLink>
                 <entryLink import="true" name="Terminator Honours upgrade" hidden="false" id="8ce0-caed-487e-4c9d" type="selectionEntry" targetId="e7f9-66f5-9b9e-c587"/>
               </entryLinks>
@@ -18170,7 +18115,6 @@ Normal move. If it does so, until the end of the turn, this unit is not eligible
       <infoLinks>
         <infoLink name="Oath of Moment" hidden="false" type="rule" id="a27f-2f-fa7b-68a2" targetId="3b76-4053-ece9-6e7d"/>
         <infoLink name="Templar Vows" id="5c51-017c-7326-6e6a" hidden="false" type="rule" targetId="f26c-4b28-aaea-40cf"/>
-        <infoLink name="Courses of War" id="02c0-4644-832b-6333" hidden="false" type="rule" targetId="8def-0789-e018-fda5"/>
       </infoLinks>
       <entryLinks>
         <entryLink import="true" name="Crusade" hidden="false" id="71d4-9046-5873-658a" type="selectionEntryGroup" targetId="9a99-f13c-a667-e698" sortIndex="1"/>
@@ -18453,7 +18397,6 @@ Normal move. If it does so, until the end of the turn, this unit is not eligible
       <infoLinks>
         <infoLink name="Oath of Moment" hidden="false" type="rule" id="f0d4-aedb-4311-967" targetId="3b76-4053-ece9-6e7d"/>
         <infoLink name="Templar Vows" id="d86e-00a4-c8ec-9722" hidden="false" type="rule" targetId="f26c-4b28-aaea-40cf"/>
-        <infoLink name="Courses of War" id="146c-e0f8-5151-f794" hidden="false" type="rule" targetId="8def-0789-e018-fda5"/>
       </infoLinks>
       <modifiers>
         <modifier type="set" value="true" field="hidden">
@@ -18632,7 +18575,7 @@ Normal move. If it does so, until the end of the turn, this unit is not eligible
         </selectionEntryGroup>
       </selectionEntryGroups>
       <profiles>
-        <profile name="Sentinel Protocals" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="1989-6f58-9d94-8045">
+        <profile name="Sentinel Protocols" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="1989-6f58-9d94-8045">
           <characteristics>
             <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Each time you select this unit for the Fire Overwatch Stratagem, hits are scored on unmodified Hit rolls of 4+ when resolving that Stratagem.</characteristic>
           </characteristics>
@@ -18647,7 +18590,6 @@ Normal move. If it does so, until the end of the turn, this unit is not eligible
       </categoryLinks>
       <infoLinks>
         <infoLink name="Oath of Moment" hidden="false" type="rule" id="3e0d-e496-5702-69ae" targetId="3b76-4053-ece9-6e7d"/>
-        <infoLink name="Courses of War" id="d2e7-e882-0693-5a94" hidden="false" type="rule" targetId="8def-0789-e018-fda5"/>
       </infoLinks>
       <constraints>
         <constraint type="max" value="3" field="selections" scope="roster" shared="true" id="7fef-668a-8275-63d5"/>
@@ -18762,7 +18704,6 @@ Normal move. If it does so, until the end of the turn, this unit is not eligible
         <infoLink name="Damaged: 1-4 Wounds Remaining" hidden="false" type="profile" id="7612-e02b-eab7-68e0" targetId="ee64-aaaf-75df-8da9"/>
         <infoLink name="Oath of Moment" hidden="false" type="rule" id="4585-ff70-c5e4-c09d" targetId="3b76-4053-ece9-6e7d"/>
         <infoLink name="Templar Vows" id="b753-53c4-4ade-6972" hidden="false" type="rule" targetId="f26c-4b28-aaea-40cf"/>
-        <infoLink name="Courses of War" id="33d2-bab6-fbfb-4225" hidden="false" type="rule" targetId="8def-0789-e018-fda5"/>
       </infoLinks>
       <entryLinks>
         <entryLink import="true" name="Crusade" hidden="false" id="1405-7932-aaf5-56c0" type="selectionEntryGroup" targetId="9a99-f13c-a667-e698" sortIndex="1"/>
@@ -18944,7 +18885,6 @@ Normal move. If it does so, until the end of the turn, this unit is not eligible
         </infoLink>
         <infoLink name="Oath of Moment" hidden="false" type="rule" id="65f6-264-8075-1edc" targetId="3b76-4053-ece9-6e7d"/>
         <infoLink name="Templar Vows" id="a791-7a72-7db1-7204" hidden="false" type="rule" targetId="f26c-4b28-aaea-40cf"/>
-        <infoLink name="Courses of War" id="fb29-b9eb-d976-6937" hidden="false" type="rule" targetId="8def-0789-e018-fda5"/>
       </infoLinks>
       <entryLinks>
         <entryLink import="true" name="Crusade" hidden="false" id="ce17-337a-a95b-1108" type="selectionEntryGroup" targetId="9a99-f13c-a667-e698" sortIndex="1"/>
@@ -19151,7 +19091,6 @@ Normal move. If it does so, until the end of the turn, this unit is not eligible
         </infoLink>
         <infoLink name="Oath of Moment" hidden="false" type="rule" id="1e5a-1b1a-5425-e2f6" targetId="3b76-4053-ece9-6e7d"/>
         <infoLink name="Templar Vows" id="be1d-ed82-be4b-5873" hidden="false" type="rule" targetId="f26c-4b28-aaea-40cf"/>
-        <infoLink name="Courses of War" id="1892-0bf9-2d6a-3ad0" hidden="false" type="rule" targetId="8def-0789-e018-fda5"/>
       </infoLinks>
       <constraints>
         <constraint type="max" value="3" field="selections" scope="roster" shared="true" id="4144-d2c1-e753-353"/>
@@ -19307,7 +19246,6 @@ Normal move. If it does so, until the end of the turn, this unit is not eligible
         </infoLink>
         <infoLink name="Oath of Moment" hidden="false" type="rule" id="8681-ea3-6bbe-44e" targetId="3b76-4053-ece9-6e7d"/>
         <infoLink name="Templar Vows" id="55e0-9958-4e2a-993a" hidden="false" type="rule" targetId="f26c-4b28-aaea-40cf"/>
-        <infoLink name="Courses of War" id="9972-4f2d-69aa-24d6" hidden="false" type="rule" targetId="8def-0789-e018-fda5"/>
       </infoLinks>
       <constraints>
         <constraint type="max" value="3" field="selections" scope="roster" shared="true" id="4144-d2c1-e753-353"/>
@@ -19528,7 +19466,6 @@ Normal move. If it does so, until the end of the turn, this unit is not eligible
         </infoLink>
         <infoLink name="Oath of Moment" hidden="false" type="rule" id="2310-f079-5d46-9734" targetId="3b76-4053-ece9-6e7d"/>
         <infoLink name="Templar Vows" id="ec3f-50f7-6666-6481" hidden="false" type="rule" targetId="f26c-4b28-aaea-40cf"/>
-        <infoLink name="Courses of War" id="378b-4427-2fd5-cee6" hidden="false" type="rule" targetId="8def-0789-e018-fda5"/>
       </infoLinks>
       <constraints>
         <constraint type="max" value="3" field="selections" scope="roster" shared="true" id="4144-d2c1-e753-353"/>
@@ -19760,7 +19697,6 @@ Normal move. If it does so, until the end of the turn, this unit is not eligible
           </modifiers>
         </infoLink>
         <infoLink name="Oath of Moment" hidden="false" type="rule" id="c2dc-3bfd-7075-c711" targetId="3b76-4053-ece9-6e7d"/>
-        <infoLink name="Courses of War" id="e006-52af-1223-d254" hidden="false" type="rule" targetId="8def-0789-e018-fda5"/>
       </infoLinks>
       <constraints>
         <constraint type="max" value="3" field="selections" scope="roster" shared="true" id="4144-d2c1-e753-353"/>
@@ -19979,7 +19915,6 @@ Normal move. If it does so, until the end of the turn, this unit is not eligible
           </modifiers>
         </infoLink>
         <infoLink name="Oath of Moment" hidden="false" type="rule" id="3388-c464-b02a-891d" targetId="3b76-4053-ece9-6e7d"/>
-        <infoLink name="Courses of War" id="a105-01e3-bea8-a3c6" hidden="false" type="rule" targetId="8def-0789-e018-fda5"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink targetId="6df-937-16bc-8c1a" id="97ee-3109-e54b-559a" primary="false" name="Smoke"/>
@@ -20216,7 +20151,6 @@ Normal move. If it does so, until the end of the turn, this unit is not eligible
           </modifiers>
         </infoLink>
         <infoLink name="Oath of Moment" hidden="false" type="rule" id="46ca-8260-73f7-b135" targetId="3b76-4053-ece9-6e7d"/>
-        <infoLink name="Courses of War" id="7ddb-f76c-1190-9412" hidden="false" type="rule" targetId="8def-0789-e018-fda5"/>
       </infoLinks>
       <constraints>
         <constraint type="max" value="3" field="selections" scope="roster" shared="true" id="65e4-b4e7-3940-bcfe"/>
@@ -20411,7 +20345,6 @@ Normal move. If it does so, until the end of the turn, this unit is not eligible
         </infoLink>
         <infoLink name="Oath of Moment" hidden="false" type="rule" id="ffe7-27f9-b924-27e1" targetId="3b76-4053-ece9-6e7d"/>
         <infoLink name="Templar Vows" id="a4f3-9d54-5e60-610a" hidden="false" type="rule" targetId="f26c-4b28-aaea-40cf"/>
-        <infoLink name="Courses of War" id="21d6-f2bf-b945-9fc3" hidden="false" type="rule" targetId="8def-0789-e018-fda5"/>
       </infoLinks>
       <entryLinks>
         <entryLink import="true" name="Crusade" hidden="false" id="f756-2008-549c-23c8" type="selectionEntryGroup" targetId="9a99-f13c-a667-e698" sortIndex="1"/>
@@ -20600,7 +20533,6 @@ Normal move. If it does so, until the end of the turn, this unit is not eligible
         <infoLink name="Damaged: 1-5 Wounds Remaining" hidden="false" type="profile" id="92e4-6764-7832-c85a" targetId="1aac-b083-4318-f750"/>
         <infoLink name="Oath of Moment" hidden="false" type="rule" id="4da8-4e44-613b-ad50" targetId="3b76-4053-ece9-6e7d"/>
         <infoLink name="Templar Vows" id="90aa-544b-be71-7512" hidden="false" type="rule" targetId="f26c-4b28-aaea-40cf"/>
-        <infoLink name="Courses of War" id="3f73-b8c5-baac-75f2" hidden="false" type="rule" targetId="8def-0789-e018-fda5"/>
       </infoLinks>
       <costs>
         <cost name="pts" typeId="51b2-306e-1021-d207" value="220"/>
@@ -20777,7 +20709,6 @@ Normal move. If it does so, until the end of the turn, this unit is not eligible
         </infoLink>
         <infoLink name="Damaged: 1-5 Wounds Remaining" hidden="false" type="profile" id="492a-2eca-630-24ac" targetId="1aac-b083-4318-f750"/>
         <infoLink name="Oath of Moment" hidden="false" type="rule" id="165c-2cae-ee40-1e97" targetId="3b76-4053-ece9-6e7d"/>
-        <infoLink name="Courses of War" id="00d3-4883-1ccd-dc64" hidden="false" type="rule" targetId="8def-0789-e018-fda5"/>
       </infoLinks>
       <profiles>
         <profile name="Transport" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="d1ad-53ff-33b0-b5bd">
@@ -20812,6 +20743,7 @@ Normal move. If it does so, until the end of the turn, this unit is not eligible
         <categoryLink targetId="aff3-d6a3-2a95-9dc" id="a2cb-6ba1-1347-a509" primary="false" name="Imperium"/>
         <categoryLink targetId="75e8-57c4-40e3-1817" id="b5a8-3b24-71e6-6997" primary="false" name="Transport"/>
         <categoryLink targetId="5a61-81ac-eb7c-a87e" id="4218-7e81-6754-fe89" primary="false" name="Grenades"/>
+        <categoryLink targetId="8c5e-74f4-e3cf-56ed" id="a74d-04b5-5460-2849" primary="false" name="Land Raider"/>
       </categoryLinks>
       <modifiers>
         <modifier type="add" value="e21f-8e64-c5d-7df0" field="category">
@@ -20969,6 +20901,7 @@ Normal move. If it does so, until the end of the turn, this unit is not eligible
         <categoryLink targetId="551d-174d-e214-52d6" id="46cc-57bf-9527-7334" primary="false" name="Land Raider Redeemer"/>
         <categoryLink targetId="6e7-40c-58d9-e402" id="4e71-ae1a-4cef-8e53" primary="false" name="Faction: Adeptus Astartes"/>
         <categoryLink targetId="75e8-57c4-40e3-1817" id="d04a-ff56-a19a-da98" primary="false" name="Transport"/>
+        <categoryLink targetId="8c5e-74f4-e3cf-56ed" id="c86d-739d-7c2b-b902" primary="false" name="Land Raider"/>
       </categoryLinks>
       <constraints>
         <constraint type="max" value="3" field="selections" scope="roster" shared="true" id="c865-28b2-ed07-7341"/>
@@ -21011,7 +20944,6 @@ Normal move. If it does so, until the end of the turn, this unit is not eligible
         <infoLink name="Oath of Moment" hidden="false" type="rule" id="6b31-e149-4592-65aa" targetId="3b76-4053-ece9-6e7d"/>
         <infoLink name="Oath of Moment" hidden="false" type="rule" id="de25-112c-7694-305f" targetId="3b76-4053-ece9-6e7d"/>
         <infoLink name="Templar Vows" id="0261-e47f-b144-d656" hidden="false" type="rule" targetId="f26c-4b28-aaea-40cf"/>
-        <infoLink name="Courses of War" id="6674-b4cb-e262-2fdb" hidden="false" type="rule" targetId="8def-0789-e018-fda5"/>
       </infoLinks>
       <modifiers>
         <modifier type="add" value="e21f-8e64-c5d-7df0" field="category">
@@ -21231,7 +21163,6 @@ Normal move. If it does so, until the end of the turn, this unit is not eligible
           </modifiers>
         </infoLink>
         <infoLink name="Oath of Moment" hidden="false" type="rule" id="5d6d-c031-9ec5-62bc" targetId="3b76-4053-ece9-6e7d"/>
-        <infoLink name="Courses of War" id="7300-99fb-5351-15c8" hidden="false" type="rule" targetId="8def-0789-e018-fda5"/>
       </infoLinks>
       <entryLinks>
         <entryLink import="true" name="Crusade" hidden="false" id="d49f-59b3-c539-d7ca" type="selectionEntryGroup" targetId="9a99-f13c-a667-e698" sortIndex="1"/>
@@ -21426,7 +21357,6 @@ Normal move. If it does so, until the end of the turn, this unit is not eligible
           </modifiers>
         </infoLink>
         <infoLink name="Oath of Moment" hidden="false" type="rule" id="f9bb-2100-506e-1a15" targetId="3b76-4053-ece9-6e7d"/>
-        <infoLink name="Courses of War" id="bee4-7b05-cd0f-6590" hidden="false" type="rule" targetId="8def-0789-e018-fda5"/>
       </infoLinks>
       <profiles>
         <profile name="Transport" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="db95-443f-c0e-83df">
@@ -21706,7 +21636,6 @@ Normal move. If it does so, until the end of the turn, this unit is not eligible
         </infoLink>
         <infoLink name="Oath of Moment" hidden="false" type="rule" id="da4-7033-863-f1fa" targetId="3b76-4053-ece9-6e7d"/>
         <infoLink name="Templar Vows" id="9156-ca51-0fc2-552b" hidden="false" type="rule" targetId="f26c-4b28-aaea-40cf"/>
-        <infoLink name="Courses of War" id="82a4-8236-e901-947b" hidden="false" type="rule" targetId="8def-0789-e018-fda5"/>
       </infoLinks>
       <entryLinks>
         <entryLink import="true" name="Crusade" hidden="false" id="29e4-1f83-97fc-2fb1" type="selectionEntryGroup" targetId="9a99-f13c-a667-e698" sortIndex="1"/>
@@ -21866,7 +21795,6 @@ Normal move. If it does so, until the end of the turn, this unit is not eligible
         </infoLink>
         <infoLink name="Oath of Moment" hidden="false" type="rule" id="df01-e4e-863-9fcc" targetId="3b76-4053-ece9-6e7d"/>
         <infoLink name="Templar Vows" id="ff0d-d8d9-9588-bdde" hidden="false" type="rule" targetId="f26c-4b28-aaea-40cf"/>
-        <infoLink name="Courses of War" id="0242-229d-3148-e96d" hidden="false" type="rule" targetId="8def-0789-e018-fda5"/>
       </infoLinks>
       <selectionEntryGroups>
         <selectionEntryGroup name="Wargear" id="4745-4539-10aa-2a5c" hidden="false" sortIndex="2">
@@ -22039,7 +21967,6 @@ Normal move. If it does so, until the end of the turn, this unit is not eligible
           </modifiers>
         </infoLink>
         <infoLink name="Oath of Moment" hidden="false" type="rule" id="3a60-ff11-dd7d-948c" targetId="3b76-4053-ece9-6e7d"/>
-        <infoLink name="Courses of War" id="4aec-50a5-2fc8-31eb" hidden="false" type="rule" targetId="8def-0789-e018-fda5"/>
       </infoLinks>
       <entryLinks>
         <entryLink import="true" name="Crusade" hidden="false" id="3d14-5c19-6397-8901" type="selectionEntryGroup" targetId="9a99-f13c-a667-e698" sortIndex="1"/>
@@ -22302,7 +22229,6 @@ Normal move. If it does so, until the end of the turn, this unit is not eligible
         <infoLink name="Deep Strike" hidden="false" type="rule" id="1085-f66-5482-24be" targetId="7cb5-dd6b-dd87-ad3b"/>
         <infoLink name="Oath of Moment" hidden="false" type="rule" id="3a59-a51e-2b13-81dd" targetId="3b76-4053-ece9-6e7d"/>
         <infoLink name="Templar Vows" id="295c-15a0-4c95-a9f5" hidden="false" type="rule" targetId="f26c-4b28-aaea-40cf"/>
-        <infoLink name="Courses of War" id="54f4-912a-c13e-bf6c" hidden="false" type="rule" targetId="8def-0789-e018-fda5"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink targetId="dbd4-63-af05-998" id="72eb-4a1b-774-a0ba" primary="false" name="Vehicle"/>
@@ -22438,7 +22364,6 @@ Normal move. If it does so, until the end of the turn, this unit is not eligible
             <modifier type="append" value="6" field="name"/>
           </modifiers>
         </infoLink>
-        <infoLink name="Courses of War" id="e259-a770-187b-6202" hidden="false" type="rule" targetId="8def-0789-e018-fda5"/>
       </infoLinks>
       <entryLinks>
         <entryLink import="true" name="Crusade" hidden="false" id="9b38-08b7-7154-c3d4" type="selectionEntryGroup" targetId="9a99-f13c-a667-e698" sortIndex="1"/>
@@ -22614,7 +22539,6 @@ Normal move. If it does so, until the end of the turn, this unit is not eligible
         </infoLink>
         <infoLink name="Oath of Moment" hidden="false" type="rule" id="b787-f39e-9fa6-1e73" targetId="3b76-4053-ece9-6e7d"/>
         <infoLink name="Templar Vows" id="3329-3007-6d7f-b026" hidden="false" type="rule" targetId="f26c-4b28-aaea-40cf"/>
-        <infoLink name="Courses of War" id="1dce-6ea5-058e-cfa8" hidden="false" type="rule" targetId="8def-0789-e018-fda5"/>
       </infoLinks>
       <entryLinks>
         <entryLink import="true" name="Crusade" hidden="false" id="5c90-5d65-9945-812c" type="selectionEntryGroup" targetId="9a99-f13c-a667-e698" sortIndex="1"/>
@@ -22830,7 +22754,6 @@ Normal move. If it does so, until the end of the turn, this unit is not eligible
         <infoLink name="Hover" hidden="false" type="rule" id="d778-d8b4-e742-b9d7" targetId="eec5-5f54-9c03-c305"/>
         <infoLink name="Oath of Moment" hidden="false" type="rule" id="ce5a-a5c4-66c7-3fe" targetId="3b76-4053-ece9-6e7d"/>
         <infoLink name="Templar Vows" id="d0bd-15ae-7744-818c" hidden="false" type="rule" targetId="f26c-4b28-aaea-40cf"/>
-        <infoLink name="Courses of War" id="8154-aa50-5b84-9e8c" hidden="false" type="rule" targetId="8def-0789-e018-fda5"/>
       </infoLinks>
       <entryLinks>
         <entryLink import="true" name="Crusade" hidden="false" id="8ae1-0002-fe48-6f7a" type="selectionEntryGroup" targetId="9a99-f13c-a667-e698" sortIndex="1"/>
@@ -23035,7 +22958,6 @@ Normal move. If it does so, until the end of the turn, this unit is not eligible
         <infoLink name="Damaged: 1-5 Wounds Remaining" hidden="false" type="profile" id="15bd-b1ce-a4ad-a151" targetId="1aac-b083-4318-f750"/>
         <infoLink name="Oath of Moment" hidden="false" type="rule" id="b72a-7083-c777-621a" targetId="3b76-4053-ece9-6e7d"/>
         <infoLink name="Templar Vows" id="2374-acf1-1716-96d0" hidden="false" type="rule" targetId="f26c-4b28-aaea-40cf"/>
-        <infoLink name="Courses of War" id="01c9-a09b-0b48-58e6" hidden="false" type="rule" targetId="8def-0789-e018-fda5"/>
       </infoLinks>
       <profiles>
         <profile name="Stormraven Gunship" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="b6bd-6f50-ef5c-b0b0">
@@ -23355,7 +23277,6 @@ Normal move. If it does so, until the end of the turn, this unit is not eligible
         <infoLink name="Damaged: 1-4 Wounds Remaining" hidden="false" type="profile" id="1d13-9d57-7b02-a92c" targetId="ee64-aaaf-75df-8da9"/>
         <infoLink name="Oath of Moment" hidden="false" type="rule" id="ea5f-ec72-6615-9925" targetId="3b76-4053-ece9-6e7d"/>
         <infoLink name="Templar Vows" id="e13d-e47a-cf8b-97f9" hidden="false" type="rule" targetId="f26c-4b28-aaea-40cf"/>
-        <infoLink name="Courses of War" id="9373-6f96-16da-b1c7" hidden="false" type="rule" targetId="8def-0789-e018-fda5"/>
       </infoLinks>
       <selectionEntryGroups>
         <selectionEntryGroup name="Weapon Option" hidden="false" id="1557-146f-bbf4-7643">
@@ -23464,7 +23385,6 @@ Normal move. If it does so, until the end of the turn, this unit is not eligible
         <infoLink name="Invulnerable Save" hidden="false" type="profile" id="3357-9645-ba5f-3d4" targetId="db19-dee7-9530-ef0e"/>
         <infoLink name="Oath of Moment" hidden="false" type="rule" id="7171-d377-ac3-5056" targetId="3b76-4053-ece9-6e7d"/>
         <infoLink name="Templar Vows" id="6420-2e4c-6500-b36e" hidden="false" type="rule" targetId="f26c-4b28-aaea-40cf"/>
-        <infoLink name="Courses of War" id="5e1b-46bf-72b3-4f5a" hidden="false" type="rule" targetId="8def-0789-e018-fda5"/>
       </infoLinks>
       <selectionEntryGroups>
         <selectionEntryGroup name="Wargear" id="60a8-e31a-c3c2-e247" hidden="false" sortIndex="4">
@@ -23813,7 +23733,6 @@ Normal move. If it does so, until the end of the turn, this unit is not eligible
         <infoLink name="Tactical Precision" hidden="false" type="profile" id="496-c03c-6378-df5b" targetId="b07f-3052-e85f-d6d3"/>
         <infoLink name="Oath of Moment" hidden="false" type="rule" id="a330-8af8-3a52-841f" targetId="3b76-4053-ece9-6e7d"/>
         <infoLink name="Templar Vows" id="a415-3975-38af-97f5" hidden="false" type="rule" targetId="f26c-4b28-aaea-40cf"/>
-        <infoLink name="Courses of War" id="ca4e-79b0-0c05-b961" hidden="false" type="rule" targetId="8def-0789-e018-fda5"/>
       </infoLinks>
       <selectionEntryGroups>
         <selectionEntryGroup name="Wargear" hidden="false" id="1752-282a-4c3d-d4a5" defaultSelectionEntryId="d75b-4769-99e4-2c86" sortIndex="4">
@@ -24107,7 +24026,6 @@ You can attach this model a unit it can lead even if one Captain or Chapter Mas
         <infoLink name="Tactical Precision" hidden="false" type="profile" id="17ae-5b42-11d1-75a4" targetId="b07f-3052-e85f-d6d3"/>
         <infoLink name="Oath of Moment" hidden="false" type="rule" id="a49d-7a03-b646-6ec9" targetId="3b76-4053-ece9-6e7d"/>
         <infoLink name="Templar Vows" id="0124-da78-652d-e868" hidden="false" type="rule" targetId="f26c-4b28-aaea-40cf"/>
-        <infoLink name="Courses of War" id="9474-7b2a-cd4a-b276" hidden="false" type="rule" targetId="8def-0789-e018-fda5"/>
       </infoLinks>
       <entryLinks>
         <entryLink id="5395-4ac7-4dfe-abf8" name="Warlord" hidden="false" collective="false" import="true" targetId="caa-f869-3cbd-b48e" type="selectionEntry" sortIndex="2">
@@ -24278,7 +24196,6 @@ You can attach this model a unit it can lead even if one Captain or Chapter Mas
         <infoLink name="Tactical Precision" hidden="false" type="profile" id="f05a-f428-fdf-7c8" targetId="b07f-3052-e85f-d6d3"/>
         <infoLink name="Oath of Moment" hidden="false" type="rule" id="95ed-8f97-d65f-9c21" targetId="3b76-4053-ece9-6e7d"/>
         <infoLink name="Templar Vows" id="2024-1728-6fda-613c" hidden="false" type="rule" targetId="f26c-4b28-aaea-40cf"/>
-        <infoLink name="Courses of War" id="9a57-b406-bb5f-8631" hidden="false" type="rule" targetId="8def-0789-e018-fda5"/>
       </infoLinks>
       <costs>
         <cost name="pts" typeId="51b2-306e-1021-d207" value="55"/>
@@ -24484,7 +24401,6 @@ You can attach this model to a unit it can lead units even if one Captain or Ch
         <infoLink name="Leader" type="rule" id="e885-d127-435a-d3d8" targetId="b4dd-3e1f-41cb-218f"/>
         <infoLink name="Psychic Hood" hidden="false" type="profile" id="8134-b601-41d5-9290" targetId="116b-b23c-4ea4-30ed"/>
         <infoLink name="Oath of Moment" hidden="false" type="rule" id="5bf4-574d-d3b5-11d4" targetId="3b76-4053-ece9-6e7d"/>
-        <infoLink name="Courses of War" id="4e3d-b7e5-1396-168c" hidden="false" type="rule" targetId="8def-0789-e018-fda5"/>
       </infoLinks>
       <constraints>
         <constraint field="selections" scope="roster" value="3" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="93a5-5bb7-5004-6617" type="max"/>
@@ -24750,7 +24666,6 @@ You can attach this model to a unit it can lead units even if one Captain or Ch
         <infoLink name="Psychic Hood" hidden="false" type="profile" id="7dc2-9baf-bc62-3c62" targetId="116b-b23c-4ea4-30ed"/>
         <infoLink name="Infiltrators" hidden="false" type="rule" id="6238-bce4-d0e9-1b2b" targetId="c05d-f4c3-f091-4938"/>
         <infoLink name="Oath of Moment" hidden="false" type="rule" id="180b-c410-f75e-9df1" targetId="3b76-4053-ece9-6e7d"/>
-        <infoLink name="Courses of War" id="d47d-42b8-6cb3-5318" hidden="false" type="rule" targetId="8def-0789-e018-fda5"/>
       </infoLinks>
       <entryLinks>
         <entryLink id="daf5-72eb-9dee-2612" name="Warlord" hidden="false" collective="false" import="true" targetId="caa-f869-3cbd-b48e" type="selectionEntry" sortIndex="2">
@@ -24931,7 +24846,6 @@ model is within 12&quot;.</characteristic>
         <infoLink name="Invulnerable Save" hidden="false" type="profile" id="5ec4-e4f8-e671-26d" targetId="db19-dee7-9530-ef0e"/>
         <infoLink name="Oath of Moment" hidden="false" type="rule" id="bdd1-39b3-e2f-11e5" targetId="3b76-4053-ece9-6e7d"/>
         <infoLink name="Deep Strike" hidden="false" type="rule" id="e327-58f-6e3b-6547" targetId="7cb5-dd6b-dd87-ad3b"/>
-        <infoLink name="Courses of War" id="7dc2-47db-f33b-3837" hidden="false" type="rule" targetId="8def-0789-e018-fda5"/>
       </infoLinks>
       <entryLinks>
         <entryLink id="58a1-1958-8f06-dd65" name="Warlord" hidden="false" collective="false" import="true" targetId="caa-f869-3cbd-b48e" type="selectionEntry" sortIndex="2">
@@ -25119,7 +25033,6 @@ model is within 12&quot;.</characteristic>
         <infoLink name="Leader" type="rule" id="43cf-2fc3-6ee6-38ca" targetId="b4dd-3e1f-41cb-218f"/>
         <infoLink name="Psychic Hood" hidden="false" type="profile" id="ad6f-6910-c38f-bf67" targetId="116b-b23c-4ea4-30ed"/>
         <infoLink name="Oath of Moment" hidden="false" type="rule" id="493f-6fcf-a4c8-ac78" targetId="3b76-4053-ece9-6e7d"/>
-        <infoLink name="Courses of War" id="56ec-00fa-7d4b-b9c8" hidden="false" type="rule" targetId="8def-0789-e018-fda5"/>
       </infoLinks>
       <entryLinks>
         <entryLink id="e2f4-853e-5fc2-d6e2" name="Warlord" hidden="false" collective="false" import="true" targetId="caa-f869-3cbd-b48e" type="selectionEntry" sortIndex="2">
@@ -25534,7 +25447,6 @@ model is within 12&quot;.</characteristic>
         <infoLink name="Leader" type="rule" id="9029-da69-5efc-b824" targetId="b4dd-3e1f-41cb-218f"/>
         <infoLink name="Oath of Moment" hidden="false" type="rule" id="40d7-6125-e8d1-1d6" targetId="3b76-4053-ece9-6e7d"/>
         <infoLink name="Templar Vows" id="8e81-5ce4-c96b-811f" hidden="false" type="rule" targetId="f26c-4b28-aaea-40cf"/>
-        <infoLink name="Courses of War" id="e2b0-8875-d996-da36" hidden="false" type="rule" targetId="8def-0789-e018-fda5"/>
       </infoLinks>
       <constraints>
         <constraint field="selections" scope="roster" value="3" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f898-5c97-1c7a-ef5b" type="max"/>
@@ -25719,7 +25631,6 @@ model is within 12&quot;.</characteristic>
         <infoLink name="Leader" type="rule" id="8b37-597c-a707-ee02" targetId="b4dd-3e1f-41cb-218f"/>
         <infoLink name="Oath of Moment" hidden="false" type="rule" id="a3a4-d4ea-9da5-efd3" targetId="3b76-4053-ece9-6e7d"/>
         <infoLink name="Templar Vows" id="9168-0d36-5f6d-6ffd" hidden="false" type="rule" targetId="f26c-4b28-aaea-40cf"/>
-        <infoLink name="Courses of War" id="de46-ae35-0e05-6ff3" hidden="false" type="rule" targetId="8def-0789-e018-fda5"/>
       </infoLinks>
       <constraints>
         <constraint field="selections" scope="roster" value="3" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="98d1-d062-fc95-60eb" type="max"/>
@@ -25898,7 +25809,6 @@ weapons equipped by models in this model’s unit have the [DEVASTATING WOUNDS]
         <infoLink name="Leader" type="rule" id="22e6-5ef8-10d7-d389" targetId="b4dd-3e1f-41cb-218f"/>
         <infoLink name="Oath of Moment" hidden="false" type="rule" id="e608-911e-860a-df41" targetId="3b76-4053-ece9-6e7d"/>
         <infoLink name="Templar Vows" id="b669-3a69-21e8-88d1" hidden="false" type="rule" targetId="f26c-4b28-aaea-40cf"/>
-        <infoLink name="Courses of War" id="acfb-2f16-cc9d-40b1" hidden="false" type="rule" targetId="8def-0789-e018-fda5"/>
       </infoLinks>
       <profiles>
         <profile name="Chaplain with Jump Pack" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="b938-7b03-a5f9-321f">
@@ -26077,7 +25987,6 @@ weapons equipped by models in this model’s unit have the [DEVASTATING WOUNDS]
         <infoLink name="Oath of Moment" hidden="false" type="rule" id="7439-d961-4465-387" targetId="3b76-4053-ece9-6e7d"/>
         <infoLink name="Oath of Moment" hidden="false" type="rule" id="250e-976-84b5-d83f" targetId="3b76-4053-ece9-6e7d"/>
         <infoLink name="Templar Vows" id="140c-8600-7c34-099a" hidden="false" type="rule" targetId="f26c-4b28-aaea-40cf"/>
-        <infoLink name="Courses of War" id="854b-a45e-488d-999c" hidden="false" type="rule" targetId="8def-0789-e018-fda5"/>
       </infoLinks>
       <entryLinks>
         <entryLink id="2ee8-e3fb-9504-4ce2" name="Warlord" hidden="false" collective="false" import="true" targetId="caa-f869-3cbd-b48e" type="selectionEntry" sortIndex="2">
@@ -26474,7 +26383,6 @@ Attacks characteristic of 7.</characteristic>
       <infoLinks>
         <infoLink name="Oath of Moment" hidden="false" type="rule" id="a352-5488-6ebd-234b" targetId="3b76-4053-ece9-6e7d"/>
         <infoLink name="Templar Vows" id="2c6c-cf08-53ff-9886" hidden="false" type="rule" targetId="f26c-4b28-aaea-40cf"/>
-        <infoLink name="Courses of War" id="9f14-df46-6f75-f217" hidden="false" type="rule" targetId="8def-0789-e018-fda5"/>
       </infoLinks>
       <modifiers>
         <modifier type="set" value="true" field="hidden">
@@ -26579,7 +26487,6 @@ Attacks characteristic of 7.</characteristic>
         <infoLink name="Stealth" type="rule" id="bc84-613b-f61c-2060" targetId="bec5-4288-34a6-ccfa"/>
         <infoLink name="Oath of Moment" hidden="false" type="rule" id="bef8-2bc7-31c2-3611" targetId="3b76-4053-ece9-6e7d"/>
         <infoLink name="Templar Vows" id="16e5-5f56-881a-3a00" hidden="false" type="rule" targetId="f26c-4b28-aaea-40cf"/>
-        <infoLink name="Courses of War" id="56f5-eb5f-f5d3-46a7" hidden="false" type="rule" targetId="8def-0789-e018-fda5"/>
       </infoLinks>
       <entryLinks>
         <entryLink import="true" name="Enhancements" hidden="false" type="selectionEntryGroup" id="7cc2-133e-bc3a-6d25" targetId="9e5d-de4c-c5d1-1d3e" sortIndex="2"/>
@@ -26765,7 +26672,6 @@ Attacks characteristic of 7.</characteristic>
         <infoLink name="Leader" type="rule" id="6f14-3413-904e-797b" targetId="b4dd-3e1f-41cb-218f"/>
         <infoLink name="Oath of Moment" hidden="false" type="rule" id="f213-7e5e-7e31-c67c" targetId="3b76-4053-ece9-6e7d"/>
         <infoLink name="Templar Vows" id="eede-1b00-9d66-8aa0" hidden="false" type="rule" targetId="f26c-4b28-aaea-40cf"/>
-        <infoLink name="Courses of War" id="6fc0-36f6-078d-2bae" hidden="false" type="rule" targetId="8def-0789-e018-fda5"/>
       </infoLinks>
       <profiles>
         <profile name="Primaris Company Champion" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="4892-eba8-1c56-a899">
@@ -26944,7 +26850,6 @@ Attacks characteristic of 7.</characteristic>
         <infoLink name="Leader" type="rule" id="bdb5-c15-f33e-ebb6" targetId="b4dd-3e1f-41cb-218f"/>
         <infoLink name="Oath of Moment" hidden="false" type="rule" id="366c-ed2b-2e99-b23b" targetId="3b76-4053-ece9-6e7d"/>
         <infoLink name="Templar Vows" id="537d-6f09-1156-ed56" hidden="false" type="rule" targetId="f26c-4b28-aaea-40cf"/>
-        <infoLink name="Courses of War" id="561e-7e23-daf1-f473" hidden="false" type="rule" targetId="8def-0789-e018-fda5"/>
       </infoLinks>
       <entryLinks>
         <entryLink id="fca3-e016-2f9e-7ff" name="Warlord" hidden="false" collective="false" import="true" targetId="caa-f869-3cbd-b48e" type="selectionEntry" sortIndex="2">
@@ -27151,7 +27056,6 @@ You can attach this model to one of the above units even if one Captain, Chapte
         <infoLink id="3452-4340-9abf-53af" name="Leader" hidden="false" targetId="b4dd-3e1f-41cb-218f" type="rule"/>
         <infoLink name="Oath of Moment" hidden="false" type="rule" id="3fed-e19f-d789-ccf5" targetId="3b76-4053-ece9-6e7d"/>
         <infoLink name="Templar Vows" id="5fdd-00be-10f7-9b65" hidden="false" type="rule" targetId="f26c-4b28-aaea-40cf"/>
-        <infoLink name="Courses of War" id="f83b-d0ef-0f06-611a" hidden="false" type="rule" targetId="8def-0789-e018-fda5"/>
       </infoLinks>
       <entryLinks>
         <entryLink id="15f1-f783-aee4-f802" name="Warlord" hidden="false" collective="false" import="true" targetId="caa-f869-3cbd-b48e" type="selectionEntry" sortIndex="2"/>
@@ -27342,7 +27246,6 @@ You can attach this model to one of the above units even if one Captain, Chapte
         <infoLink name="Astartes Banner" hidden="false" type="profile" id="2518-a891-3e93-cf7e" targetId="4873-996f-a8a2-bcb1"/>
         <infoLink name="Oath of Moment" hidden="false" type="rule" id="cc6e-fb7-411d-1491" targetId="3b76-4053-ece9-6e7d"/>
         <infoLink name="Templar Vows" id="4666-a96d-daf7-8f2c" hidden="false" type="rule" targetId="f26c-4b28-aaea-40cf"/>
-        <infoLink name="Courses of War" id="41f6-5bc6-1558-bc2c" hidden="false" type="rule" targetId="8def-0789-e018-fda5"/>
       </infoLinks>
       <entryLinks>
         <entryLink id="3ca6-7594-661a-263b" name="Warlord" hidden="false" collective="false" import="true" targetId="caa-f869-3cbd-b48e" type="selectionEntry" sortIndex="2">
@@ -27509,7 +27412,6 @@ You can attach this model to one of the above units even if one Captain, Chapte
         <infoLink name="Invulnerable Save" hidden="false" type="profile" id="9ee3-35d5-c5e7-a671" targetId="db19-dee7-9530-ef0e"/>
         <infoLink name="Oath of Moment" hidden="false" type="rule" id="9c7d-5218-2cc8-6733" targetId="3b76-4053-ece9-6e7d"/>
         <infoLink name="Templar Vows" id="3e6c-1e6c-eef2-4c87" hidden="false" type="rule" targetId="f26c-4b28-aaea-40cf"/>
-        <infoLink name="Courses of War" id="8cd9-f5b5-554b-8048" hidden="false" type="rule" targetId="8def-0789-e018-fda5"/>
       </infoLinks>
       <entryLinks>
         <entryLink id="c952-9937-d6aa-e934" name="Warlord" hidden="false" collective="false" import="true" targetId="caa-f869-3cbd-b48e" type="selectionEntry" sortIndex="2"/>
@@ -27658,7 +27560,6 @@ You can attach this model to the above unit even if one Captain, Chapter Master
         <infoLink name="Deep Strike" hidden="false" type="rule" id="3adf-d05d-c59a-14cb" targetId="7cb5-dd6b-dd87-ad3b"/>
         <infoLink name="Oath of Moment" hidden="false" type="rule" id="717c-3bfc-616-2c3c" targetId="3b76-4053-ece9-6e7d"/>
         <infoLink name="Templar Vows" id="8691-7664-cf96-800d" hidden="false" type="rule" targetId="f26c-4b28-aaea-40cf"/>
-        <infoLink name="Courses of War" id="8bb6-629d-5480-cccf" hidden="false" type="rule" targetId="8def-0789-e018-fda5"/>
       </infoLinks>
       <entryLinks>
         <entryLink id="97a0-a592-2933-89e6" name="Warlord" hidden="false" collective="false" import="true" targetId="caa-f869-3cbd-b48e" type="selectionEntry" sortIndex="2"/>
@@ -27681,6 +27582,13 @@ You can attach this model to the above unit even if one Captain, Chapter Master
             <characteristic name="LD" typeId="58d2-b879-49c7-43bc">6+</characteristic>
             <characteristic name="OC" typeId="bef7-942a-1a23-59f8">1</characteristic>
           </characteristics>
+          <modifiers>
+            <modifier type="increment" value="1" field="750a-a2ec-90d3-21fe">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="parent" childId="5ad9-2fe2-f5ad-3bcf" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
         </profile>
         <profile name="Keep the Banner High" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="15d8-f178-3876-42f5">
           <characteristics>
@@ -27891,7 +27799,6 @@ You can attach this model to one of the above units even if one Captain, Chapte
       <infoLinks>
         <infoLink name="Oath of Moment" hidden="false" type="rule" id="d9fb-9096-ed39-7be6" targetId="3b76-4053-ece9-6e7d"/>
         <infoLink name="Templar Vows" id="e8cc-8a54-ef3d-b708" hidden="false" type="rule" targetId="f26c-4b28-aaea-40cf"/>
-        <infoLink name="Courses of War" id="5dcb-3bdb-5661-dbd5" hidden="false" type="rule" targetId="8def-0789-e018-fda5"/>
       </infoLinks>
       <modifiers>
         <modifier type="set" value="true" field="hidden">
@@ -28273,6 +28180,18 @@ You can attach this model to one of the above units even if one Captain, Chapte
                       </profiles>
                     </selectionEntry>
                   </selectionEntries>
+                  <modifiers>
+                    <modifier type="set" value="0" field="c226-3921-3451-1444">
+                      <conditions>
+                        <condition type="atLeast" value="1" field="selections" scope="parent" childId="8bd8-a0de-a0b9-a72e" shared="true" includeChildSelections="true"/>
+                      </conditions>
+                    </modifier>
+                    <modifier type="set" value="0" field="4487-59b9-9cd-268a">
+                      <conditions>
+                        <condition type="atLeast" value="1" field="selections" scope="parent" childId="8bd8-a0de-a0b9-a72e" shared="true" includeChildSelections="true"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
                 </selectionEntryGroup>
                 <selectionEntryGroup name="Weapon Option 2" id="4c04-51ad-3658-7582" hidden="false" defaultSelectionEntryId="3b5a-d178-8cef-993f">
                   <entryLinks>
@@ -28382,6 +28301,18 @@ You can attach this model to one of the above units even if one Captain, Chapte
                     <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="a010-1e63-51d4-69e9"/>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="388b-4f88-5521-bb8f"/>
                   </constraints>
+                  <modifiers>
+                    <modifier type="set" value="0" field="a010-1e63-51d4-69e9">
+                      <conditions>
+                        <condition type="atLeast" value="1" field="selections" scope="parent" childId="8bd8-a0de-a0b9-a72e" shared="true" includeChildSelections="true"/>
+                      </conditions>
+                    </modifier>
+                    <modifier type="set" value="0" field="388b-4f88-5521-bb8f">
+                      <conditions>
+                        <condition type="atLeast" value="1" field="selections" scope="parent" childId="8bd8-a0de-a0b9-a72e" shared="true" includeChildSelections="true"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
                 </selectionEntryGroup>
               </selectionEntryGroups>
               <entryLinks>
@@ -28431,7 +28362,6 @@ You can attach this model to one of the above units even if one Captain, Chapte
         <infoLink name="Leader" hidden="false" type="rule" id="ce13-3e00-844b-87b8" targetId="b4dd-3e1f-41cb-218f"/>
         <infoLink name="Oath of Moment" hidden="false" type="rule" id="b091-e43c-45ac-ea46" targetId="3b76-4053-ece9-6e7d"/>
         <infoLink name="Templar Vows" id="8466-f564-4918-e9d9" hidden="false" type="rule" targetId="f26c-4b28-aaea-40cf"/>
-        <infoLink name="Courses of War" id="4b2e-c42e-4fde-1d99" hidden="false" type="rule" targetId="8def-0789-e018-fda5"/>
       </infoLinks>
       <profiles>
         <profile name="Judiciar" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="fd84-6766-5354-6512">
@@ -28648,7 +28578,6 @@ You can attach this model to one of the above units even if one Captain, Chapte
         <infoLink id="8a13-952a-4a5-70e5" name="Rites of Battle" hidden="false" targetId="90c7-c55c-21e2-2232" type="profile"/>
         <infoLink name="Oath of Moment" hidden="false" type="rule" id="23b9-915-c3d6-3d21" targetId="3b76-4053-ece9-6e7d"/>
         <infoLink name="Templar Vows" id="cd01-df1f-c140-302e" hidden="false" type="rule" targetId="f26c-4b28-aaea-40cf"/>
-        <infoLink name="Courses of War" id="e8cd-759e-8158-e15a" hidden="false" type="rule" targetId="8def-0789-e018-fda5"/>
       </infoLinks>
       <profiles>
         <profile id="c1ba-2289-ba1-9cb8" name="Captain" hidden="false" typeId="c547-1836-d8a-ff4f" typeName="Unit">
@@ -28984,7 +28913,6 @@ You can attach this model to one of the above units even if one Captain, Chapte
         <infoLink name="Damaged: 1-8 wounds remaining" hidden="false" type="profile" id="241f-f84f-4d2f-95a7" targetId="4362-2036-1522-de2e"/>
         <infoLink name="Oath of Moment" hidden="false" type="rule" id="fc0-2f3f-d6a0-e29a" targetId="3b76-4053-ece9-6e7d"/>
         <infoLink name="Templar Vows" id="3460-8817-94c0-af9e" hidden="false" type="rule" targetId="f26c-4b28-aaea-40cf"/>
-        <infoLink name="Courses of War" id="f95b-97c9-13f1-815e" hidden="false" type="rule" targetId="8def-0789-e018-fda5"/>
       </infoLinks>
       <profiles>
         <profile name="Astraeus" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="c14d-f472-9ab7-7a86">
@@ -29253,7 +29181,6 @@ You can attach this model to one of the above units even if one Captain, Chapte
         <infoLink name="Hover" hidden="false" type="rule" id="91e7-d559-b600-8ac2" targetId="eec5-5f54-9c03-c305"/>
         <infoLink name="Oath of Moment" hidden="false" type="rule" id="ef38-4da4-c74b-5dc1" targetId="3b76-4053-ece9-6e7d"/>
         <infoLink name="Templar Vows" id="0472-1f8f-c453-99a9" hidden="false" type="rule" targetId="f26c-4b28-aaea-40cf"/>
-        <infoLink name="Courses of War" id="5c87-6605-bfeb-2fc2" hidden="false" type="rule" targetId="8def-0789-e018-fda5"/>
       </infoLinks>
       <profiles>
         <profile name="Aerial Assault" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="97bc-6c05-ad18-24ec">
@@ -29642,7 +29569,6 @@ You can attach this model to one of the above units even if one Captain, Chapte
         </infoLink>
         <infoLink name="Oath of Moment" hidden="false" type="rule" id="6535-340e-77e4-8528" targetId="3b76-4053-ece9-6e7d"/>
         <infoLink name="Templar Vows" id="b493-1fd7-e2c3-5095" hidden="false" type="rule" targetId="f26c-4b28-aaea-40cf"/>
-        <infoLink name="Courses of War" id="827d-c8b7-778e-9f4c" hidden="false" type="rule" targetId="8def-0789-e018-fda5"/>
       </infoLinks>
       <modifiers>
         <modifier type="set" value="true" field="hidden">
@@ -29821,7 +29747,6 @@ You can attach this model to one of the above units even if one Captain, Chapte
           </modifiers>
         </infoLink>
         <infoLink name="Templar Vows" id="8eea-0d94-5ab3-4d38" hidden="false" type="rule" targetId="f26c-4b28-aaea-40cf"/>
-        <infoLink name="Courses of War" id="c430-f40d-22b9-8b35" hidden="false" type="rule" targetId="8def-0789-e018-fda5"/>
       </infoLinks>
       <constraints>
         <constraint type="max" value="3" field="selections" scope="roster" shared="true" id="f766-6139-7196-1402"/>
@@ -30124,7 +30049,6 @@ You can attach this model to one of the above units even if one Captain, Chapte
         <infoLink name="Oath of Moment" hidden="false" type="rule" id="9ac1-26e0-515d-aef0" targetId="3b76-4053-ece9-6e7d"/>
         <infoLink name="Damaged: 1-4 Wounds Remaining" hidden="false" type="profile" id="9c9d-b951-6504-16d0" targetId="ee64-aaaf-75df-8da9"/>
         <infoLink name="Templar Vows" id="3415-3ce2-00b5-8ee0" hidden="false" type="rule" targetId="f26c-4b28-aaea-40cf"/>
-        <infoLink name="Courses of War" id="6c13-95a8-6582-764d" hidden="false" type="rule" targetId="8def-0789-e018-fda5"/>
       </infoLinks>
       <entryLinks>
         <entryLink import="true" name="Crusade" hidden="false" id="2930-1b5a-7c9b-f3be" type="selectionEntryGroup" targetId="9a99-f13c-a667-e698" sortIndex="1"/>
@@ -30463,7 +30387,6 @@ You can attach this model to one of the above units even if one Captain, Chapte
         </infoLink>
         <infoLink name="Oath of Moment" hidden="false" type="rule" id="ef2e-6fb4-56ab-7f74" targetId="3b76-4053-ece9-6e7d"/>
         <infoLink name="Templar Vows" id="00ed-7dcc-4f99-6c7d" hidden="false" type="rule" targetId="f26c-4b28-aaea-40cf"/>
-        <infoLink name="Courses of War" id="5199-31e5-5f06-b6ed" hidden="false" type="rule" targetId="8def-0789-e018-fda5"/>
       </infoLinks>
       <constraints>
         <constraint type="max" value="3" field="selections" scope="roster" shared="true" id="71ce-ed32-4822-a9cf"/>
@@ -30751,7 +30674,6 @@ You can attach this model to one of the above units even if one Captain, Chapte
         <infoLink name="Deep Strike" hidden="false" type="rule" id="284c-5b70-f487-d546" targetId="7cb5-dd6b-dd87-ad3b"/>
         <infoLink name="Oath of Moment" hidden="false" type="rule" id="6110-e658-5992-d9b4" targetId="3b76-4053-ece9-6e7d"/>
         <infoLink name="Templar Vows" id="a93b-0dbb-eab7-33c5" hidden="false" type="rule" targetId="f26c-4b28-aaea-40cf"/>
-        <infoLink name="Courses of War" id="c283-a9fb-a92c-8d40" hidden="false" type="rule" targetId="8def-0789-e018-fda5"/>
       </infoLinks>
       <constraints>
         <constraint type="max" value="3" field="selections" scope="roster" shared="true" id="b03c-253d-540-dfa6"/>
@@ -30966,7 +30888,6 @@ You can attach this model to one of the above units even if one Captain, Chapte
         <infoLink name="Oath of Moment" hidden="false" type="rule" id="744e-834a-517f-ee8" targetId="3b76-4053-ece9-6e7d"/>
         <infoLink name="Rites of Battle" hidden="false" type="profile" id="3d60-f083-a7bd-a61a" targetId="90c7-c55c-21e2-2232"/>
         <infoLink name="Damaged: 1-4 wounds remaining" hidden="false" type="profile" id="4452-e5da-c766-52a1" targetId="d44e-2f5-cadf-9eb"/>
-        <infoLink name="Courses of War" id="ac09-ebeb-3b45-585b" hidden="false" type="rule" targetId="8def-0789-e018-fda5"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink targetId="dbd4-63-af05-998" id="de87-4ea0-4f26-4bb3" primary="false" name="Vehicle"/>
@@ -31087,7 +31008,6 @@ You can attach this model to one of the above units even if one Captain, Chapte
         <infoLink name="Hover" hidden="false" type="rule" id="6cd-17d3-d095-4f64" targetId="eec5-5f54-9c03-c305"/>
         <infoLink name="Oath of Moment" hidden="false" type="rule" id="7f7d-30c6-1a23-a39f" targetId="3b76-4053-ece9-6e7d"/>
         <infoLink name="Templar Vows" id="c6e3-d983-5cf2-40e3" hidden="false" type="rule" targetId="f26c-4b28-aaea-40cf"/>
-        <infoLink name="Courses of War" id="22a1-c77f-825c-6a83" hidden="false" type="rule" targetId="8def-0789-e018-fda5"/>
       </infoLinks>
       <constraints>
         <constraint type="max" value="3" field="selections" scope="roster" shared="true" id="5095-c3b6-de52-e1ed"/>
@@ -31269,7 +31189,14 @@ You can attach this model to one of the above units even if one Captain, Chapte
     </selectionEntry>
     <selectionEntry type="model" import="true" name="Land Raider Prometheus [Legends]" hidden="false" id="bbc6-900e-c5f2-d634">
       <costs>
-        <cost name="pts" typeId="51b2-306e-1021-d207" value="275"/>
+        <cost name="pts" typeId="51b2-306e-1021-d207" value="250"/>
+        <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
+        <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="0"/>
+        <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
+        <cost name="Crusade: Weapon Modifications" typeId="716d-91b7-d55a-1022" value="0"/>
+        <cost name="Blackstone Fragments" typeId="ac6b-ced3-9b5e-9a6e" value="0"/>
+        <cost name="Honour Points" typeId="8135-9a2f-6627-09e2" value="0"/>
+        <cost name="Relic Fragments" typeId="0ece-6541-4662-ece2" value="0"/>
       </costs>
       <entryLinks>
         <entryLink import="true" name="Crusade" hidden="false" id="eb1c-3c02-f996-17e1" type="selectionEntryGroup" targetId="9a99-f13c-a667-e698" sortIndex="1"/>
@@ -31311,7 +31238,6 @@ You can attach this model to one of the above units even if one Captain, Chapte
         </infoLink>
         <infoLink name="Oath of Moment" hidden="false" type="rule" id="caef-6880-79a2-101e" targetId="3b76-4053-ece9-6e7d"/>
         <infoLink name="Templar Vows" id="b469-ca79-ac44-2e6b" hidden="false" type="rule" targetId="f26c-4b28-aaea-40cf"/>
-        <infoLink name="Courses of War" id="18bf-29f6-b73b-d202" hidden="false" type="rule" targetId="8def-0789-e018-fda5"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink targetId="dbd4-63-af05-998" id="616e-680e-9a47-2775" primary="true" name="Vehicle"/>
@@ -31659,7 +31585,6 @@ You can attach this model to one of the above units even if one Captain, Chapte
         </infoLink>
         <infoLink name="Oath of Moment" hidden="false" type="rule" id="b634-e7a9-32c2-13b9" targetId="3b76-4053-ece9-6e7d"/>
         <infoLink name="Templar Vows" id="1e5d-dc00-1982-429b" hidden="false" type="rule" targetId="f26c-4b28-aaea-40cf"/>
-        <infoLink name="Courses of War" id="a0f3-7526-c1bf-f91a" hidden="false" type="rule" targetId="8def-0789-e018-fda5"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink targetId="dbd4-63-af05-998" id="5b3-c92e-d069-7dba" primary="true" name="Vehicle"/>
@@ -31801,7 +31726,6 @@ You can attach this model to one of the above units even if one Captain, Chapte
         </infoLink>
         <infoLink name="Oath of Moment" hidden="false" type="rule" id="4dba-3ccf-d4d6-4fc1" targetId="3b76-4053-ece9-6e7d"/>
         <infoLink name="Templar Vows" id="d3dc-5e2c-987e-eef3" hidden="false" type="rule" targetId="f26c-4b28-aaea-40cf"/>
-        <infoLink name="Courses of War" id="016e-524f-8a84-f45d" hidden="false" type="rule" targetId="8def-0789-e018-fda5"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink targetId="dbd4-63-af05-998" id="d5c3-4a3f-bd7a-6ec2" primary="true" name="Vehicle"/>
@@ -32014,7 +31938,6 @@ You can attach this model to one of the above units even if one Captain, Chapte
         <infoLink name="Oath of Moment" hidden="false" type="rule" id="db23-ce4e-57f7-253c" targetId="3b76-4053-ece9-6e7d"/>
         <infoLink name="Rites of Battle" hidden="false" type="profile" id="2bc1-512f-8e4d-cfd6" targetId="90c7-c55c-21e2-2232"/>
         <infoLink name="Templar Vows" id="62e0-c577-34f1-ecad" hidden="false" type="rule" targetId="f26c-4b28-aaea-40cf"/>
-        <infoLink name="Courses of War" id="3bb0-bb34-c916-3fb1" hidden="false" type="rule" targetId="8def-0789-e018-fda5"/>
       </infoLinks>
       <modifiers>
         <modifier type="set" value="true" field="hidden">
@@ -32230,7 +32153,6 @@ You can attach this model to one of the above units even if one Character model
         <infoLink name="Leader" hidden="false" type="rule" id="df37-2d80-1c27-190b" targetId="b4dd-3e1f-41cb-218f"/>
         <infoLink name="Oath of Moment" hidden="false" type="rule" id="f7-7976-b575-6cca" targetId="3b76-4053-ece9-6e7d"/>
         <infoLink name="Templar Vows" id="4e6a-da32-db67-88e0" hidden="false" type="rule" targetId="f26c-4b28-aaea-40cf"/>
-        <infoLink name="Courses of War" id="4667-eeb5-8cb5-eb1f" hidden="false" type="rule" targetId="8def-0789-e018-fda5"/>
       </infoLinks>
       <constraints>
         <constraint type="max" value="3" field="selections" scope="roster" shared="true" id="ef14-fd4b-df5c-c92c"/>
@@ -32411,11 +32333,6 @@ You can attach this model to one of the above units even if one Character model
         <profile name="Assault Ramp" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="562a-7fc-f1a6-cc9a">
           <characteristics>
             <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Each time a unit disembarks from this model after it has made a Normal move, that unit is still eligible to declare a charge this turn.</characteristic>
-          </characteristics>
-        </profile>
-        <profile name="Transport" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="413f-621e-e43-c836">
-          <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This model has a transport capacity of 8 Adeptus Astartes Infantry models. Each Jump Pack, Wulfen, Gravis or Terminator model takes up the space of 2 models and each Centurion model takes up the space of 3 models.</characteristic>
           </characteristics>
         </profile>
         <profile name="Terminus Ultra [Legends]" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="addb-72d0-fe15-8744">
@@ -32653,7 +32570,6 @@ You can attach this model to one of the above units even if one Character model
         </infoLink>
         <infoLink name="Oath of Moment" hidden="false" type="rule" id="59e2-ac16-d718-ad3e" targetId="3b76-4053-ece9-6e7d"/>
         <infoLink name="Templar Vows" id="5901-59ad-f051-da2e" hidden="false" type="rule" targetId="f26c-4b28-aaea-40cf"/>
-        <infoLink name="Courses of War" id="9b7c-e85e-0488-e983" hidden="false" type="rule" targetId="8def-0789-e018-fda5"/>
       </infoLinks>
       <selectionEntryGroups>
         <selectionEntryGroup name="Wargear" id="7f64-25cd-9560-e38f" hidden="false" sortIndex="2">
@@ -32827,7 +32743,6 @@ You can attach this model to one of the above units even if one Character model
       <infoLinks>
         <infoLink name="Oath of Moment" hidden="false" type="rule" id="c8dd-3c8d-bd0a-6724" targetId="3b76-4053-ece9-6e7d"/>
         <infoLink name="Templar Vows" id="7385-909f-eeec-fbc3" hidden="false" type="rule" targetId="f26c-4b28-aaea-40cf"/>
-        <infoLink name="Courses of War" id="5b2e-a970-f1f7-57e4" hidden="false" type="rule" targetId="8def-0789-e018-fda5"/>
       </infoLinks>
       <profiles>
         <profile name="Vanguard Assault" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="3fe6-df5a-9e71-acd9">
@@ -33139,7 +33054,6 @@ You can attach this model to one of the above units even if one Character model
         <infoLink name="Leader" type="rule" id="788-de0-b038-b346" targetId="b4dd-3e1f-41cb-218f"/>
         <infoLink name="Invulnerable Save" hidden="false" type="profile" id="a28c-4e40-ddb3-936c" targetId="db19-dee7-9530-ef0e"/>
         <infoLink name="Templar Vows" id="04ec-eb5e-ce3a-dd27" hidden="false" type="rule" targetId="f26c-4b28-aaea-40cf"/>
-        <infoLink name="Courses of War" id="2825-3864-1f2c-6584" hidden="false" type="rule" targetId="8def-0789-e018-fda5"/>
       </infoLinks>
       <profiles>
         <profile name="Martial Superiority" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="c2c3-9cc1-cd16-2de9">
@@ -33584,7 +33498,6 @@ You can attach this model to one of the above units even if one Character model
         <infoLink id="d0a1-ed81-f612-ad79" name="Leader" hidden="false" targetId="b4dd-3e1f-41cb-218f" type="rule"/>
         <infoLink name="Oath of Moment" hidden="false" type="rule" id="6121-4cd2-c87f-b328" targetId="3b76-4053-ece9-6e7d"/>
         <infoLink name="Templar Vows" id="8cdb-fc2b-740a-4dfd" hidden="false" type="rule" targetId="f26c-4b28-aaea-40cf"/>
-        <infoLink name="Courses of War" id="dcb2-2d17-5088-03f2" hidden="false" type="rule" targetId="8def-0789-e018-fda5"/>
       </infoLinks>
       <modifiers>
         <modifier type="set" value="true" field="hidden">
@@ -33768,7 +33681,6 @@ Attacks characteristic of 7.</characteristic>
         <infoLink name="Leader" type="rule" id="75b6-5a94-f526-8060" targetId="b4dd-3e1f-41cb-218f"/>
         <infoLink name="Oath of Moment" hidden="false" type="rule" id="94d0-ca34-5d42-400b" targetId="3b76-4053-ece9-6e7d"/>
         <infoLink name="Templar Vows" id="8b28-a722-2a3d-0703" hidden="false" type="rule" targetId="f26c-4b28-aaea-40cf"/>
-        <infoLink name="Courses of War" id="b390-be00-671e-825b" hidden="false" type="rule" targetId="8def-0789-e018-fda5"/>
       </infoLinks>
       <selectionEntryGroups>
         <selectionEntryGroup name="Wargear" id="c388-47ad-ac77-0e02" hidden="false" sortIndex="4">
@@ -34134,7 +34046,6 @@ Attacks characteristic of 7.</characteristic>
         <infoLink name="Psychic Hood" hidden="false" type="profile" id="5527-3fd1-72d-bacf" targetId="116b-b23c-4ea4-30ed"/>
         <infoLink name="Leader" type="rule" id="c974-94ef-4ad3-d11" targetId="b4dd-3e1f-41cb-218f"/>
         <infoLink name="Oath of Moment" hidden="false" type="rule" id="cfd-7de0-998e-c737" targetId="3b76-4053-ece9-6e7d"/>
-        <infoLink name="Courses of War" id="2c02-839d-eb60-da14" hidden="false" type="rule" targetId="8def-0789-e018-fda5"/>
       </infoLinks>
       <selectionEntryGroups>
         <selectionEntryGroup name="Wargear" id="f492-27ce-6217-af1f" hidden="false" sortIndex="4">
@@ -34345,7 +34256,6 @@ Attacks characteristic of 7.</characteristic>
         </infoLink>
         <infoLink name="Oath of Moment" hidden="false" type="rule" id="afe1-a874-4251-8111" targetId="3b76-4053-ece9-6e7d"/>
         <infoLink name="Templar Vows" id="1607-bc92-c599-4e05" hidden="false" type="rule" targetId="f26c-4b28-aaea-40cf"/>
-        <infoLink name="Courses of War" id="224a-d0e0-171d-92cf" hidden="false" type="rule" targetId="8def-0789-e018-fda5"/>
       </infoLinks>
       <modifiers>
         <modifier type="set" value="true" field="hidden">
@@ -34520,7 +34430,6 @@ Attacks characteristic of 7.</characteristic>
           </modifiers>
         </infoLink>
         <infoLink name="Templar Vows" id="6ad9-261f-ecf4-d261" hidden="false" type="rule" targetId="f26c-4b28-aaea-40cf"/>
-        <infoLink name="Courses of War" id="28fd-ed4a-f07f-03b0" hidden="false" type="rule" targetId="8def-0789-e018-fda5"/>
       </infoLinks>
       <profiles>
         <profile name="Tarantula Air Defense Battery [Legends]" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="89b-1422-e1d5-6fee">
@@ -34835,7 +34744,6 @@ per turn.</characteristic>
         <infoLink name="Oath of Moment" hidden="false" type="rule" id="bb81-2d2d-7c2e-afef" targetId="3b76-4053-ece9-6e7d"/>
         <infoLink name="Deep Strike" hidden="false" type="rule" id="eee7-1284-e966-2e5" targetId="7cb5-dd6b-dd87-ad3b"/>
         <infoLink name="Templar Vows" id="52b5-6d46-c429-9d4c" hidden="false" type="rule" targetId="f26c-4b28-aaea-40cf"/>
-        <infoLink name="Courses of War" id="10de-33bc-90af-2c81" hidden="false" type="rule" targetId="8def-0789-e018-fda5"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink targetId="cf47-a0d7-7207-29dc" id="9d19-95be-1224-b1b0" primary="true" name="Infantry"/>
@@ -34967,7 +34875,6 @@ per turn.</characteristic>
       <infoLinks>
         <infoLink name="Oath of Moment" hidden="false" type="rule" id="fb75-80ba-871f-155d" targetId="3b76-4053-ece9-6e7d"/>
         <infoLink name="Templar Vows" id="645d-da72-da41-40a9" hidden="false" type="rule" targetId="f26c-4b28-aaea-40cf"/>
-        <infoLink name="Courses of War" id="88ad-2ab5-b938-800a" hidden="false" type="rule" targetId="8def-0789-e018-fda5"/>
       </infoLinks>
       <constraints>
         <constraint type="max" value="0" field="selections" scope="roster" shared="true" id="1852-2e76-ee7b-15aa" includeChildSelections="true" includeChildForces="true"/>
@@ -36717,14 +36624,9 @@ In your Command phase, select one Adeptus Astartes unit from your army; until th
           </profiles>
           <modifiers>
             <modifier type="set" value="true" field="hidden">
-              <conditionGroups>
-                <conditionGroup type="and">
-                  <conditions>
-                    <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="470a-6daa-9014-12df" shared="true"/>
-                    <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="09d7-71de-57e6-bf3e" shared="true"/>
-                  </conditions>
-                </conditionGroup>
-              </conditionGroups>
+              <conditions>
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="470a-6daa-9014-12df" shared="true"/>
+              </conditions>
             </modifier>
           </modifiers>
         </selectionEntry>
@@ -36846,14 +36748,9 @@ For the purposes of determining which models can embark within a TRANSPORT model
         <selectionEntry type="upgrade" import="true" name="Inner Circle Task Force" hidden="false" id="a141-49c8-fd84-4c6d">
           <modifiers>
             <modifier type="set" value="true" field="hidden">
-              <conditionGroups>
-                <conditionGroup type="and">
-                  <conditions>
-                    <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="470a-6daa-9014-12df" shared="true"/>
-                    <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="09d7-71de-57e6-bf3e" shared="true"/>
-                  </conditions>
-                </conditionGroup>
-              </conditionGroups>
+              <conditions>
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="470a-6daa-9014-12df" shared="true"/>
+              </conditions>
             </modifier>
           </modifiers>
           <profiles>
@@ -36884,14 +36781,9 @@ to the Wound roll.’</characteristic>
         <selectionEntry type="upgrade" import="true" name="Company of Hunters" hidden="false" id="41e6-d47c-5e68-e066">
           <modifiers>
             <modifier type="set" value="true" field="hidden">
-              <conditionGroups>
-                <conditionGroup type="and">
-                  <conditions>
-                    <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="470a-6daa-9014-12df" shared="true"/>
-                    <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="09d7-71de-57e6-bf3e" shared="true"/>
-                  </conditions>
-                </conditionGroup>
-              </conditionGroups>
+              <conditions>
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="470a-6daa-9014-12df" shared="true"/>
+              </conditions>
             </modifier>
           </modifiers>
           <profiles>
@@ -36949,14 +36841,9 @@ Once you have made your selections, remove those units from the battlefield and 
         <selectionEntry type="upgrade" import="true" name="Lion&apos;s Blade Task Force" hidden="false" id="bef5-925f-b143-d219">
           <modifiers>
             <modifier type="set" value="true" field="hidden">
-              <conditionGroups>
-                <conditionGroup type="and">
-                  <conditions>
-                    <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="470a-6daa-9014-12df" shared="true"/>
-                    <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="09d7-71de-57e6-bf3e" shared="true"/>
-                  </conditions>
-                </conditionGroup>
-              </conditionGroups>
+              <conditions>
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="470a-6daa-9014-12df" shared="true"/>
+              </conditions>
             </modifier>
           </modifiers>
           <profiles>
@@ -37081,14 +36968,9 @@ Their Appointed Hour: You can re‑roll Advance and Charge rolls made for this
         <selectionEntry type="upgrade" import="true" name="Wrath of the Rock" hidden="false" id="9d23-833a-17cb-2d7d">
           <modifiers>
             <modifier type="set" value="true" field="hidden">
-              <conditionGroups>
-                <conditionGroup type="and">
-                  <conditions>
-                    <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="470a-6daa-9014-12df" shared="true"/>
-                    <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="09d7-71de-57e6-bf3e" shared="true"/>
-                  </conditions>
-                </conditionGroup>
-              </conditionGroups>
+              <conditions>
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="470a-6daa-9014-12df" shared="true"/>
+              </conditions>
             </modifier>
           </modifiers>
           <profiles>
@@ -37302,95 +37184,45 @@ Each time a model in a DARNATH LYSANDER unit from your army makes an attack that
             </modifier>
           </modifiers>
         </selectionEntry>
-        <selectionEntry type="upgrade" import="true" name="Striped Skirts" hidden="false" id="7519-9258-8059-e6f1">
+        <selectionEntry type="upgrade" import="true" name="Hammer of Avernii" hidden="false" id="2496-d271-a92f-d1c0">
           <modifiers>
             <modifier type="set" value="true" field="hidden">
               <conditions>
-                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="3a8b-55b8-7019-c9de" shared="true"/>
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="f27e-18c0-b73e-748e" shared="true"/>
               </conditions>
             </modifier>
           </modifiers>
           <profiles>
-            <profile name="Zoomies" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="8620-848d-7e1a-4f98">
+            <profile name="Calculated Annihilation" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="f966-0da0-04f3-b26f">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">When making an advance, instead of rolling a D6, roll a D3 and add 3 to the result.  When making a charge, instead of rolling 2D6, roll a D6 and add 6 to the result.  Units that are below Half-Strength may reroll Advance and Charge rolls.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Each time a model from your army with the Oath of Moment ability makes an attack that targets your Oath of Moment target, you can re‑roll a Wound roll of 1.</characteristic>
+              </characteristics>
+            </profile>
+            <profile name="Recalculating" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="f66e-cb0c-fb45-8120">
+              <characteristics>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Once per battle round, after your Oath of Moment target is destroyed, if a Caanok Var model from your army is on the battlefield, select one enemy unit visible to that model. That enemy unit becomes
+your Oath of Moment target until you select a new one</characteristic>
               </characteristics>
             </profile>
           </profiles>
         </selectionEntry>
-        <selectionEntry type="upgrade" import="true" name="Scrubbers" hidden="false" id="578c-ed6e-59dc-0669">
+        <selectionEntry type="upgrade" import="true" name="Spearpoint Task Force" hidden="false" id="0256-e74f-0e54-3e45">
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="67c1-fc13-f9a1-cbbf" shared="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
           <profiles>
-            <profile name="With Extra Soap!" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="4d27-366b-1e46-ac27">
+            <profile name="Storm-Swift Onslaught" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="69ae-77b5-332b-f84c">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Ranged weapons equipped by models in your army gain the Sustained Hits 1 and Rapid Fire 2 Keywords.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Adeptus Astartes units from your army are eligible to declare a charge in a turn in which they Advanced or Fell Back. </characteristic>
               </characteristics>
             </profile>
-          </profiles>
-          <modifiers>
-            <modifier type="set" value="true" field="hidden">
-              <conditions>
-                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="3a8b-55b8-7019-c9de" shared="true"/>
-              </conditions>
-            </modifier>
-          </modifiers>
-        </selectionEntry>
-        <selectionEntry type="upgrade" import="true" name="Oven Mitts" hidden="false" id="81a2-4318-c840-317b">
-          <modifiers>
-            <modifier type="set" value="true" field="hidden">
-              <conditions>
-                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="3a8b-55b8-7019-c9de" shared="true"/>
-              </conditions>
-            </modifier>
-          </modifiers>
-          <profiles>
-            <profile name="Flambeing" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="7297-dd2d-8027-b3c8">
+            <profile name="Wrath of the First Khan" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="2f3b-c99a-6a60-2c19">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Certain areas of the battlefield are within your army&apos;s Flame of War, as follows:
-
-
-- Your Deployment zone is always within your Flame of War.
-
-- At the start of any phase, if you control at least half of the objective markers in No Man&apos;s Land, until the end of that phase, No Man&apos;s Land is within your army&apos;s Flame of War.
-
-- At the start of any phase, if you control at least half the objective markers within your opponents deployment zone, until the end of the phase, your opponent&apos;s deployment zone is within your Flame of War.
-
-
-Each time a Space Maid model from your army makes an attack, reroll a wound roll of 1.  If the target of the attack is within your Flame of War, add 1 to the Armor Penetration characteristic of the attack as well.
-
-
-At the start of any phase, if an enemy unit is within your FLame of War, that unit suffers 1 mortal wound.</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-        </selectionEntry>
-        <selectionEntry type="upgrade" import="true" name="Tea Servers" hidden="false" id="078f-e1be-200e-1387">
-          <modifiers>
-            <modifier type="set" value="true" field="hidden">
-              <conditions>
-                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="3a8b-55b8-7019-c9de" shared="true"/>
-              </conditions>
-            </modifier>
-          </modifiers>
-          <profiles>
-            <profile name="Modular Stabilizers" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="c521-619e-999c-8af9">
-              <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">When making a normal move, units from your army (excluding Monsters or Vehicles) are considered to have remained stationary.  When units are stationary, melee weapons gain the Lance Keyword.</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-        </selectionEntry>
-        <selectionEntry type="upgrade" import="true" name="White Claws" hidden="false" id="373f-c204-b140-0838">
-          <modifiers>
-            <modifier type="set" value="true" field="hidden">
-              <conditions>
-                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="3a8b-55b8-7019-c9de" shared="true"/>
-              </conditions>
-            </modifier>
-          </modifiers>
-          <profiles>
-            <profile name="Barrel of Joy" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="206d-5b86-0ba1-781b">
-              <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">At the start of your command phase, pick one Infantry unit in your army.  That unit is considered Pampered until the start of your next command phase.  A unit cannot be picked as pampered more than once, and you MUST select a unit to be pampered every command phase.  While a unit is pampered, they can reroll 1s to hit and to wound.  During the fights phase, after all enemy units have finished making attacks, the pampered unit also regains D3 lost wounds.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">At the end of the Fight phase, if a Suboden Khan unit from your army destroyed one or more enemy units this phase and is not within Engagement Range of one or more enemy units, that unit can make a Normal move of up to 6&quot;</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -39213,18 +39045,11 @@ your army</characteristic>
           <modifiers>
             <modifier type="set" value="true" field="hidden">
               <conditionGroups>
-                <conditionGroup type="or">
+                <conditionGroup type="and">
                   <conditions>
-                    <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="36d3-36bc-68dd-40ac" shared="true"/>
+                    <condition type="lessThan" value="1" field="forces" scope="roster" childId="cac3-71d1-ea4b-795d" shared="true" includeChildSelections="true"/>
+                    <condition type="lessThan" value="1" field="selections" scope="roster" childId="1242-7b3f-a47e-503a" shared="true" id="a92f-ea29-17a9-27d6" includeChildSelections="true" includeChildForces="true"/>
                   </conditions>
-                  <conditionGroups>
-                    <conditionGroup type="and">
-                      <conditions>
-                        <condition type="lessThan" value="1" field="forces" scope="roster" childId="cac3-71d1-ea4b-795d" shared="true" includeChildSelections="true"/>
-                        <condition type="lessThan" value="1" field="selections" scope="roster" childId="1242-7b3f-a47e-503a" shared="true" id="11e1-f89d-8dbc-fb5b" includeChildSelections="true" includeChildForces="true"/>
-                      </conditions>
-                    </conditionGroup>
-                  </conditionGroups>
                 </conditionGroup>
               </conditionGroups>
             </modifier>
@@ -39440,18 +39265,11 @@ those tests.</characteristic>
           <modifiers>
             <modifier type="set" value="true" field="hidden">
               <conditionGroups>
-                <conditionGroup type="or">
+                <conditionGroup type="and">
                   <conditions>
-                    <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="94bb-3284-ee14-57a1" shared="true"/>
+                    <condition type="lessThan" value="1" field="forces" scope="roster" childId="cac3-71d1-ea4b-795d" shared="true" includeChildSelections="true"/>
+                    <condition type="lessThan" value="1" field="selections" scope="force" childId="afb4-59c7-fa93-55f6" shared="true" includeChildSelections="true"/>
                   </conditions>
-                  <conditionGroups>
-                    <conditionGroup type="and">
-                      <conditions>
-                        <condition type="lessThan" value="1" field="forces" scope="roster" childId="cac3-71d1-ea4b-795d" shared="true" includeChildSelections="true"/>
-                        <condition type="lessThan" value="1" field="selections" scope="force" childId="afb4-59c7-fa93-55f6" shared="true" includeChildSelections="true"/>
-                      </conditions>
-                    </conditionGroup>
-                  </conditionGroups>
                 </conditionGroup>
               </conditionGroups>
             </modifier>
@@ -39699,18 +39517,11 @@ Enhancement. When it does, until the start of your next Command phase, all Ange
           <modifiers>
             <modifier type="set" value="true" field="hidden">
               <conditionGroups>
-                <conditionGroup type="or">
+                <conditionGroup type="and">
                   <conditions>
-                    <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="94bb-3284-ee14-57a1" shared="true"/>
+                    <condition type="lessThan" value="1" field="forces" scope="roster" childId="cac3-71d1-ea4b-795d" shared="true" includeChildSelections="true"/>
+                    <condition type="lessThan" value="1" field="selections" scope="force" childId="31c2-3bbc-d0b2-ba92" shared="true" includeChildSelections="true"/>
                   </conditions>
-                  <conditionGroups>
-                    <conditionGroup type="and">
-                      <conditions>
-                        <condition type="lessThan" value="1" field="forces" scope="roster" childId="cac3-71d1-ea4b-795d" shared="true" includeChildSelections="true"/>
-                        <condition type="lessThan" value="1" field="selections" scope="force" childId="31c2-3bbc-d0b2-ba92" shared="true" includeChildSelections="true"/>
-                      </conditions>
-                    </conditionGroup>
-                  </conditionGroups>
                 </conditionGroup>
               </conditionGroups>
             </modifier>
@@ -39936,18 +39747,11 @@ Enhancement. When it does, until the start of your next Command phase, all Ange
           <modifiers>
             <modifier type="set" value="true" field="hidden">
               <conditionGroups>
-                <conditionGroup type="or">
+                <conditionGroup type="and">
                   <conditions>
-                    <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="94bb-3284-ee14-57a1" shared="true"/>
+                    <condition type="lessThan" value="1" field="forces" scope="roster" childId="cac3-71d1-ea4b-795d" shared="true" includeChildSelections="true"/>
+                    <condition type="lessThan" value="1" field="selections" scope="force" childId="41dc-6769-c30c-b96c" shared="true" includeChildSelections="true"/>
                   </conditions>
-                  <conditionGroups>
-                    <conditionGroup type="and">
-                      <conditions>
-                        <condition type="lessThan" value="1" field="forces" scope="roster" childId="cac3-71d1-ea4b-795d" shared="true" includeChildSelections="true"/>
-                        <condition type="lessThan" value="1" field="selections" scope="force" childId="41dc-6769-c30c-b96c" shared="true" includeChildSelections="true"/>
-                      </conditions>
-                    </conditionGroup>
-                  </conditionGroups>
                 </conditionGroup>
               </conditionGroups>
             </modifier>
@@ -39960,18 +39764,11 @@ Enhancement. When it does, until the start of your next Command phase, all Ange
           <modifiers>
             <modifier type="set" value="true" field="hidden">
               <conditionGroups>
-                <conditionGroup type="or">
+                <conditionGroup type="and">
                   <conditions>
-                    <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="94bb-3284-ee14-57a1" shared="true"/>
+                    <condition type="lessThan" value="1" field="forces" scope="roster" childId="cac3-71d1-ea4b-795d" shared="true" includeChildSelections="true"/>
+                    <condition type="lessThan" value="1" field="selections" scope="force" childId="98ed-f58a-3e6e-63a6" shared="true" includeChildSelections="true"/>
                   </conditions>
-                  <conditionGroups>
-                    <conditionGroup type="and">
-                      <conditions>
-                        <condition type="lessThan" value="1" field="forces" scope="roster" childId="cac3-71d1-ea4b-795d" shared="true" includeChildSelections="true"/>
-                        <condition type="lessThan" value="1" field="selections" scope="force" childId="98ed-f58a-3e6e-63a6" shared="true" includeChildSelections="true"/>
-                      </conditions>
-                    </conditionGroup>
-                  </conditionGroups>
                 </conditionGroup>
               </conditionGroups>
             </modifier>
@@ -40077,18 +39874,11 @@ Enhancement. When it does, until the start of your next Command phase, all Ange
           <modifiers>
             <modifier type="set" value="true" field="hidden">
               <conditionGroups>
-                <conditionGroup type="or">
+                <conditionGroup type="and">
                   <conditions>
-                    <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="36d3-36bc-68dd-40ac" shared="true"/>
+                    <condition type="lessThan" value="1" field="forces" scope="roster" childId="cac3-71d1-ea4b-795d" shared="true" includeChildSelections="true"/>
+                    <condition type="lessThan" value="1" field="selections" scope="roster" childId="9d80-7508-5cd0-2f9e" shared="true" id="821b-8db0-1cb8-b277" includeChildSelections="true" includeChildForces="true"/>
                   </conditions>
-                  <conditionGroups>
-                    <conditionGroup type="and">
-                      <conditions>
-                        <condition type="lessThan" value="1" field="forces" scope="roster" childId="cac3-71d1-ea4b-795d" shared="true" includeChildSelections="true"/>
-                        <condition type="lessThan" value="1" field="selections" scope="roster" childId="9d80-7508-5cd0-2f9e" shared="true" id="24c8-6ce6-746a-13c1" includeChildSelections="true" includeChildForces="true"/>
-                      </conditions>
-                    </conditionGroup>
-                  </conditionGroups>
                 </conditionGroup>
               </conditionGroups>
             </modifier>
@@ -40207,18 +39997,11 @@ Enhancement. When it does, until the start of your next Command phase, all Ange
           <modifiers>
             <modifier type="set" value="true" field="hidden">
               <conditionGroups>
-                <conditionGroup type="or">
+                <conditionGroup type="and">
                   <conditions>
-                    <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="36d3-36bc-68dd-40ac" shared="true"/>
+                    <condition type="lessThan" value="1" field="forces" scope="roster" childId="cac3-71d1-ea4b-795d" shared="true" includeChildSelections="true"/>
+                    <condition type="lessThan" value="1" field="selections" scope="roster" childId="f148-3273-e98f-427a" shared="true" id="b3d8-eccb-ce56-e838" includeChildSelections="true" includeChildForces="true"/>
                   </conditions>
-                  <conditionGroups>
-                    <conditionGroup type="and">
-                      <conditions>
-                        <condition type="lessThan" value="1" field="forces" scope="roster" childId="cac3-71d1-ea4b-795d" shared="true" includeChildSelections="true"/>
-                        <condition type="lessThan" value="1" field="selections" scope="roster" childId="f148-3273-e98f-427a" shared="true" id="0830-21ba-48d9-d402" includeChildSelections="true" includeChildForces="true"/>
-                      </conditions>
-                    </conditionGroup>
-                  </conditionGroups>
                 </conditionGroup>
               </conditionGroups>
             </modifier>
@@ -40327,18 +40110,11 @@ Enhancement. When it does, until the start of your next Command phase, all Ange
           <modifiers>
             <modifier type="set" value="true" field="hidden">
               <conditionGroups>
-                <conditionGroup type="or">
+                <conditionGroup type="and">
                   <conditions>
-                    <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="36d3-36bc-68dd-40ac" shared="true"/>
+                    <condition type="lessThan" value="1" field="forces" scope="roster" childId="cac3-71d1-ea4b-795d" shared="true" includeChildSelections="true"/>
+                    <condition type="lessThan" value="1" field="selections" scope="roster" childId="b6cd-9baf-8351-8dec" shared="true" id="9abd-aec8-4563-34d9" includeChildSelections="true" includeChildForces="true"/>
                   </conditions>
-                  <conditionGroups>
-                    <conditionGroup type="and">
-                      <conditions>
-                        <condition type="lessThan" value="1" field="forces" scope="roster" childId="cac3-71d1-ea4b-795d" shared="true" includeChildSelections="true"/>
-                        <condition type="lessThan" value="1" field="selections" scope="roster" childId="b6cd-9baf-8351-8dec" shared="true" id="fb1b-e68e-0943-9992" includeChildSelections="true" includeChildForces="true"/>
-                      </conditions>
-                    </conditionGroup>
-                  </conditionGroups>
                 </conditionGroup>
               </conditionGroups>
             </modifier>
@@ -40441,17 +40217,10 @@ Enhancement. When it does, until the start of your next Command phase, all Ange
           <modifiers>
             <modifier type="set" value="true" field="hidden">
               <conditionGroups>
-                <conditionGroup type="or">
-                  <conditionGroups>
-                    <conditionGroup type="and">
-                      <conditions>
-                        <condition type="lessThan" value="1" field="forces" scope="roster" childId="cac3-71d1-ea4b-795d" shared="true" includeChildSelections="true"/>
-                        <condition type="lessThan" value="1" field="selections" scope="roster" childId="e073-8fe8-5b59-48f0" shared="true" id="2759-d289-98b8-1083" includeChildSelections="true" includeChildForces="true"/>
-                      </conditions>
-                    </conditionGroup>
-                  </conditionGroups>
+                <conditionGroup type="and">
                   <conditions>
-                    <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="2261-79a5-19d9-1668" shared="true"/>
+                    <condition type="lessThan" value="1" field="forces" scope="roster" childId="cac3-71d1-ea4b-795d" shared="true" includeChildSelections="true"/>
+                    <condition type="lessThan" value="1" field="selections" scope="roster" childId="e073-8fe8-5b59-48f0" shared="true" id="e3a3-f850-8924-14bf" includeChildSelections="true" includeChildForces="true"/>
                   </conditions>
                 </conditionGroup>
               </conditionGroups>
@@ -40670,9 +40439,14 @@ Enhancement. When it does, until the start of your next Command phase, all Ange
           </selectionEntries>
           <modifiers>
             <modifier type="set" value="true" field="hidden">
-              <conditions>
-                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="5d6e-fd3-330a-11dd" shared="true"/>
-              </conditions>
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition type="lessThan" value="1" field="forces" scope="roster" childId="cac3-71d1-ea4b-795d" shared="true" includeChildSelections="true"/>
+                    <condition type="lessThan" value="1" field="selections" scope="roster" childId="1dea-4c70-8d4d-3415" shared="true" id="9755-84f3-ff06-79a2" includeChildSelections="true" includeChildForces="true"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
             </modifier>
           </modifiers>
           <constraints>
@@ -40787,39 +40561,44 @@ unit is within 12&quot; of this model, increase the cost of that usage of that 
           </constraints>
           <modifiers>
             <modifier type="set" value="true" field="hidden">
-              <conditions>
-                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="6e59-e1ee-47ad-6ce5" shared="true"/>
-              </conditions>
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition type="lessThan" value="1" field="forces" scope="roster" childId="cac3-71d1-ea4b-795d" shared="true" includeChildSelections="true"/>
+                    <condition type="lessThan" value="1" field="selections" scope="force" childId="dd81-2af4-e7d9-bd07" shared="true" includeChildSelections="true"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
             </modifier>
           </modifiers>
         </selectionEntryGroup>
-        <selectionEntryGroup name="Striped Skirts Enhancements" id="2554-4d26-8986-a5ab" hidden="false">
-          <constraints>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="056a-8d48-7f2c-901d" includeChildSelections="false"/>
-          </constraints>
+        <selectionEntryGroup name="Hammer of Avernii Enhancements" id="0e16-11ab-87cc-ac75" hidden="false">
           <modifiers>
             <modifier type="set" value="true" field="hidden">
-              <conditions>
-                <condition type="lessThan" value="1" field="selections" scope="roster" childId="7519-9258-8059-e6f1" shared="true" includeChildSelections="true" includeChildForces="true"/>
-              </conditions>
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition type="lessThan" value="1" field="forces" scope="roster" childId="cac3-71d1-ea4b-795d" shared="true" includeChildSelections="true"/>
+                    <condition type="lessThan" value="1" field="selections" scope="roster" childId="2496-d271-a92f-d1c0" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
             </modifier>
           </modifiers>
           <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Lance A La Mode" hidden="false" id="1f6e-5f45-82cb-81d9">
+            <selectionEntry type="upgrade" import="true" name="Spiritus Ferrum" hidden="false" id="372a-5b3c-34b1-334a">
               <constraints>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="37f3-9a27-a75f-0e68" includeChildSelections="false"/>
+                <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="bdab-b2a0-96b7-da7a" includeChildSelections="true" includeChildForces="true"/>
               </constraints>
               <profiles>
-                <profile name="Lance A La Mode" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="881c-3133-c364-6b27">
+                <profile name="Spiritus Ferrum" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="0145-f961-8567-e85e">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">ADEPTUS ASTARTES CHARACTER model only. While
-the bearer is leading a unit, melee weapons equipped
-by models in your unit have the [LANCE] ability.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Adeptus Astartes model only. Add 1 to the Attacks characteristic of the bearer’s melee weapons. Once per battle, at the start of any phase, the bearer can use this Enhancement. If it does, until the end of the phase, add 1 to the Attacks characteristic of melee weapons equipped by all other models in the bearer’s unit as well.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
               <costs>
-                <cost name="pts" typeId="51b2-306e-1021-d207" value="20"/>
+                <cost name="pts" typeId="51b2-306e-1021-d207" value="25"/>
                 <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
                 <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="0"/>
                 <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
@@ -40829,38 +40608,16 @@ by models in your unit have the [LANCE] ability.</characteristic>
                 <cost name="Relic Fragments" typeId="0ece-6541-4662-ece2" value="0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Paw-Verdrive" hidden="false" id="e8d1-1a5f-5069-c6f8">
+            <selectionEntry type="upgrade" import="true" name="Medusan Roar [Aura]" hidden="false" id="15db-a2e3-6106-f99e">
               <constraints>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6476-5a44-d2d6-23ee" includeChildSelections="false"/>
-              </constraints>
-              <costs>
-                <cost name="pts" typeId="51b2-306e-1021-d207" value="15"/>
-                <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
-                <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="0"/>
-                <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
-                <cost name="Crusade: Weapon Modifications" typeId="716d-91b7-d55a-1022" value="0"/>
-                <cost name="Blackstone Fragments" typeId="ac6b-ced3-9b5e-9a6e" value="0"/>
-                <cost name="Honour Points" typeId="8135-9a2f-6627-09e2" value="0"/>
-                <cost name="Relic Fragments" typeId="0ece-6541-4662-ece2" value="0"/>
-              </costs>
-              <profiles>
-                <profile name="Paw-Verdrive" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="ce01-7577-0b2b-b691">
-                  <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">ADEPTUS ASTARTES model only. Add 2 to the Attacks
-characteristics of the bearer’s melee weapons.</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
-            </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Roller Rush Protocol" hidden="false" id="84fb-ac75-6791-afd9">
-              <constraints>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ddf1-4ed7-da8d-a7f1" includeChildSelections="false"/>
+                <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="a763-1ba1-482a-a14c" includeChildSelections="true" includeChildForces="true"/>
               </constraints>
               <profiles>
-                <profile name="Roller Rush Protocol" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="2b4b-8c4b-3b9b-2da6">
+                <profile name="Medusan Roar [Aura]" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="3791-0f9a-6682-bbd9">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">ADEPTUS ASTARTES model only. Models in this unit
-have the Fights First ability.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Adeptus Astartes model only. While an enemy unit (excluding Monsters and Vehicles) is within 6&quot; of
+the bearer, each time that unit fails a Battle‑shock test, one model in that unit is destroyed (chosen by
+its controlling player). Once per battle, when such an enemy unit fails a Battle‑shock test, you can choose for D3 models in that unit to be destroyed in this way instead.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -40875,346 +40632,17 @@ have the Fights First ability.</characteristic>
                 <cost name="Relic Fragments" typeId="0ece-6541-4662-ece2" value="0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Skirtflare Shadows" hidden="false" id="e575-63c7-c7eb-4a25">
+            <selectionEntry type="upgrade" import="true" name="Iron Laurel" hidden="false" id="3fdf-50d4-5f80-d2ae">
               <constraints>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c326-0835-9e72-3c93" includeChildSelections="false"/>
+                <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="1b72-7f4e-efcf-f42d" includeChildSelections="true" includeChildForces="true"/>
               </constraints>
               <profiles>
-                <profile name="Skirtflare Shadows" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="e375-4c99-0fd6-5631">
+                <profile name="Iron Laurel" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="4350-ba3f-7c33-2718">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">APETUS ASTARTES CHARACTER model only. While
-the bearer is leading a unit, models in that unit have
-the [STEALTH] ability.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Adeptus Astartes model only. Improve the Objective Control characteristic of the bearer by 1. Once per battle, at the start of any phase, the bearer can use this Enhancement. If it does, until the end of the phase, add 1 to the Objective Control characteristic of all other models in the bearer’s unit as well.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
-              <costs>
-                <cost name="pts" typeId="51b2-306e-1021-d207" value="25"/>
-                <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
-                <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="0"/>
-                <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
-                <cost name="Crusade: Weapon Modifications" typeId="716d-91b7-d55a-1022" value="0"/>
-                <cost name="Blackstone Fragments" typeId="ac6b-ced3-9b5e-9a6e" value="0"/>
-                <cost name="Honour Points" typeId="8135-9a2f-6627-09e2" value="0"/>
-                <cost name="Relic Fragments" typeId="0ece-6541-4662-ece2" value="0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
-        </selectionEntryGroup>
-        <selectionEntryGroup name="Scrubbers Enhancements" id="27a1-59df-ac5d-462c" hidden="false">
-          <modifiers>
-            <modifier type="set" value="true" field="hidden">
-              <conditions>
-                <condition type="lessThan" value="1" field="selections" scope="roster" childId="578c-ed6e-59dc-0669" shared="true" includeChildSelections="true" includeChildForces="true"/>
-              </conditions>
-            </modifier>
-          </modifiers>
-          <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Scouring Beam" hidden="false" id="76df-8303-02fa-237b">
-              <profiles>
-                <profile name="Scouring Beam" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="466e-c104-aa73-1e95">
-                  <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">ADEPTUS ASTARTES model only. The bearer’s ranged
-weapons have the [DEVASTATING WOUNDS] ability.</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <costs>
-                <cost name="pts" typeId="51b2-306e-1021-d207" value="20"/>
-                <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
-                <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="0"/>
-                <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
-                <cost name="Crusade: Weapon Modifications" typeId="716d-91b7-d55a-1022" value="0"/>
-                <cost name="Blackstone Fragments" typeId="ac6b-ced3-9b5e-9a6e" value="0"/>
-                <cost name="Honour Points" typeId="8135-9a2f-6627-09e2" value="0"/>
-                <cost name="Relic Fragments" typeId="0ece-6541-4662-ece2" value="0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Sudden Splash Zone" hidden="false" id="a115-7ad1-844a-cb64">
-              <profiles>
-                <profile name="Sudden Splash Zone" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="1022-d452-1c2b-ac53">
-                  <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">ADEPTUS ASTARTES model only. At the start of your
-Shooting phase, until the end of the phase, bearer’s
-ranged weapons have the [BLAST] ability.</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <costs>
-                <cost name="pts" typeId="51b2-306e-1021-d207" value="35"/>
-                <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
-                <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="0"/>
-                <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
-                <cost name="Crusade: Weapon Modifications" typeId="716d-91b7-d55a-1022" value="0"/>
-                <cost name="Blackstone Fragments" typeId="ac6b-ced3-9b5e-9a6e" value="0"/>
-                <cost name="Honour Points" typeId="8135-9a2f-6627-09e2" value="0"/>
-                <cost name="Relic Fragments" typeId="0ece-6541-4662-ece2" value="0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Sprint and Spray" hidden="false" id="04a6-f41e-11f5-eca7">
-              <profiles>
-                <profile name="Sprint and Spray" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="b64b-f900-03d8-d12e">
-                  <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">ADEPTUS ASTARTES model only. The bearer’s ranged
-weapons have the [ASSAULT] ability.</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <costs>
-                <cost name="pts" typeId="51b2-306e-1021-d207" value="20"/>
-                <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
-                <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="0"/>
-                <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
-                <cost name="Crusade: Weapon Modifications" typeId="716d-91b7-d55a-1022" value="0"/>
-                <cost name="Blackstone Fragments" typeId="ac6b-ced3-9b5e-9a6e" value="0"/>
-                <cost name="Honour Points" typeId="8135-9a2f-6627-09e2" value="0"/>
-                <cost name="Relic Fragments" typeId="0ece-6541-4662-ece2" value="0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Furious Flurry" hidden="false" id="8974-83e5-481c-7274">
-              <profiles>
-                <profile name="Furious Flurry" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="5ec7-c7fa-8fe7-769f">
-                  <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">ADEPTUS ASTARTES model only. Once per battle, at
-the start of the Fight phase, the bearer can use this
-Enhancement. If it does, until the end of the phase,
-models in the bearer’s unit have the Fights First
-ability.</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <costs>
-                <cost name="pts" typeId="51b2-306e-1021-d207" value="20"/>
-                <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
-                <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="0"/>
-                <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
-                <cost name="Crusade: Weapon Modifications" typeId="716d-91b7-d55a-1022" value="0"/>
-                <cost name="Blackstone Fragments" typeId="ac6b-ced3-9b5e-9a6e" value="0"/>
-                <cost name="Honour Points" typeId="8135-9a2f-6627-09e2" value="0"/>
-                <cost name="Relic Fragments" typeId="0ece-6541-4662-ece2" value="0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
-          <constraints>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4a92-2d9d-1321-e9c2" includeChildSelections="false"/>
-          </constraints>
-        </selectionEntryGroup>
-        <selectionEntryGroup name="Oven Mitts" id="075a-5797-5366-b5a2" hidden="false">
-          <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Basting Protocol" hidden="false" id="b025-618c-c9f9-bca9">
-              <profiles>
-                <profile name="Basting Protocol" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="06a9-2b5f-a5c8-e34a">
-                  <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">ADEPTUS ASTARTES model only.  Add 1 to the Strength characteristics of the bearer’s ranged weapons. While the bearer is wholly your flame of war, add 1 to the Attacks characteristics of the bearers melee weapons as well.</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <costs>
-                <cost name="pts" typeId="51b2-306e-1021-d207" value="15"/>
-                <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
-                <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="0"/>
-                <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
-                <cost name="Crusade: Weapon Modifications" typeId="716d-91b7-d55a-1022" value="0"/>
-                <cost name="Blackstone Fragments" typeId="ac6b-ced3-9b5e-9a6e" value="0"/>
-                <cost name="Honour Points" typeId="8135-9a2f-6627-09e2" value="0"/>
-                <cost name="Relic Fragments" typeId="0ece-6541-4662-ece2" value="0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Commanding Apron" hidden="false" id="4e57-fbdc-a68e-2ae6">
-              <profiles>
-                <profile name="Commanding Apron" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="e737-9522-eb3c-d9c6">
-                  <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">ADEPTUS ASTARTES model only. Improve the Leadership and Objective Control characteristics of models in this unit by 1.</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <costs>
-                <cost name="pts" typeId="51b2-306e-1021-d207" value="20"/>
-                <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
-                <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="0"/>
-                <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
-                <cost name="Crusade: Weapon Modifications" typeId="716d-91b7-d55a-1022" value="0"/>
-                <cost name="Blackstone Fragments" typeId="ac6b-ced3-9b5e-9a6e" value="0"/>
-                <cost name="Honour Points" typeId="8135-9a2f-6627-09e2" value="0"/>
-                <cost name="Relic Fragments" typeId="0ece-6541-4662-ece2" value="0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Cool Under Crumble" hidden="false" id="6523-f022-160c-8450">
-              <profiles>
-                <profile name="Cool Under Crumble" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="2a6c-fc5e-3db6-589c">
-                  <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">ADEPTUS ASTARTES model only. While the bearer’s unit is Battle-shocked, subtract 1 from the Objective Control characteristic of models in that unit, instead of changing it to 0.</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <costs>
-                <cost name="pts" typeId="51b2-306e-1021-d207" value="20"/>
-                <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
-                <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="0"/>
-                <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
-                <cost name="Crusade: Weapon Modifications" typeId="716d-91b7-d55a-1022" value="0"/>
-                <cost name="Blackstone Fragments" typeId="ac6b-ced3-9b5e-9a6e" value="0"/>
-                <cost name="Honour Points" typeId="8135-9a2f-6627-09e2" value="0"/>
-                <cost name="Relic Fragments" typeId="0ece-6541-4662-ece2" value="0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Smoke Screen Seasoning" hidden="false" id="9261-33c3-c0b6-9cce">
-              <profiles>
-                <profile name="Smoke Screen Seasoning" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="5814-c910-6093-2336">
-                  <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">ADEPTUS ASTARTES model only. The bearer’s unit has the Stealth ability while the bearer’s unit is wholly within your flames of war.</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <costs>
-                <cost name="pts" typeId="51b2-306e-1021-d207" value="15"/>
-                <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
-                <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="0"/>
-                <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
-                <cost name="Crusade: Weapon Modifications" typeId="716d-91b7-d55a-1022" value="0"/>
-                <cost name="Blackstone Fragments" typeId="ac6b-ced3-9b5e-9a6e" value="0"/>
-                <cost name="Honour Points" typeId="8135-9a2f-6627-09e2" value="0"/>
-                <cost name="Relic Fragments" typeId="0ece-6541-4662-ece2" value="0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
-          <constraints>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7c82-9627-4e36-c0d3" includeChildSelections="false"/>
-          </constraints>
-          <modifiers>
-            <modifier type="set" value="true" field="hidden">
-              <conditions>
-                <condition type="lessThan" value="1" field="selections" scope="roster" childId="81a2-4318-c840-317b" shared="true" includeChildSelections="true" includeChildForces="true"/>
-              </conditions>
-            </modifier>
-          </modifiers>
-        </selectionEntryGroup>
-        <selectionEntryGroup name="Tea Servers Enhancements" id="38a0-fcfa-7459-0dee" hidden="false">
-          <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Earl Grenade Blend" hidden="false" id="01c1-1a5e-bd07-31d4">
-              <costs>
-                <cost name="pts" typeId="51b2-306e-1021-d207" value="15"/>
-                <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
-                <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="0"/>
-                <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
-                <cost name="Crusade: Weapon Modifications" typeId="716d-91b7-d55a-1022" value="0"/>
-                <cost name="Blackstone Fragments" typeId="ac6b-ced3-9b5e-9a6e" value="0"/>
-                <cost name="Honour Points" typeId="8135-9a2f-6627-09e2" value="0"/>
-                <cost name="Relic Fragments" typeId="0ece-6541-4662-ece2" value="0"/>
-              </costs>
-              <profiles>
-                <profile name="Earl Grenade Blend" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="174f-5861-bbd1-715c">
-                  <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">ADEPTUS ASTARTES INFANTRY model only. Ranged weapons equipped by models in the bearer’s unit have the [HEAVY] ability.</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <modifiers>
-                <modifier type="set" value="true" field="hidden">
-                  <conditions>
-                    <condition type="notInstanceOf" value="1" field="selections" scope="parent" childId="cf47-a0d7-7207-29dc" shared="true"/>
-                  </conditions>
-                </modifier>
-              </modifiers>
-            </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Black Tea Fury" hidden="false" id="b7cd-302a-906b-e455">
-              <profiles>
-                <profile name="Black Tea Fury" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="6d5d-e2f4-7303-5917">
-                  <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">ADEPTUS ASTARTES model only. Add 1 to the Attacks and Strength characteristics of the bearer’s melee weapons.</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <costs>
-                <cost name="pts" typeId="51b2-306e-1021-d207" value="25"/>
-                <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
-                <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="0"/>
-                <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
-                <cost name="Crusade: Weapon Modifications" typeId="716d-91b7-d55a-1022" value="0"/>
-                <cost name="Blackstone Fragments" typeId="ac6b-ced3-9b5e-9a6e" value="0"/>
-                <cost name="Honour Points" typeId="8135-9a2f-6627-09e2" value="0"/>
-                <cost name="Relic Fragments" typeId="0ece-6541-4662-ece2" value="0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Dainty Stomp" hidden="false" id="be56-0275-f06b-be77">
-              <profiles>
-                <profile name="Dainty Stomp" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="c281-edfe-1e97-9061">
-                  <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">ADEPTUS ASTARTES TERMINATOR model only. Whenever the bearer declares a charge, add 1 to the charge rolls.</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <costs>
-                <cost name="pts" typeId="51b2-306e-1021-d207" value="15"/>
-                <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
-                <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="0"/>
-                <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
-                <cost name="Crusade: Weapon Modifications" typeId="716d-91b7-d55a-1022" value="0"/>
-                <cost name="Blackstone Fragments" typeId="ac6b-ced3-9b5e-9a6e" value="0"/>
-                <cost name="Honour Points" typeId="8135-9a2f-6627-09e2" value="0"/>
-                <cost name="Relic Fragments" typeId="0ece-6541-4662-ece2" value="0"/>
-              </costs>
-              <modifiers>
-                <modifier type="set" value="true" field="hidden">
-                  <conditions>
-                    <condition type="notInstanceOf" value="1" field="selections" scope="parent" childId="740a-892c-8958-defa" shared="true"/>
-                  </conditions>
-                </modifier>
-              </modifiers>
-            </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Porcelain Ward" hidden="false" id="cffc-b9a5-6fd6-be17">
-              <profiles>
-                <profile name="Porcelain Ward" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="b2b3-8880-d137-c27f">
-                  <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">ADEPTUS ASTARTES model only.  Once per battle, just after an enemy unit has selected its targets, the bearer can use this Enhancement.  If it does, until the end of the phase, the bearer has a 4+ Feel No Pain ability.</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <costs>
-                <cost name="pts" typeId="51b2-306e-1021-d207" value="20"/>
-                <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
-                <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="0"/>
-                <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
-                <cost name="Crusade: Weapon Modifications" typeId="716d-91b7-d55a-1022" value="0"/>
-                <cost name="Blackstone Fragments" typeId="ac6b-ced3-9b5e-9a6e" value="0"/>
-                <cost name="Honour Points" typeId="8135-9a2f-6627-09e2" value="0"/>
-                <cost name="Relic Fragments" typeId="0ece-6541-4662-ece2" value="0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
-          <constraints>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b89b-8c14-bf01-edef" includeChildSelections="false"/>
-          </constraints>
-          <modifiers>
-            <modifier type="set" value="true" field="hidden">
-              <conditions>
-                <condition type="lessThan" value="1" field="selections" scope="roster" childId="078f-e1be-200e-1387" shared="true" includeChildSelections="true" includeChildForces="true"/>
-              </conditions>
-            </modifier>
-          </modifiers>
-        </selectionEntryGroup>
-        <selectionEntryGroup name="White Claws Enhancements" id="56db-3e7c-01a8-5596" hidden="false">
-          <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Cooler Retreat" hidden="false" id="ae29-1cec-312e-a006">
-              <profiles>
-                <profile name="Cooler Retreat" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="48bf-bc39-da80-c963">
-                  <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">ADEPTUS ASTARTES model only. This model&apos;s unit is eligible to shoot in a turn in which it Fell Back.</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <costs>
-                <cost name="pts" typeId="51b2-306e-1021-d207" value="15"/>
-                <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
-                <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="0"/>
-                <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
-                <cost name="Crusade: Weapon Modifications" typeId="716d-91b7-d55a-1022" value="0"/>
-                <cost name="Blackstone Fragments" typeId="ac6b-ced3-9b5e-9a6e" value="0"/>
-                <cost name="Honour Points" typeId="8135-9a2f-6627-09e2" value="0"/>
-                <cost name="Relic Fragments" typeId="0ece-6541-4662-ece2" value="0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Chilled Authority" hidden="false" id="3672-fab5-d55f-8284">
               <costs>
                 <cost name="pts" typeId="51b2-306e-1021-d207" value="10"/>
                 <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
@@ -41225,15 +40653,25 @@ ability.</characteristic>
                 <cost name="Honour Points" typeId="8135-9a2f-6627-09e2" value="0"/>
                 <cost name="Relic Fragments" typeId="0ece-6541-4662-ece2" value="0"/>
               </costs>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Steel Font" hidden="false" id="4bb9-4e90-f12b-12d0">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="6c65-372a-62cc-b21c" includeChildSelections="true" includeChildForces="true"/>
+              </constraints>
               <profiles>
-                <profile name="Chilled Authority" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="0560-4609-9cfa-2f71">
+                <profile name="Steel Font" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="7177-1131-05c4-6d10">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">ADEPTUS ASTARTES model only. While the bearer is leading a unit, when that unit is battle-shocked, halve the Objective Control characteristic of model in that unit instead of changing it to 0.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Adeptus Astartes Terminator model only. While the bearer is leading a unit, in your Command phase, you can return 1 destroyed Bodyguard model to that unit.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
-            </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Lynx Leap" hidden="false" id="d27e-06d7-cd0f-d8b4">
+              <modifiers>
+                <modifier type="set" value="true" field="hidden">
+                  <conditions>
+                    <condition type="notInstanceOf" value="1" field="selections" scope="ancestor" childId="740a-892c-8958-defa" shared="true"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
               <costs>
                 <cost name="pts" typeId="51b2-306e-1021-d207" value="15"/>
                 <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
@@ -41244,17 +40682,39 @@ ability.</characteristic>
                 <cost name="Honour Points" typeId="8135-9a2f-6627-09e2" value="0"/>
                 <cost name="Relic Fragments" typeId="0ece-6541-4662-ece2" value="0"/>
               </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="19dd-86cd-aa24-43d2" includeChildSelections="false"/>
+          </constraints>
+        </selectionEntryGroup>
+        <selectionEntryGroup name="Spearpoint Task Force Enhancements" id="7e70-7802-8b9c-8bc6" hidden="false">
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition type="lessThan" value="1" field="forces" scope="roster" childId="cac3-71d1-ea4b-795d" shared="true" includeChildSelections="true"/>
+                    <condition type="lessThan" value="1" field="selections" scope="roster" childId="0256-e74f-0e54-3e45" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Spearpoint Paragon" hidden="false" id="943e-6ac8-df09-16e8">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="2516-dda4-dc78-d92e" includeChildSelections="true" includeChildForces="true"/>
+              </constraints>
               <profiles>
-                <profile name="Lynx Leap" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="597b-4b25-5878-f34b">
+                <profile name="Spearpoint Paragon" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="cfb4-3a43-2b29-1aae">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">ADEPTUS ASTARTES model only. You can re-roll Charge rolls made for the bearer.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Adeptus Astartes model only. Improve the Strength and Armour Penetration characteristics of the bearer’s melee weapons by 1. Each time the bearer ends a Charge move, until the end of the turn, improve the Strength and Armour Penetration characteristics of the bearer’s melee weapons by 2 instead.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
-            </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Frost Filtered Instincts" hidden="false" id="7e0c-6cdd-0c4e-293e">
               <costs>
-                <cost name="pts" typeId="51b2-306e-1021-d207" value="35"/>
+                <cost name="pts" typeId="51b2-306e-1021-d207" value="25"/>
                 <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
                 <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="0"/>
                 <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
@@ -41263,26 +40723,85 @@ ability.</characteristic>
                 <cost name="Honour Points" typeId="8135-9a2f-6627-09e2" value="0"/>
                 <cost name="Relic Fragments" typeId="0ece-6541-4662-ece2" value="0"/>
               </costs>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Stormseer&apos;s Wisdom" hidden="false" id="45fb-0afc-f558-c3c5">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="2407-8e99-ddcb-f165" includeChildSelections="true" includeChildForces="true"/>
+              </constraints>
               <profiles>
-                <profile name="Frost Filtered Instincts" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="88bc-6622-72e9-8d93">
+                <profile name="Stormseer&apos;s Wisdom" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="af9e-e90d-1365-2492">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">ADEPTUS ASTARTES model only. Once per battle, at the start of any phase, the bearer can use this
-Enhancement. If it does, until the end of the phase, your unit can ignore any or all modifiers to its characteristics and/or to any roll or test made for it (excluding modifiers to saving throws).</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Adeptus Astartes model only. While the bearer is leading a unit, you can re‑roll Advance rolls made for that unit.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
+              <costs>
+                <cost name="pts" typeId="51b2-306e-1021-d207" value="15"/>
+                <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
+                <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="0"/>
+                <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
+                <cost name="Crusade: Weapon Modifications" typeId="716d-91b7-d55a-1022" value="0"/>
+                <cost name="Blackstone Fragments" typeId="ac6b-ced3-9b5e-9a6e" value="0"/>
+                <cost name="Honour Points" typeId="8135-9a2f-6627-09e2" value="0"/>
+                <cost name="Relic Fragments" typeId="0ece-6541-4662-ece2" value="0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Hunter&apos;s Eye" hidden="false" id="7546-3996-6dcc-4248">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="4556-d5ff-7548-6995" includeChildSelections="true" includeChildForces="true"/>
+              </constraints>
+              <profiles>
+                <profile name="Hunter&apos;s Eye" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="be3e-6c87-63e2-fed7">
+                  <characteristics>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Adeptus Astartes model only. Ranged weapons equipped by models in the bearer’s unit have the
+[SUSTAINED HITS 1] and [IGNORES COVER] abilities.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="51b2-306e-1021-d207" value="20"/>
+                <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
+                <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="0"/>
+                <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
+                <cost name="Crusade: Weapon Modifications" typeId="716d-91b7-d55a-1022" value="0"/>
+                <cost name="Blackstone Fragments" typeId="ac6b-ced3-9b5e-9a6e" value="0"/>
+                <cost name="Honour Points" typeId="8135-9a2f-6627-09e2" value="0"/>
+                <cost name="Relic Fragments" typeId="0ece-6541-4662-ece2" value="0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Chogorian Huntmaster" hidden="false" id="b21a-b914-964c-d984">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="1d7f-c2ea-d8af-1bf6" includeChildSelections="true" includeChildForces="true"/>
+              </constraints>
+              <profiles>
+                <profile name="Chogorian Huntmaster" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="ecd6-15d0-bdcd-a03b">
+                  <characteristics>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Adeptus Astartes Mounted model only. If the bearer’s unit is in Strategic Reserves, for the purposes of setting up that unit on the battlefield, treat the current battle round number as being one higher than it actually is.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <modifiers>
+                <modifier type="set" value="true" field="hidden">
+                  <conditions>
+                    <condition type="notInstanceOf" value="1" field="selections" scope="ancestor" childId="14a0-40c9-2748-ae6e" shared="true"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <costs>
+                <cost name="pts" typeId="51b2-306e-1021-d207" value="25"/>
+                <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
+                <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="0"/>
+                <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
+                <cost name="Crusade: Weapon Modifications" typeId="716d-91b7-d55a-1022" value="0"/>
+                <cost name="Blackstone Fragments" typeId="ac6b-ced3-9b5e-9a6e" value="0"/>
+                <cost name="Honour Points" typeId="8135-9a2f-6627-09e2" value="0"/>
+                <cost name="Relic Fragments" typeId="0ece-6541-4662-ece2" value="0"/>
+              </costs>
             </selectionEntry>
           </selectionEntries>
           <constraints>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7e28-bfa6-b4b3-de22" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="52e9-c28f-49fd-f891" includeChildSelections="false"/>
           </constraints>
-          <modifiers>
-            <modifier type="set" value="true" field="hidden">
-              <conditions>
-                <condition type="lessThan" value="1" field="selections" scope="roster" childId="373f-c204-b140-0838" shared="true" includeChildSelections="true" includeChildForces="true"/>
-              </conditions>
-            </modifier>
-          </modifiers>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <constraints>
@@ -42995,7 +42514,7 @@ Enhancement. If it does, until the end of the phase, your unit can ignore any o
               <profiles>
                 <profile name="Ardent Protectors" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="683a-644e-9cbb-06c4">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">While a **^^Character^^** model is leading this unit, each time an attack targets this unit, if the Strength characteristic of that attack is greater than this unit&apos;s Toughness characteristic, subtract 1 from the Wound roll.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">While a **^^Character^^** model is leading this unit, add 1 to the Toughness characteristic of models in that unit.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -47664,14 +47183,9 @@ Until the end of the phase, this model&apos;s melee weapons have that ability.</
 ■ If you are using a Codex: Space Marines Detachment and your army does not include one or more units with the **^^Black Templars^^**, **^^Blood Angels^^**, **^^Dark Angels^^**, **^^Deathwatch^^** or **^^Space Wolves^^** keywords, add 1 to the Wound roll as well.</description>
       <modifiers>
         <modifier type="set" value="true" field="hidden">
-          <conditionGroups>
-            <conditionGroup type="or">
-              <conditions>
-                <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="3a8b-55b8-7019-c9de" shared="true"/>
-                <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="36d3-36bc-68dd-40ac" shared="true"/>
-              </conditions>
-            </conditionGroup>
-          </conditionGroups>
+          <conditions>
+            <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="36d3-36bc-68dd-40ac" shared="true"/>
+          </conditions>
         </modifier>
       </modifiers>
     </rule>
@@ -47695,56 +47209,6 @@ If this unit has the **^^Infantry^^** keyword:
         <modifier type="set" value="true" field="hidden">
           <conditions>
             <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="36d3-36bc-68dd-40ac" shared="true"/>
-          </conditions>
-        </modifier>
-      </modifiers>
-    </rule>
-    <rule name="Courses of War" id="8def-0789-e018-fda5" hidden="false">
-      <description>If your army faction is space maids, at the start of your turn, select one of the five courses below to be applied to all your units until the start of your next Command phase, your warlord and Nekona gain unique effects instead. A unit cannot gain a course keyword if they are battle-shocked. Unless otherwise stated, you can only select each Course once per battle
-[GREASY]
-The fields of battle, slicken by war, provide the maids with a speed much utilized
-in their endless repertoire.
-• Units with the [GREASY] Keyword gain 2” to movement and are eligible to
-shoot and declare a charge in a turn in which it Advanced or Fell Back
-• warlord: gain 2” to movement, all weapons gain the [Lance] ability
-• Nekona: all weapons gain the [Lance] and [Twin-Linked] ability
-[HEARTY]
-It is said that a space maid secondary heart has been able to achieve a vitality
-that has prevent countless fateful ends.
-• Units With the [HEARTY] Keyword add 1 to strength and
-toughness characteristic.
-• Warlord: Gain 5+ Feel No Pain
-• Nekona: Gain 4+ Feel No Pain
-[SWEET]
-In the carnage of war, a space maid may let their base instinct drive them into
-reckless abandon, and strike wildly into prey.
-• Units With the [SWEET] Keyword add 2 to the Attacks characteristics of
- weapons
-• Warlord: Add 4 to the Attacks characteristics of weapons
-• Nekona: Add 4 to the Attacks characteristics of weapons, each time
-this unit makes an attack, you can re-roll the hit roll
-[SPICY]
-To stoke the flames of a Space Maid Requires their enemy endure a battle of
-attrition that see little success.
-• Units With the [SPICY] Keyword add [SUSTAIN 1] to their weapons
-and Ranged weapons gain [MELTA 1]
-• Warlord: all weapons gain [SUSTAIN 2] and Ranged weapons gain
- [MELTA 2]
-• Nekona: all weapons gain [SUSTAIN 2] and each time this unit makes
-an attack; a Critical Hit is scored on an unmodified hit roll of 4+
-[SMOKEY]
-Beneath the armor of a space made lies a will to serve mankind so pure, that it
-grants a daughter of Nekona, the very might to do so.
-• All units with the [SMOKEY] Keyword add [DEVASTATING WOUNDS]
-to their weapons profile
-• Warlord: all weapons gain the [DEVASTATING WOUNDS] ability,
-a Critical Hit is scored on an unmodified hit roll of 5+
-• Nekona: all weapons gain the [DEVASTATING WOUNDS] ability,
-add 1 to the damage characteristics of weapons</description>
-      <modifiers>
-        <modifier type="set" value="true" field="hidden">
-          <conditions>
-            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="3a8b-55b8-7019-c9de" shared="true"/>
           </conditions>
         </modifier>
       </modifiers>

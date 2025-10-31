@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" library="false" id="a55f-b7b3-6c65-a05f" name="Xenos - Orks" gameSystemId="sys-352e-adc2-7639-d6a9" gameSystemRevision="1" revision="125" battleScribeVersion="2.03" type="catalogue" authorName="BSData Developers" authorContact="Dunamis55 &amp; AbonShell">
+<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" library="false" id="a55f-b7b3-6c65-a05f" name="Xenos - Orks" gameSystemId="sys-352e-adc2-7639-d6a9" gameSystemRevision="1" revision="128" battleScribeVersion="2.03" type="catalogue" authorName="BSData Developers" authorContact="Dunamis55 &amp; AbonShell">
   <sharedSelectionEntries>
     <selectionEntry type="upgrade" import="true" name="Warlord" id="8b5-898c-f79b-5a9c">
       <categoryLinks>
@@ -639,6 +639,7 @@
         </infoLink>
         <infoLink name="Invulnerable Save (5+)" hidden="false" type="profile" id="bd36-e7ed-e525-f9fc" targetId="bc64-b2f5-f074-67d8"/>
         <infoLink name="Waaagh!" id="7774-aaac-7431-97bc" hidden="false" type="rule" targetId="37c-6ef9-277-9091"/>
+        <infoLink name="Devastating Wounds" id="fd95-bbac-ff19-54fb" hidden="false" type="rule" targetId="be1e-ac8e-1e2c-3528"/>
       </infoLinks>
       <constraints>
         <constraint type="max" value="3" field="selections" scope="roster" shared="true" id="4dda-8cda-ec45-d8d5"/>
@@ -663,6 +664,11 @@
         <profile name="Beastboss" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="785b-cdef-c15a-63bf">
           <characteristics>
             <characteristic name="Description" typeId="9b8f-694b-e5e-b573">While this model is leading a unit, each time a model in that unit makes a melee attack, add 1 to the Hit roll.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Ferocious Rage" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="7990-644c-a395-eea5">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Each time this model makes a Charge move, until the end of the turn, melee weapons it is equipped with have the **[DEVASTATING WOUNDS]** ability.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -692,18 +698,6 @@
               </characteristics>
             </profile>
           </profiles>
-        </infoGroup>
-        <infoGroup name="Beastly Rage" hidden="false" id="f695-dd0c-a0d7-6767">
-          <profiles>
-            <profile name="Beastly Rage" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="7990-644c-a395-eea5">
-              <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Each time this model makes a Charge move, until the end of the turn, melee weapons it is equipped with have the [DEVASTATING WOUNDS] ability.</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <infoLinks>
-            <infoLink name="Devastating Wounds" hidden="false" type="rule" id="fd95-bbac-ff19-54fb" targetId="be1e-ac8e-1e2c-3528"/>
-          </infoLinks>
         </infoGroup>
       </infoGroups>
       <costs>
@@ -977,6 +971,13 @@
                     <characteristic name="D" typeId="3254-9fe6-d824-513e">3</characteristic>
                     <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">Devastating Wounds, Extra Attacks</characteristic>
                   </characteristics>
+                  <modifiers>
+                    <modifier type="set" value="Extra Attacks" field="893f-9000-ccf7-648e">
+                      <conditions>
+                        <condition type="atLeast" value="1" field="selections" scope="root-entry" childId="40fb-e485-dca0-cb12" shared="true" includeChildSelections="true"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
                 </profile>
               </profiles>
               <infoLinks>
@@ -12680,21 +12681,6 @@ Designer’s Note: Place a Squig Mine token next to the model, removing it once 
               <constraints>
                 <constraint type="max" value="8" field="selections" scope="parent" shared="true" id="a591-99fb-921b-b2f8"/>
               </constraints>
-              <profiles>
-                <profile name="Grot Tanks" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="c25b-529f-948e-d571">
-                  <characteristics>
-                    <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">10&quot;</characteristic>
-                    <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">6</characteristic>
-                    <characteristic name="SV" typeId="450-a17e-9d5e-29da">3+</characteristic>
-                    <characteristic name="W" typeId="750a-a2ec-90d3-21fe">5</characteristic>
-                    <characteristic name="LD" typeId="58d2-b879-49c7-43bc">8+</characteristic>
-                    <characteristic name="OC" typeId="bef7-942a-1a23-59f8">2</characteristic>
-                  </characteristics>
-                  <attributes>
-                    <attribute typeId="ee2c-fa85-08b6-ad86" name="New Attribute Type"/>
-                  </attributes>
-                </profile>
-              </profiles>
               <selectionEntryGroups>
                 <selectionEntryGroup name="Wargear" id="b334-b63c-77fa-3c76" hidden="false" sortIndex="2">
                   <entryLinks>
@@ -12719,6 +12705,9 @@ Designer’s Note: Place a Squig Mine token next to the model, removing it once 
                   </entryLinks>
                 </selectionEntryGroup>
               </selectionEntryGroups>
+              <infoLinks>
+                <infoLink targetId="c25b-529f-948e-d571" id="6c29-18a2-75c5-815e" type="profile" name="Grot Tanks" hidden="false"/>
+              </infoLinks>
             </selectionEntry>
             <selectionEntry type="model" import="true" name="Grot Tank w/ Grotzooka" hidden="false" id="448e-bb13-cf8e-78eb">
               <entryLinks>
@@ -12727,21 +12716,6 @@ Designer’s Note: Place a Squig Mine token next to the model, removing it once 
               <constraints>
                 <constraint type="max" value="8" field="selections" scope="parent" shared="true" id="a591-99fb-921b-b2f8"/>
               </constraints>
-              <profiles>
-                <profile name="Grot Tanks" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="1ee0-8992-17fc-c88d">
-                  <characteristics>
-                    <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">10&quot;</characteristic>
-                    <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">6</characteristic>
-                    <characteristic name="SV" typeId="450-a17e-9d5e-29da">3+</characteristic>
-                    <characteristic name="W" typeId="750a-a2ec-90d3-21fe">5</characteristic>
-                    <characteristic name="LD" typeId="58d2-b879-49c7-43bc">8+</characteristic>
-                    <characteristic name="OC" typeId="bef7-942a-1a23-59f8">2</characteristic>
-                  </characteristics>
-                  <attributes>
-                    <attribute typeId="ee2c-fa85-08b6-ad86" name="New Attribute Type"/>
-                  </attributes>
-                </profile>
-              </profiles>
               <selectionEntryGroups>
                 <selectionEntryGroup name="Wargear" id="141e-9b20-3713-eb3a" hidden="false" sortIndex="2">
                   <entryLinks>
@@ -12766,6 +12740,9 @@ Designer’s Note: Place a Squig Mine token next to the model, removing it once 
                   </entryLinks>
                 </selectionEntryGroup>
               </selectionEntryGroups>
+              <infoLinks>
+                <infoLink name="Grot Tanks" id="209a-ec38-af70-d876" hidden="false" targetId="c25b-529f-948e-d571" type="profile"/>
+              </infoLinks>
             </selectionEntry>
             <selectionEntry type="model" import="true" name="Grot Tank w/ Kustom mega-blasta" hidden="false" id="53ab-c6b7-adcb-ec23">
               <entryLinks>
@@ -12774,21 +12751,6 @@ Designer’s Note: Place a Squig Mine token next to the model, removing it once 
               <constraints>
                 <constraint type="max" value="8" field="selections" scope="parent" shared="true" id="a591-99fb-921b-b2f8"/>
               </constraints>
-              <profiles>
-                <profile name="Grot Tanks" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="7b6e-302a-214a-7ab0">
-                  <characteristics>
-                    <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">10&quot;</characteristic>
-                    <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">6</characteristic>
-                    <characteristic name="SV" typeId="450-a17e-9d5e-29da">3+</characteristic>
-                    <characteristic name="W" typeId="750a-a2ec-90d3-21fe">5</characteristic>
-                    <characteristic name="LD" typeId="58d2-b879-49c7-43bc">8+</characteristic>
-                    <characteristic name="OC" typeId="bef7-942a-1a23-59f8">2</characteristic>
-                  </characteristics>
-                  <attributes>
-                    <attribute typeId="ee2c-fa85-08b6-ad86" name="New Attribute Type"/>
-                  </attributes>
-                </profile>
-              </profiles>
               <selectionEntryGroups>
                 <selectionEntryGroup name="Wargear" id="9244-f374-c316-ca7a" hidden="false" sortIndex="2">
                   <entryLinks>
@@ -12813,6 +12775,9 @@ Designer’s Note: Place a Squig Mine token next to the model, removing it once 
                   </entryLinks>
                 </selectionEntryGroup>
               </selectionEntryGroups>
+              <infoLinks>
+                <infoLink name="Grot Tanks" id="fcd3-82c5-71e1-31b4" hidden="false" targetId="c25b-529f-948e-d571" type="profile"/>
+              </infoLinks>
             </selectionEntry>
             <selectionEntry type="model" import="true" name="Grot Tank w/ Rokkit launcha" hidden="false" id="77e9-c308-4411-57c0">
               <entryLinks>
@@ -12821,21 +12786,6 @@ Designer’s Note: Place a Squig Mine token next to the model, removing it once 
               <constraints>
                 <constraint type="max" value="8" field="selections" scope="parent" shared="true" id="a591-99fb-921b-b2f8"/>
               </constraints>
-              <profiles>
-                <profile name="Grot Tanks" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="903e-ec41-f8c6-b69e">
-                  <characteristics>
-                    <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">10&quot;</characteristic>
-                    <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">6</characteristic>
-                    <characteristic name="SV" typeId="450-a17e-9d5e-29da">3+</characteristic>
-                    <characteristic name="W" typeId="750a-a2ec-90d3-21fe">5</characteristic>
-                    <characteristic name="LD" typeId="58d2-b879-49c7-43bc">8+</characteristic>
-                    <characteristic name="OC" typeId="bef7-942a-1a23-59f8">2</characteristic>
-                  </characteristics>
-                  <attributes>
-                    <attribute typeId="ee2c-fa85-08b6-ad86" name="New Attribute Type"/>
-                  </attributes>
-                </profile>
-              </profiles>
               <selectionEntryGroups>
                 <selectionEntryGroup name="Wargear" id="1ad7-a9d6-a544-ecb4" hidden="false" sortIndex="2">
                   <entryLinks>
@@ -12860,6 +12810,9 @@ Designer’s Note: Place a Squig Mine token next to the model, removing it once 
                   </entryLinks>
                 </selectionEntryGroup>
               </selectionEntryGroups>
+              <infoLinks>
+                <infoLink name="Grot Tanks" id="cfbb-b494-1948-9f10" hidden="false" targetId="c25b-529f-948e-d571" type="profile"/>
+              </infoLinks>
             </selectionEntry>
             <selectionEntry type="model" import="true" name="Grot Tank w/ Skorcha" hidden="false" id="6aaa-5ee8-c2d6-9e59">
               <entryLinks>
@@ -12868,21 +12821,6 @@ Designer’s Note: Place a Squig Mine token next to the model, removing it once 
               <constraints>
                 <constraint type="max" value="8" field="selections" scope="parent" shared="true" id="a591-99fb-921b-b2f8"/>
               </constraints>
-              <profiles>
-                <profile name="Grot Tanks" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="36c7-b65c-81d3-62f7">
-                  <characteristics>
-                    <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">10&quot;</characteristic>
-                    <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">6</characteristic>
-                    <characteristic name="SV" typeId="450-a17e-9d5e-29da">3+</characteristic>
-                    <characteristic name="W" typeId="750a-a2ec-90d3-21fe">5</characteristic>
-                    <characteristic name="LD" typeId="58d2-b879-49c7-43bc">8+</characteristic>
-                    <characteristic name="OC" typeId="bef7-942a-1a23-59f8">2</characteristic>
-                  </characteristics>
-                  <attributes>
-                    <attribute typeId="ee2c-fa85-08b6-ad86" name="New Attribute Type"/>
-                  </attributes>
-                </profile>
-              </profiles>
               <selectionEntryGroups>
                 <selectionEntryGroup name="Wargear" id="dea8-7f71-3193-2926" hidden="false" sortIndex="2">
                   <entryLinks>
@@ -12907,6 +12845,9 @@ Designer’s Note: Place a Squig Mine token next to the model, removing it once 
                   </entryLinks>
                 </selectionEntryGroup>
               </selectionEntryGroups>
+              <infoLinks>
+                <infoLink name="Grot Tanks" id="b497-4058-e02e-c10f" hidden="false" targetId="c25b-529f-948e-d571" type="profile"/>
+              </infoLinks>
             </selectionEntry>
           </selectionEntries>
           <constraints>
@@ -13005,21 +12946,9 @@ Designer’s Note: Place a Squig Mine token next to the model, removing it once 
               <entryLinks>
                 <entryLink import="true" name="Totemic Presence upgrade" hidden="false" id="8871-7c1d-dc48-34e5" type="selectionEntry" targetId="6220-fe17-7c2a-8268" sortIndex="1"/>
               </entryLinks>
-              <profiles>
-                <profile name="Grot Tanks" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="2ea1-67ce-c8c8-418b">
-                  <characteristics>
-                    <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">10&quot;</characteristic>
-                    <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">6</characteristic>
-                    <characteristic name="SV" typeId="450-a17e-9d5e-29da">3+</characteristic>
-                    <characteristic name="W" typeId="750a-a2ec-90d3-21fe">5</characteristic>
-                    <characteristic name="LD" typeId="58d2-b879-49c7-43bc">8+</characteristic>
-                    <characteristic name="OC" typeId="bef7-942a-1a23-59f8">2</characteristic>
-                  </characteristics>
-                  <attributes>
-                    <attribute typeId="ee2c-fa85-08b6-ad86" name="New Attribute Type"/>
-                  </attributes>
-                </profile>
-              </profiles>
+              <infoLinks>
+                <infoLink name="Grot Tanks" id="6f42-e6ba-ea40-eb81" hidden="false" targetId="c25b-529f-948e-d571" type="profile"/>
+              </infoLinks>
             </selectionEntry>
           </selectionEntries>
           <modifiers>
@@ -21025,7 +20954,11 @@ Designer’s Note: Place a Squig Mine token next to the model, removing it once 
                   <modifiers>
                     <modifier type="append" value="Headwoppa’s Killchoppa" field="annotation" join=", " scope="model" affects="self.entries.recursive.profiles.Melee Weapons"/>
                     <modifier type="append" value="Devastating Wounds" field="893f-9000-ccf7-648e" scope="model" affects="self.entries.recursive.profiles.Melee Weapons" join=", "/>
-                    <modifier type="replace" field="893f-9000-ccf7-648e" scope="model" affects="self.entries.recursive.84c4-6d1e-e724-bd6e.profiles.Melee Weapons" arg="Devastating Wounds"/>
+                    <modifier type="replace" field="893f-9000-ccf7-648e" scope="model" affects="self.entries.recursive.84c4-6d1e-e724-bd6e.profiles.Melee Weapons" arg="Devastating Wounds">
+                      <conditions>
+                        <condition type="notInstanceOf" value="1" field="selections" scope="ancestor" childId="6b40-8456-36cb-ece2" shared="true"/>
+                      </conditions>
+                    </modifier>
                   </modifiers>
                 </modifierGroup>
               </modifierGroups>
@@ -23912,6 +23845,19 @@ Each time the bearer&apos;s unit is selected to shoot, if that unit is not withi
       <characteristics>
         <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Once per battle, for each bomb squig this unit has, after this unit ends a Normal move, you can use one Bomb Squig. If you do, select one enemy unit within 12&quot; and visible to this unit and roll one D6: on a 3+, that enemy unit suffers D3 mortal wounds.</characteristic>
       </characteristics>
+    </profile>
+    <profile name="Grot Tanks" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="c25b-529f-948e-d571">
+      <characteristics>
+        <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">10&quot;</characteristic>
+        <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">6</characteristic>
+        <characteristic name="SV" typeId="450-a17e-9d5e-29da">3+</characteristic>
+        <characteristic name="W" typeId="750a-a2ec-90d3-21fe">5</characteristic>
+        <characteristic name="LD" typeId="58d2-b879-49c7-43bc">8+</characteristic>
+        <characteristic name="OC" typeId="bef7-942a-1a23-59f8">2</characteristic>
+      </characteristics>
+      <attributes>
+        <attribute typeId="ee2c-fa85-08b6-ad86" name="New Attribute Type"/>
+      </attributes>
     </profile>
   </sharedProfiles>
   <catalogueLinks>

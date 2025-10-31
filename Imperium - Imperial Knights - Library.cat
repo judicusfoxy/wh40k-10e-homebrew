@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" library="true" id="1b6d-dc06-5db9-c7d1" name="Imperium - Imperial Knights - Library" gameSystemId="sys-352e-adc2-7639-d6a9" gameSystemRevision="1" revision="65" battleScribeVersion="2.03" authorName="BSData Developers" type="catalogue" authorContact="Dunamis55 &amp; AbonShell">
+<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" library="true" id="1b6d-dc06-5db9-c7d1" name="Imperium - Imperial Knights - Library" gameSystemId="sys-352e-adc2-7639-d6a9" gameSystemRevision="1" revision="72" battleScribeVersion="2.03" authorName="BSData Developers" type="catalogue" authorContact="Dunamis55 &amp; AbonShell">
   <rules>
     <rule name="Code Chivalric" id="cbd-943-bc7b-20ec">
       <description>If your Army Faction is **^^Imperial Knights^^**, at the end of the Read Mission Objectives step, you must determine your army&apos;s Oath for the coming battle. An Oath consists of two parts - one Deed and one Quality. There are three options for each part.
@@ -233,6 +233,7 @@ The first time your selected Deed is completed your Oath is fulfilled and, until
         </modifier>
       </modifiers>
     </entryLink>
+    <entryLink import="true" name="Unseated Pilot" hidden="false" id="d76d-2328-f794-e832" targetId="d00a-8b19-9550-8388" type="selectionEntry"/>
   </entryLinks>
   <sharedSelectionEntries>
     <selectionEntry type="unit" import="true" name="Canis Rex" id="55fb-9c91-1a4f-3037">
@@ -751,7 +752,7 @@ The first time your selected Deed is completed your Oath is fulfilled and, until
         </profile>
         <profile name="Suppression Protocols" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" id="1d28-343b-c471-4427">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">In your Shooting phase, after this model has shot, select one enemy unit (excluding **^^Monsters^^** and **^^Vehicles^^**) hit by one or more of those attacks made with an Armiger autocannon. Until the start of your next turn, that enemy unit is suppressed. While that unit is suppressed, each time a model in that unit makes an attack, subtract from the Hit roll.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">In your Shooting phase, after this model has shot, select one enemy unit (excluding **^^Monsters^^** and **^^Vehicles^^**) hit by one or more of those attacks made with an Armiger autocannon. Until the start of your next turn, that enemy unit is suppressed. While that unit is suppressed, each time a model in that unit makes an attack, subtract 1 from the Hit roll.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1093,6 +1094,23 @@ The first time your selected Deed is completed your Oath is fulfilled and, until
                     <characteristic name="D" typeId="a354-c1c8-a745-f9e3">1</characteristic>
                     <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Rapid Fire 3</characteristic>
                   </characteristics>
+                  <modifierGroups>
+                    <modifierGroup type="and">
+                      <modifiers>
+                        <modifier type="append" value="Oathbreaker Guidance System" field="annotation" join=", ">
+                          <conditions>
+                            <condition type="atLeast" value="1" field="selections" scope="root-entry" childId="6447-29d0-93c6-c80d" shared="true" includeChildSelections="true"/>
+                          </conditions>
+                        </modifier>
+                        <modifier type="append" value="Ignores Cover, Precision" field="7f1b-8591-2fcf-d01c" join=", ">
+                          <conditions>
+                            <condition type="atLeast" value="1" field="selections" scope="root-entry" childId="6447-29d0-93c6-c80d" shared="true" includeChildSelections="true"/>
+                          </conditions>
+                        </modifier>
+                      </modifiers>
+                      <comment>Oathbreaker Guidance System</comment>
+                    </modifierGroup>
+                  </modifierGroups>
                 </profile>
               </profiles>
               <comment>Unlinked version to stop conflicts with linked version</comment>
@@ -2113,6 +2131,23 @@ The first time your selected Deed is completed your Oath is fulfilled and, until
                         <characteristic name="D" typeId="a354-c1c8-a745-f9e3">1</characteristic>
                         <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">-</characteristic>
                       </characteristics>
+                      <modifierGroups>
+                        <modifierGroup type="and">
+                          <modifiers>
+                            <modifier type="append" value="Oathbreaker Guidance System" field="annotation" join=", ">
+                              <conditions>
+                                <condition type="atLeast" value="1" field="selections" scope="root-entry" childId="6447-29d0-93c6-c80d" shared="true" includeChildSelections="true"/>
+                              </conditions>
+                            </modifier>
+                            <modifier type="append" value="Ignores Cover, Precision" field="7f1b-8591-2fcf-d01c" join=", ">
+                              <conditions>
+                                <condition type="atLeast" value="1" field="selections" scope="root-entry" childId="6447-29d0-93c6-c80d" shared="true" includeChildSelections="true"/>
+                              </conditions>
+                            </modifier>
+                          </modifiers>
+                          <comment>Oathbreaker Guidance System</comment>
+                        </modifierGroup>
+                      </modifierGroups>
                     </profile>
                   </profiles>
                   <selectionEntryGroups>
@@ -2765,6 +2800,7 @@ The first time your selected Deed is completed your Oath is fulfilled and, until
           </conditions>
         </modifier>
       </modifiers>
+      <comment>Imperial Knights Warlord</comment>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Meltagun" id="441c-a2a8-59a4-85a4">
       <infoLinks>
@@ -2803,6 +2839,23 @@ The first time your selected Deed is completed your Oath is fulfilled and, until
             <characteristic name="D" typeId="a354-c1c8-a745-f9e3">1</characteristic>
             <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Rapid Fire 3</characteristic>
           </characteristics>
+          <modifierGroups>
+            <modifierGroup type="and">
+              <modifiers>
+                <modifier type="append" value="Oathbreaker Guidance System" field="annotation" join=", ">
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="root-entry" childId="6447-29d0-93c6-c80d" shared="true" includeChildSelections="true"/>
+                  </conditions>
+                </modifier>
+                <modifier type="append" value="Ignores Cover, Precision" field="7f1b-8591-2fcf-d01c" join=", ">
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="root-entry" childId="6447-29d0-93c6-c80d" shared="true" includeChildSelections="true"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <comment>Oathbreaker Guidance System</comment>
+            </modifierGroup>
+          </modifierGroups>
         </profile>
       </profiles>
       <categoryLinks>
@@ -5670,125 +5723,6 @@ The first time your selected Deed is completed your Oath is fulfilled and, until
       <categoryLinks>
         <categoryLink name="Configuration" hidden="false" id="0fc8-fbf6-2056-29a1" targetId="4ac9-fd30-1e3d-b249" primary="true"/>
       </categoryLinks>
-      <selectionEntryGroups>
-        <selectionEntryGroup name="Deed" id="9d2e-8009-7163-1e6d" hidden="false" defaultSelectionEntryId="none">
-          <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="We vow to lay low the tyrant..." hidden="false" id="debd-979f-02da-62f7" sortIndex="1">
-              <profiles>
-                <profile name="We vow to lay low the tyrant..." typeId="83f0-0039-f52e-a3b4" typeName="Deed" hidden="false" id="90b3-6f39-b179-ba18">
-                  <characteristics>
-                    <characteristic name="Description" typeId="90fb-29ef-31df-1720">At the start of the battle, select one **^^Character^^** model in your opponent&apos;s army. This Deed is completed at the end of a turn if that **^^Character^^** is destroyed.</characteristic>
-                    <characteristic name="D6" typeId="2b47-80ec-51a5-3002">1 or 2</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
-            </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="We pledge to reap a great tally..." hidden="false" id="5849-fc54-299e-544f" sortIndex="3">
-              <profiles>
-                <profile name="We pledge to reap a great tally..." typeId="83f0-0039-f52e-a3b4" typeName="Deed" hidden="false" id="a1dc-8b19-46a1-a1cd">
-                  <characteristics>
-                    <characteristic name="Description" typeId="90fb-29ef-31df-1720">This deed is completed at the end of a turn if the number of destroyed enemy units is greater than the battle round number even if those units subsequently returned to the battlefield (for example, two destroyed enemy units in the first battle round).</characteristic>
-                    <characteristic name="D6" typeId="2b47-80ec-51a5-3002">5 or 6</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
-            </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="We swear to reclaim the realm..." hidden="false" id="a072-bdbb-15e6-161f" sortIndex="2">
-              <profiles>
-                <profile name="We swear to reclaim the realm..." typeId="83f0-0039-f52e-a3b4" typeName="Deed" hidden="false" id="6358-9ff9-fa0e-2e68">
-                  <characteristics>
-                    <characteristic name="Description" typeId="90fb-29ef-31df-1720">This deed is completed at the end of your opponent&apos;s turn if you control more objective markers than your opponent.</characteristic>
-                    <characteristic name="D6" typeId="2b47-80ec-51a5-3002">3 or 4</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
-            </selectionEntry>
-          </selectionEntries>
-          <constraints>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0cfb-0528-eafe-6d0e" includeChildSelections="false"/>
-            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="d44e-33a2-259f-31a3" includeChildSelections="false"/>
-          </constraints>
-          <modifiers>
-            <modifier type="set" value="-1" field="0cfb-0528-eafe-6d0e">
-              <conditions>
-                <condition type="atLeast" value="1" field="selections" scope="force" childId="a692-b024-09d9-b79f" shared="true" includeChildSelections="true"/>
-              </conditions>
-            </modifier>
-          </modifiers>
-        </selectionEntryGroup>
-        <selectionEntryGroup name="Quality" id="6974-1b57-b545-50ee" hidden="false" defaultSelectionEntryId="none">
-          <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="...with our martial valour risen over all." hidden="false" id="4f29-30bc-3fea-0ddb" sortIndex="1">
-              <profiles>
-                <profile name="...with our martial valour risen over all." typeId="3dbd-8296-99ea-d555" typeName="Quality" hidden="false" id="1098-c61e-9c92-0714">
-                  <characteristics>
-                    <characteristic name="Description" typeId="f262-34f4-0217-8bdd">Each time this model is selected to shoot or fight, you can re-roll one Hit roll and you can re-roll one Wound roll.</characteristic>
-                    <characteristic name="D6" typeId="abc7-ec7f-1f21-d074">1 or 2</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
-            </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="...yet shall our legacy be unsullied." hidden="false" id="0cda-47bd-5446-4b48" sortIndex="3">
-              <profiles>
-                <profile name="...yet shall our legacy be unsullied." typeId="3dbd-8296-99ea-d555" typeName="Quality" hidden="false" id="85f4-ab86-07ca-3af0">
-                  <characteristics>
-                    <characteristic name="Description" typeId="f262-34f4-0217-8bdd">Improve this model&apos;s Objective Control characteristic by 2 and its Leadership characteristic by 1.</characteristic>
-                    <characteristic name="D6" typeId="abc7-ec7f-1f21-d074">5 or 6</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <modifierGroups>
-                <modifierGroup type="and">
-                  <modifiers>
-                    <modifier type="append" value="Code Chivalric" field="annotation" join=", " scope="roster" affects="self.entries.forces.recursive.b5e4-3253-c157-54fd.profiles.Unit"/>
-                    <modifier type="increment" value="2" field="bef7-942a-1a23-59f8" scope="roster" affects="self.entries.forces.recursive.b5e4-3253-c157-54fd.profiles.Unit" join=", "/>
-                    <modifier type="decrement" value="1" field="58d2-b879-49c7-43bc" scope="roster" affects="self.entries.forces.recursive.b5e4-3253-c157-54fd.profiles.Unit" join=", "/>
-                    <modifier type="append" value="Code Chivalric" field="annotation" join=", " scope="roster" affects="self.entries.forces.recursive.534d-ffcf-fc01-7eac.profiles.Unit"/>
-                    <modifier type="increment" value="2" field="bef7-942a-1a23-59f8" scope="roster" affects="self.entries.forces.recursive.534d-ffcf-fc01-7eac.profiles.Unit" join=", "/>
-                    <modifier type="decrement" value="1" field="58d2-b879-49c7-43bc" scope="roster" affects="self.entries.forces.recursive.534d-ffcf-fc01-7eac.profiles.Unit" join=", "/>
-                    <modifier type="append" value="Code Chivalric" field="annotation" join=", " scope="roster" affects="self.entries.forces.recursive.dd27-74f3-9b5b-7908.profiles.Unit"/>
-                    <modifier type="increment" value="2" field="bef7-942a-1a23-59f8" scope="roster" affects="self.entries.forces.recursive.dd27-74f3-9b5b-7908.profiles.Unit" join=", "/>
-                    <modifier type="decrement" value="1" field="58d2-b879-49c7-43bc" scope="roster" affects="self.entries.forces.recursive.dd27-74f3-9b5b-7908.profiles.Unit" join=", "/>
-                  </modifiers>
-                </modifierGroup>
-              </modifierGroups>
-            </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="...and we are eager for the challenge." hidden="false" id="a251-f271-35b4-55ff" sortIndex="2">
-              <profiles>
-                <profile name="...and we are eager for the challenge." typeId="3dbd-8296-99ea-d555" typeName="Quality" hidden="false" id="352c-1be3-2f8b-19be">
-                  <characteristics>
-                    <characteristic name="Description" typeId="f262-34f4-0217-8bdd">Add 2&quot; to this model&apos;s Move characteristic and add 1 to Advance and Charge rolls made for this model.</characteristic>
-                    <characteristic name="D6" typeId="abc7-ec7f-1f21-d074">3 or 4</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <modifierGroups>
-                <modifierGroup type="and">
-                  <modifiers>
-                    <modifier type="append" value="Code Chivalric" field="annotation" join=", " scope="roster" affects="self.entries.forces.recursive.b5e4-3253-c157-54fd.profiles.Unit"/>
-                    <modifier type="increment" value="2" field="e703-ecb6-5ce7-aec1" scope="roster" affects="self.entries.forces.recursive.b5e4-3253-c157-54fd.profiles.Unit" join=", "/>
-                    <modifier type="append" value="Code Chivalric" field="annotation" join=", " scope="roster" affects="self.entries.forces.recursive.534d-ffcf-fc01-7eac.profiles.Unit"/>
-                    <modifier type="increment" value="2" field="e703-ecb6-5ce7-aec1" scope="roster" affects="self.entries.forces.recursive.534d-ffcf-fc01-7eac.profiles.Unit" join=", "/>
-                    <modifier type="append" value="Code Chivalric" field="annotation" join=", " scope="roster" affects="self.entries.forces.recursive.dd27-74f3-9b5b-7908.profiles.Unit"/>
-                    <modifier type="increment" value="2" field="e703-ecb6-5ce7-aec1" scope="roster" affects="self.entries.forces.recursive.dd27-74f3-9b5b-7908.profiles.Unit" join=", "/>
-                  </modifiers>
-                </modifierGroup>
-              </modifierGroups>
-            </selectionEntry>
-          </selectionEntries>
-          <constraints>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="30e9-a513-f1c5-afc1" includeChildSelections="false"/>
-            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="7545-2870-5075-2a7e" includeChildSelections="false"/>
-          </constraints>
-          <modifiers>
-            <modifier type="set" value="-1" field="30e9-a513-f1c5-afc1">
-              <conditions>
-                <condition type="atLeast" value="1" field="selections" scope="force" childId="a692-b024-09d9-b79f" shared="true" includeChildSelections="true"/>
-              </conditions>
-            </modifier>
-          </modifiers>
-        </selectionEntryGroup>
-      </selectionEntryGroups>
       <modifiers>
         <modifier type="set" value="true" field="hidden">
           <conditionGroups>
@@ -5805,6 +5739,60 @@ The first time your selected Deed is completed your Oath is fulfilled and, until
         <constraint type="min" value="1" field="selections" scope="force" shared="true" id="6930-e742-4edb-3ce7" includeChildSelections="true" includeChildForces="true"/>
         <constraint type="max" value="1" field="selections" scope="force" shared="true" id="2cae-d8a4-8e54-8269" includeChildSelections="true" includeChildForces="true"/>
       </constraints>
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Deed" hidden="false" id="35d6-ec47-0b46-bce5">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="4392-5bc9-64dc-6d0c" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0574-95e8-0051-0a2c" includeChildSelections="false"/>
+          </constraints>
+          <profiles>
+            <profile name="We pledge to reap a great tally..." typeId="83f0-0039-f52e-a3b4" typeName="Deed" hidden="false" id="a1dc-8b19-46a1-a1cd">
+              <characteristics>
+                <characteristic name="Description" typeId="90fb-29ef-31df-1720">This deed is completed at the end of a turn if the number of destroyed enemy units is greater than the battle round number even if those units subsequently returned to the battlefield (for example, two destroyed enemy units in the first battle round).</characteristic>
+                <characteristic name="D6" typeId="2b47-80ec-51a5-3002">5 or 6</characteristic>
+              </characteristics>
+            </profile>
+            <profile name="We swear to reclaim the realm..." typeId="83f0-0039-f52e-a3b4" typeName="Deed" hidden="false" id="6358-9ff9-fa0e-2e68">
+              <characteristics>
+                <characteristic name="Description" typeId="90fb-29ef-31df-1720">This deed is completed at the end of your opponent&apos;s turn if you control more objective markers than your opponent.</characteristic>
+                <characteristic name="D6" typeId="2b47-80ec-51a5-3002">3 or 4</characteristic>
+              </characteristics>
+            </profile>
+            <profile name="We vow to lay low the tyrant..." typeId="83f0-0039-f52e-a3b4" typeName="Deed" hidden="false" id="90b3-6f39-b179-ba18">
+              <characteristics>
+                <characteristic name="Description" typeId="90fb-29ef-31df-1720">At the start of the battle, select one **^^Character^^** model in your opponent&apos;s army. This Deed is completed at the end of a turn if that **^^Character^^** is destroyed.</characteristic>
+                <characteristic name="D6" typeId="2b47-80ec-51a5-3002">1 or 2</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Quality" hidden="false" id="36a1-1871-451c-0405">
+          <profiles>
+            <profile name="...and we are eager for the challenge." typeId="3dbd-8296-99ea-d555" typeName="Quality" hidden="false" id="352c-1be3-2f8b-19be">
+              <characteristics>
+                <characteristic name="Description" typeId="f262-34f4-0217-8bdd">Add 2&quot; to this model&apos;s Move characteristic and add 1 to Advance and Charge rolls made for this model.</characteristic>
+                <characteristic name="D6" typeId="abc7-ec7f-1f21-d074">3 or 4</characteristic>
+              </characteristics>
+            </profile>
+            <profile name="...with our martial valour risen over all." typeId="3dbd-8296-99ea-d555" typeName="Quality" hidden="false" id="1098-c61e-9c92-0714">
+              <characteristics>
+                <characteristic name="Description" typeId="f262-34f4-0217-8bdd">Each time this model is selected to shoot or fight, you can re-roll one Hit roll and you can re-roll one Wound roll.</characteristic>
+                <characteristic name="D6" typeId="abc7-ec7f-1f21-d074">1 or 2</characteristic>
+              </characteristics>
+            </profile>
+            <profile name="...yet shall our legacy be unsullied." typeId="3dbd-8296-99ea-d555" typeName="Quality" hidden="false" id="85f4-ab86-07ca-3af0">
+              <characteristics>
+                <characteristic name="Description" typeId="f262-34f4-0217-8bdd">Improve this model&apos;s Objective Control characteristic by 2 and its Leadership characteristic by 1.</characteristic>
+                <characteristic name="D6" typeId="abc7-ec7f-1f21-d074">5 or 6</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="304c-3810-47b2-5e28" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5d60-16e5-a73c-0ab2" includeChildSelections="false"/>
+          </constraints>
+        </selectionEntry>
+      </selectionEntries>
     </selectionEntry>
     <selectionEntry type="model" import="true" name="Knight Defender" id="f12b-ca2a-9c87-79bb">
       <categoryLinks>
@@ -6124,6 +6112,27 @@ The first time your selected Deed is completed your Oath is fulfilled and, until
         </selectionEntryGroup>
       </selectionEntryGroups>
     </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Unseated Pilot" hidden="false" id="d00a-8b19-9550-8388">
+      <comment>Crusade content</comment>
+      <categoryLinks>
+        <categoryLink name="Pilot" hidden="false" id="924b-caf7-779d-80c6" targetId="5b15-724e-2eeb-8cb7" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink import="true" name="Pilot and Knight" hidden="false" id="e59b-f321-df5d-4742" type="selectionEntryGroup" targetId="ade8-ca48-d245-3722"/>
+      </entryLinks>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="25dd-7aa0-6bf4-f2d5" shared="true"/>
+                <condition type="lessThan" value="1" field="selections" scope="roster" childId="e82c-6f8c-2b97-a287" shared="true" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedRules>
     <rule name="Bondsman" id="f5a5-d4cf-3b72-ed02">
@@ -6375,7 +6384,7 @@ The first time your selected Deed is completed your Oath is fulfilled and, until
     </selectionEntryGroup>
     <selectionEntryGroup name="Enhancements" id="f77c-b744-c82a-a3cd" collapsible="true">
       <selectionEntryGroups>
-        <selectionEntryGroup name="Valourstrike Lance Enhancements" id="1223-782e-cce2-bdfd" hidden="false" collapsible="true">
+        <selectionEntryGroup name="Valourstrike Lance Enhancements" id="1223-782e-cce2-bdfd" hidden="false">
           <selectionEntries>
             <selectionEntry type="upgrade" import="true" name="Bearer of the Iron Chalice" hidden="false" id="56fc-6e31-3aec-9b74">
               <profiles>
@@ -6400,6 +6409,9 @@ The first time your selected Deed is completed your Oath is fulfilled and, until
                   </conditions>
                 </modifier>
               </modifiers>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="443c-b481-90ce-7946" includeChildForces="true" includeChildSelections="true"/>
+              </constraints>
             </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="Bearer of the Evanescent Ion" hidden="false" id="85e3-f8df-1f17-8c19">
               <profiles>
@@ -6427,6 +6439,9 @@ The first time your selected Deed is completed your Oath is fulfilled and, until
               <infoLinks>
                 <infoLink name="Stealth" id="65e0-3b01-6733-2d9e" hidden="false" type="rule" targetId="bec5-4288-34a6-ccfa"/>
               </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="77d4-3e74-b81b-5510" includeChildForces="true" includeChildSelections="true"/>
+              </constraints>
             </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="Bearer of the Judicant&apos;s Helm" hidden="false" id="fbf6-98bd-fbdb-ea84">
               <profiles>
@@ -6454,6 +6469,9 @@ The first time your selected Deed is completed your Oath is fulfilled and, until
               <infoLinks>
                 <infoLink name="Ignores Cover" id="5f68-3cfe-a3b2-d993" hidden="false" type="rule" targetId="4640-43e7-30b-215a"/>
               </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="6142-e991-e98e-d1f4" includeChildForces="true" includeChildSelections="true"/>
+              </constraints>
             </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="Bearer of the Lancer&apos;s Sigil" hidden="false" id="f896-b511-a8f-9664">
               <profiles>
@@ -6478,6 +6496,9 @@ The first time your selected Deed is completed your Oath is fulfilled and, until
                   </conditions>
                 </modifier>
               </modifiers>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="79f1-0f61-9549-ac87" includeChildForces="true" includeChildSelections="true"/>
+              </constraints>
             </selectionEntry>
           </selectionEntries>
           <constraints>
@@ -6496,121 +6517,7 @@ The first time your selected Deed is completed your Oath is fulfilled and, until
             </modifier>
           </modifiers>
         </selectionEntryGroup>
-        <selectionEntryGroup name="Questor Forgepact Enhancements" id="c6b4-5090-67be-ea17" hidden="false" collapsible="true">
-          <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Vocifer Magnificat (Aura)" hidden="false" id="7385-ce64-2f90-3115">
-              <profiles>
-                <profile name="Vocifer Magnificat (Aura)" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="2870-c3d4-ed26-94f1">
-                  <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">IMPERIAL KNIGHTS model only. While an enemy unit is within 6&quot; of the bearer, worsen the Leadership characteristic of models in that unit by 1. While a friendly ADEPTUS MECHANICUS unit is within 6&quot; of the bearer, improve the Leadership characteristic of 1 models in that ADEPTUS MECHANICUS unit by 1.</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <modifiers>
-                <modifier type="set" value="true" field="hidden">
-                  <conditions>
-                    <condition type="notInstanceOf" value="1" field="selections" scope="parent" childId="b5e4-3253-c157-54fd" shared="true"/>
-                  </conditions>
-                </modifier>
-              </modifiers>
-              <costs>
-                <cost name="pts" typeId="51b2-306e-1021-d207" value="15"/>
-                <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
-                <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="0"/>
-                <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
-                <cost name="Crusade: Weapon Modifications" typeId="716d-91b7-d55a-1022" value="0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Magos Questoris" hidden="false" id="0f43-39c6-8a98-6817">
-              <profiles>
-                <profile name="Magos Questoris" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="5031-2795-5f01-0c68">
-                  <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">TECH‑PRIEST model only. While the bearer is within 3&quot; of one or more friendly IMPERIAL KNIGHTS units, it has the Lone Operative ability. In your Command phase, select one friendly IMPERIAL KNIGHTS model within 3&quot; of the bearer. That model regains up to 2 lost wounds.</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <modifiers>
-                <modifier type="set" value="true" field="hidden">
-                  <conditions>
-                    <condition type="notInstanceOf" value="1" field="selections" scope="parent" childId="5418-f86b-6e76-c5a" shared="true"/>
-                  </conditions>
-                </modifier>
-              </modifiers>
-              <costs>
-                <cost name="pts" typeId="51b2-306e-1021-d207" value="35"/>
-                <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
-                <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="0"/>
-                <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
-                <cost name="Crusade: Weapon Modifications" typeId="716d-91b7-d55a-1022" value="0"/>
-              </costs>
-              <infoLinks>
-                <infoLink name="Lone Operative" id="92d3-21b1-1097-9dbf" hidden="false" type="rule" targetId="a8a0-8fe7-898-e0f3"/>
-              </infoLinks>
-            </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Knight of the Opus Machina" hidden="false" id="19ae-50d7-bfa6-1e5b">
-              <profiles>
-                <profile name="Knight of the Opus Machina" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="efb4-f7d7-d10d-f31a">
-                  <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">IMPERIAL KNIGHTS model only. Each time the bearer makes a ranged attack, if the bearer is within 6&quot; of one or more friendly ADEPTUS MECHANICUS units, re‑roll a Hit roll of 1.</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <modifiers>
-                <modifier type="set" value="true" field="hidden">
-                  <conditions>
-                    <condition type="notInstanceOf" value="1" field="selections" scope="parent" childId="b5e4-3253-c157-54fd" shared="true"/>
-                  </conditions>
-                </modifier>
-              </modifiers>
-              <costs>
-                <cost name="pts" typeId="51b2-306e-1021-d207" value="20"/>
-                <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
-                <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="0"/>
-                <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
-                <cost name="Crusade: Weapon Modifications" typeId="716d-91b7-d55a-1022" value="0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Omnissian Champion" hidden="false" id="917e-6609-8abe-504e">
-              <profiles>
-                <profile name="Omnissian Champion" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="464b-bf8b-311c-754b">
-                  <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">IMPERIAL KNIGHTS model only. Add 4 to the bearer’s Wounds characteristic.</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <modifiers>
-                <modifier type="set" value="true" field="hidden">
-                  <conditions>
-                    <condition type="notInstanceOf" value="1" field="selections" scope="parent" childId="b5e4-3253-c157-54fd" shared="true"/>
-                  </conditions>
-                </modifier>
-              </modifiers>
-              <costs>
-                <cost name="pts" typeId="51b2-306e-1021-d207" value="30"/>
-                <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
-                <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="0"/>
-                <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
-                <cost name="Crusade: Weapon Modifications" typeId="716d-91b7-d55a-1022" value="0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
-          <constraints>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="60d0-8946-43e0-79c5" includeChildSelections="false" includeChildForces="false"/>
-          </constraints>
-          <modifiers>
-            <modifier type="set" value="true" field="hidden">
-              <conditionGroups>
-                <conditionGroup type="and">
-                  <conditions>
-                    <condition type="lessThan" value="1" field="selections" scope="roster" childId="9a4a-a4c8-a16a-c969" shared="true" includeChildSelections="true" includeChildForces="true"/>
-                    <condition type="lessThan" value="1" field="forces" scope="roster" childId="cac3-71d1-ea4b-795d" shared="true" includeChildSelections="true" includeChildForces="true"/>
-                  </conditions>
-                </conditionGroup>
-              </conditionGroups>
-            </modifier>
-          </modifiers>
-        </selectionEntryGroup>
-        <selectionEntryGroup name="Gate Warden Lance Enhancements" id="5a97-88a5-44ed-46e9" hidden="false" collapsible="true">
+        <selectionEntryGroup name="Gate Warden Lance Enhancements" id="5a97-88a5-44ed-46e9" hidden="false">
           <selectionEntries>
             <selectionEntry type="upgrade" import="true" name="Vengeful Tread" hidden="false" id="3af2-8a70-176e-7a21">
               <profiles>
@@ -6635,6 +6542,9 @@ The first time your selected Deed is completed your Oath is fulfilled and, until
                   </conditions>
                 </modifier>
               </modifiers>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="2668-194f-819e-9646" includeChildForces="true" includeChildSelections="true"/>
+              </constraints>
             </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="Acquisitor-at-Arms" hidden="false" id="68eb-3ce1-7a5d-008f">
               <profiles>
@@ -6659,6 +6569,9 @@ The first time your selected Deed is completed your Oath is fulfilled and, until
                   </conditions>
                 </modifier>
               </modifiers>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="a82b-c5ba-6c65-c5fe" includeChildForces="true" includeChildSelections="true"/>
+              </constraints>
             </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="Purgation&apos;s Hand" hidden="false" id="dfd9-4dac-a3ec-eb24">
               <profiles>
@@ -6683,6 +6596,9 @@ The first time your selected Deed is completed your Oath is fulfilled and, until
                   </conditions>
                 </modifier>
               </modifiers>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="cf9c-2e26-acf2-0376" includeChildForces="true" includeChildSelections="true"/>
+              </constraints>
             </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="Augury Halo" hidden="false" id="dd28-68de-d553-65dc">
               <profiles>
@@ -6710,6 +6626,9 @@ The first time your selected Deed is completed your Oath is fulfilled and, until
               <infoLinks>
                 <infoLink name="Ignores Cover" id="1802-1982-d55a-468c" hidden="false" type="rule" targetId="4640-43e7-30b-215a"/>
               </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="a519-1bf2-a613-1bb1" includeChildForces="true" includeChildSelections="true"/>
+              </constraints>
             </selectionEntry>
           </selectionEntries>
           <constraints>
@@ -6728,7 +6647,7 @@ The first time your selected Deed is completed your Oath is fulfilled and, until
             </modifier>
           </modifiers>
         </selectionEntryGroup>
-        <selectionEntryGroup name="Questoris Companions Enhancements" id="6d4d-f498-365e-35e7" hidden="false" collapsible="true">
+        <selectionEntryGroup name="Questoris Companions Enhancements" id="6d4d-f498-365e-35e7" hidden="false">
           <selectionEntries>
             <selectionEntry type="upgrade" import="true" name="Crushing Condemnation" hidden="false" id="8dbe-ae93-0e32-a88e">
               <profiles>
@@ -6753,6 +6672,9 @@ The first time your selected Deed is completed your Oath is fulfilled and, until
                   </conditions>
                 </modifier>
               </modifiers>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="fc89-f327-9a61-c8e6" includeChildForces="true" includeChildSelections="true"/>
+              </constraints>
             </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="Herald of Triumph" hidden="false" id="e2df-198c-65de-8ea2">
               <profiles>
@@ -6777,6 +6699,9 @@ The first time your selected Deed is completed your Oath is fulfilled and, until
                   </conditions>
                 </modifier>
               </modifiers>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="191e-2660-eb63-4dcb" includeChildForces="true" includeChildSelections="true"/>
+              </constraints>
             </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="Wyrmslayer Divination" hidden="false" id="9ec7-8ac0-7ed3-0daf">
               <profiles>
@@ -6801,6 +6726,9 @@ The first time your selected Deed is completed your Oath is fulfilled and, until
                   </conditions>
                 </modifier>
               </modifiers>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="64a6-3b1f-d5bf-9e02" includeChildForces="true" includeChildSelections="true"/>
+              </constraints>
             </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="Pennant of Silvered Fury" hidden="false" id="e32b-dd13-2971-d571">
               <profiles>
@@ -6828,6 +6756,9 @@ The first time your selected Deed is completed your Oath is fulfilled and, until
               <infoLinks>
                 <infoLink name="Sustained Hits" id="be16-5047-1554-2482" hidden="false" type="rule" targetId="1897-c22c-9597-12b1"/>
               </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="8321-97ec-b4a6-1128" includeChildForces="true" includeChildSelections="true"/>
+              </constraints>
             </selectionEntry>
           </selectionEntries>
           <constraints>
@@ -6846,7 +6777,7 @@ The first time your selected Deed is completed your Oath is fulfilled and, until
             </modifier>
           </modifiers>
         </selectionEntryGroup>
-        <selectionEntryGroup name="Spearhead-at-Arms Enhancements" id="3494-40e6-e1f5-18d6" hidden="false" collapsible="true">
+        <selectionEntryGroup name="Spearhead-at-Arms Enhancements" id="3494-40e6-e1f5-18d6" hidden="false">
           <selectionEntries>
             <selectionEntry type="upgrade" import="true" name="Martial Tuition" hidden="false" id="ca5f-beba-df87-6775">
               <profiles>
@@ -6871,6 +6802,9 @@ The first time your selected Deed is completed your Oath is fulfilled and, until
                   </conditions>
                 </modifier>
               </modifiers>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="c767-40b2-1c1d-e061" includeChildForces="true" includeChildSelections="true"/>
+              </constraints>
             </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="Mentor&apos;s Pride" hidden="false" id="9c04-1f2e-f1af-e30e">
               <profiles>
@@ -6895,6 +6829,9 @@ The first time your selected Deed is completed your Oath is fulfilled and, until
                   </conditions>
                 </modifier>
               </modifiers>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="5a6d-3d03-38de-38b0" includeChildForces="true" includeChildSelections="true"/>
+              </constraints>
             </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="Fables of Nightmare" hidden="false" id="cb31-4f07-bc8b-e2d1">
               <profiles>
@@ -6922,6 +6859,9 @@ The first time your selected Deed is completed your Oath is fulfilled and, until
               <infoLinks>
                 <infoLink name="Precision" id="2f45-2067-fa53-b838" hidden="false" type="rule" targetId="9143-31ae-e0a6-6007"/>
               </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="41db-7dc2-e522-2e88" includeChildForces="true" includeChildSelections="true"/>
+              </constraints>
             </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="Tales of Heroism" hidden="false" id="12b4-b735-b6ee-debe">
               <profiles>
@@ -6946,6 +6886,9 @@ The first time your selected Deed is completed your Oath is fulfilled and, until
                   </conditions>
                 </modifier>
               </modifiers>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="763f-1e5f-6fcb-ceb8" includeChildForces="true" includeChildSelections="true"/>
+              </constraints>
             </selectionEntry>
           </selectionEntries>
           <constraints>
@@ -6981,6 +6924,9 @@ The first time your selected Deed is completed your Oath is fulfilled and, until
         <constraint type="max" value="3" field="selections" scope="roster" shared="true" id="aff1-9a43-882b-f046" includeChildForces="true" includeChildSelections="true"/>
         <constraint type="max" value="1" field="selections" scope="self" shared="true" id="d44d-e4f5-ce79-5d7d" includeChildSelections="true" includeChildForces="false"/>
       </constraints>
+      <entryLinks>
+        <entryLink targetId="c6b4-5090-67be-ea17" id="4a54-eb79-421e-190b" type="selectionEntryGroup" name="Questor Forgepact Enhancements" hidden="false"/>
+      </entryLinks>
     </selectionEntryGroup>
     <selectionEntryGroup name="Detachment" id="d793-8964-e815-3bb8" defaultSelectionEntryId="none">
       <selectionEntries>
@@ -7069,7 +7015,9 @@ The Qualities from Oaths you have fulfilled continue to apply to all models in y
       <entryLinks>
         <entryLink import="true" name="Experience Points" hidden="false" id="1d29-7f16-cc78-1762" type="selectionEntry" targetId="2dbf-4d49-5d74-85c9" sortIndex="1"/>
         <entryLink import="true" name="Legendary Veterans" hidden="false" id="ccf1-4259-c79c-cf16" type="selectionEntry" targetId="1511-18fe-f51e-7b9d" sortIndex="2"/>
-        <entryLink import="true" name="Battle Scars" hidden="false" id="26fd-b757-c79c-eb91" type="selectionEntryGroup" targetId="1576-e816-033f-828d" sortIndex="5" collapsible="true"/>
+        <entryLink import="true" name="Battle Scars" hidden="false" id="26fd-b757-c79c-eb91" type="selectionEntryGroup" targetId="1576-e816-033f-828d" sortIndex="6" collapsible="true"/>
+        <entryLink import="true" name="Pilot and Knight" hidden="false" id="df6a-e9c2-c880-176b" type="selectionEntryGroup" targetId="ade8-ca48-d245-3722" collapsible="true" sortIndex="4"/>
+        <entryLink import="true" name="Burdens" hidden="false" id="59d8-d803-b085-2774" type="selectionEntryGroup" targetId="dc39-cfac-fde9-6124" sortIndex="7"/>
       </entryLinks>
       <modifiers>
         <modifier type="set" value="true" field="hidden">
@@ -7087,7 +7035,7 @@ The Qualities from Oaths you have fulfilled continue to apply to all models in y
             <selectionEntry type="upgrade" import="true" name="Enemy Units Destroyed" hidden="false" id="e5ec-ad2a-ffd4-3d36"/>
           </selectionEntries>
         </selectionEntryGroup>
-        <selectionEntryGroup name="Battle Honours" id="c697-5411-de7c-2f20" hidden="false" sortIndex="4" collapsible="true">
+        <selectionEntryGroup name="Battle Honours" id="c697-5411-de7c-2f20" hidden="false" sortIndex="5" collapsible="true">
           <selectionEntryGroups>
             <selectionEntryGroup name="Weapon Modifications" id="0f19-824f-02ea-6438" hidden="false">
               <entryLinks>
@@ -7096,14 +7044,10 @@ The Qualities from Oaths you have fulfilled continue to apply to all models in y
             </selectionEntryGroup>
           </selectionEntryGroups>
           <entryLinks>
-            <entryLink import="true" name="Battle Traits" hidden="false" id="1987-e6a6-a1aa-44c9" type="selectionEntryGroup" targetId="0511-d9ad-2978-2234">
-              <entryLinks>
-                <entryLink import="true" name="Codex Battle Traits" hidden="false" id="c53e-bbba-fcf2-b659" type="selectionEntryGroup" targetId="4005-f7f9-1ac0-f7d6"/>
-              </entryLinks>
-            </entryLink>
+            <entryLink import="true" name="Battle Traits" hidden="false" id="1987-e6a6-a1aa-44c9" type="selectionEntryGroup" targetId="0511-d9ad-2978-2234"/>
             <entryLink import="true" name="Crusade Relics" hidden="false" id="23f2-9e15-5d2f-734c" type="selectionEntryGroup" targetId="e919-5b46-974d-a5b1">
               <entryLinks>
-                <entryLink import="true" name="Codex Crusade Relics" hidden="false" id="d6e0-f4ca-d686-474e" type="selectionEntryGroup" targetId="9e7f-40f5-1813-4421"/>
+                <entryLink import="true" name="Codex Crusade Relics" hidden="false" id="d6e0-f4ca-d686-474e" type="selectionEntryGroup" targetId="0f3a-021c-a01f-377a"/>
               </entryLinks>
             </entryLink>
             <entryLink import="true" name="Tyrannic War Battle Honours" hidden="false" id="282d-bd81-c1c1-5ef7" type="selectionEntryGroup" targetId="1927-d905-041e-b914"/>
@@ -7112,24 +7056,1575 @@ The Qualities from Oaths you have fulfilled continue to apply to all models in y
         </selectionEntryGroup>
       </selectionEntryGroups>
     </selectionEntryGroup>
-    <selectionEntryGroup name="Codex Battle Traits" id="4005-f7f9-1ac0-f7d6" hidden="false">
+    <selectionEntryGroup name="Questor Forgepact Enhancements" id="c6b4-5090-67be-ea17" hidden="false">
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Vocifer Magnificat (Aura)" hidden="false" id="7385-ce64-2f90-3115">
+          <profiles>
+            <profile name="Vocifer Magnificat (Aura)" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="2870-c3d4-ed26-94f1">
+              <characteristics>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">**^^Imperial Knights^^** model only. While an enemy unit is within 6&quot; of the bearer, worsen the Leadership characteristic of models in that unit by 1. While a friendly **^^Adeptus Mechanicus^^** unit is within 6&quot; of the bearer, improve the Leadership characteristic of 1 models in that **^^Adeptus Mechanicus^^** unit by 1.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="notInstanceOf" value="1" field="selections" scope="parent" childId="b5e4-3253-c157-54fd" shared="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <costs>
+            <cost name="pts" typeId="51b2-306e-1021-d207" value="15"/>
+            <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
+            <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="0"/>
+            <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
+            <cost name="Crusade: Weapon Modifications" typeId="716d-91b7-d55a-1022" value="0"/>
+          </costs>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="b228-0f03-b33c-b2d9" includeChildForces="true" includeChildSelections="true"/>
+          </constraints>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Magos Questoris" hidden="false" id="0f43-39c6-8a98-6817">
+          <profiles>
+            <profile name="Magos Questoris" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="5031-2795-5f01-0c68">
+              <characteristics>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">**^^Tech‑Priest^^** model only. While the bearer is within 3&quot; of one or more friendly **^^Imperial Knights^^** units, it has the Lone Operative ability. In your Command phase, select one friendly **^^Imperial Knights^^** model within 3&quot; of the bearer. That model regains up to 2 lost wounds.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="notInstanceOf" value="1" field="selections" scope="ancestor" childId="59a9-b5cc-7c11-aaad" shared="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <costs>
+            <cost name="pts" typeId="51b2-306e-1021-d207" value="35"/>
+            <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
+            <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="0"/>
+            <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
+            <cost name="Crusade: Weapon Modifications" typeId="716d-91b7-d55a-1022" value="0"/>
+          </costs>
+          <infoLinks>
+            <infoLink name="Lone Operative" id="92d3-21b1-1097-9dbf" hidden="false" type="rule" targetId="a8a0-8fe7-898-e0f3"/>
+          </infoLinks>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="ae5d-aa62-e625-b056" includeChildForces="true" includeChildSelections="true"/>
+          </constraints>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Knight of the Opus Machina" hidden="false" id="19ae-50d7-bfa6-1e5b">
+          <profiles>
+            <profile name="Knight of the Opus Machina" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="efb4-f7d7-d10d-f31a">
+              <characteristics>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">**^^Imperial Knights^^** model only. Each time the bearer makes a ranged attack, if the bearer is within 6&quot; of one or more friendly ADEPTUS MECHANICUS units, re‑roll a Hit roll of 1.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="notInstanceOf" value="1" field="selections" scope="parent" childId="b5e4-3253-c157-54fd" shared="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <costs>
+            <cost name="pts" typeId="51b2-306e-1021-d207" value="20"/>
+            <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
+            <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="0"/>
+            <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
+            <cost name="Crusade: Weapon Modifications" typeId="716d-91b7-d55a-1022" value="0"/>
+          </costs>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="73bd-61f9-9d22-33ee" includeChildForces="true" includeChildSelections="true"/>
+          </constraints>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Omnissian Champion" hidden="false" id="917e-6609-8abe-504e">
+          <profiles>
+            <profile name="Omnissian Champion" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="464b-bf8b-311c-754b">
+              <characteristics>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">**^^Imperial Knights^^** model only. Add 4 to the bearer’s Wounds characteristic.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="notInstanceOf" value="1" field="selections" scope="parent" childId="b5e4-3253-c157-54fd" shared="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <costs>
+            <cost name="pts" typeId="51b2-306e-1021-d207" value="30"/>
+            <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
+            <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="0"/>
+            <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
+            <cost name="Crusade: Weapon Modifications" typeId="716d-91b7-d55a-1022" value="0"/>
+          </costs>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="0971-cc03-ce7c-2d9e" includeChildForces="true" includeChildSelections="true"/>
+          </constraints>
+        </selectionEntry>
+      </selectionEntries>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="60d0-8946-43e0-79c5" includeChildSelections="false" includeChildForces="false"/>
+      </constraints>
       <modifiers>
         <modifier type="set" value="true" field="hidden">
-          <conditions>
-            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="25dd-7aa0-6bf4-f2d5" shared="true"/>
-          </conditions>
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition type="lessThan" value="1" field="selections" scope="roster" childId="9a4a-a4c8-a16a-c969" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                <condition type="lessThan" value="1" field="forces" scope="roster" childId="cac3-71d1-ea4b-795d" shared="true" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
         </modifier>
       </modifiers>
-      <comment>Crusade content</comment>
     </selectionEntryGroup>
-    <selectionEntryGroup name="Codex Crusade Relics" id="9e7f-40f5-1813-4421" hidden="false">
+    <selectionEntryGroup name="Pilot and Knight" id="ade8-ca48-d245-3722" hidden="false">
+      <comment>Crusade content</comment>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Sworn Alignment" id="2a03-62c5-f67e-febb" hidden="false" defaultSelectionEntryId="none" sortIndex="1">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="54dd-ef39-3998-c020" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0977-741d-0918-a192" includeChildSelections="false"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Questor Imperialis" hidden="false" id="7768-b42c-3708-531b"/>
+            <selectionEntry type="upgrade" import="true" name="Freeblade" hidden="false" id="eb59-b7e1-dbfe-54b1"/>
+            <selectionEntry type="upgrade" import="true" name="Questor Mechanicus" hidden="false" id="e251-e75a-6d7f-33af"/>
+          </selectionEntries>
+          <modifiers>
+            <modifier type="add" value="Cannot take Questor Imperialis and Questor Mechanicus pilots in the same Crusade Army." field="error">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition type="notInstanceOf" value="1" field="selections" scope="force" childId="cac3-71d1-ea4b-795d" shared="true" includeChildSelections="false" includeChildForces="false"/>
+                  </conditions>
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditionGroups>
+                        <conditionGroup type="and">
+                          <conditions>
+                            <condition type="atLeast" value="1" field="selections" scope="root-entry" childId="e251-e75a-6d7f-33af" shared="true" includeChildSelections="true"/>
+                            <condition type="atLeast" value="1" field="selections" scope="force" childId="7768-b42c-3708-531b" shared="true" includeChildSelections="true"/>
+                          </conditions>
+                        </conditionGroup>
+                        <conditionGroup type="and">
+                          <conditions>
+                            <condition type="atLeast" value="1" field="selections" scope="force" childId="e251-e75a-6d7f-33af" shared="true" includeChildSelections="true"/>
+                            <condition type="atLeast" value="1" field="selections" scope="root-entry" childId="7768-b42c-3708-531b" shared="true" includeChildSelections="true"/>
+                          </conditions>
+                        </conditionGroup>
+                      </conditionGroups>
+                    </conditionGroup>
+                  </conditionGroups>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+        </selectionEntryGroup>
+        <selectionEntryGroup name="Masteries" id="3ac2-3c01-db7a-48cb" hidden="false" sortIndex="3" defaultSelectionEntryId="none">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="9eba-4336-f454-d8a3" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="bf9b-e4a5-e65f-882d" includeChildSelections="false"/>
+          </constraints>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="lessThan" value="1" field="selections" scope="parent" childId="e7fb-9519-7cd7-9c10" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="0" field="9eba-4336-f454-d8a3">
+              <conditions>
+                <condition type="lessThan" value="1" field="selections" scope="parent" childId="e7fb-9519-7cd7-9c10" shared="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Master of Obduracy" hidden="false" id="32b3-12f5-c2bc-22f5">
+              <profiles>
+                <profile name="Esteemed - Heraldic Exemplar" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="2076-8ee3-8724-c6a8">
+                  <characteristics>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">While this unit is not Battle-shocked, add 3 to its Objective Control characteristic.</characteristic>
+                  </characteristics>
+                  <modifiers>
+                    <modifier type="set" value="true" field="hidden">
+                      <conditionGroups>
+                        <conditionGroup type="or">
+                          <conditionGroups>
+                            <conditionGroup type="and">
+                              <conditions>
+                                <condition type="greaterThan" value="6" field="selections" scope="parent" childId="e7fb-9519-7cd7-9c10" shared="true" includeChildSelections="true"/>
+                                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="5929-ad51-d006-e008" shared="true" includeChildSelections="true"/>
+                              </conditions>
+                            </conditionGroup>
+                          </conditionGroups>
+                          <conditions>
+                            <condition type="lessThan" value="4" field="selections" scope="parent" childId="e7fb-9519-7cd7-9c10" shared="true" includeChildSelections="true"/>
+                          </conditions>
+                        </conditionGroup>
+                      </conditionGroups>
+                    </modifier>
+                  </modifiers>
+                </profile>
+                <profile name="Aspiring - Virtue&apos;s Defender" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="30d5-f106-1e3a-2a81">
+                  <characteristics>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">While this unit is not Battle-shocked, add 1 to its Objective Control characteristic.</characteristic>
+                  </characteristics>
+                  <modifiers>
+                    <modifier type="set" value="true" field="hidden">
+                      <conditions>
+                        <condition type="greaterThan" value="3" field="selections" scope="parent" childId="e7fb-9519-7cd7-9c10" shared="true" includeChildSelections="true"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                </profile>
+                <profile name="Virtuous - Sentinel of Orthodoxy" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="b741-6bbe-410d-e0e5">
+                  <characteristics>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">While this unit is not Battle-shocked, add 5 to its Objective Control characteristic.</characteristic>
+                  </characteristics>
+                  <modifiers>
+                    <modifier type="set" value="true" field="hidden">
+                      <conditionGroups>
+                        <conditionGroup type="or">
+                          <conditions>
+                            <condition type="lessThan" value="7" field="selections" scope="parent" childId="e7fb-9519-7cd7-9c10" shared="true" includeChildSelections="true"/>
+                            <condition type="notInstanceOf" value="1" field="selections" scope="ancestor" childId="5929-ad51-d006-e008" shared="true" includeChildSelections="true"/>
+                          </conditions>
+                        </conditionGroup>
+                      </conditionGroups>
+                    </modifier>
+                  </modifiers>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="51b2-306e-1021-d207" value="0"/>
+                <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="1"/>
+                <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="0"/>
+                <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
+                <cost name="Crusade: Weapon Modifications" typeId="716d-91b7-d55a-1022" value="0"/>
+                <cost name="Blackstone Fragments" typeId="ac6b-ced3-9b5e-9a6e" value="0"/>
+              </costs>
+              <modifierGroups>
+                <modifierGroup type="and">
+                  <modifiers>
+                    <modifier type="set" value="Aspiring" field="annotation">
+                      <conditionGroups>
+                        <conditionGroup type="and">
+                          <conditions>
+                            <condition type="atLeast" value="1" field="selections" scope="parent" childId="e7fb-9519-7cd7-9c10" shared="true"/>
+                            <condition type="atMost" value="3" field="selections" scope="parent" childId="e7fb-9519-7cd7-9c10" shared="true"/>
+                          </conditions>
+                        </conditionGroup>
+                      </conditionGroups>
+                    </modifier>
+                    <modifier type="set" value="Esteemed" field="annotation">
+                      <conditionGroups>
+                        <conditionGroup type="and">
+                          <conditions>
+                            <condition type="atLeast" value="4" field="selections" scope="parent" childId="e7fb-9519-7cd7-9c10" shared="true"/>
+                            <condition type="atMost" value="6" field="selections" scope="parent" childId="e7fb-9519-7cd7-9c10" shared="true"/>
+                          </conditions>
+                        </conditionGroup>
+                      </conditionGroups>
+                    </modifier>
+                    <modifier type="set" value="Virtuous" field="annotation">
+                      <conditions>
+                        <condition type="atLeast" value="7" field="selections" scope="parent" childId="e7fb-9519-7cd7-9c10" shared="true"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                </modifierGroup>
+              </modifierGroups>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="acd5-00d2-68f4-e1b1" includeChildSelections="true"/>
+              </constraints>
+              <modifiers>
+                <modifier type="set" value="true" field="hidden">
+                  <conditionGroups>
+                    <conditionGroup type="and">
+                      <conditions>
+                        <condition type="lessThan" value="1" field="selections" scope="root-entry" childId="32b3-12f5-c2bc-22f5" shared="true" includeChildSelections="true"/>
+                        <condition type="atLeast" value="1" field="selections" scope="roster" childId="32b3-12f5-c2bc-22f5" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+              </modifiers>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Master of Execution" hidden="false" id="7f3f-3d10-1be7-3395">
+              <profiles>
+                <profile name="Esteemed - Headsman" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="31d1-7d64-2414-4f94">
+                  <characteristics>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">At the start of the first battle round, select one enemy unit. Until the end of the battle, each time this unit makes an attack that targets that enemy unit, add 1 to the Damage characteristic of that attack and that attack has the **[SUSTAINED HITS 1]** ability.</characteristic>
+                  </characteristics>
+                  <modifiers>
+                    <modifier type="set" value="true" field="hidden">
+                      <conditionGroups>
+                        <conditionGroup type="or">
+                          <conditionGroups>
+                            <conditionGroup type="and">
+                              <conditions>
+                                <condition type="greaterThan" value="6" field="selections" scope="parent" childId="e7fb-9519-7cd7-9c10" shared="true" includeChildSelections="true"/>
+                                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="5929-ad51-d006-e008" shared="true" includeChildSelections="true"/>
+                              </conditions>
+                            </conditionGroup>
+                          </conditionGroups>
+                          <conditions>
+                            <condition type="lessThan" value="4" field="selections" scope="parent" childId="e7fb-9519-7cd7-9c10" shared="true" includeChildSelections="true"/>
+                          </conditions>
+                        </conditionGroup>
+                      </conditionGroups>
+                    </modifier>
+                  </modifiers>
+                </profile>
+                <profile name="Aspiring - Harbinger" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="5f15-8b4b-9437-2afc">
+                  <characteristics>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">At the start of the first battle round, select one enemy unit. Until the end of the battle, each time this unit makes an attack that targets that enemy unit, add 1 to the Damage characteristic of that attack.</characteristic>
+                  </characteristics>
+                  <modifiers>
+                    <modifier type="set" value="true" field="hidden">
+                      <conditions>
+                        <condition type="greaterThan" value="3" field="selections" scope="parent" childId="e7fb-9519-7cd7-9c10" shared="true" includeChildSelections="true"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                </profile>
+                <profile name="Virtuous - Master of Judgement" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="539c-d112-c026-eac5">
+                  <characteristics>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">At the start of the first battle round, select one enemy unit. Until the end of the battle, each time this unit makes an attack that targets that enemy unit, add 1 to the Damage characteristic of that attack and that attack has the **[SUSTAINED HITS D3]** ability.</characteristic>
+                  </characteristics>
+                  <modifiers>
+                    <modifier type="set" value="true" field="hidden">
+                      <conditionGroups>
+                        <conditionGroup type="or">
+                          <conditions>
+                            <condition type="lessThan" value="7" field="selections" scope="parent" childId="e7fb-9519-7cd7-9c10" shared="true" includeChildSelections="true"/>
+                            <condition type="notInstanceOf" value="1" field="selections" scope="ancestor" childId="5929-ad51-d006-e008" shared="true" includeChildSelections="true"/>
+                          </conditions>
+                        </conditionGroup>
+                      </conditionGroups>
+                    </modifier>
+                  </modifiers>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="51b2-306e-1021-d207" value="0"/>
+                <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="1"/>
+                <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="0"/>
+                <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
+                <cost name="Crusade: Weapon Modifications" typeId="716d-91b7-d55a-1022" value="0"/>
+                <cost name="Blackstone Fragments" typeId="ac6b-ced3-9b5e-9a6e" value="0"/>
+              </costs>
+              <modifiers>
+                <modifier type="set" value="true" field="hidden">
+                  <conditions>
+                    <condition type="lessThan" value="1" field="selections" scope="parent" childId="eb59-b7e1-dbfe-54b1" shared="true" includeChildSelections="true"/>
+                  </conditions>
+                </modifier>
+                <modifier type="set" value="true" field="hidden">
+                  <conditionGroups>
+                    <conditionGroup type="and">
+                      <conditions>
+                        <condition type="lessThan" value="1" field="selections" scope="root-entry" childId="7f3f-3d10-1be7-3395" shared="true" includeChildSelections="true"/>
+                        <condition type="atLeast" value="1" field="selections" scope="roster" childId="7f3f-3d10-1be7-3395" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+              </modifiers>
+              <modifierGroups>
+                <modifierGroup type="and">
+                  <modifiers>
+                    <modifier type="set" value="Aspiring" field="annotation">
+                      <conditionGroups>
+                        <conditionGroup type="and">
+                          <conditions>
+                            <condition type="atLeast" value="1" field="selections" scope="parent" childId="e7fb-9519-7cd7-9c10" shared="true"/>
+                            <condition type="atMost" value="3" field="selections" scope="parent" childId="e7fb-9519-7cd7-9c10" shared="true"/>
+                          </conditions>
+                        </conditionGroup>
+                      </conditionGroups>
+                    </modifier>
+                    <modifier type="set" value="Esteemed" field="annotation">
+                      <conditionGroups>
+                        <conditionGroup type="and">
+                          <conditions>
+                            <condition type="atLeast" value="4" field="selections" scope="parent" childId="e7fb-9519-7cd7-9c10" shared="true"/>
+                            <condition type="atMost" value="6" field="selections" scope="parent" childId="e7fb-9519-7cd7-9c10" shared="true"/>
+                          </conditions>
+                        </conditionGroup>
+                      </conditionGroups>
+                    </modifier>
+                    <modifier type="set" value="Virtuous" field="annotation">
+                      <conditions>
+                        <condition type="atLeast" value="7" field="selections" scope="parent" childId="e7fb-9519-7cd7-9c10" shared="true"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                </modifierGroup>
+              </modifierGroups>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="0913-28a1-1d88-d7e9" includeChildSelections="true"/>
+              </constraints>
+              <infoLinks>
+                <infoLink name="Sustained Hits" id="a841-1d25-8b95-ffd8" hidden="false" type="rule" targetId="1897-c22c-9597-12b1">
+                  <modifiers>
+                    <modifier type="set" value="true" field="hidden">
+                      <conditions>
+                        <condition type="lessThan" value="4" field="selections" scope="parent" childId="e7fb-9519-7cd7-9c10" shared="true" includeChildSelections="true"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                </infoLink>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Master of the Clarion" hidden="false" id="d98d-36c1-aa54-f39f">
+              <profiles>
+                <profile name="Esteemed - Nuncio of Obligation" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="59ee-4669-382b-75ae">
+                  <characteristics>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Pilot of a **^^Titanic^^** unit only. Each time this unit its Bondsman ability, it can select a friendly **^^Armiger^^** that is within 24&quot; of and visible to this unit.</characteristic>
+                  </characteristics>
+                  <modifiers>
+                    <modifier type="set" value="true" field="hidden">
+                      <conditionGroups>
+                        <conditionGroup type="or">
+                          <conditionGroups>
+                            <conditionGroup type="and">
+                              <conditions>
+                                <condition type="greaterThan" value="6" field="selections" scope="parent" childId="e7fb-9519-7cd7-9c10" shared="true" includeChildSelections="true"/>
+                                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="5929-ad51-d006-e008" shared="true" includeChildSelections="true"/>
+                              </conditions>
+                            </conditionGroup>
+                          </conditionGroups>
+                          <conditions>
+                            <condition type="lessThan" value="4" field="selections" scope="parent" childId="e7fb-9519-7cd7-9c10" shared="true" includeChildSelections="true"/>
+                          </conditions>
+                        </conditionGroup>
+                      </conditionGroups>
+                    </modifier>
+                  </modifiers>
+                </profile>
+                <profile name="Aspiring - Truth&apos;s Voice" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="62ab-8bed-8fb1-5cca">
+                  <characteristics>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Pilot of a **^^Titanic^^** unit only. Each time this unit its Bondsman ability, it can select a friendly **^^Armiger^^** that is within 18&quot; of and visible to this unit.</characteristic>
+                  </characteristics>
+                  <modifiers>
+                    <modifier type="set" value="true" field="hidden">
+                      <conditions>
+                        <condition type="greaterThan" value="3" field="selections" scope="parent" childId="e7fb-9519-7cd7-9c10" shared="true" includeChildSelections="true"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                </profile>
+                <profile name="Virtuous - Emissary of the Court" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="2fd0-4aa0-ce54-01f1">
+                  <characteristics>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Pilot of a **^^Titanic^^** unit only. Each time this unit its Bondsman ability, it can select a friendly **^^Armiger^^** that is anywhere on the battlefield and visible to this unit.</characteristic>
+                  </characteristics>
+                  <modifiers>
+                    <modifier type="set" value="true" field="hidden">
+                      <conditionGroups>
+                        <conditionGroup type="or">
+                          <conditions>
+                            <condition type="lessThan" value="7" field="selections" scope="parent" childId="e7fb-9519-7cd7-9c10" shared="true" includeChildSelections="true"/>
+                            <condition type="notInstanceOf" value="1" field="selections" scope="ancestor" childId="5929-ad51-d006-e008" shared="true" includeChildSelections="true"/>
+                          </conditions>
+                        </conditionGroup>
+                      </conditionGroups>
+                    </modifier>
+                  </modifiers>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="51b2-306e-1021-d207" value="0"/>
+                <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="1"/>
+                <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="0"/>
+                <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
+                <cost name="Crusade: Weapon Modifications" typeId="716d-91b7-d55a-1022" value="0"/>
+                <cost name="Blackstone Fragments" typeId="ac6b-ced3-9b5e-9a6e" value="0"/>
+              </costs>
+              <modifiers>
+                <modifier type="set" value="true" field="hidden">
+                  <conditions>
+                    <condition type="notInstanceOf" value="1" field="selections" scope="ancestor" childId="5929-ad51-d006-e008" shared="true"/>
+                  </conditions>
+                </modifier>
+                <modifier type="set" value="true" field="hidden">
+                  <conditionGroups>
+                    <conditionGroup type="and">
+                      <conditions>
+                        <condition type="lessThan" value="1" field="selections" scope="root-entry" childId="d98d-36c1-aa54-f39f" shared="true" includeChildSelections="true"/>
+                        <condition type="atLeast" value="1" field="selections" scope="roster" childId="d98d-36c1-aa54-f39f" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+              </modifiers>
+              <modifierGroups>
+                <modifierGroup type="and">
+                  <modifiers>
+                    <modifier type="set" value="Aspiring" field="annotation">
+                      <conditionGroups>
+                        <conditionGroup type="and">
+                          <conditions>
+                            <condition type="atLeast" value="1" field="selections" scope="parent" childId="e7fb-9519-7cd7-9c10" shared="true"/>
+                            <condition type="atMost" value="3" field="selections" scope="parent" childId="e7fb-9519-7cd7-9c10" shared="true"/>
+                          </conditions>
+                        </conditionGroup>
+                      </conditionGroups>
+                    </modifier>
+                    <modifier type="set" value="Esteemed" field="annotation">
+                      <conditionGroups>
+                        <conditionGroup type="and">
+                          <conditions>
+                            <condition type="atLeast" value="4" field="selections" scope="parent" childId="e7fb-9519-7cd7-9c10" shared="true"/>
+                            <condition type="atMost" value="6" field="selections" scope="parent" childId="e7fb-9519-7cd7-9c10" shared="true"/>
+                          </conditions>
+                        </conditionGroup>
+                      </conditionGroups>
+                    </modifier>
+                    <modifier type="set" value="Virtuous" field="annotation">
+                      <conditions>
+                        <condition type="atLeast" value="7" field="selections" scope="parent" childId="e7fb-9519-7cd7-9c10" shared="true"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                </modifierGroup>
+              </modifierGroups>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="64ce-d4cc-e3e1-be6a" includeChildSelections="true"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Master of Tuition" hidden="false" id="c315-6a68-2a14-e53e">
+              <profiles>
+                <profile name="Esteemed - Martial Tutor" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="61ce-b94c-161a-51fa">
+                  <characteristics>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">At the end of each battle, if this unit gains any XP, you can select up to two other **^^Imperial Knights^^** units from your Crusade army that survived that battle. The selected unit gains 1XP.</characteristic>
+                  </characteristics>
+                  <modifiers>
+                    <modifier type="set" value="true" field="hidden">
+                      <conditionGroups>
+                        <conditionGroup type="or">
+                          <conditionGroups>
+                            <conditionGroup type="and">
+                              <conditions>
+                                <condition type="greaterThan" value="6" field="selections" scope="parent" childId="e7fb-9519-7cd7-9c10" shared="true" includeChildSelections="true"/>
+                                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="5929-ad51-d006-e008" shared="true" includeChildSelections="true"/>
+                              </conditions>
+                            </conditionGroup>
+                          </conditionGroups>
+                          <conditions>
+                            <condition type="lessThan" value="4" field="selections" scope="parent" childId="e7fb-9519-7cd7-9c10" shared="true" includeChildSelections="true"/>
+                          </conditions>
+                        </conditionGroup>
+                      </conditionGroups>
+                    </modifier>
+                  </modifiers>
+                </profile>
+                <profile name="Aspiring - Wise Mentor" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="a988-0d85-8785-2330">
+                  <characteristics>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">At the end of each battle, if this unit gains any XP, you can select one other **^^Imperial Knights^^** unit from your Crusade army that survived that battle. The selected unit gains 1XP.</characteristic>
+                  </characteristics>
+                  <modifiers>
+                    <modifier type="set" value="true" field="hidden">
+                      <conditions>
+                        <condition type="greaterThan" value="3" field="selections" scope="parent" childId="e7fb-9519-7cd7-9c10" shared="true" includeChildSelections="true"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                </profile>
+                <profile name="Virtuous - Master-At-Arms" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="a7fc-3d6f-a23d-24a9">
+                  <characteristics>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">At the end of each battle, if this unit gains any XP, you can select up to three other **^^Imperial Knights^^** units from your Crusade army that survived that battle. The selected unit gains 1XP.</characteristic>
+                  </characteristics>
+                  <modifiers>
+                    <modifier type="set" value="true" field="hidden">
+                      <conditionGroups>
+                        <conditionGroup type="or">
+                          <conditions>
+                            <condition type="lessThan" value="7" field="selections" scope="parent" childId="e7fb-9519-7cd7-9c10" shared="true" includeChildSelections="true"/>
+                            <condition type="notInstanceOf" value="1" field="selections" scope="ancestor" childId="5929-ad51-d006-e008" shared="true" includeChildSelections="true"/>
+                          </conditions>
+                        </conditionGroup>
+                      </conditionGroups>
+                    </modifier>
+                  </modifiers>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="51b2-306e-1021-d207" value="0"/>
+                <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="1"/>
+                <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="0"/>
+                <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
+                <cost name="Crusade: Weapon Modifications" typeId="716d-91b7-d55a-1022" value="0"/>
+                <cost name="Blackstone Fragments" typeId="ac6b-ced3-9b5e-9a6e" value="0"/>
+              </costs>
+              <modifierGroups>
+                <modifierGroup type="and">
+                  <modifiers>
+                    <modifier type="set" value="Aspiring" field="annotation">
+                      <conditionGroups>
+                        <conditionGroup type="and">
+                          <conditions>
+                            <condition type="atLeast" value="1" field="selections" scope="parent" childId="e7fb-9519-7cd7-9c10" shared="true"/>
+                            <condition type="atMost" value="3" field="selections" scope="parent" childId="e7fb-9519-7cd7-9c10" shared="true"/>
+                          </conditions>
+                        </conditionGroup>
+                      </conditionGroups>
+                    </modifier>
+                    <modifier type="set" value="Esteemed" field="annotation">
+                      <conditionGroups>
+                        <conditionGroup type="and">
+                          <conditions>
+                            <condition type="atLeast" value="4" field="selections" scope="parent" childId="e7fb-9519-7cd7-9c10" shared="true"/>
+                            <condition type="atMost" value="6" field="selections" scope="parent" childId="e7fb-9519-7cd7-9c10" shared="true"/>
+                          </conditions>
+                        </conditionGroup>
+                      </conditionGroups>
+                    </modifier>
+                    <modifier type="set" value="Virtuous" field="annotation">
+                      <conditions>
+                        <condition type="atLeast" value="7" field="selections" scope="parent" childId="e7fb-9519-7cd7-9c10" shared="true"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                </modifierGroup>
+              </modifierGroups>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="450a-3045-7c23-ec45" includeChildSelections="true"/>
+              </constraints>
+              <modifiers>
+                <modifier type="set" value="true" field="hidden">
+                  <conditions>
+                    <condition type="lessThan" value="1" field="selections" scope="root-entry" childId="c315-6a68-2a14-e53e" shared="true" includeChildSelections="true"/>
+                    <condition type="atLeast" value="1" field="selections" scope="roster" childId="c315-6a68-2a14-e53e" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Master of Ambush" hidden="false" id="53f8-6aed-fa38-a071">
+              <profiles>
+                <profile name="Esteemed - Foe Hunter" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="12a9-e640-8f70-de24">
+                  <characteristics>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">After both players have deployed their armies, you can redeploy this unit and one friendly **^^Imperial Knights Armiger^^** unit.</characteristic>
+                  </characteristics>
+                  <modifiers>
+                    <modifier type="set" value="true" field="hidden">
+                      <conditionGroups>
+                        <conditionGroup type="or">
+                          <conditionGroups>
+                            <conditionGroup type="and">
+                              <conditions>
+                                <condition type="greaterThan" value="6" field="selections" scope="parent" childId="e7fb-9519-7cd7-9c10" shared="true" includeChildSelections="true"/>
+                                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="5929-ad51-d006-e008" shared="true" includeChildSelections="true"/>
+                              </conditions>
+                            </conditionGroup>
+                          </conditionGroups>
+                          <conditions>
+                            <condition type="lessThan" value="4" field="selections" scope="parent" childId="e7fb-9519-7cd7-9c10" shared="true" includeChildSelections="true"/>
+                          </conditions>
+                        </conditionGroup>
+                      </conditionGroups>
+                    </modifier>
+                  </modifiers>
+                </profile>
+                <profile name="Aspiring - Predator&apos;s Prescience" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="9934-81ec-5059-40d9">
+                  <characteristics>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">After both players have deployed their armies, you can redeploy this unit.</characteristic>
+                  </characteristics>
+                  <modifiers>
+                    <modifier type="set" value="true" field="hidden">
+                      <conditions>
+                        <condition type="greaterThan" value="3" field="selections" scope="parent" childId="e7fb-9519-7cd7-9c10" shared="true" includeChildSelections="true"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                </profile>
+                <profile name="Virtuous - Trailmaker" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="3df0-2d5c-0897-9108">
+                  <characteristics>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">After both players have deployed their armies, you can redeploy this unit and one friendly **^^Imperial Knights^^** unit.</characteristic>
+                  </characteristics>
+                  <modifiers>
+                    <modifier type="set" value="true" field="hidden">
+                      <conditionGroups>
+                        <conditionGroup type="or">
+                          <conditions>
+                            <condition type="lessThan" value="7" field="selections" scope="parent" childId="e7fb-9519-7cd7-9c10" shared="true" includeChildSelections="true"/>
+                            <condition type="notInstanceOf" value="1" field="selections" scope="ancestor" childId="5929-ad51-d006-e008" shared="true" includeChildSelections="true"/>
+                          </conditions>
+                        </conditionGroup>
+                      </conditionGroups>
+                    </modifier>
+                  </modifiers>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="51b2-306e-1021-d207" value="0"/>
+                <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="1"/>
+                <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="0"/>
+                <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
+                <cost name="Crusade: Weapon Modifications" typeId="716d-91b7-d55a-1022" value="0"/>
+                <cost name="Blackstone Fragments" typeId="ac6b-ced3-9b5e-9a6e" value="0"/>
+              </costs>
+              <modifierGroups>
+                <modifierGroup type="and">
+                  <modifiers>
+                    <modifier type="set" value="Aspiring" field="annotation">
+                      <conditionGroups>
+                        <conditionGroup type="and">
+                          <conditions>
+                            <condition type="atLeast" value="1" field="selections" scope="parent" childId="e7fb-9519-7cd7-9c10" shared="true"/>
+                            <condition type="atMost" value="3" field="selections" scope="parent" childId="e7fb-9519-7cd7-9c10" shared="true"/>
+                          </conditions>
+                        </conditionGroup>
+                      </conditionGroups>
+                    </modifier>
+                    <modifier type="set" value="Esteemed" field="annotation">
+                      <conditionGroups>
+                        <conditionGroup type="and">
+                          <conditions>
+                            <condition type="atLeast" value="4" field="selections" scope="parent" childId="e7fb-9519-7cd7-9c10" shared="true"/>
+                            <condition type="atMost" value="6" field="selections" scope="parent" childId="e7fb-9519-7cd7-9c10" shared="true"/>
+                          </conditions>
+                        </conditionGroup>
+                      </conditionGroups>
+                    </modifier>
+                    <modifier type="set" value="Virtuous" field="annotation">
+                      <conditions>
+                        <condition type="atLeast" value="7" field="selections" scope="parent" childId="e7fb-9519-7cd7-9c10" shared="true"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                </modifierGroup>
+              </modifierGroups>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="1918-2b71-d4d6-c61b" includeChildSelections="true"/>
+              </constraints>
+              <modifiers>
+                <modifier type="set" value="true" field="hidden">
+                  <conditionGroups>
+                    <conditionGroup type="and">
+                      <conditions>
+                        <condition type="atLeast" value="1" field="selections" scope="roster" childId="53f8-6aed-fa38-a071" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                        <condition type="lessThan" value="1" field="selections" scope="root-entry" childId="53f8-6aed-fa38-a071" shared="true" includeChildSelections="true"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+              </modifiers>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Master of Condemnation" hidden="false" id="9763-2ab4-c563-aa85">
+              <profiles>
+                <profile name="Esteemed - Noble Orator" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="641a-7557-7825-5b91">
+                  <characteristics>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Once per battle, at the start of your Shooting phase, select one enemy unit within 18&quot; of and visible to this unit. Until the end of the phase, each time an **^^Imperial Knights^^** unit from your Crusade army makes an attack that targets that unit, you can re-roll a Hit roll of 1 and you can re-roll a Wound roll of 1.</characteristic>
+                  </characteristics>
+                  <modifiers>
+                    <modifier type="set" value="true" field="hidden">
+                      <conditionGroups>
+                        <conditionGroup type="or">
+                          <conditionGroups>
+                            <conditionGroup type="and">
+                              <conditions>
+                                <condition type="greaterThan" value="6" field="selections" scope="parent" childId="e7fb-9519-7cd7-9c10" shared="true" includeChildSelections="true"/>
+                                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="5929-ad51-d006-e008" shared="true" includeChildSelections="true"/>
+                              </conditions>
+                            </conditionGroup>
+                          </conditionGroups>
+                          <conditions>
+                            <condition type="lessThan" value="4" field="selections" scope="parent" childId="e7fb-9519-7cd7-9c10" shared="true" includeChildSelections="true"/>
+                          </conditions>
+                        </conditionGroup>
+                      </conditionGroups>
+                    </modifier>
+                  </modifiers>
+                </profile>
+                <profile name="Aspiring - A Duty of Censure" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="7856-3aa3-75b7-cdf7">
+                  <characteristics>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Once per battle, at the start of your Shooting phase, select one enemy unit within 18&quot; of and visible to this unit. Until the end of the phase, each time an **^^Imperial Knights^^** unit from your Crusade army makes an attack that targets that unit, you can re-roll a Hit roll of 1.</characteristic>
+                  </characteristics>
+                  <modifiers>
+                    <modifier type="set" value="true" field="hidden">
+                      <conditions>
+                        <condition type="greaterThan" value="3" field="selections" scope="parent" childId="e7fb-9519-7cd7-9c10" shared="true" includeChildSelections="true"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                </profile>
+                <profile name="Virtuous - High Denunciator" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="870c-1f3e-7597-9ecc">
+                  <characteristics>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Once per turn, at the start of your Shooting phase, select one enemy unit within 18&quot; of and visible to this unit. Until the end of the phase, each time an **^^Imperial Knights^^** unit from your Crusade army makes an attack that targets that unit, you can re-roll a Hit roll of 1 and you can re-roll a Wound roll of 1.</characteristic>
+                  </characteristics>
+                  <modifiers>
+                    <modifier type="set" value="true" field="hidden">
+                      <conditionGroups>
+                        <conditionGroup type="or">
+                          <conditions>
+                            <condition type="lessThan" value="7" field="selections" scope="parent" childId="e7fb-9519-7cd7-9c10" shared="true" includeChildSelections="true"/>
+                            <condition type="notInstanceOf" value="1" field="selections" scope="ancestor" childId="5929-ad51-d006-e008" shared="true" includeChildSelections="true"/>
+                          </conditions>
+                        </conditionGroup>
+                      </conditionGroups>
+                    </modifier>
+                  </modifiers>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="51b2-306e-1021-d207" value="0"/>
+                <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="1"/>
+                <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="0"/>
+                <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
+                <cost name="Crusade: Weapon Modifications" typeId="716d-91b7-d55a-1022" value="0"/>
+                <cost name="Blackstone Fragments" typeId="ac6b-ced3-9b5e-9a6e" value="0"/>
+              </costs>
+              <modifierGroups>
+                <modifierGroup type="and">
+                  <modifiers>
+                    <modifier type="set" value="Aspiring" field="annotation">
+                      <conditionGroups>
+                        <conditionGroup type="and">
+                          <conditions>
+                            <condition type="atLeast" value="1" field="selections" scope="parent" childId="e7fb-9519-7cd7-9c10" shared="true"/>
+                            <condition type="atMost" value="3" field="selections" scope="parent" childId="e7fb-9519-7cd7-9c10" shared="true"/>
+                          </conditions>
+                        </conditionGroup>
+                      </conditionGroups>
+                    </modifier>
+                    <modifier type="set" value="Esteemed" field="annotation">
+                      <conditionGroups>
+                        <conditionGroup type="and">
+                          <conditions>
+                            <condition type="atLeast" value="4" field="selections" scope="parent" childId="e7fb-9519-7cd7-9c10" shared="true"/>
+                            <condition type="atMost" value="6" field="selections" scope="parent" childId="e7fb-9519-7cd7-9c10" shared="true"/>
+                          </conditions>
+                        </conditionGroup>
+                      </conditionGroups>
+                    </modifier>
+                    <modifier type="set" value="Virtuous" field="annotation">
+                      <conditions>
+                        <condition type="atLeast" value="7" field="selections" scope="parent" childId="e7fb-9519-7cd7-9c10" shared="true"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                </modifierGroup>
+              </modifierGroups>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="d535-b5a1-8fe1-b694" includeChildSelections="true"/>
+              </constraints>
+              <modifiers>
+                <modifier type="set" value="true" field="hidden">
+                  <conditionGroups>
+                    <conditionGroup type="and">
+                      <conditions>
+                        <condition type="lessThan" value="1" field="selections" scope="root-entry" childId="9763-2ab4-c563-aa85" shared="true" includeChildSelections="true"/>
+                        <condition type="atLeast" value="1" field="selections" scope="roster" childId="9763-2ab4-c563-aa85" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+              </modifiers>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Master of the Joust" hidden="false" id="be50-fbad-4816-636c">
+              <profiles>
+                <profile name="Esteemed - Lance of Terra" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="1ee1-6509-1539-ad61">
+                  <characteristics>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Add 2&quot; to this unit&apos;s Move characteristic. This unit is eligible to shoot in a turn in which it Advanced.</characteristic>
+                  </characteristics>
+                  <modifiers>
+                    <modifier type="set" value="true" field="hidden">
+                      <conditionGroups>
+                        <conditionGroup type="or">
+                          <conditionGroups>
+                            <conditionGroup type="and">
+                              <conditions>
+                                <condition type="greaterThan" value="6" field="selections" scope="parent" childId="e7fb-9519-7cd7-9c10" shared="true" includeChildSelections="true"/>
+                                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="5929-ad51-d006-e008" shared="true" includeChildSelections="true"/>
+                              </conditions>
+                            </conditionGroup>
+                          </conditionGroups>
+                          <conditions>
+                            <condition type="lessThan" value="4" field="selections" scope="parent" childId="e7fb-9519-7cd7-9c10" shared="true" includeChildSelections="true"/>
+                          </conditions>
+                        </conditionGroup>
+                      </conditionGroups>
+                    </modifier>
+                  </modifiers>
+                </profile>
+                <profile name="Aspiring - Landstridr" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="d65a-c3c3-c381-6eb1">
+                  <characteristics>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Add 2&quot; to this unit&apos;s Move characteristic.</characteristic>
+                  </characteristics>
+                  <modifiers>
+                    <modifier type="set" value="true" field="hidden">
+                      <conditions>
+                        <condition type="greaterThan" value="3" field="selections" scope="parent" childId="e7fb-9519-7cd7-9c10" shared="true" includeChildSelections="true"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                </profile>
+                <profile name="Virtuous - Foe&apos;s Bane" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="34ac-f8d3-aa41-cb37">
+                  <characteristics>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Add 2&quot; to this unit&apos;s Move characteristic. This unit is eligible to shoot and declare a charge in a turn in which it Advanced.</characteristic>
+                  </characteristics>
+                  <modifiers>
+                    <modifier type="set" value="true" field="hidden">
+                      <conditionGroups>
+                        <conditionGroup type="or">
+                          <conditions>
+                            <condition type="lessThan" value="7" field="selections" scope="parent" childId="e7fb-9519-7cd7-9c10" shared="true" includeChildSelections="true"/>
+                            <condition type="notInstanceOf" value="1" field="selections" scope="ancestor" childId="5929-ad51-d006-e008" shared="true" includeChildSelections="true"/>
+                          </conditions>
+                        </conditionGroup>
+                      </conditionGroups>
+                    </modifier>
+                  </modifiers>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="51b2-306e-1021-d207" value="0"/>
+                <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="1"/>
+                <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="0"/>
+                <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
+                <cost name="Crusade: Weapon Modifications" typeId="716d-91b7-d55a-1022" value="0"/>
+                <cost name="Blackstone Fragments" typeId="ac6b-ced3-9b5e-9a6e" value="0"/>
+              </costs>
+              <modifiers>
+                <modifier type="set" value="true" field="hidden">
+                  <conditionGroups>
+                    <conditionGroup type="and">
+                      <conditions>
+                        <condition type="lessThan" value="1" field="selections" scope="parent" childId="eb59-b7e1-dbfe-54b1" shared="true" includeChildSelections="true"/>
+                        <condition type="lessThan" value="1" field="selections" scope="parent" childId="7768-b42c-3708-531b" shared="true" includeChildSelections="true"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+                <modifier type="set" value="true" field="hidden">
+                  <conditionGroups>
+                    <conditionGroup type="and">
+                      <conditions>
+                        <condition type="lessThan" value="1" field="selections" scope="root-entry" childId="c315-6a68-2a14-e53e" shared="true" includeChildSelections="true"/>
+                        <condition type="atLeast" value="1" field="selections" scope="roster" childId="c315-6a68-2a14-e53e" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+              </modifiers>
+              <modifierGroups>
+                <modifierGroup type="and">
+                  <modifiers>
+                    <modifier type="set" value="Aspiring" field="annotation">
+                      <conditionGroups>
+                        <conditionGroup type="and">
+                          <conditions>
+                            <condition type="atLeast" value="1" field="selections" scope="parent" childId="e7fb-9519-7cd7-9c10" shared="true"/>
+                            <condition type="atMost" value="3" field="selections" scope="parent" childId="e7fb-9519-7cd7-9c10" shared="true"/>
+                          </conditions>
+                        </conditionGroup>
+                      </conditionGroups>
+                    </modifier>
+                    <modifier type="set" value="Esteemed" field="annotation">
+                      <conditionGroups>
+                        <conditionGroup type="and">
+                          <conditions>
+                            <condition type="atLeast" value="4" field="selections" scope="parent" childId="e7fb-9519-7cd7-9c10" shared="true"/>
+                            <condition type="atMost" value="6" field="selections" scope="parent" childId="e7fb-9519-7cd7-9c10" shared="true"/>
+                          </conditions>
+                        </conditionGroup>
+                      </conditionGroups>
+                    </modifier>
+                    <modifier type="set" value="Virtuous" field="annotation">
+                      <conditions>
+                        <condition type="atLeast" value="7" field="selections" scope="parent" childId="e7fb-9519-7cd7-9c10" shared="true"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                </modifierGroup>
+                <modifierGroup type="and">
+                  <modifiers>
+                    <modifier type="increment" value="2" field="e703-ecb6-5ce7-aec1" affects="profiles.Unit" scope="root-entry"/>
+                    <modifier type="append" value="Master of the Joust" field="annotation" affects="profiles.Unit" scope="root-entry" join=", "/>
+                  </modifiers>
+                </modifierGroup>
+              </modifierGroups>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="2527-a2d1-3270-2dcb" includeChildSelections="true"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Master of Mechanisms" hidden="false" id="248a-f360-db9f-410d">
+              <profiles>
+                <profile name="Esteemed - Blessed By The Sacristans" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="b1c5-2321-1c91-3d6b">
+                  <characteristics>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">In your Command phase, you can select one friendly **^^Imperial Knights^^** model within 6&quot; of this unit. That friendly model regains up to 3 lost wounds.</characteristic>
+                  </characteristics>
+                  <modifiers>
+                    <modifier type="set" value="true" field="hidden">
+                      <conditionGroups>
+                        <conditionGroup type="or">
+                          <conditionGroups>
+                            <conditionGroup type="and">
+                              <conditions>
+                                <condition type="greaterThan" value="6" field="selections" scope="parent" childId="e7fb-9519-7cd7-9c10" shared="true" includeChildSelections="true"/>
+                                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="5929-ad51-d006-e008" shared="true" includeChildSelections="true"/>
+                              </conditions>
+                            </conditionGroup>
+                          </conditionGroups>
+                          <conditions>
+                            <condition type="lessThan" value="4" field="selections" scope="parent" childId="e7fb-9519-7cd7-9c10" shared="true" includeChildSelections="true"/>
+                          </conditions>
+                        </conditionGroup>
+                      </conditionGroups>
+                    </modifier>
+                  </modifiers>
+                </profile>
+                <profile name="Aspiring - Iron Bloodline" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="151f-f7f7-f822-ab94">
+                  <characteristics>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">In your Command phase, you can select one friendly **^^Imperial Knights^^** model within 6&quot; of this unit. That friendly model regains up to D3 lost wounds.</characteristic>
+                  </characteristics>
+                  <modifiers>
+                    <modifier type="set" value="true" field="hidden">
+                      <conditions>
+                        <condition type="greaterThan" value="3" field="selections" scope="parent" childId="e7fb-9519-7cd7-9c10" shared="true" includeChildSelections="true"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                </profile>
+                <profile name="Virtuous - Knight of the Cog" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="2ddf-7d6d-7d2c-d9ba">
+                  <characteristics>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">In your Command phase, you can select one friendly **^^Imperial Knights^^** model within 6&quot; of this unit. That friendly model regains up to D3+3 lost wounds.</characteristic>
+                  </characteristics>
+                  <modifiers>
+                    <modifier type="set" value="true" field="hidden">
+                      <conditionGroups>
+                        <conditionGroup type="or">
+                          <conditions>
+                            <condition type="lessThan" value="7" field="selections" scope="parent" childId="e7fb-9519-7cd7-9c10" shared="true" includeChildSelections="true"/>
+                            <condition type="notInstanceOf" value="1" field="selections" scope="ancestor" childId="5929-ad51-d006-e008" shared="true" includeChildSelections="true"/>
+                          </conditions>
+                        </conditionGroup>
+                      </conditionGroups>
+                    </modifier>
+                  </modifiers>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="51b2-306e-1021-d207" value="0"/>
+                <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="1"/>
+                <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="0"/>
+                <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
+                <cost name="Crusade: Weapon Modifications" typeId="716d-91b7-d55a-1022" value="0"/>
+                <cost name="Blackstone Fragments" typeId="ac6b-ced3-9b5e-9a6e" value="0"/>
+              </costs>
+              <modifiers>
+                <modifier type="set" value="true" field="hidden">
+                  <conditionGroups>
+                    <conditionGroup type="and">
+                      <conditions>
+                        <condition type="lessThan" value="1" field="selections" scope="parent" childId="eb59-b7e1-dbfe-54b1" shared="true" includeChildSelections="true"/>
+                        <condition type="lessThan" value="1" field="selections" scope="parent" childId="e251-e75a-6d7f-33af" shared="true" includeChildSelections="true"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+                <modifier type="set" value="true" field="hidden">
+                  <conditionGroups>
+                    <conditionGroup type="and">
+                      <conditions>
+                        <condition type="lessThan" value="1" field="selections" scope="root-entry" childId="248a-f360-db9f-410d" shared="true" includeChildSelections="true"/>
+                        <condition type="atLeast" value="1" field="selections" scope="roster" childId="248a-f360-db9f-410d" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+              </modifiers>
+              <modifierGroups>
+                <modifierGroup type="and">
+                  <modifiers>
+                    <modifier type="set" value="Aspiring" field="annotation">
+                      <conditionGroups>
+                        <conditionGroup type="and">
+                          <conditions>
+                            <condition type="atLeast" value="1" field="selections" scope="parent" childId="e7fb-9519-7cd7-9c10" shared="true"/>
+                            <condition type="atMost" value="3" field="selections" scope="parent" childId="e7fb-9519-7cd7-9c10" shared="true"/>
+                          </conditions>
+                        </conditionGroup>
+                      </conditionGroups>
+                    </modifier>
+                    <modifier type="set" value="Esteemed" field="annotation">
+                      <conditionGroups>
+                        <conditionGroup type="and">
+                          <conditions>
+                            <condition type="atLeast" value="4" field="selections" scope="parent" childId="e7fb-9519-7cd7-9c10" shared="true"/>
+                            <condition type="atMost" value="6" field="selections" scope="parent" childId="e7fb-9519-7cd7-9c10" shared="true"/>
+                          </conditions>
+                        </conditionGroup>
+                      </conditionGroups>
+                    </modifier>
+                    <modifier type="set" value="Virtuous" field="annotation">
+                      <conditions>
+                        <condition type="atLeast" value="7" field="selections" scope="parent" childId="e7fb-9519-7cd7-9c10" shared="true"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                </modifierGroup>
+              </modifierGroups>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="ac0e-5d2e-d9fc-3ff9" includeChildSelections="true"/>
+              </constraints>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup name="Allocated Chivalric Points" id="cd25-dcd2-bc21-448b" hidden="false" sortIndex="2">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Allocated Chivalric Points" hidden="false" id="e7fb-9519-7cd7-9c10">
+              <constraints>
+                <constraint type="max" value="-1" field="selections" scope="parent" shared="true" id="23b4-03bd-2db2-816d" includeChildSelections="false"/>
+              </constraints>
+              <modifiers>
+                <modifier type="set" value="6" field="23b4-03bd-2db2-816d">
+                  <conditions>
+                    <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="4c40-ab9-54af-d290" shared="true"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+    </selectionEntryGroup>
+    <selectionEntryGroup name="Chivalric Quests" id="12f3-7f5b-747e-41ca" hidden="false" defaultSelectionEntryId="none" collapsible="true">
+      <comment>Crusade content</comment>
       <modifiers>
         <modifier type="set" value="true" field="hidden">
           <conditions>
-            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="25dd-7aa0-6bf4-f2d5" shared="true"/>
+            <condition type="lessThan" value="1" field="selections" scope="roster" childId="ad65-d3cb-c677-7cb3" shared="true" includeChildSelections="true" includeChildForces="true"/>
           </conditions>
         </modifier>
       </modifiers>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Chivalric Points" id="5894-1c99-63db-49d8" hidden="false" sortIndex="1">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Chivalric Points" hidden="false" id="7b2c-4bdf-1bd0-b3b6"/>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup name="Chivalric Quest" id="a5de-3f04-d4f7-2514" hidden="false" sortIndex="2">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Dishonoured" hidden="false" id="6fc1-3443-3f24-8947"/>
+            <selectionEntry type="upgrade" import="true" name="To Raise High the Pennants of Victory" hidden="false" id="9826-8357-609b-8927">
+              <profiles>
+                <profile name="To Raise High the Pennants of Victory" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="0da7-3379-200f-5e54">
+                  <characteristics>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">While this Chivalric Quest is active, at the end of each battle, add 1 to its tally for each objective marker you control. For each of those objective markers that is within your opponent&apos;s deployment zone, you gain 1 additional tally mark.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="To Secure the Realm" hidden="false" id="fc71-9162-2742-7aa9">
+              <profiles>
+                <profile name="To Secure the Realm" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="ec7c-de57-74d8-58ee">
+                  <characteristics>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">While this Chivalric Quest is active, at the end of each battle, add 1 to its tally for each of the following conditions you satisfy: one or more **^^Imperial Knights^^** from your Crusade army are within 6&quot; of the centre of the battlefield; no enemy units are within 6&quot; of the centre of the battlefield; one or more **^^Imperial Knights^^** units from your Crusade army are wholly within your opponent&apos;s deployment zone.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="To Stamp Out the Champions of Dishonour" hidden="false" id="1547-2e69-e94e-503d">
+              <profiles>
+                <profile name="To Stamp Out the Champions of Dishonour" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="fe32-f52e-b25d-96c0">
+                  <characteristics>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">While this Chivalric Quest is active, add 1 to its tally each time a **^^Character^^** unit is destroyed by an attack made by an **^^Imperial Knights^^** model from your Crusade force. For each of those destroyed units that was your opponent&apos;s **^^Warlord^^**, you gain 1 additional tally mark.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="To Strike Down the Unclean Behemoths" hidden="false" id="7200-5baf-ba4e-d3b9">
+              <profiles>
+                <profile name="To Strike Down the Unclean Behemoths" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="2aef-46be-e9c6-e760">
+                  <characteristics>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">While this Chivalric Quest is active, add 1 to its tally each time a **^^Monster^^** or **^^Vehicle^^** unit is destroyed by an attack made by an **^^Imperial Knights^^** model from your Crusade force. For each of those destroyed units that was **^^Titanic^^**, you gain 1 additional tally mark.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+          </selectionEntries>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7d81-2ef7-3f83-9231" includeChildSelections="false"/>
+          </constraints>
+        </selectionEntryGroup>
+        <selectionEntryGroup name="Tally" id="3bb2-fb7d-666c-6fe7" hidden="false" sortIndex="3">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Chivalric Quest Battles Fought" hidden="false" id="8bbc-8e9e-523a-7179" sortIndex="2">
+              <constraints>
+                <constraint type="max" value="4" field="selections" scope="parent" shared="true" id="d2f0-6f92-71a3-fa61" includeChildSelections="false"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Tally" hidden="false" id="53d0-4057-6f1f-0747" sortIndex="1"/>
+          </selectionEntries>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition type="lessThan" value="1" field="selections" scope="parent" childId="a5de-3f04-d4f7-2514" shared="true" includeChildSelections="true"/>
+                    <condition type="atLeast" value="1" field="selections" scope="parent" childId="6fc1-3443-3f24-8947" shared="true" includeChildSelections="true"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+    </selectionEntryGroup>
+    <selectionEntryGroup name="Burdens" id="dc39-cfac-fde9-6124" hidden="false" collapsible="true">
+      <comment>Crusade content</comment>
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Desperate For Redemption" hidden="false" id="a456-d38a-dfda-6d87">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="fe90-c4bd-5378-65bf" includeChildSelections="false"/>
+          </constraints>
+          <profiles>
+            <profile name="Desperate For Redemption" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="7a5c-f419-e04f-35fa">
+              <characteristics>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This unit is not eligible to Fall Back.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="51b2-306e-1021-d207" value="0"/>
+            <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="-1"/>
+            <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="0"/>
+            <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Stain of Dishonour" hidden="false" id="ddde-0530-8c5c-1b34">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="638b-88a8-e6af-3791" includeChildSelections="false"/>
+          </constraints>
+          <profiles>
+            <profile name="Stain of Dishonour" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="d4ba-d59f-de77-1099">
+              <characteristics>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This unit cannot use or be affected by Bondsman abilities.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="51b2-306e-1021-d207" value="0"/>
+            <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="-1"/>
+            <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="0"/>
+            <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Bonded In Shame" hidden="false" id="575d-f659-7511-9bde">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="15cf-495d-5000-70f0" includeChildSelections="false"/>
+          </constraints>
+          <profiles>
+            <profile name="Bonded In Shame" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="4804-2d50-8d9c-42a7">
+              <characteristics>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Subtract 2 from this unit&apos;s Objective Control characteristic and worsen its Leadership characteristic by 1.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="51b2-306e-1021-d207" value="0"/>
+            <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="-1"/>
+            <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="0"/>
+            <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
+          </costs>
+          <modifierGroups>
+            <modifierGroup type="and">
+              <modifiers>
+                <modifier type="append" value="Bonded In Shame" field="annotation" join=", " scope="root-entry" affects="self.entries.recursive.profiles.Unit"/>
+                <modifier type="decrement" value="2" field="bef7-942a-1a23-59f8" scope="root-entry" affects="self.entries.recursive.profiles.Unit"/>
+                <modifier type="increment" value="1" field="58d2-b879-49c7-43bc" scope="root-entry" affects="self.entries.recursive.profiles.Unit"/>
+              </modifiers>
+            </modifierGroup>
+          </modifierGroups>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+    <selectionEntryGroup name="Codex Crusade Relics" id="0f3a-021c-a01f-377a" hidden="false" collapsible="true">
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Antiquity Relics" id="fcb3-efca-979e-30ca" hidden="false" sortIndex="2">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Sanctuary" hidden="false" id="ca39-c08e-1343-05ff">
+              <profiles>
+                <profile name="Sanctuary" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="9b81-c373-dd9f-8fa6">
+                  <characteristics>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">The bearer has a 5+ invulnerable save against melee attacks.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="36c0-e2a4-f203-95fb" includeChildForces="true" includeChildSelections="true"/>
+              </constraints>
+              <modifiers>
+                <modifier type="set" value="true" field="hidden">
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditionGroups>
+                        <conditionGroup type="and">
+                          <conditions>
+                            <condition type="atLeast" value="1" field="selections" scope="roster" childId="ca39-c08e-1343-05ff" shared="true" includeChildForces="true" includeChildSelections="true"/>
+                            <condition type="lessThan" value="1" field="selections" scope="parent" childId="ca39-c08e-1343-05ff" shared="true" includeChildForces="true" includeChildSelections="true"/>
+                          </conditions>
+                        </conditionGroup>
+                      </conditionGroups>
+                      <conditions>
+                        <condition type="lessThan" value="31" field="a623-fe74-1d33-cddf" scope="root-entry" childId="any" shared="true" includeChildSelections="true"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+                <modifier type="set" value="2" field="b03b-c239-15a5-da55">
+                  <conditions>
+                    <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="5929-ad51-d006-e008" shared="true"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <costs>
+                <cost name="pts" typeId="51b2-306e-1021-d207" value="0"/>
+                <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="2"/>
+                <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="1"/>
+                <cost name="Diplomatic Power" typeId="4d7c-04b6-8a79-837f" value="0"/>
+                <cost name="Military Power" typeId="1cbe-d9c9-86a8-2d41" value="0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Armour of the Sainted Ion" hidden="false" id="88c7-2df3-c23c-96a3">
+              <profiles>
+                <profile name="Armour of the Sainted Ion" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="c874-2fdf-88ae-00e1">
+                  <characteristics>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">The bearer has a Save characteristic of 2+.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="d53f-f494-4690-93cc" includeChildForces="true" includeChildSelections="true"/>
+              </constraints>
+              <modifiers>
+                <modifier type="set" value="true" field="hidden">
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditionGroups>
+                        <conditionGroup type="and">
+                          <conditions>
+                            <condition type="atLeast" value="1" field="selections" scope="roster" childId="88c7-2df3-c23c-96a3" shared="true" includeChildForces="true" includeChildSelections="true"/>
+                            <condition type="lessThan" value="1" field="selections" scope="parent" childId="88c7-2df3-c23c-96a3" shared="true" includeChildForces="true" includeChildSelections="true"/>
+                          </conditions>
+                        </conditionGroup>
+                      </conditionGroups>
+                      <conditions>
+                        <condition type="lessThan" value="31" field="a623-fe74-1d33-cddf" scope="root-entry" childId="any" shared="true" includeChildSelections="true"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+                <modifier type="set" value="2" field="b03b-c239-15a5-da55">
+                  <conditions>
+                    <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="5929-ad51-d006-e008" shared="true"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <costs>
+                <cost name="pts" typeId="51b2-306e-1021-d207" value="0"/>
+                <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="2"/>
+                <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="1"/>
+                <cost name="Diplomatic Power" typeId="4d7c-04b6-8a79-837f" value="0"/>
+                <cost name="Military Power" typeId="1cbe-d9c9-86a8-2d41" value="0"/>
+              </costs>
+              <modifierGroups>
+                <modifierGroup type="and">
+                  <modifiers>
+                    <modifier type="append" value="Armour of the Sainted Ion" field="annotation" join=", " scope="root-entry" affects="self.entries.recursive.profiles.Unit"/>
+                    <modifier type="set" value="2+" field="450-a17e-9d5e-29da" scope="root-entry" affects="self.entries.recursive.profiles.Unit"/>
+                  </modifiers>
+                </modifierGroup>
+              </modifierGroups>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup name="Legendary Relics" id="5cc0-73ff-210a-070a" hidden="false" sortIndex="3">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Helm of the Nameless Warrior" hidden="false" id="e608-b4e4-b429-b401">
+              <profiles>
+                <profile name="Helm of the Nameless Warrior" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="3f1a-2d7b-ede7-842a">
+                  <characteristics>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Melee weapons equipped by the bearer have the **[DEVASTATING WOUNDS]** ability.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="5c96-a140-213a-2fad" includeChildForces="true" includeChildSelections="true"/>
+              </constraints>
+              <modifiers>
+                <modifier type="set" value="true" field="hidden">
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditionGroups>
+                        <conditionGroup type="and">
+                          <conditions>
+                            <condition type="atLeast" value="1" field="selections" scope="roster" childId="e608-b4e4-b429-b401" shared="true" includeChildForces="true" includeChildSelections="true"/>
+                            <condition type="lessThan" value="1" field="selections" scope="parent" childId="e608-b4e4-b429-b401" shared="true" includeChildForces="true" includeChildSelections="true"/>
+                          </conditions>
+                        </conditionGroup>
+                      </conditionGroups>
+                      <conditions>
+                        <condition type="lessThan" value="51" field="a623-fe74-1d33-cddf" scope="root-entry" childId="any" shared="true" includeChildSelections="true"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+                <modifier type="set" value="2" field="b03b-c239-15a5-da55">
+                  <conditions>
+                    <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="5929-ad51-d006-e008" shared="true"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <costs>
+                <cost name="pts" typeId="51b2-306e-1021-d207" value="0"/>
+                <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="3"/>
+                <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="1"/>
+                <cost name="Diplomatic Power" typeId="4d7c-04b6-8a79-837f" value="0"/>
+                <cost name="Military Power" typeId="1cbe-d9c9-86a8-2d41" value="0"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Devastating Wounds" id="bf52-ea94-1882-eec4" hidden="false" type="rule" targetId="be1e-ac8e-1e2c-3528"/>
+              </infoLinks>
+              <modifierGroups>
+                <modifierGroup type="and">
+                  <modifiers>
+                    <modifier type="append" value="Helm of the Nameless Warrior" field="annotation" join=", " scope="root-entry" affects="self.entries.recursive.profiles.Melee Weapons"/>
+                    <modifier type="append" value="Devastating Wounds" field="893f-9000-ccf7-648e" scope="root-entry" affects="self.entries.recursive.profiles.Melee Weapons" join=", "/>
+                  </modifiers>
+                </modifierGroup>
+              </modifierGroups>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup name="Artificer Relics" id="a7cf-d3b9-2250-021d" hidden="false" sortIndex="1">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Oathbreaker Guidance System" hidden="false" id="6447-29d0-93c6-c80d">
+              <profiles>
+                <profile name="Oathbreaker Guidance System" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="ee5c-1100-010b-69c4">
+                  <characteristics>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">If the bearer is equipped with one or more Questoris heavy stubbers or Questoris multi-lasers, those weapons have the **[PRECISION]** and **[IGNORES COVER]** abilities, and each time an attack is made with one of those weapons, you can re-roll the Hit roll.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="3b50-4277-17ff-eeb3" includeChildForces="true" includeChildSelections="true"/>
+              </constraints>
+              <modifiers>
+                <modifier type="set" value="true" field="hidden">
+                  <conditionGroups>
+                    <conditionGroup type="and">
+                      <conditions>
+                        <condition type="atLeast" value="1" field="selections" scope="roster" childId="6447-29d0-93c6-c80d" shared="true" includeChildForces="true" includeChildSelections="true"/>
+                        <condition type="lessThan" value="1" field="selections" scope="parent" childId="6447-29d0-93c6-c80d" shared="true" includeChildForces="true" includeChildSelections="true"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+                <modifier type="set" value="2" field="b03b-c239-15a5-da55">
+                  <conditions>
+                    <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="5929-ad51-d006-e008" shared="true"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <costs>
+                <cost name="pts" typeId="51b2-306e-1021-d207" value="0"/>
+                <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="1"/>
+                <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="1"/>
+                <cost name="Diplomatic Power" typeId="4d7c-04b6-8a79-837f" value="0"/>
+                <cost name="Military Power" typeId="1cbe-d9c9-86a8-2d41" value="0"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Ignores Cover" id="429c-31ec-50b1-e54f" hidden="false" type="rule" targetId="4640-43e7-30b-215a"/>
+                <infoLink name="Precision" id="a92f-a2e1-274e-248e" hidden="false" type="rule" targetId="9143-31ae-e0a6-6007"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Equerry&apos;s Vox" hidden="false" id="c35f-47ad-e873-c069">
+              <profiles>
+                <profile name="Equerry&apos;s Vox" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="784f-d9bb-4ad9-b41b">
+                  <characteristics>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Each time the bearer uses its Bondsman ability, you can select one other friendly **^^Armiger^^** model within 9&quot; of the **^^Armiger^^** you selected with that ability; that other model is also affected by that Bondsman ability.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="1b29-2308-7c6e-a031" includeChildForces="true" includeChildSelections="true"/>
+              </constraints>
+              <modifiers>
+                <modifier type="set" value="true" field="hidden">
+                  <conditionGroups>
+                    <conditionGroup type="and">
+                      <conditions>
+                        <condition type="atLeast" value="1" field="selections" scope="roster" childId="c35f-47ad-e873-c069" shared="true" includeChildForces="true" includeChildSelections="true"/>
+                        <condition type="lessThan" value="1" field="selections" scope="parent" childId="c35f-47ad-e873-c069" shared="true" includeChildForces="true" includeChildSelections="true"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+                <modifier type="set" value="2" field="b03b-c239-15a5-da55">
+                  <conditions>
+                    <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="5929-ad51-d006-e008" shared="true"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <costs>
+                <cost name="pts" typeId="51b2-306e-1021-d207" value="0"/>
+                <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="1"/>
+                <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="1"/>
+                <cost name="Diplomatic Power" typeId="4d7c-04b6-8a79-837f" value="0"/>
+                <cost name="Military Power" typeId="1cbe-d9c9-86a8-2d41" value="0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Heart of Sol" hidden="false" id="c5ad-f54b-9606-43ae">
+              <profiles>
+                <profile name="Heart of Sol" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="00b0-7b18-84b1-f460">
+                  <characteristics>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">In your Command phase, the bearer can activate this Crusade Relic. If it does, the bearer suffers D3 mortal wounds, then select one of the following effects (if you select the third effect, you must also select one weapon equipped by the bearer):
+
+
+- Until the start of your next Command phase, add 2&quot; to the bearer&apos;s Move characteristic.
+- Until the start of your next Command phase, add 2 to Advance and Charge rolls made for the bearer.
+- Until the start of your next Command phase, each time the bearer makes an attack with the selected weapon, add 1 to the Wound roll.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="272b-3ef3-c33d-80c6" includeChildForces="true" includeChildSelections="true"/>
+              </constraints>
+              <modifiers>
+                <modifier type="set" value="true" field="hidden">
+                  <conditionGroups>
+                    <conditionGroup type="and">
+                      <conditions>
+                        <condition type="atLeast" value="1" field="selections" scope="roster" childId="c5ad-f54b-9606-43ae" shared="true" includeChildForces="true" includeChildSelections="true"/>
+                        <condition type="lessThan" value="1" field="selections" scope="parent" childId="c5ad-f54b-9606-43ae" shared="true" includeChildForces="true" includeChildSelections="true"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+                <modifier type="set" value="2" field="b03b-c239-15a5-da55">
+                  <conditions>
+                    <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="5929-ad51-d006-e008" shared="true"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <costs>
+                <cost name="pts" typeId="51b2-306e-1021-d207" value="0"/>
+                <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="1"/>
+                <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="1"/>
+                <cost name="Diplomatic Power" typeId="4d7c-04b6-8a79-837f" value="0"/>
+                <cost name="Military Power" typeId="1cbe-d9c9-86a8-2d41" value="0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
       <comment>Crusade content</comment>
     </selectionEntryGroup>
   </sharedSelectionEntryGroups>
