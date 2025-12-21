@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" library="true" id="5a44-f048-114b-e3ff" name="Imperium - Astra Militarum - Library" gameSystemId="sys-352e-adc2-7639-d6a9" gameSystemRevision="1" revision="162" battleScribeVersion="2.03" type="catalogue">
+<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" library="true" id="5a44-f048-114b-e3ff" name="Imperium - Astra Militarum - Library" gameSystemId="sys-352e-adc2-7639-d6a9" gameSystemRevision="1" revision="169" battleScribeVersion="2.03" type="catalogue">
   <sharedSelectionEntries>
     <selectionEntry type="model" import="true" name="Aegis Defence Line" hidden="false" id="cb99-456-f100-40ed">
       <categoryLinks>
@@ -3411,7 +3411,7 @@
                     <profile name="Power weapon" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons" hidden="false" id="3032-3f4c-f0f4-772e">
                       <characteristics>
                         <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
-                        <characteristic name="A" typeId="2337-daa1-6682-b110">4</characteristic>
+                        <characteristic name="A" typeId="2337-daa1-6682-b110">3</characteristic>
                         <characteristic name="WS" typeId="95d1-95f-45b4-11d6">3+</characteristic>
                         <characteristic name="S" typeId="ab33-d393-96ce-ccba">4</characteristic>
                         <characteristic name="AP" typeId="41a0-1301-112a-e2f2">-2</characteristic>
@@ -11799,7 +11799,6 @@ While this unit is joined to a unit, it can embark within any **^^Transport^^** 
       <selectionEntryGroups>
         <selectionEntryGroup name="Wargear" id="406f-5469-61f8-e367" hidden="false" sortIndex="2">
           <entryLinks>
-            <entryLink import="true" name="Wargear Options" hidden="false" id="9085-72ab-adc6-a996" type="selectionEntryGroup" targetId="947a-b0d1-6bb2-336a"/>
             <entryLink import="true" name="Twin heavy bolter" hidden="false" id="a6c5-1875-a8c4-b71a" type="selectionEntry" targetId="d5d2-be01-7a54-78c3">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="1cd9-1149-6d68-4eb5"/>
@@ -11856,6 +11855,98 @@ While this unit is joined to a unit, it can embark within any **^^Transport^^** 
               </entryLinks>
             </selectionEntry>
           </selectionEntries>
+          <selectionEntryGroups>
+            <selectionEntryGroup name="Wargear Options" id="cc81-9f5a-4d8f-bc1d" hidden="false">
+              <selectionEntryGroups>
+                <selectionEntryGroup name="Sponsons" id="c966-7f2a-8956-c119" hidden="false" defaultSelectionEntryId="a66b-b49e-c29-75dd" sortIndex="1">
+                  <selectionEntries>
+                    <selectionEntry type="upgrade" import="true" name="2 Twin Heavy Flamers" hidden="false" id="45fd-4107-1a7b-5a6e">
+                      <entryLinks>
+                        <entryLink import="true" name="Twin heavy flamer" hidden="false" id="944d-04e6-6107-97a9" type="selectionEntry" targetId="7a20-9d32-3e1b-259f">
+                          <constraints>
+                            <constraint type="min" value="2" field="selections" scope="parent" shared="true" id="eda3-f40e-454b-e934"/>
+                            <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="cf88-6716-a0a4-f589"/>
+                          </constraints>
+                          <entryLinks>
+                            <entryLink import="true" name="Weapon Modifications" hidden="false" id="e591-c607-064f-afd0" type="selectionEntryGroup" targetId="f9da-852a-d7f0-92e9"/>
+                          </entryLinks>
+                        </entryLink>
+                      </entryLinks>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="2 Twin Heavy Bolters" hidden="false" id="af88-2996-4d1e-80cb">
+                      <entryLinks>
+                        <entryLink import="true" name="Twin heavy bolter" hidden="false" id="7dcf-f46e-0ca4-f6f0" type="selectionEntry" targetId="d5d2-be01-7a54-78c3">
+                          <constraints>
+                            <constraint type="min" value="2" field="selections" scope="parent" shared="true" id="311c-7e12-9154-caa2"/>
+                            <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="5874-91e8-073a-1382"/>
+                          </constraints>
+                          <entryLinks>
+                            <entryLink import="true" name="Weapon Modifications" hidden="false" id="8fbf-63bf-feae-1882" type="selectionEntryGroup" targetId="f9da-852a-d7f0-92e9"/>
+                          </entryLinks>
+                        </entryLink>
+                      </entryLinks>
+                    </selectionEntry>
+                  </selectionEntries>
+                  <constraints>
+                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="7138-42ff-6b8f-2e4f"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6b90-a00d-51b5-0a43"/>
+                  </constraints>
+                </selectionEntryGroup>
+                <selectionEntryGroup name="Additional sponsons" id="f0a4-4b7d-8574-6345" hidden="false" sortIndex="2">
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1d41-b68d-1eac-d91e"/>
+                  </constraints>
+                  <selectionEntries>
+                    <selectionEntry type="upgrade" import="true" name="2 Lascannons and 2 Twin Heavy Bolters" hidden="false" id="f921-0392-4cbf-69c1">
+                      <entryLinks>
+                        <entryLink import="true" name="Lascannon" hidden="false" id="05c4-1249-5b74-c404" type="selectionEntry" targetId="af85-b936-7f-430c">
+                          <constraints>
+                            <constraint type="min" value="2" field="selections" scope="parent" shared="true" id="59a3-25ce-e25a-db09"/>
+                            <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="8090-1e2c-2130-85d3"/>
+                          </constraints>
+                          <entryLinks>
+                            <entryLink import="true" name="Weapon Modifications" hidden="false" id="9d01-1e4b-ccd1-d837" type="selectionEntryGroup" targetId="f9da-852a-d7f0-92e9"/>
+                          </entryLinks>
+                        </entryLink>
+                        <entryLink import="true" name="Twin heavy bolter" hidden="false" id="55fd-dd6b-da64-8995" type="selectionEntry" targetId="d5d2-be01-7a54-78c3">
+                          <constraints>
+                            <constraint type="min" value="2" field="selections" scope="parent" shared="true" id="082b-a42e-e74e-11ec"/>
+                            <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="dfbe-90b4-bac3-321e"/>
+                          </constraints>
+                          <entryLinks>
+                            <entryLink import="true" name="Weapon Modifications" hidden="false" id="0f10-abdb-405a-c861" type="selectionEntryGroup" targetId="f9da-852a-d7f0-92e9"/>
+                          </entryLinks>
+                        </entryLink>
+                      </entryLinks>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="2 Lascannons and 2 Twin Heavy Flamers" hidden="false" id="1f2f-bfab-c271-c593">
+                      <entryLinks>
+                        <entryLink import="true" name="Lascannon" hidden="false" id="b2c0-6ee4-ef59-788a" type="selectionEntry" targetId="af85-b936-7f-430c">
+                          <constraints>
+                            <constraint type="min" value="2" field="selections" scope="parent" shared="true" id="ffa1-1d31-da75-145c"/>
+                            <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="d4c4-2e96-9492-645c"/>
+                          </constraints>
+                          <entryLinks>
+                            <entryLink import="true" name="Weapon Modifications" hidden="false" id="b56c-daeb-a65a-67be" type="selectionEntryGroup" targetId="f9da-852a-d7f0-92e9"/>
+                          </entryLinks>
+                        </entryLink>
+                        <entryLink import="true" name="Twin heavy flamer" hidden="false" id="d1c7-8e98-521b-cf87" type="selectionEntry" targetId="7a20-9d32-3e1b-259f">
+                          <constraints>
+                            <constraint type="min" value="2" field="selections" scope="parent" shared="true" id="809e-1a9c-e94c-e93c"/>
+                            <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="ad50-8a1d-9802-4e4a"/>
+                          </constraints>
+                          <entryLinks>
+                            <entryLink import="true" name="Weapon Modifications" hidden="false" id="7107-1115-aa1d-5825" type="selectionEntryGroup" targetId="f9da-852a-d7f0-92e9"/>
+                          </entryLinks>
+                        </entryLink>
+                      </entryLinks>
+                    </selectionEntry>
+                  </selectionEntries>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+              <comment>Includes Stormsword heavy flamer variants</comment>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
         </selectionEntryGroup>
       </selectionEntryGroups>
     </selectionEntry>
@@ -15226,6 +15317,7 @@ While this unit is joined to a unit, it can embark within any **^^Transport^^** 
       <categoryLinks>
         <categoryLink name="Attacks Dx Weapon" hidden="false" id="5b7a-83a8-2cf1-7071" targetId="e993-e086-6de1-12af" primary="false"/>
       </categoryLinks>
+      <comment>S5</comment>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Twin heavy bolter" hidden="false" id="d5d2-be01-7a54-78c3">
       <profiles>
@@ -33748,6 +33840,30 @@ Designer&apos;s Note: Place a Servo-scribes token next to the unit, removing it 
         <categoryLink name="Ranged Weapon" hidden="false" id="05eb-f1e9-6c43-172a" targetId="eeda-8544-a2f3-3fab" primary="false"/>
       </categoryLinks>
     </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Twin heavy flamer" hidden="false" id="7a20-9d32-3e1b-259f">
+      <profiles>
+        <profile name="Twin heavy flamer" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="339d-667a-f582-ac59">
+          <characteristics>
+            <characteristic name="Range" typeId="9896-9419-16a1-92fc">12&quot;</characteristic>
+            <characteristic name="A" typeId="3bb-c35f-f54-fb08">D6</characteristic>
+            <characteristic name="BS" typeId="94d-8a98-cf90-183e">N/A</characteristic>
+            <characteristic name="S" typeId="2229-f494-25db-c5d3">6</characteristic>
+            <characteristic name="AP" typeId="9ead-8a10-520-de15">-1</characteristic>
+            <characteristic name="D" typeId="a354-c1c8-a745-f9e3">1</characteristic>
+            <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Ignores Cover, Torrent, Twin-linked</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Twin-linked" hidden="false" type="rule" id="fbbc-8990-1cd5-b617" targetId="cf93-ad4d-2f08-a79d"/>
+        <infoLink name="Ignores Cover" hidden="false" type="rule" id="3c0a-a319-f46d-f72d" targetId="4640-43e7-30b-215a"/>
+        <infoLink name="Torrent" hidden="false" type="rule" id="2ea5-6182-cc8a-cd77" targetId="5edf-d619-23e0-9b56"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink name="Attacks Dx Weapon" hidden="false" id="d242-d0bb-257b-50c1" targetId="e993-e086-6de1-12af" primary="false"/>
+      </categoryLinks>
+      <comment>S6</comment>
+    </selectionEntry>
   </sharedSelectionEntries>
   <categoryEntries>
     <categoryEntry name="Aegis Defence Line" hidden="false" id="a56a-23f-9ea1-d8ee"/>
@@ -34284,6 +34400,17 @@ Onslaught - 4</characteristic>
             <profile name="Masters of Camouflage" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="60fd-7085-f182-a1e4">
               <characteristics>
                 <characteristic name="Description" typeId="9b8f-694b-e5e-b573">**^^Astra Militarum Walker^^** and **^^Regiment^^** models from your army have the Benefit of Cover. While such a model has the Benefit of Cover for any other reason (e.g. because it is wholly within a **^^Ruin^^**), improve the Save characteristic of that model by 1 (to a maximum of 3+).</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Grizzled Company" hidden="false" id="cc4e-a30b-f987-c984">
+          <profiles>
+            <profile name="Ruthless Discipline" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="2609-5b25-8959-60c2">
+              <characteristics>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Add 1 to the number of Orders each **^^Astra Militarum Officer^^** model from your army can issue, as stated on their datasheet.
+
+While an **^^Astra Militarum^^** unit from your army is affected by an Order, each time a model in that unit makes an attack, re‑roll a Hit roll of 1. If the target of that attack is within range of an objective marker, re‑roll a Wound roll of 1 as well.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -35165,6 +35292,170 @@ Onslaught - 4</characteristic>
           </selectionEntries>
           <constraints>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e946-0630-3cff-30b4"/>
+          </constraints>
+        </selectionEntryGroup>
+        <selectionEntryGroup name="Grizzled Company Enhancements" hidden="false" id="6c5d-71eb-dbef-4b2c">
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition type="lessThan" value="1" field="selections" scope="roster" childId="cc4e-a30b-f987-c984" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                    <condition type="lessThan" value="1" field="forces" scope="roster" childId="cac3-71d1-ea4b-795d" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Abhuman Detail" hidden="false" id="4d65-dad2-8df9-10fa">
+              <modifiers>
+                <modifier type="set" value="true" field="hidden">
+                  <conditions>
+                    <condition type="notInstanceOf" value="1" field="selections" scope="ancestor" childId="cf38-2338-aa71-ed56" shared="true"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <profiles>
+                <profile name="Abhuman Detail" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="5cf9-4483-4579-1c7b">
+                  <characteristics>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">**^^Commissar^^** model only. Add the **^^Ogryn^^** keyword to the list of units this model can issue Orders too (as stated on its datasheet).
+
+In the Declare Battle Formations step, the bearer can be attached to an **^^Ogryn Squad^^** or **^^Bullgryn squad^^** unit.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6cae-7c67-343a-d537"/>
+                <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="829a-8b84-1780-542d" includeChildSelections="true" includeChildForces="true"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="51b2-306e-1021-d207" value="20"/>
+                <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
+                <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="0"/>
+                <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
+                <cost name="Crusade: Weapon Modifications" typeId="716d-91b7-d55a-1022" value="0"/>
+                <cost name="Blackstone Fragments" typeId="ac6b-ced3-9b5e-9a6e" value="0"/>
+                <cost name="Logistics Points" typeId="04b1-67f7-48cb-4f1f" value="0"/>
+                <cost name="Commendation Points" typeId="e969-59de-fdb7-7c4e" value="0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Aquilan Eye" hidden="false" id="2dbd-2e75-155c-936f">
+              <modifiers>
+                <modifier type="set" value="true" field="hidden">
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition type="notInstanceOf" value="1" field="selections" scope="ancestor" childId="fa45-57e-930e-602b" shared="true"/>
+                        <condition type="notInstanceOf" value="1" field="selections" scope="ancestor" childId="e4d8-c6a1-7c23-ae25" shared="true"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+              </modifiers>
+              <profiles>
+                <profile name="Aquilan Eye" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="898e-b8e5-c1c1-93b2">
+                  <characteristics>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">**^^Astra Militarum Officer^^** model only. Each time you select an Order for the bearer to issue, you can select the Order below:
+
+**Target Weak Spot (Order):** Each time a model in this unit makes a ranged attack that targets an enemy unit within 12&quot;, improve the Armour Penetration characteristic of that attack by 1.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7292-715d-d0fd-7fca"/>
+                <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="344f-f1af-541e-e23b" includeChildSelections="true" includeChildForces="true"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="51b2-306e-1021-d207" value="20"/>
+                <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
+                <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="0"/>
+                <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
+                <cost name="Crusade: Weapon Modifications" typeId="716d-91b7-d55a-1022" value="0"/>
+                <cost name="Blackstone Fragments" typeId="ac6b-ced3-9b5e-9a6e" value="0"/>
+                <cost name="Logistics Points" typeId="04b1-67f7-48cb-4f1f" value="0"/>
+                <cost name="Commendation Points" typeId="e969-59de-fdb7-7c4e" value="0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Laud Hailer" hidden="false" id="1712-afc7-0611-0189">
+              <modifiers>
+                <modifier type="set" value="true" field="hidden">
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition type="notInstanceOf" value="1" field="selections" scope="ancestor" childId="fa45-57e-930e-602b" shared="true"/>
+                        <condition type="notInstanceOf" value="1" field="selections" scope="ancestor" childId="e4d8-c6a1-7c23-ae25" shared="true"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="fe32-7fee-de57-f858"/>
+                <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="bf84-c112-1394-64d4" includeChildSelections="true" includeChildForces="true"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="51b2-306e-1021-d207" value="10"/>
+                <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
+                <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="0"/>
+                <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
+                <cost name="Crusade: Weapon Modifications" typeId="716d-91b7-d55a-1022" value="0"/>
+                <cost name="Blackstone Fragments" typeId="ac6b-ced3-9b5e-9a6e" value="0"/>
+                <cost name="Logistics Points" typeId="04b1-67f7-48cb-4f1f" value="0"/>
+                <cost name="Commendation Points" typeId="e969-59de-fdb7-7c4e" value="0"/>
+              </costs>
+              <profiles>
+                <profile name="Laud Hailer" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="31c3-e3c7-fb9d-00fb">
+                  <characteristics>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">**^^Astra Militarum Officer^^** model only. Each time you select a unit for this **^^Officer^^** model to issue an Order to, that unit can be within 12&quot; instead of within 6&quot;.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Spec Ops Veteran" hidden="false" id="0b3e-6398-9ca6-7aeb">
+              <modifiers>
+                <modifier type="set" value="true" field="hidden">
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition type="notInstanceOf" value="1" field="selections" scope="ancestor" childId="cf47-a0d7-7207-29dc" shared="true"/>
+                        <condition type="notInstanceOf" value="1" field="selections" scope="ancestor" childId="e4d8-c6a1-7c23-ae25" shared="true"/>
+                        <condition type="notInstanceOf" value="1" field="selections" scope="ancestor" childId="fa45-57e-930e-602b" shared="true"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+              </modifiers>
+              <profiles>
+                <profile name="Spec Ops Veteran" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="b921-67ff-8a51-1e9c">
+                  <characteristics>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">**^^Astra Militarum Infantry Officer^^** model only. Each time you select an Order for the bearer to issue, you can select the Order below:
+
+**Move to the Shadows (Order):** Each time a ranged attack targets this unit, until those attacks are resolved, models in this unit have the Stealth ability.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6a85-4fe6-f3b5-5abf"/>
+                <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="2573-8c9c-2670-c858" includeChildSelections="true" includeChildForces="true"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="51b2-306e-1021-d207" value="15"/>
+                <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
+                <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="0"/>
+                <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
+                <cost name="Crusade: Weapon Modifications" typeId="716d-91b7-d55a-1022" value="0"/>
+                <cost name="Blackstone Fragments" typeId="ac6b-ced3-9b5e-9a6e" value="0"/>
+                <cost name="Logistics Points" typeId="04b1-67f7-48cb-4f1f" value="0"/>
+                <cost name="Commendation Points" typeId="e969-59de-fdb7-7c4e" value="0"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Stealth" id="77fa-455e-9496-2720" hidden="false" type="rule" targetId="bec5-4288-34a6-ccfa"/>
+              </infoLinks>
+            </selectionEntry>
+          </selectionEntries>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ff6e-0f0c-f6ac-12b2"/>
           </constraints>
         </selectionEntryGroup>
       </selectionEntryGroups>

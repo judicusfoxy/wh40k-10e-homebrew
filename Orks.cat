@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" library="false" id="a55f-b7b3-6c65-a05f" name="Xenos - Orks" gameSystemId="sys-352e-adc2-7639-d6a9" gameSystemRevision="1" revision="128" battleScribeVersion="2.03" type="catalogue" authorName="BSData Developers" authorContact="Dunamis55 &amp; AbonShell">
+<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" library="false" id="a55f-b7b3-6c65-a05f" name="Xenos - Orks" gameSystemId="sys-352e-adc2-7639-d6a9" gameSystemRevision="1" revision="135" battleScribeVersion="2.03" type="catalogue" authorName="BSData Developers" authorContact="Dunamis55 &amp; AbonShell">
   <sharedSelectionEntries>
     <selectionEntry type="upgrade" import="true" name="Warlord" id="8b5-898c-f79b-5a9c">
       <categoryLinks>
@@ -3079,7 +3079,7 @@ Designer’s Note: Place a Grot Helper token next to the bearer, removing it onc
                     <constraint type="max" value="4" field="selections" scope="parent" shared="true" id="e336-57be-4406-de6e" includeChildSelections="false"/>
                   </constraints>
                 </entryLink>
-                <entryLink import="true" name="Spanner" hidden="false" id="96cd-2ffd-2b10-c9cd" type="selectionEntry" targetId="e4ce-4da4-d613-8447">
+                <entryLink import="true" name="Spanner" hidden="false" id="96cd-2ffd-2b10-c9cd" type="selectionEntry" targetId="6378-8214-640f-a69a">
                   <constraints>
                     <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="df59-5a45-45d8-5bd7" includeChildSelections="false"/>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d7c0-9262-baba-a002" includeChildSelections="false"/>
@@ -3095,7 +3095,7 @@ Designer’s Note: Place a Grot Helper token next to the bearer, removing it onc
                     <constraint type="max" value="8" field="selections" scope="parent" shared="true" id="4027-d3e0-cc42-d241" includeChildSelections="false"/>
                   </constraints>
                 </entryLink>
-                <entryLink import="true" name="Spanner" hidden="false" id="1d51-b128-6cd2-1c3" type="selectionEntry" targetId="e4ce-4da4-d613-8447">
+                <entryLink import="true" name="Spanner" hidden="false" id="1d51-b128-6cd2-1c3" type="selectionEntry" targetId="6378-8214-640f-a69a">
                   <constraints>
                     <constraint type="min" value="2" field="selections" scope="parent" shared="true" id="450d-62ff-6002-8bf8" includeChildSelections="false"/>
                     <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="a2e5-7daf-e578-3334" includeChildSelections="false"/>
@@ -15293,7 +15293,7 @@ Designer’s Note: Place a Squig Mine token next to the model, removing it once 
         <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="ceca-bf7d-d580-37ae"/>
       </constraints>
       <profiles>
-        <profile name="Da Red Gobbo [Legends]" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="2bcf-a69b-fafb-4c20">
+        <profile name="Da Red Gobbo" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="2bcf-a69b-fafb-4c20">
           <characteristics>
             <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">6&quot;</characteristic>
             <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">2</characteristic>
@@ -15397,8 +15397,8 @@ Designer’s Note: Place a Squig Mine token next to the model, removing it once 
           <profiles>
             <profile name="Leader" hidden="false" id="d473-6ae7-bb3f-1e54" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
               <characteristics>
-                <characteristic name="Description" id="ae35-131-243-1a2a" hidden="false" typeId="9b8f-694b-e5e-b573">This model can be attached to the following unit:
-- GRETCHIN</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This model can be attached to the following unit:
+- **^^Gretchin^^**</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -19461,6 +19461,7 @@ Designer’s Note: Place a Squig Mine token next to the model, removing it once 
           </constraints>
         </entryLink>
       </entryLinks>
+      <comment>Lootas variant</comment>
     </selectionEntry>
     <selectionEntry type="model" import="true" name="Loota" hidden="false" id="e2c1-bd0-fdfa-6921">
       <selectionEntries>
@@ -20872,6 +20873,173 @@ Designer’s Note: Place a Squig Mine token next to the model, removing it once 
         </selectionEntryGroup>
       </selectionEntryGroups>
     </selectionEntry>
+    <selectionEntry type="model" import="true" name="Spanner" hidden="false" id="6378-8214-640f-a69a">
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Big Shoota" id="fc96-9022-b3d9-8202" hidden="false" defaultSelectionEntryId="281d-c040-53a5-fe38">
+          <entryLinks>
+            <entryLink import="true" name="Big shoota" hidden="false" id="a9df-663e-ce85-1937" type="selectionEntry" targetId="1fa0-d99a-154f-ffd8">
+              <entryLinks>
+                <entryLink import="true" name="Weapon Modifications" hidden="false" id="a949-bf99-5b9b-7162" type="selectionEntryGroup" targetId="f9da-852a-d7f0-92e9"/>
+              </entryLinks>
+            </entryLink>
+            <entryLink import="true" name="Kustom mega-blasta" hidden="false" id="4910-9177-022e-11bc" type="selectionEntry" targetId="7242-bca9-a3c7-ba6a">
+              <entryLinks>
+                <entryLink import="true" name="Weapon Modifications" hidden="false" id="74b0-ce06-d050-a317" type="selectionEntryGroup" targetId="f9da-852a-d7f0-92e9"/>
+              </entryLinks>
+            </entryLink>
+            <entryLink import="true" name="Rokkit launcha" hidden="false" id="7707-b689-0b8d-6eff" type="selectionEntry" targetId="80bc-5c89-4125-2253">
+              <entryLinks>
+                <entryLink import="true" name="Weapon Modifications" hidden="false" id="61f1-f0fd-36c6-1c9d" type="selectionEntryGroup" targetId="f9da-852a-d7f0-92e9"/>
+              </entryLinks>
+            </entryLink>
+          </entryLinks>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="cc32-30f0-04ea-b740" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4251-5dbc-af0e-18b6" includeChildSelections="false"/>
+          </constraints>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Close combat weapon" hidden="false" id="050a-60ad-b309-77f5" collective="true">
+          <profiles>
+            <profile name="Close combat weapon" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons" hidden="false" id="7aa4-27ac-33c4-f0fd">
+              <characteristics>
+                <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
+                <characteristic name="A" typeId="2337-daa1-6682-b110">3</characteristic>
+                <characteristic name="WS" typeId="95d1-95f-45b4-11d6">3+</characteristic>
+                <characteristic name="S" typeId="ab33-d393-96ce-ccba">4</characteristic>
+                <characteristic name="AP" typeId="41a0-1301-112a-e2f2">0</characteristic>
+                <characteristic name="D" typeId="3254-9fe6-d824-513e">1</characteristic>
+                <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">-</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <comment>A3 S4</comment>
+          <entryLinks>
+            <entryLink import="true" name="Weapon Modifications" hidden="false" id="e51f-b5f8-3a88-049a" type="selectionEntryGroup" targetId="f9da-852a-d7f0-92e9"/>
+          </entryLinks>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="2aad-5f4a-0732-dff1"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6c1a-4f86-918f-ebf2"/>
+          </constraints>
+        </selectionEntry>
+      </selectionEntries>
+      <comment>Burna Boyz variant</comment>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Da Red Gobbo&apos;s Tinboy [Legends]" hidden="false" id="070f-5f7f-2cab-6ee6">
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="cf54-fd40-a5ce-eff0"/>
+      </constraints>
+      <profiles>
+        <profile name="Da Red Gobbo&apos;s Tinboy" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="72a9-ee51-f45e-8273">
+          <characteristics>
+            <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">6&quot;</characteristic>
+            <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">6</characteristic>
+            <characteristic name="SV" typeId="450-a17e-9d5e-29da">3+</characteristic>
+            <characteristic name="W" typeId="750a-a2ec-90d3-21fe">5</characteristic>
+            <characteristic name="LD" typeId="58d2-b879-49c7-43bc">7+</characteristic>
+            <characteristic name="OC" typeId="bef7-942a-1a23-59f8">2</characteristic>
+          </characteristics>
+          <attributes>
+            <attribute typeId="ee2c-fa85-08b6-ad86" name="New Attribute Type"/>
+          </attributes>
+        </profile>
+        <profile name="Redistributin&apos; da Gifts" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="cc3a-9ca0-5100-cd0c">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Once in each of your Shooting phases, you can target this unit with the Grenade Stratagem for 0CP, and can do so even if you have already targeted a different unit with that Stratagem this phase.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink targetId="4f3a-f0f7-6647-348d" id="129d-55d1-a3ba-c8fb" primary="true" name="Epic Hero"/>
+        <categoryLink targetId="9cfd-1c32-585f-7d5c" id="55ed-e36d-1127-08ce" primary="false" name="Character"/>
+        <categoryLink targetId="56cc-5f43-2403-8da0" id="cff5-7237-a883-b1aa" primary="false" name="Faction: Orks"/>
+        <categoryLink targetId="731a-7e61-9186-2f1" id="8a42-797b-f3d0-d563" primary="false" name="Da Red Gobbo"/>
+        <categoryLink targetId="c7c7-ef60-67e3-def2" id="0a29-cf71-476c-bc0a" primary="false" name="Grots"/>
+        <categoryLink name="Vehicle" hidden="false" id="9a1b-e0fa-7e18-a921" targetId="dbd4-63-af05-998" primary="false"/>
+        <categoryLink name="Walker" hidden="false" id="b6e6-b19e-410f-7201" targetId="6dda-e157-334d-e93a" primary="false"/>
+      </categoryLinks>
+      <infoLinks>
+        <infoLink name="Waaagh!" hidden="false" type="rule" id="0e24-5d3c-5557-fba7" targetId="37c-6ef9-277-9091"/>
+        <infoLink name="Invulnerable Save (5+)" id="b2c4-6ed0-c5cf-c32d" hidden="false" type="profile" targetId="bc64-b2f5-f074-67d8"/>
+        <infoLink name="Deadly Demise" id="0eac-39ef-912b-0c7a" hidden="false" type="rule" targetId="b68a-5ded-65ac-98c">
+          <modifiers>
+            <modifier type="append" value="1" field="name" join=" "/>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Lone Operative" id="a7a5-65a1-1e97-691a" hidden="false" type="rule" targetId="a8a0-8fe7-898-e0f3"/>
+        <infoLink name="Scouts" id="68b9-680e-d68c-e994" hidden="false" type="rule" targetId="ada6-bac1-ffe0-d6f7">
+          <modifiers>
+            <modifier type="append" value="6&quot;" field="name" join=" "/>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+      <entryLinks>
+        <entryLink import="true" name="Warlord" hidden="false" type="selectionEntry" id="d54d-7b04-a470-a095" targetId="8b5-898c-f79b-5a9c"/>
+      </entryLinks>
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Tinboy&apos;s kustom shoota" hidden="false" id="becb-e2a8-df18-0bcb">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="d2f9-8ec4-66a4-2dc6"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8267-b2b8-7e3e-a7b4"/>
+          </constraints>
+          <profiles>
+            <profile name="Tinboy&apos;s kustom shoota" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="59b3-3596-ddae-0f73">
+              <characteristics>
+                <characteristic name="Range" typeId="9896-9419-16a1-92fc">18&quot;</characteristic>
+                <characteristic name="A" typeId="3bb-c35f-f54-fb08">D3</characteristic>
+                <characteristic name="BS" typeId="94d-8a98-cf90-183e">3+</characteristic>
+                <characteristic name="S" typeId="2229-f494-25db-c5d3">5</characteristic>
+                <characteristic name="AP" typeId="9ead-8a10-520-de15">-1</characteristic>
+                <characteristic name="D" typeId="a354-c1c8-a745-f9e3">2</characteristic>
+                <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">-</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Tinboy&apos;s klaw" hidden="false" id="3890-8b77-1602-b36d">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="147d-7cf3-35a6-5270"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="24ca-5c60-117a-f8d7"/>
+          </constraints>
+          <profiles>
+            <profile name="Tinboy&apos;s klaw" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons" hidden="false" id="48d4-a41e-2e83-51b0">
+              <characteristics>
+                <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
+                <characteristic name="A" typeId="2337-daa1-6682-b110">3</characteristic>
+                <characteristic name="WS" typeId="95d1-95f-45b4-11d6">3+</characteristic>
+                <characteristic name="S" typeId="ab33-d393-96ce-ccba">6</characteristic>
+                <characteristic name="AP" typeId="41a0-1301-112a-e2f2">-1</characteristic>
+                <characteristic name="D" typeId="3254-9fe6-d824-513e">2</characteristic>
+                <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">-</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="pts" typeId="51b2-306e-1021-d207" value="45"/>
+        <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
+        <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="0"/>
+        <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
+        <cost name="Crusade: Weapon Modifications" typeId="716d-91b7-d55a-1022" value="0"/>
+        <cost name="Blackstone Fragments" typeId="ac6b-ced3-9b5e-9a6e" value="0"/>
+      </costs>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="lessThan" value="1" field="selections" scope="roster" childId="9ed-cbf4-bfe5-90bf" shared="true" includeChildSelections="true" includeChildForces="false"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Crusade" id="6163-4ade-7dfe-7dd6" hidden="false" sortIndex="1">
+          <entryLinks>
+            <entryLink import="true" name="Mighty Champions" hidden="false" id="59c5-f9f4-eb8f-e492" type="selectionEntryGroup" targetId="f842-6e90-bc5a-80f1"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+    </selectionEntry>
   </sharedSelectionEntries>
   <rules>
     <rule name="Waaagh!" hidden="false" id="37c-6ef9-277-9091">
@@ -21528,7 +21696,7 @@ Designer’s Note: Place a Squig Mine token next to the model, removing it once 
                         <conditionGroup type="and">
                           <conditions>
                             <condition type="atLeast" value="1" field="selections" scope="roster" childId="ccd6-6490-a314-78a0" shared="true" includeChildForces="true" includeChildSelections="true"/>
-                            <condition type="lessThan" value="1" field="selections" scope="parent" childId="ccd6-6490-a314-78a0" shared="true" includeChildForces="true" includeChildSelections="true"/>
+                            <condition type="lessThan" value="1" field="selections" scope="root-entry" childId="ccd6-6490-a314-78a0" shared="true" includeChildForces="true" includeChildSelections="true"/>
                           </conditions>
                         </conditionGroup>
                         <conditionGroup type="or">
@@ -21558,18 +21726,13 @@ Designer’s Note: Place a Squig Mine token next to the model, removing it once 
               <modifierGroups>
                 <modifierGroup type="and">
                   <modifiers>
-                    <modifier type="append" value="Da Biggest Boss" field="annotation" join=", " affects="self.entries.profiles.Unit" scope="model-or-unit">
-                      <conditions>
-                        <condition type="atLeast" value="1" field="selections" scope="model-or-unit" childId="ccd6-6490-a314-78a0" shared="true" includeChildSelections="true"/>
-                      </conditions>
-                    </modifier>
-                    <modifier type="increment" value="2" field="750a-a2ec-90d3-21fe" affects="profiles.Unit" scope="model-or-unit">
-                      <conditions>
-                        <condition type="equalTo" value="1" field="selections" scope="self" childId="ccd6-6490-a314-78a0" shared="true" includeChildSelections="true"/>
-                      </conditions>
-                    </modifier>
+                    <modifier type="append" value="Da Biggest Boss" field="annotation" join=", " affects="self.entries.profiles.Unit" scope="root-entry"/>
+                    <modifier type="increment" value="2" field="750a-a2ec-90d3-21fe" affects="self.entries.profiles.Unit" scope="root-entry"/>
                   </modifiers>
                   <comment>Da Biggest Boss</comment>
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="root-entry" childId="ccd6-6490-a314-78a0" shared="true" includeChildSelections="true"/>
+                  </conditions>
                 </modifierGroup>
               </modifierGroups>
             </selectionEntry>
@@ -21974,13 +22137,13 @@ Designer’s Note: Place a Squig Mine token next to the model, removing it once 
                         <conditionGroup type="and">
                           <conditions>
                             <condition type="atLeast" value="1" field="selections" scope="roster" childId="2381-390e-5e7d-0426" shared="true" includeChildForces="true" includeChildSelections="true"/>
-                            <condition type="lessThan" value="1" field="selections" scope="parent" childId="2381-390e-5e7d-0426" shared="true" includeChildForces="true" includeChildSelections="true"/>
+                            <condition type="lessThan" value="1" field="selections" scope="root-entry" childId="2381-390e-5e7d-0426" shared="true" includeChildForces="true" includeChildSelections="true"/>
                           </conditions>
                         </conditionGroup>
-                        <conditionGroup type="and">
+                        <conditionGroup type="or">
                           <conditions>
-                            <condition type="notInstanceOf" value="1" field="selections" scope="parent" childId="47cc-4071-6fda-688e" shared="true"/>
-                            <condition type="notInstanceOf" value="1" field="selections" scope="parent" childId="cf47-a0d7-7207-29dc" shared="true"/>
+                            <condition type="notInstanceOf" value="1" field="selections" scope="ancestor" childId="47cc-4071-6fda-688e" shared="true"/>
+                            <condition type="notInstanceOf" value="1" field="selections" scope="ancestor" childId="cf47-a0d7-7207-29dc" shared="true"/>
                           </conditions>
                         </conditionGroup>
                       </conditionGroups>
@@ -21998,21 +22161,17 @@ Designer’s Note: Place a Squig Mine token next to the model, removing it once 
               <constraints>
                 <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="7682-45d6-75b6-adb5" includeChildSelections="true" includeChildForces="false"/>
               </constraints>
-              <infoGroups>
-                <infoGroup name="Skwad Leader" id="b492-f3fe-333e-d771" hidden="false">
-                  <profiles>
-                    <profile name="Skwad Leader" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="becb-7197-d769-6f8c">
-                      <characteristics>
-                        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">**^^Warboss Infantry^^** model only. During the Declare Battle Formations step, the bearer can be attached to a **^^Kommandos^^** unit. While leading a **^^Kommandos^^** unit, it has the Infiltrators and Stealth abilities.</characteristic>
-                      </characteristics>
-                    </profile>
-                  </profiles>
-                  <infoLinks>
-                    <infoLink name="Infiltrators" id="dce1-b824-59aa-c0b9" hidden="false" type="rule" targetId="c05d-f4c3-f091-4938"/>
-                    <infoLink name="Stealth" id="9fb7-48ec-6516-f309" hidden="false" type="rule" targetId="bec5-4288-34a6-ccfa"/>
-                  </infoLinks>
-                </infoGroup>
-              </infoGroups>
+              <infoLinks>
+                <infoLink name="Infiltrators" id="dce1-b824-59aa-c0b9" hidden="false" type="rule" targetId="c05d-f4c3-f091-4938"/>
+                <infoLink name="Stealth" id="9fb7-48ec-6516-f309" hidden="false" type="rule" targetId="bec5-4288-34a6-ccfa"/>
+              </infoLinks>
+              <profiles>
+                <profile name="Skwad Leader" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="3beb-198a-61f4-f94d">
+                  <characteristics>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">**^^Warboss Infantry^^** model only. During the Declare Battle Formations step, the bearer can be attached to a **^^Kommandos^^** unit. While leading a **^^Kommandos^^** unit, it has the Infiltrators and Stealth abilities.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
             </selectionEntry>
           </selectionEntries>
           <constraints>
@@ -23236,10 +23395,10 @@ Each time the bearer&apos;s unit is selected to shoot, if that unit is not withi
               <modifiers>
                 <modifier type="set" value="true" field="hidden">
                   <conditionGroups>
-                    <conditionGroup type="and">
+                    <conditionGroup type="or">
                       <conditions>
-                        <condition type="notInstanceOf" value="1" field="selections" scope="parent" childId="fe8b-9078-9a3d-fed" shared="true" includeChildSelections="false" includeChildForces="false"/>
-                        <condition type="notInstanceOf" value="1" field="selections" scope="parent" childId="dbd4-63-af05-998" shared="true" includeChildSelections="false" includeChildForces="false"/>
+                        <condition type="notInstanceOf" value="1" field="selections" scope="ancestor" childId="fe8b-9078-9a3d-fed" shared="true" includeChildSelections="false" includeChildForces="false"/>
+                        <condition type="notInstanceOf" value="1" field="selections" scope="ancestor" childId="dbd4-63-af05-998" shared="true" includeChildSelections="false" includeChildForces="false"/>
                       </conditions>
                     </conditionGroup>
                   </conditionGroups>
@@ -23286,12 +23445,18 @@ Each time the bearer&apos;s unit is selected to shoot, if that unit is not withi
               <modifiers>
                 <modifier type="set" value="true" field="hidden">
                   <conditionGroups>
-                    <conditionGroup type="and">
+                    <conditionGroup type="or">
                       <conditions>
-                        <condition type="notInstanceOf" value="1" field="selections" scope="parent" childId="9224-dbd4-36ad-6ab2" shared="true" includeChildSelections="false" includeChildForces="false"/>
-                        <condition type="notInstanceOf" value="1" field="selections" scope="parent" childId="ea9-8161-e2e-53f0" shared="true" includeChildSelections="false" includeChildForces="false"/>
-                        <condition type="notInstanceOf" value="1" field="selections" scope="parent" childId="dbd4-63-af05-998" shared="true" includeChildSelections="false" includeChildForces="false"/>
+                        <condition type="notInstanceOf" value="1" field="selections" scope="ancestor" childId="dbd4-63-af05-998" shared="true" includeChildSelections="false" includeChildForces="false"/>
                       </conditions>
+                      <conditionGroups>
+                        <conditionGroup type="and">
+                          <conditions>
+                            <condition type="notInstanceOf" value="1" field="selections" scope="ancestor" childId="ea9-8161-e2e-53f0" shared="true" includeChildSelections="false" includeChildForces="false"/>
+                            <condition type="notInstanceOf" value="1" field="selections" scope="ancestor" childId="9224-dbd4-36ad-6ab2" shared="true" includeChildSelections="false" includeChildForces="false"/>
+                          </conditions>
+                        </conditionGroup>
+                      </conditionGroups>
                     </conditionGroup>
                   </conditionGroups>
                 </modifier>
@@ -23375,7 +23540,7 @@ Each time the bearer&apos;s unit is selected to shoot, if that unit is not withi
               <modifiers>
                 <modifier type="set" value="true" field="hidden">
                   <conditions>
-                    <condition type="notInstanceOf" value="1" field="selections" scope="parent" childId="dbd4-63-af05-998" shared="true" includeChildSelections="false" includeChildForces="false"/>
+                    <condition type="notInstanceOf" value="1" field="selections" scope="ancestor" childId="dbd4-63-af05-998" shared="true" includeChildSelections="false" includeChildForces="false"/>
                   </conditions>
                 </modifier>
                 <modifier type="set" value="2" field="b03b-c239-15a5-da55">
@@ -23411,16 +23576,10 @@ Each time the bearer&apos;s unit is selected to shoot, if that unit is not withi
                 <modifier type="set" value="true" field="hidden">
                   <conditionGroups>
                     <conditionGroup type="or">
-                      <conditionGroups>
-                        <conditionGroup type="and">
-                          <conditions>
-                            <condition type="notInstanceOf" value="1" field="selections" scope="parent" childId="6dda-e157-334d-e93a" shared="true" includeChildSelections="false" includeChildForces="false"/>
-                            <condition type="notInstanceOf" value="1" field="selections" scope="parent" childId="dbd4-63-af05-998" shared="true" includeChildSelections="false" includeChildForces="false"/>
-                          </conditions>
-                        </conditionGroup>
-                      </conditionGroups>
                       <conditions>
-                        <condition type="instanceOf" value="1" field="selections" scope="parent" childId="d64b-c6f7-dacf-4035" shared="true" includeChildSelections="false" includeChildForces="false"/>
+                        <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="d64b-c6f7-dacf-4035" shared="true" includeChildSelections="false" includeChildForces="false"/>
+                        <condition type="notInstanceOf" value="1" field="selections" scope="ancestor" childId="dbd4-63-af05-998" shared="true" includeChildSelections="false" includeChildForces="false"/>
+                        <condition type="notInstanceOf" value="1" field="selections" scope="ancestor" childId="6dda-e157-334d-e93a" shared="true" includeChildSelections="false" includeChildForces="false"/>
                       </conditions>
                     </conditionGroup>
                   </conditionGroups>
@@ -23795,6 +23954,7 @@ Each time the bearer&apos;s unit is selected to shoot, if that unit is not withi
     <entryLink import="true" name="Beast Snagga Boyz" hidden="false" type="selectionEntry" id="fd9d-87f3-1895-3470" targetId="b7c3-d00e-daf2-76fb"/>
     <entryLink import="true" name="Beastboss" hidden="false" type="selectionEntry" id="2f80-26a6-9486-b348" targetId="5a5d-c5a4-39b8-4a3f"/>
     <entryLink import="true" name="Da Red Gobbo&apos;s A-bomb-inable Snowman [Legends]" hidden="false" type="selectionEntry" id="b7bb-3da3-d2f2-ed0f" targetId="6610-3cb7-dc72-8852"/>
+    <entryLink import="true" name="Da Red Gobbo&apos;s Tinboy [Legends]" hidden="false" id="654e-3175-0294-7507" targetId="070f-5f7f-2cab-6ee6" type="selectionEntry"/>
   </entryLinks>
   <sharedProfiles>
     <profile name="Damaged: 1-5 Wounds Remaining" hidden="false" id="2be6-f2b9-f73c-82b1" typeName="Abilities" typeId="9cc3-6d83-4dd3-9b64">
@@ -23843,7 +24003,9 @@ Each time the bearer&apos;s unit is selected to shoot, if that unit is not withi
     </profile>
     <profile name="Bomb Squigs" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="1e29-7605-a22c-2eab">
       <characteristics>
-        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Once per battle, for each bomb squig this unit has, after this unit ends a Normal move, you can use one Bomb Squig. If you do, select one enemy unit within 12&quot; and visible to this unit and roll one D6: on a 3+, that enemy unit suffers D3 mortal wounds.</characteristic>
+        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Once per battle, for each bomb squig this unit has, after this unit ends a Normal move, you can use one Bomb Squig. If you do, select one enemy unit within 12&quot; and visible to this unit and roll one D6: on a 3+, that enemy unit suffers D3 mortal wounds.
+
+**Designer&apos;s Note:** *Place two Bomb Squig tokens next to the unit, removing one each time this unit uses this ability.*</characteristic>
       </characteristics>
     </profile>
     <profile name="Grot Tanks" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="c25b-529f-948e-d571">
