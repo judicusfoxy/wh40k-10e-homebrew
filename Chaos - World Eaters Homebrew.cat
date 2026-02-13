@@ -596,6 +596,7 @@
       </profiles>
       <entryLinks>
         <entryLink import="true" name="Enhancements" hidden="false" id="f5ff-f2d9-7c22-daa2" collective="false" targetId="7b6d-6d90-0ffe-b45b" type="selectionEntryGroup" sortIndex="1"/>
+        <entryLink import="true" name="Warlord" hidden="false" id="427b-18a0-3b12-3991" type="selectionEntry" targetId="9754-481c-c292-a1f9"/>
       </entryLinks>
       <infoLinks>
         <infoLink name="Deep Strike" id="b953-98bc-98ea-037c" hidden="false" type="rule" targetId="7cb5-dd6b-dd87-ad3b"/>
@@ -726,6 +727,7 @@
       </selectionEntryGroups>
       <entryLinks>
         <entryLink import="true" name="Enhancements" hidden="false" id="e1bd-e414-0b82-ee65" collective="false" targetId="7b6d-6d90-0ffe-b45b" type="selectionEntryGroup"/>
+        <entryLink import="true" name="Warlord" hidden="false" id="2302-0862-7d1a-a0d3" type="selectionEntry" targetId="9754-481c-c292-a1f9"/>
       </entryLinks>
       <constraints>
         <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="31a9-f321-3bce-5060"/>
@@ -754,6 +756,7 @@
       </constraints>
       <entryLinks>
         <entryLink import="true" name="Enhancements" hidden="false" id="e5c2-5f9a-76be-8983" collective="false" targetId="7b6d-6d90-0ffe-b45b" type="selectionEntryGroup" sortIndex="1"/>
+        <entryLink import="true" name="Warlord" hidden="false" id="a784-b742-de8e-0ff6" type="selectionEntry" targetId="9754-481c-c292-a1f9"/>
       </entryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup name="Plasma Pistol" id="d2c4-43d8-165a-0678" hidden="false">
@@ -1174,6 +1177,365 @@
         <cost name="Blackstone Fragments" typeId="ac6b-ced3-9b5e-9a6e" value="0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Varrak the Eightfold" hidden="false" id="96bf-b7ce-cbb8-3dd9">
+      <costs>
+        <cost name="pts" typeId="51b2-306e-1021-d207" value="90"/>
+        <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
+        <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="0"/>
+        <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
+        <cost name="Crusade: Weapon Modifications" typeId="716d-91b7-d55a-1022" value="0"/>
+        <cost name="Blackstone Fragments" typeId="ac6b-ced3-9b5e-9a6e" value="0"/>
+      </costs>
+      <categoryLinks>
+        <categoryLink targetId="9cfd-1c32-585f-7d5c" id="1eaa-7586-3db4-4c65" primary="false" name="Character"/>
+        <categoryLink targetId="4f3a-f0f7-6647-348d" id="c0ba-8c06-1582-49e7" primary="true" name="Epic Hero"/>
+        <categoryLink targetId="14a0-40c9-2748-ae6e" id="f395-8a90-89d4-74c2" primary="false" name="Mounted"/>
+        <categoryLink targetId="4c00-2578-faf5-6918" id="6746-6a13-3f66-efb9" primary="false" name="Chaos"/>
+        <categoryLink targetId="4bd-5ee0-f179-2fc5" id="eaa4-e8f1-7c46-7f4e" primary="false" name="Khorne"/>
+        <categoryLink targetId="bd1d-c1a5-6ca2-c791" id="bb92-0229-74cd-afa1" primary="false" name="Faction: World Eaters"/>
+        <categoryLink targetId="1487-2e06-3daa-dfe9" id="a59e-0450-f84e-d59c" primary="false" name="Daemon Heart"/>
+        <categoryLink targetId="9c0e-7e25-4580-e439" id="2130-d41c-2d79-5eb5" primary="false" name="Daemon"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="Varrak the Eightfold" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="3857-9ff1-4eaf-4c6e">
+          <characteristics>
+            <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">10&quot;</characteristic>
+            <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">6</characteristic>
+            <characteristic name="SV" typeId="450-a17e-9d5e-29da">3+</characteristic>
+            <characteristic name="W" typeId="750a-a2ec-90d3-21fe">7</characteristic>
+            <characteristic name="LD" typeId="58d2-b879-49c7-43bc">6+</characteristic>
+            <characteristic name="OC" typeId="bef7-942a-1a23-59f8">2</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Lord of Slaughter" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="bfa0-4e70-3e69-deba">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Once per battle round, one unit from your army with this ability can use it when its unit is targeted with a Stratagem. If it does, reduce the CP cost of that use of that Stratagem by 1CP.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Bloodthirst" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="9880-50a7-aba2-90ce">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Add 2 to charge rolls made for this unit.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Invulnerable Save 4+" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="e42c-ec0b-6964-91b7">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This model has a 4+ Invulnerable Save</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Leader" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="8008-141c-9705-3821">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This model can be attached to the following units: ^^**Eightbound, Exalted Eightbound^^**</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Plasma Pistol" hidden="false" id="a1af-0a58-b414-7ae7">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="ffe6-5547-8a63-6913" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0ea9-9d84-c650-ffbd" includeChildSelections="false"/>
+          </constraints>
+          <profiles>
+            <profile name="➤ Plasma Pistol - Standard" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="a124-91d8-82b4-8dee">
+              <characteristics>
+                <characteristic name="Range" typeId="9896-9419-16a1-92fc">12&quot;</characteristic>
+                <characteristic name="A" typeId="3bb-c35f-f54-fb08">1</characteristic>
+                <characteristic name="BS" typeId="94d-8a98-cf90-183e">2+</characteristic>
+                <characteristic name="S" typeId="2229-f494-25db-c5d3">7</characteristic>
+                <characteristic name="AP" typeId="9ead-8a10-520-de15">-2</characteristic>
+                <characteristic name="D" typeId="a354-c1c8-a745-f9e3">1</characteristic>
+                <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Pistol</characteristic>
+              </characteristics>
+            </profile>
+            <profile name="➤ Plasma Pistol - Supercharge" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="3fd3-999b-963a-b7ed">
+              <characteristics>
+                <characteristic name="Range" typeId="9896-9419-16a1-92fc">12&quot;</characteristic>
+                <characteristic name="A" typeId="3bb-c35f-f54-fb08">1</characteristic>
+                <characteristic name="BS" typeId="94d-8a98-cf90-183e">2+</characteristic>
+                <characteristic name="S" typeId="2229-f494-25db-c5d3">8</characteristic>
+                <characteristic name="AP" typeId="9ead-8a10-520-de15">-3</characteristic>
+                <characteristic name="D" typeId="a354-c1c8-a745-f9e3">2</characteristic>
+                <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Pistol, Hazardous</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink name="Pistol" id="9097-0f84-0787-7560" hidden="false" type="rule" targetId="8bf7-8812-923d-29e4"/>
+            <infoLink name="Hazardous" id="d412-4fc5-b9d2-aa8a" hidden="false" type="rule" targetId="8367-374c-f87-c627"/>
+          </infoLinks>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Daemon Axe" hidden="false" id="bccc-d302-59b2-5567">
+          <profiles>
+            <profile name="Daemon Axe" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons" hidden="false" id="1694-ff8d-51d5-c7e5">
+              <characteristics>
+                <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
+                <characteristic name="A" typeId="2337-daa1-6682-b110">5</characteristic>
+                <characteristic name="WS" typeId="95d1-95f-45b4-11d6">3+</characteristic>
+                <characteristic name="S" typeId="ab33-d393-96ce-ccba">8</characteristic>
+                <characteristic name="AP" typeId="41a0-1301-112a-e2f2">-2</characteristic>
+                <characteristic name="D" typeId="3254-9fe6-d824-513e">2</characteristic>
+                <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">Devastating Wounds</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="0e35-50f5-65e6-2c63" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d738-e795-bb72-787e" includeChildSelections="false"/>
+          </constraints>
+          <infoLinks>
+            <infoLink name="Devastating Wounds" id="411a-a1a6-d189-dc88" hidden="false" type="rule" targetId="be1e-ac8e-1e2c-3528"/>
+          </infoLinks>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Bladed Horn" hidden="false" id="6c4a-64ef-0ef5-c6c7">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="f1b6-bcae-b86c-b94d" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9651-156b-719d-89f1" includeChildSelections="false"/>
+          </constraints>
+          <profiles>
+            <profile name="Bladed Horn" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons" hidden="false" id="ecb3-74ac-0f5d-bf36">
+              <characteristics>
+                <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
+                <characteristic name="A" typeId="2337-daa1-6682-b110">4</characteristic>
+                <characteristic name="WS" typeId="95d1-95f-45b4-11d6">3+</characteristic>
+                <characteristic name="S" typeId="ab33-d393-96ce-ccba">6</characteristic>
+                <characteristic name="AP" typeId="41a0-1301-112a-e2f2">-1</characteristic>
+                <characteristic name="D" typeId="3254-9fe6-d824-513e">2</characteristic>
+                <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">Extra Attacks, Lance</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink name="Extra Attacks" id="719e-4853-0482-7b21" hidden="false" type="rule" targetId="115b-79dc-f723-d761"/>
+            <infoLink name="Lance" id="f717-2c31-d9d5-7dec" hidden="false" type="rule" targetId="2ebc-abdf-8129-6c57"/>
+          </infoLinks>
+        </selectionEntry>
+      </selectionEntries>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="13e4-deeb-92d1-3522" includeChildSelections="false"/>
+      </constraints>
+      <entryLinks>
+        <entryLink import="true" name="Warlord" hidden="false" id="f3ac-bb50-a34a-ae00" type="selectionEntry" targetId="9754-481c-c292-a1f9"/>
+      </entryLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Kossolax the Foresworn" hidden="false" id="bf9f-d67c-95ee-f327">
+      <profiles>
+        <profile name="Kossolax the Foresworn" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="10db-d9f4-92df-faac">
+          <characteristics>
+            <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">7&quot;</characteristic>
+            <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">5</characteristic>
+            <characteristic name="SV" typeId="450-a17e-9d5e-29da">2+</characteristic>
+            <characteristic name="W" typeId="750a-a2ec-90d3-21fe">5</characteristic>
+            <characteristic name="LD" typeId="58d2-b879-49c7-43bc">6+</characteristic>
+            <characteristic name="OC" typeId="bef7-942a-1a23-59f8">1</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Leader" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="a78b-828d-c151-2b90">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This model can be attached to the following units: ^^**Chaos Terminators^^**</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Invulnerable Save 4+" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="1761-6f55-2ad6-f276">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This model has a 4+ Invulnerable Save</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Endless Hatred" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="8efc-0fc7-90e4-3455">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">You can reroll charge rolls made for this model&apos;s unit.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Bellowed Challenge" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="8c78-248b-9c36-c2a6">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Melee weapons [Excluding Devastating Wounds Weapons] equipped by models in this unit gain the [Anti-Monster 4+] and [Anti-Vehicle 4+] abilities.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Axe of Dismemberment" hidden="false" id="a19d-3788-d453-c395">
+          <profiles>
+            <profile name="Axe of Dismemberment" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons" hidden="false" id="ad2e-2c4e-3fbc-852e">
+              <characteristics>
+                <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
+                <characteristic name="A" typeId="2337-daa1-6682-b110">5</characteristic>
+                <characteristic name="WS" typeId="95d1-95f-45b4-11d6">2+</characteristic>
+                <characteristic name="S" typeId="ab33-d393-96ce-ccba">7</characteristic>
+                <characteristic name="AP" typeId="41a0-1301-112a-e2f2">-2</characteristic>
+                <characteristic name="D" typeId="3254-9fe6-d824-513e">2</characteristic>
+                <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">Precision, Devastating Wounds</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="b362-17f2-423e-20fa" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a6b3-e831-27e7-3826" includeChildSelections="false"/>
+          </constraints>
+          <infoLinks>
+            <infoLink name="Devastating Wounds" id="e208-362d-3967-041c" hidden="false" type="rule" targetId="be1e-ac8e-1e2c-3528"/>
+            <infoLink name="Precision" id="7261-7af3-58b8-bcae" hidden="false" type="rule" targetId="9143-31ae-e0a6-6007"/>
+          </infoLinks>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Bolt Pistol" hidden="false" id="e7a0-b38f-e3be-d4ac">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="24a0-41c7-526b-b109" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f0fa-4077-1bf7-05be" includeChildSelections="false"/>
+          </constraints>
+          <profiles>
+            <profile name="Bolt Pistol" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="d055-e9e5-3b75-17e1">
+              <characteristics>
+                <characteristic name="Range" typeId="9896-9419-16a1-92fc">12&quot;</characteristic>
+                <characteristic name="A" typeId="3bb-c35f-f54-fb08">1</characteristic>
+                <characteristic name="BS" typeId="94d-8a98-cf90-183e">2+</characteristic>
+                <characteristic name="S" typeId="2229-f494-25db-c5d3">4</characteristic>
+                <characteristic name="AP" typeId="9ead-8a10-520-de15">0</characteristic>
+                <characteristic name="D" typeId="a354-c1c8-a745-f9e3">1</characteristic>
+                <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Pistol</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink name="Pistol" id="3559-5482-0f08-5856" hidden="false" type="rule" targetId="8bf7-8812-923d-29e4"/>
+          </infoLinks>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink import="true" name="Warlord" hidden="false" id="5dd4-cb0e-27d3-44e2" type="selectionEntry" targetId="9754-481c-c292-a1f9"/>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="51b2-306e-1021-d207" value="90"/>
+        <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
+        <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="0"/>
+        <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
+        <cost name="Crusade: Weapon Modifications" typeId="716d-91b7-d55a-1022" value="0"/>
+        <cost name="Blackstone Fragments" typeId="ac6b-ced3-9b5e-9a6e" value="0"/>
+      </costs>
+      <categoryLinks>
+        <categoryLink targetId="9cfd-1c32-585f-7d5c" id="72ec-58f6-c21c-28c6" primary="false" name="Character"/>
+        <categoryLink targetId="4f3a-f0f7-6647-348d" id="c470-010b-4121-68ac" primary="true" name="Epic Hero"/>
+        <categoryLink targetId="cf47-a0d7-7207-29dc" id="ca45-f67e-3a85-dbcc" primary="false" name="Infantry"/>
+        <categoryLink targetId="5a61-81ac-eb7c-a87e" id="0507-10c5-9576-9b83" primary="false" name="Grenades"/>
+        <categoryLink targetId="4c00-2578-faf5-6918" id="23ac-9b64-7a9c-a366" primary="false" name="Chaos"/>
+        <categoryLink targetId="4bd-5ee0-f179-2fc5" id="0cae-59f0-c3be-64da" primary="false" name="Khorne"/>
+        <categoryLink targetId="bd1d-c1a5-6ca2-c791" id="9486-e32d-d28b-3e23" primary="false" name="Faction: World Eaters"/>
+        <categoryLink targetId="740a-892c-8958-defa" id="af99-8c4a-b26b-366c" primary="false" name="Terminator"/>
+      </categoryLinks>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b069-43f0-fd76-cb7a" includeChildSelections="false"/>
+      </constraints>
+      <infoLinks>
+        <infoLink name="Deep Strike" id="68c6-58a0-04aa-3858" hidden="false" type="rule" targetId="7cb5-dd6b-dd87-ad3b"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Ath&apos;rak the Red Rage" hidden="false" id="d85f-cb47-0654-e0c5">
+      <categoryLinks>
+        <categoryLink targetId="9cfd-1c32-585f-7d5c" id="eac6-c96b-cdeb-f68a" primary="false" name="Character"/>
+        <categoryLink targetId="4f3a-f0f7-6647-348d" id="dbcb-b12d-c6ac-ead6" primary="true" name="Epic Hero"/>
+        <categoryLink targetId="cf47-a0d7-7207-29dc" id="eec1-bacc-6ad2-df48" primary="false" name="Infantry"/>
+        <categoryLink targetId="5a61-81ac-eb7c-a87e" id="1ce3-6b0a-64fb-9889" primary="false" name="Grenades"/>
+        <categoryLink targetId="4c00-2578-faf5-6918" id="e128-e022-a703-ec2a" primary="false" name="Chaos"/>
+        <categoryLink targetId="4bd-5ee0-f179-2fc5" id="6092-8564-e635-7943" primary="false" name="Khorne"/>
+        <categoryLink targetId="bd1d-c1a5-6ca2-c791" id="1826-fda7-6d0c-9c29" primary="false" name="Faction: World Eaters"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="Ath&apos;rak the Red Rage" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="69ba-61ee-88df-60e9">
+          <characteristics>
+            <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">8&quot;</characteristic>
+            <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">4</characteristic>
+            <characteristic name="SV" typeId="450-a17e-9d5e-29da">3+</characteristic>
+            <characteristic name="W" typeId="750a-a2ec-90d3-21fe">5</characteristic>
+            <characteristic name="LD" typeId="58d2-b879-49c7-43bc">6+</characteristic>
+            <characteristic name="OC" typeId="bef7-942a-1a23-59f8">1</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Invulnerable Save 4+" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="28ce-11a6-3d26-dd0e">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This model has a 4+ Invulnerable Save</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Endless Hatred" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="62b1-4eb8-5432-daaf">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">You can reroll charge rolls made for this model&apos;s unit.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Forwards, For Blood!" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="21b5-9cfa-263b-c9a5">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">While this model is leading a unit, you can reroll advance rolls made for that unit and each time that unit makes a Blood Surge move, you can reroll the D6 used to determine how far models in that unit can move.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Leader" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="926d-d2af-28d5-d694">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This model can be attached to the following units: ^^**Khorne Berzerkers^^**</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Power Fist" hidden="false" id="d62f-27aa-ba03-3226">
+          <profiles>
+            <profile name="Power Fist" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons" hidden="false" id="5d4a-d754-506e-53ee">
+              <characteristics>
+                <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
+                <characteristic name="A" typeId="2337-daa1-6682-b110">5</characteristic>
+                <characteristic name="WS" typeId="95d1-95f-45b4-11d6">2+</characteristic>
+                <characteristic name="S" typeId="ab33-d393-96ce-ccba">8</characteristic>
+                <characteristic name="AP" typeId="41a0-1301-112a-e2f2">-2</characteristic>
+                <characteristic name="D" typeId="3254-9fe6-d824-513e">2</characteristic>
+                <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">-</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="a8f2-ffdd-44d9-3053" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="854d-c229-6997-c232" includeChildSelections="false"/>
+          </constraints>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Plasma Pistol" hidden="false" id="b2c1-0706-05d7-0ec8">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="7ac2-588f-f643-43ce" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ab54-5578-4648-640e" includeChildSelections="false"/>
+          </constraints>
+          <profiles>
+            <profile name="➤ Plasma Pistol - Standard" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="0f45-a7e1-765d-5d0e">
+              <characteristics>
+                <characteristic name="Range" typeId="9896-9419-16a1-92fc">12&quot;</characteristic>
+                <characteristic name="A" typeId="3bb-c35f-f54-fb08">1</characteristic>
+                <characteristic name="BS" typeId="94d-8a98-cf90-183e">2+</characteristic>
+                <characteristic name="S" typeId="2229-f494-25db-c5d3">7</characteristic>
+                <characteristic name="AP" typeId="9ead-8a10-520-de15">-2</characteristic>
+                <characteristic name="D" typeId="a354-c1c8-a745-f9e3">1</characteristic>
+                <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Pistol</characteristic>
+              </characteristics>
+            </profile>
+            <profile name="➤ Plasma Pistol - Supercharge" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="f40b-a128-2e97-df9a">
+              <characteristics>
+                <characteristic name="Range" typeId="9896-9419-16a1-92fc">12&quot;</characteristic>
+                <characteristic name="A" typeId="3bb-c35f-f54-fb08">1</characteristic>
+                <characteristic name="BS" typeId="94d-8a98-cf90-183e">2+</characteristic>
+                <characteristic name="S" typeId="2229-f494-25db-c5d3">8</characteristic>
+                <characteristic name="AP" typeId="9ead-8a10-520-de15">-3</characteristic>
+                <characteristic name="D" typeId="a354-c1c8-a745-f9e3">2</characteristic>
+                <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Pistol, Hazardous</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink name="Pistol" id="67e8-2734-d362-5795" hidden="false" type="rule" targetId="8bf7-8812-923d-29e4"/>
+            <infoLink name="Hazardous" id="3ad2-fc54-d93d-2692" hidden="false" type="rule" targetId="8367-374c-f87-c627"/>
+          </infoLinks>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="pts" typeId="51b2-306e-1021-d207" value="90"/>
+        <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
+        <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="0"/>
+        <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
+        <cost name="Crusade: Weapon Modifications" typeId="716d-91b7-d55a-1022" value="0"/>
+        <cost name="Blackstone Fragments" typeId="ac6b-ced3-9b5e-9a6e" value="0"/>
+      </costs>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5d59-d26e-2518-271e" includeChildSelections="false"/>
+      </constraints>
+      <entryLinks>
+        <entryLink import="true" name="Warlord" hidden="false" id="8bb4-128d-ceb1-f18c" type="selectionEntry" targetId="9754-481c-c292-a1f9"/>
+      </entryLinks>
+    </selectionEntry>
   </sharedSelectionEntries>
   <categoryEntries>
     <categoryEntry name="Red Butchers" id="84d1-b2cb-a29a-abb1" hidden="false"/>
@@ -1182,6 +1544,10 @@
     <categoryEntry name="Berzerker Surgeon" id="810c-c9de-ec28-a2ed" hidden="false"/>
     <categoryEntry name="Berzerker Lord" id="2e9c-2191-1a46-ddb5" hidden="false"/>
     <categoryEntry name="Rampagers" id="3593-5be2-f779-9e9d" hidden="false"/>
+    <categoryEntry name="Varrak the Eightfold" id="6843-9b9d-e35a-3f13" hidden="false"/>
+    <categoryEntry name="Daemon Heart" id="1487-2e06-3daa-dfe9" hidden="false"/>
+    <categoryEntry name="Kossolax the Foresworn" id="df03-b125-c27a-472a" hidden="false"/>
+    <categoryEntry name="Ath&apos;rak the Red Rage" id="206c-f963-7caf-6201" hidden="false"/>
   </categoryEntries>
   <entryLinks>
     <entryLink import="true" name="Red Butchers" hidden="false" id="26ec-1e2d-631b-f716" targetId="4aff-3ec2-5e00-8018" type="selectionEntry"/>
@@ -1190,5 +1556,8 @@
     <entryLink import="true" name="Berzerker Surgeon" hidden="false" id="786f-57ce-9f00-c94f" targetId="fb6d-041d-0d83-701b" type="selectionEntry"/>
     <entryLink import="true" name="Berzerker Lord" hidden="false" id="d630-a7ca-09a8-def9" targetId="6057-28b6-547d-f33b" type="selectionEntry"/>
     <entryLink import="true" name="Rampagers" hidden="false" id="2a41-11e1-4030-00e4" targetId="1754-696a-0da6-1504" type="selectionEntry"/>
+    <entryLink import="true" name="Varrak the Eightfold" hidden="false" id="9c6a-be3a-71ba-2d99" targetId="96bf-b7ce-cbb8-3dd9" type="selectionEntry"/>
+    <entryLink import="true" name="Kossolax the Foresworn" hidden="false" id="742b-0fac-f280-5b34" targetId="bf9f-d67c-95ee-f327" type="selectionEntry"/>
+    <entryLink import="true" name="Ath&apos;rak the Red Rage" hidden="false" id="8982-ec35-4834-db24" targetId="d85f-cb47-0654-e0c5" type="selectionEntry"/>
   </entryLinks>
 </catalogue>
